@@ -151,6 +151,7 @@ June 17, 2026 at 04:49:38 AM UTC
 - [WritBase](https://github.com/Writbase/writbase) - MCP-native task management for AI agent fleets. Multi-agent permissions, full provenance, inter-agent task delegation, and A2A protocol alignment.
 - [Roundtable](https://github.com/sinaneshat/roundtable-dashboard) - Multi-model AI brainstorming MCP server — consult a council of AI models that debate your question, then a moderator synthesizes the best answer. 13 tools including consult_council, review_code, debug_issue, design_architecture, plan_implementation, and assess_tradeoffs. Remote endpoint: `https://mcp.roundtable.now/mcp`.
 - [operant-mcp](https://github.com/operantlabs/operant-mcp) - Security testing MCP server with 51 tools for penetration testing, network forensics, memory analysis, and vulnerability assessment.
+- [TensorFeed MCP](https://github.com/RipperMercs/tensorfeed-mcp) - Real-time AI ecosystem data MCP server with 42 tools: AI news from 50+ sources, model pricing, AI service status (Claude/OpenAI/Gemini), MCP registry growth, GitHub trending, AI papers. 8 free tools plus 14 premium x402 pay-per-call tools (routing, history series, news search, cost projection, recession watch) in USDC on Base. AFTA-certified. Listed in the official MCP Registry as `ai.tensorfeed/mcp-server`.
 
 ## Tutorial
 
