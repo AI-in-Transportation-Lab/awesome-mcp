@@ -150,6 +150,7 @@ June 17, 2026 at 04:49:38 AM UTC
 
 - [WritBase](https://github.com/Writbase/writbase) - MCP-native task management for AI agent fleets. Multi-agent permissions, full provenance, inter-agent task delegation, and A2A protocol alignment.
 - [Roundtable](https://github.com/sinaneshat/roundtable-dashboard) - Multi-model AI brainstorming MCP server — consult a council of AI models that debate your question, then a moderator synthesizes the best answer. 13 tools including consult_council, review_code, debug_issue, design_architecture, plan_implementation, and assess_tradeoffs. Remote endpoint: `https://mcp.roundtable.now/mcp`.
+- [Shellgate](https://github.com/matthiastjong/shellgate) - Open-source TypeScript security gateway for AI agents via MCP. Provides scoped API tokens, credential injection, human-in-the-loop approval workflows, SSH command execution, vault for secure credential storage, wiki, memories, org skills, webhook ingestion, and audit logging. Self-hosted (Docker) or managed cloud.
 - [operant-mcp](https://github.com/operantlabs/operant-mcp) - Security testing MCP server with 51 tools for penetration testing, network forensics, memory analysis, and vulnerability assessment.
 
 ## Tutorial
