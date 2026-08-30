@@ -2,12 +2,12 @@
 
 ![Awesome](https://awesome.re/badge.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![GitHub Contributors](https://img.shields.io/github/contributors/gauravfs-14/awesome-mcp.svg)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/gauravfs-14/awesome-mcp.svg)
-[![GitHub Stars](https://img.shields.io/github/stars/gauravfs-14/awesome-mcp.svg?style=social)](https://github.com/gauravfs-14/awesome-mcp)
-![GitHub Forks](https://img.shields.io/github/forks/gauravfs-14/awesome-mcp.svg)
+![GitHub Contributors](https://img.shields.io/github/contributors/AI-in-Transportation-Lab/awesome-mcp.svg)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/AI-in-Transportation-Lab/awesome-mcp.svg)
+[![GitHub Stars](https://img.shields.io/github/stars/AI-in-Transportation-Lab/awesome-mcp.svg?style=social)](https://github.com/AI-in-Transportation-Lab/awesome-mcp)
+![GitHub Forks](https://img.shields.io/github/forks/AI-in-Transportation-Lab/awesome-mcp.svg)
 
-A carefully curated collection of high-quality tools, libraries, research papers, projects, and tutorials centered around Model Context Protocol (MCP) — a novel paradigm designed to enable modular, adaptive coordination between large language models (LLMs) and external tools or data contexts. This repository serves as a comprehensive, well-organized knowledge hub for researchers and developers exploring the next frontier of interactive, context-aware AI systems.
+A carefully curated collection of high-quality tools, libraries, research papers, projects, and tutorials centered around Model Context Protocol (MCP) - a novel paradigm designed to enable modular, adaptive coordination between large language models (LLMs) and external tools or data contexts. This repository serves as a comprehensive, well-organized knowledge hub for researchers and developers exploring the next frontier of interactive, context-aware AI systems.
 
 The MCP framework facilitates fine-grained orchestration of model behavior through structured, tool-integrated communication protocols. It supports advanced workflows like adaptive reasoning, multi-tool routing, contextual memory access, and iterative refinement. By treating models not as static endpoints but as participants in a dynamic co-mining or co-creation loop, MCP pushes the boundaries of what intelligent systems can achieve.
 
@@ -180,8 +180,9 @@ August 30, 2026 at 04:53:50 AM UTC
 ## Library
 
 - [WritBase](https://github.com/Writbase/writbase) - MCP-native task management for AI agent fleets. Multi-agent permissions, full provenance, inter-agent task delegation, and A2A protocol alignment.
-- [Roundtable](https://github.com/sinaneshat/roundtable-dashboard) - Multi-model AI brainstorming MCP server — consult a council of AI models that debate your question, then a moderator synthesizes the best answer. 13 tools including consult_council, review_code, debug_issue, design_architecture, plan_implementation, and assess_tradeoffs. Remote endpoint: `https://mcp.roundtable.now/mcp`.
+- [Roundtable](https://github.com/sinaneshat/roundtable-dashboard) - Multi-model AI brainstorming MCP server - consult a council of AI models that debate your question, then a moderator synthesizes the best answer. 13 tools including consult_council, review_code, debug_issue, design_architecture, plan_implementation, and assess_tradeoffs. Remote endpoint: `https://mcp.roundtable.now/mcp`.
 - [operant-mcp](https://github.com/operantlabs/operant-mcp) - Security testing MCP server with 51 tools for penetration testing, network forensics, memory analysis, and vulnerability assessment.
+- [Xquik MCP](https://github.com/Xquik-dev/x-twitter-scraper) - Remote MCP server for X data search, user lookup, and trends. Remote endpoint: `https://xquik.com/mcp`. Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
 
 ## Tutorial
 
@@ -216,4 +217,4 @@ This repository is licensed under the [Creative Commons Attribution 4.0 Internat
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=gauravfs-14/awesome-mcp)](https://star-history.com/#gauravfs-14/awesome-mcp&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=AI-in-Transportation-Lab/awesome-mcp)](https://star-history.com/#AI-in-Transportation-Lab/awesome-mcp&Date)
