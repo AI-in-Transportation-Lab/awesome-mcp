@@ -30,12 +30,12 @@ To keep the community up-to-date with the latest developments, this repository i
 Whether you are building AI agents, researching model-tool alignment, or experimenting with novel retrieval-augmented generation pipelines, this resource offers a centralized, evolving platform to explore the powerful and expanding universe of MCP-enabled systems.
 
 ## Last Updated
-September 14, 2026 at 04:25:23 AM UTC
+September 15, 2026 at 04:26:08 AM UTC
 
 
 ## Theorem
 
-## Papers (145)
+## Papers (149)
 - [Agentic Semantic Control for Autonomous Wireless Space Networks: Extending Space-O-RAN with MCP-Driven Distributed Intelligence](https://arxiv.org/abs/2506.10925)
 - [Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2506.02040)
 - [ETDI: Mitigating Tool Squatting and Rug Pull Attacks in Model Context Protocol (MCP) by using OAuth-Enhanced Tool Definitions and Policy-Based Access Control](https://arxiv.org/abs/2506.01333)
@@ -181,6 +181,10 @@ September 14, 2026 at 04:25:23 AM UTC
 - [Skill-as-API: Confidential Multi-Agent Coordination for Agentic Software Engineering](https://arxiv.org/abs/2609.01677)
 - [Orchestra: Corroboration-Based Regulatory Candidate Discovery via Composed Bioinformatics MCP Agents](https://arxiv.org/abs/2609.05496)
 - [AnchorVLN: Geometry-Anchored Vision-Language Grounding Reasoning for Open-Vocabulary Navigation](https://arxiv.org/abs/2609.12285)
+- [An Open-Source Hardware and Software Toolkit to Enable Agentic RHEED-Guided Thin-Film Synthesis](https://arxiv.org/abs/2609.15922)
+- [Authorization Architectures for Tool-Using AI Agents](https://arxiv.org/abs/2609.15906)
+- [The Stochastic Deputy: Structural Tenant Isolation for Tool-Using LLM Agents](https://arxiv.org/abs/2609.14780)
+- [An LLM-Agnostic, MAVLink-Based Drone Command and Control Interface and Agentic Harness Using the Model Context Protocol](https://arxiv.org/abs/2601.15486)
 
 
 ## Library
