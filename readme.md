@@ -204,6 +204,8 @@ October 2, 2026 at 05:07:29 AM UTC
 
 ## Library
 
+- [FirstSales MCP](https://developer.firstsales.io/agents/mcp-server) - Hosted CRM MCP server for reading contacts, companies, deals, and lists, and creating contacts in an authorized workspace. Requires OAuth and an eligible paid FirstSales plan. Streamable HTTP endpoint: `https://api.app.firstsales.io/mcp`.
+
 - [WritBase](https://github.com/Writbase/writbase) - MCP-native task management for AI agent fleets. Multi-agent permissions, full provenance, inter-agent task delegation, and A2A protocol alignment.
 - [Roundtable](https://github.com/sinaneshat/roundtable-dashboard) - Multi-model AI brainstorming MCP server — consult a council of AI models that debate your question, then a moderator synthesizes the best answer. 13 tools including consult_council, review_code, debug_issue, design_architecture, plan_implementation, and assess_tradeoffs. Remote endpoint: `https://mcp.roundtable.now/mcp`.
 - [operant-mcp](https://github.com/operantlabs/operant-mcp) - Security testing MCP server with 51 tools for penetration testing, network forensics, memory analysis, and vulnerability assessment.
