@@ -30,12 +30,12 @@ To keep the community up-to-date with the latest developments, this repository i
 Whether you are building AI agents, researching model-tool alignment, or experimenting with novel retrieval-augmented generation pipelines, this resource offers a centralized, evolving platform to explore the powerful and expanding universe of MCP-enabled systems.
 
 ## Last Updated
-October 5, 2026 at 05:05:43 AM UTC
+October 6, 2026 at 05:52:26 AM UTC
 
 
 ## Theorem
 
-## Papers (164)
+## Papers (167)
 - [Agentic Semantic Control for Autonomous Wireless Space Networks: Extending Space-O-RAN with MCP-Driven Distributed Intelligence](https://arxiv.org/abs/2506.10925)
 - [Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2506.02040)
 - [ETDI: Mitigating Tool Squatting and Rug Pull Attacks in Model Context Protocol (MCP) by using OAuth-Enhanced Tool Definitions and Policy-Based Access Control](https://arxiv.org/abs/2506.01333)
@@ -200,6 +200,9 @@ October 5, 2026 at 05:05:43 AM UTC
 - [Skill-Based AI Agents for Power-System Studies](https://arxiv.org/abs/2609.40272)
 - [PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents](https://arxiv.org/abs/2606.12329)
 - [Localizing Post-Wire Semantic Changes in MCP Agent Frameworks](https://arxiv.org/abs/2610.00182)
+- [COPEX: Benchmarking LLM Robustness to Adversarial Context Across Model Context Protocol Layers](https://arxiv.org/abs/2610.04378)
+- [CyTReX: Explainable AI-Based Cybersecurity Threat Reasoning Framework for DER Networks](https://arxiv.org/abs/2610.04286)
+- [The Cost of a Hop: Benchmarking NLIP and A2A](https://arxiv.org/abs/2610.04053)
 
 
 ## Library
