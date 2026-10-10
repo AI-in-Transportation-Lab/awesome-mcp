@@ -207,6 +207,7 @@ October 10, 2026 at 05:21:51 AM UTC
 
 ## Library
 
+- [Arcmira: YouTube Transcript Search](https://arcmira.com) - Remote MCP search for timestamped YouTube quotes, speaker appearances and sponsor mentions. [Source](https://github.com/arcmira/mcp) · [Setup](https://arcmira.com/docs/mcp-server).
 - [WritBase](https://github.com/Writbase/writbase) - MCP-native task management for AI agent fleets. Multi-agent permissions, full provenance, inter-agent task delegation, and A2A protocol alignment.
 - [Roundtable](https://github.com/sinaneshat/roundtable-dashboard) - Multi-model AI brainstorming MCP server — consult a council of AI models that debate your question, then a moderator synthesizes the best answer. 13 tools including consult_council, review_code, debug_issue, design_architecture, plan_implementation, and assess_tradeoffs. Remote endpoint: `https://mcp.roundtable.now/mcp`.
 - [operant-mcp](https://github.com/operantlabs/operant-mcp) - Security testing MCP server with 51 tools for penetration testing, network forensics, memory analysis, and vulnerability assessment.
