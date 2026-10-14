@@ -218,6 +218,7 @@ October 14, 2026 at 04:25:50 AM UTC
 ### Written Tutorials
 - [Architecture of MCP - Anthropic](https://modelcontextprotocol.io/docs/learn/architecture)
 - [MCP Specification - Anthropic](https://modelcontextprotocol.io/specification/2025-06-18)
+- [Higgsfield Katana guide](https://trendremake.com/guides/higgsfield-katana-guide/?utm_source=github&utm_medium=listing&utm_campaign=katana) - A practical guide to connecting Higgsfield's remote MCP to Claude, selecting a Katana preset, and checking generation credit costs.
 
 ### Video Tutorials
 
