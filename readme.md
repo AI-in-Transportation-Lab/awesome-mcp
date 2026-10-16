@@ -209,6 +209,7 @@ October 16, 2026 at 04:04:11 AM UTC
 
 ## Library
 
+- [Aident Loadout](https://aident.ai) - Remote MCP server (streamable HTTP, OAuth) that connects Codex, Claude Code, Cursor, ChatGPT and other MCP clients to 400+ expert-built Skills through one setup. Credentials stay in Aident Vault and every action is logged in Audit. Remote endpoint: `https://loadout.aident.ai/mcp`.
 - [WritBase](https://github.com/Writbase/writbase) - MCP-native task management for AI agent fleets. Multi-agent permissions, full provenance, inter-agent task delegation, and A2A protocol alignment.
 - [Roundtable](https://github.com/sinaneshat/roundtable-dashboard) - Multi-model AI brainstorming MCP server — consult a council of AI models that debate your question, then a moderator synthesizes the best answer. 13 tools including consult_council, review_code, debug_issue, design_architecture, plan_implementation, and assess_tradeoffs. Remote endpoint: `https://mcp.roundtable.now/mcp`.
 - [operant-mcp](https://github.com/operantlabs/operant-mcp) - Security testing MCP server with 51 tools for penetration testing, network forensics, memory analysis, and vulnerability assessment.
