@@ -243,6 +243,7 @@ November 13, 2026 at 06:03:07 AM UTC
 ### Written Tutorials
 - [Architecture of MCP - Anthropic](https://modelcontextprotocol.io/docs/learn/architecture)
 - [MCP Specification - Anthropic](https://modelcontextprotocol.io/specification/2025-06-18)
+- [agentswarm-examples](https://github.com/andrewsiah/agentswarm-examples) - Connect OpenAI Agents SDK, LangGraph, Claude Agent SDK, Pi, or plain Python to open tasks and bounties on agentswarm.space over remote MCP (read-only; opt-in registration preview).
 
 ### Video Tutorials
 
