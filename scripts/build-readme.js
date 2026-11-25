@@ -1,9 +1,11 @@
-// Generate README.md and PAPERS.md from data/. Do not edit those two files by hand.
+// Generate README.md, PAPERS.md, PUBLISHED.md and SURVEY.md from data/. Do not edit those files by hand.
 import fs from "node:fs";
-import { ROOT, loadMeta, loadPapers, loadCategories, loadBenchmark, authorLine, cell } from "./lib/data.js";
+import { ROOT, loadMeta, loadPapers, loadPublished, loadSurvey, loadCategories, loadBenchmark, authorLine, cell } from "./lib/data.js";
 
 const meta = loadMeta();
 const papers = loadPapers();
+const published = loadPublished();
+const survey = loadSurvey();
 const cats = loadCategories();
 const bench = loadBenchmark();
 const repoUrl = `https://github.com/${meta.repo}`;
@@ -22,6 +24,17 @@ const resourceTable = (items) =>
 
 const paperRow = (p) => `| ${p.published ?? ""} | [${cell(p.title)}](${p.url}) | ${cell(authorLine(p.authors))} |`;
 const latest = papers.slice(0, 20);
+
+const pubRow = (p) => `| ${p.published ?? ""} | [${cell(p.title)}](${p.url}) | ${cell(p.venue)} |`;
+const latestPub = published.slice(0, 10);
+
+// Survey references grouped by where the survey first cites them.
+const groupCount = (g) => survey.entries.filter((e) => e.group === g.id).length;
+const surveyTable = [
+  "| Where the survey cites them | Works |",
+  "| --- | ---: |",
+  ...survey.groups.map((g) => `| ${cell(g.title)} | ${groupCount(g)} |`),
+].join("\n");
 
 // ---------- benchmark summary ----------
 const T = bench.transport_us;
@@ -43,7 +56,9 @@ const benchTable = [
 
 // ---------- README ----------
 const toc = [
-  ["Latest papers", "latest-papers"],
+  ["Latest preprints", "latest-preprints"],
+  ["Latest published papers", "latest-published-papers"],
+  ["Survey references", "survey-references"],
   ...cats.map((c) => [c.title, anchor(c.title)]),
   ["Benchmark", "benchmark-and-reference-server"],
   ["Contributing", "contributing"],
@@ -55,7 +70,9 @@ const toc = [
 
 const count = (id) => cats.find((c) => c.id === id)?.items.length ?? 0;
 const stats = [
-  [papers.length, "papers"],
+  [papers.length, "preprints"],
+  [published.length, "published papers"],
+  [survey.entries.length, "survey references"],
   [count("servers"), "servers"],
   [count("clients"), "clients"],
   [count("sdks"), "SDKs and frameworks"],
@@ -93,7 +110,7 @@ const readme = `<div align="center">
 [![Last commit](https://img.shields.io/github/last-commit/${meta.repo})](${repoUrl}/commits/main)
 [![Stars](https://img.shields.io/github/stars/${meta.repo}?style=flat)](${repoUrl}/stargazers)
 
-[Website](${meta.site}) · [Papers](PAPERS.md) · [Servers](#servers) · [Clients](#clients) · [SDKs](#sdks) · [Benchmark](#benchmark-and-reference-server) · [Contribute](CONTRIBUTING.md)
+[Website](${meta.site}) · [Papers](PAPERS.md) · [Survey references](SURVEY.md) · [Servers](#servers) · [Clients](#clients) · [SDKs](#sdks) · [Benchmark](#benchmark-and-reference-server) · [Contribute](CONTRIBUTING.md)
 
 </div>
 
@@ -111,15 +128,29 @@ ${stats}
 
 ${toc}
 
-## Latest papers
+## Latest preprints
 
-New arXiv papers that mention the Model Context Protocol, newest first. The full list of ${papers.length} papers, grouped by month, is in **[PAPERS.md](PAPERS.md)** and on the [website](${meta.site}).
+New arXiv papers about the Model Context Protocol, newest first. The scope is computer science and electrical engineering papers that name the protocol in the title or abstract. The full list of ${papers.length} preprints, grouped by month, is in **[PAPERS.md](PAPERS.md)** and on the [website](${meta.site}).
 
 | Date | Title | Authors |
 | --- | --- | --- |
 ${latest.map(paperRow).join("\n")}
 
 <sub>Last updated ${lastUpdated}.</sub>
+
+## Latest published papers
+
+Journal and conference papers found through [OpenAlex](https://openalex.org), newest first. All ${published.length} are in **[PUBLISHED.md](PUBLISHED.md)** and on the [website](${meta.site}).
+
+| Date | Title | Venue |
+| --- | --- | --- |
+${latestPub.map(pubRow).join("\n")}
+
+## Survey references
+
+The ${survey.entries.length} works cited by our survey, grouped by the section or subsection that first cites them. This list is separate from the arXiv tracker and does not change when new papers appear. The analysis is in the survey; the list is here so you can find and filter what it builds on. See **[SURVEY.md](SURVEY.md)** or the [website](${meta.site}#survey).
+
+${surveyTable}
 
 ${sections}
 ## Benchmark and reference server
@@ -147,7 +178,12 @@ ${bibtex}
 
 ## License
 
-[Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). Share and adapt with attribution.
+| What | License |
+| --- | --- |
+| Code: \`scripts/\`, \`site/\`, \`benchmark/\` and the workflows | [MIT](LICENSE) |
+| Content: \`data/\`, the generated lists and the documentation | [CC BY 4.0](LICENSE-CC-BY-4.0) |
+
+Paper metadata comes from arXiv and OpenAlex, which publish it openly. Fonts and icons on the site keep their own licenses, in [\`site/fonts/\`](site/fonts/LICENSE.txt) and [\`site/icons.LICENSE.txt\`](site/icons.LICENSE.txt).
 `;
 
 // ---------- PAPERS.md ----------
@@ -159,9 +195,9 @@ for (const p of papers) {
 }
 const monthName = (m) =>
   m === "undated" ? "Undated" : new Date(`${m}-01T00:00:00Z`).toLocaleString("en-US", { month: "long", year: "numeric", timeZone: "UTC" });
-const papersMd = `# Papers
+const papersMd = `# Preprints
 
-${papers.length} arXiv papers on the Model Context Protocol, newest first. Generated from [\`data/papers.json\`](data/papers.json) and refreshed daily; searchable on the [website](${meta.site}). Back to the [README](README.md).
+${papers.length} arXiv preprints on the Model Context Protocol, newest first. Generated from [\`data/papers.json\`](data/papers.json) and refreshed daily; searchable on the [website](${meta.site}). Back to the [README](README.md).
 
 ${[...byMonth]
   .map(
@@ -172,6 +208,48 @@ ${ps.map((p) => `- [${p.title.replace(/([[\]])/g, "\\$1")}](${p.url})${p.authors
   )
   .join("\n")}`;
 
+// ---------- PUBLISHED.md ----------
+const monthsOf = (list, key) => {
+  const m = new Map();
+  for (const p of list) {
+    const k = (p[key] ?? "undated").slice(0, 7);
+    if (!m.has(k)) m.set(k, []);
+    m.get(k).push(p);
+  }
+  return m;
+};
+const pubMd = `# Published papers
+
+${published.length} journal and conference papers about the Model Context Protocol, found through [OpenAlex](https://openalex.org), newest first. Generated from [\`data/published.json\`](data/published.json); searchable on the [website](${meta.site}). Back to the [README](README.md).
+
+${[...monthsOf(published, "published")]
+  .map(
+    ([m, ps]) => `## ${monthName(m)} (${ps.length})
+
+${ps.map((p) => `- [${p.title.replace(/([[\]])/g, "\\$1")}](${p.url})${p.venue ? ` · ${p.venue}` : ""}`).join("\n")}
+`
+  )
+  .join("\n")}`;
+
+// ---------- SURVEY.md ----------
+const surveyMd = `# Survey references
+
+${survey.entries.length} works. ${survey.meta.description} Bibliography snapshot: ${survey.meta.snapshot}. Searchable on the [website](${meta.site}#survey). Back to the [README](README.md).
+
+${survey.groups
+  .map((g) => {
+    const items = survey.entries.filter((e) => e.group === g.id);
+    return `## ${g.title} (${items.length})
+
+${items
+  .map((e) => `- ${e.url ? `[${e.title.replace(/([[\]])/g, "\\$1")}](${e.url})` : e.title}${e.authors.length ? ` · ${authorLine(e.authors)}` : ""}${e.year ? ` · ${e.year}` : ""}${e.venue ? ` · ${e.venue}` : ""}`)
+  .join("\n")}
+`;
+  })
+  .join("\n")}`;
+
 fs.writeFileSync(new URL("README.md", ROOT), readme);
+fs.writeFileSync(new URL("PUBLISHED.md", ROOT), pubMd);
+fs.writeFileSync(new URL("SURVEY.md", ROOT), surveyMd);
 fs.writeFileSync(new URL("PAPERS.md", ROOT), papersMd);
-console.log(`README.md (${readme.length} chars), PAPERS.md (${papersMd.length} chars)`);
+console.log(`README.md ${readme.length}, PAPERS.md ${papersMd.length}, PUBLISHED.md ${pubMd.length}, SURVEY.md ${surveyMd.length} chars`);

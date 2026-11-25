@@ -10,13 +10,13 @@
 [![Last commit](https://img.shields.io/github/last-commit/AI-in-Transportation-Lab/awesome-mcp)](https://github.com/AI-in-Transportation-Lab/awesome-mcp/commits/main)
 [![Stars](https://img.shields.io/github/stars/AI-in-Transportation-Lab/awesome-mcp?style=flat)](https://github.com/AI-in-Transportation-Lab/awesome-mcp/stargazers)
 
-[Website](https://ai-in-transportation-lab.github.io/awesome-mcp/) · [Papers](PAPERS.md) · [Servers](#servers) · [Clients](#clients) · [SDKs](#sdks) · [Benchmark](#benchmark-and-reference-server) · [Contribute](CONTRIBUTING.md)
+[Website](https://ai-in-transportation-lab.github.io/awesome-mcp/) · [Papers](PAPERS.md) · [Survey references](SURVEY.md) · [Servers](#servers) · [Clients](#clients) · [SDKs](#sdks) · [Benchmark](#benchmark-and-reference-server) · [Contribute](CONTRIBUTING.md)
 
 </div>
 
 The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open protocol that lets language-model applications connect to external tools, data and prompts through a uniform interface. This repository collects what you need to work with it: the research literature, servers, clients, SDKs, benchmarks and tutorials. It is maintained by the [AI in Transportation Lab](https://github.com/AI-in-Transportation-Lab).
 
-**261** papers · **19** servers · **10** clients · **15** SDKs and frameworks
+**686** preprints · **526** published papers · **243** survey references · **19** servers · **10** clients · **15** SDKs and frameworks
 
 > [!TIP]
 > A searchable version of everything below lives at **[ai-in-transportation-lab.github.io/awesome-mcp](https://ai-in-transportation-lab.github.io/awesome-mcp/)**. Papers are refreshed from arXiv every day.
@@ -26,7 +26,9 @@ The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open p
 
 ## Contents
 
-- [Latest papers](#latest-papers)
+- [Latest preprints](#latest-preprints)
+- [Latest published papers](#latest-published-papers)
+- [Survey references](#survey-references)
 - [Servers](#servers)
 - [Clients](#clients)
 - [SDKs](#sdks)
@@ -41,9 +43,9 @@ The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open p
 - [Cite](#cite)
 - [License](#license)
 
-## Latest papers
+## Latest preprints
 
-New arXiv papers that mention the Model Context Protocol, newest first. The full list of 261 papers, grouped by month, is in **[PAPERS.md](PAPERS.md)** and on the [website](https://ai-in-transportation-lab.github.io/awesome-mcp/).
+New arXiv papers about the Model Context Protocol, newest first. The scope is computer science and electrical engineering papers that name the protocol in the title or abstract. The full list of 686 preprints, grouped by month, is in **[PAPERS.md](PAPERS.md)** and on the [website](https://ai-in-transportation-lab.github.io/awesome-mcp/).
 
 | Date | Title | Authors |
 | --- | --- | --- |
@@ -64,11 +66,53 @@ New arXiv papers that mention the Model Context Protocol, newest first. The full
 | 2026-11-14 | [Do Rule-Based Tools Help LLMs Translate Endangered Uralic Languages in the Prompt or over MCP?](https://arxiv.org/abs/2611.19439) | Iaroslav Chelombitko, Mika Hämäläinen |
 | 2026-11-14 | [Beyond Plain MCP: Do Decision Models and Code Mode Make Tool Use Cheaper and Faster?](https://arxiv.org/abs/2611.19123) | Abhishek Rai |
 | 2026-11-12 | [Alloy: A Multi-Material Physics Engine for Robot Learning](https://arxiv.org/abs/2611.16312) | Pranay Gupta, Deepanshu Rohilla |
-| 2026-11-12 | [ORCHID-SAGE: Fully Reproducible CALPHAD Assessment from Evidence to Phase Diagram](https://arxiv.org/abs/2611.16308) | Raymundo Arróyave |
 | 2026-11-11 | [ProdPilot: A Layered Model Context Protocol System for Automated Production Readiness and Deployment of Vibe-Coded Projects](https://arxiv.org/abs/2611.17381) | Muhammad Sudais Khalid, Muhammad Junaid Asif, Rehan Naveed Abbasi et al. |
 | 2026-11-11 | [SpaceMCP: Vision Language Model Spatial Reasoning via Model Context Protocol](https://arxiv.org/abs/2611.15680) | Ameen Izhac, Nobuko Yoshida, Ronald Clark |
+| 2026-11-10 | [OverServe: Resource Amplification Attacks on SaaS Agents via Tool--Prompt Co-Design](https://arxiv.org/abs/2611.14808) | Ruiheng Yu, Oteo Mamo, Siyu Gan et al. |
 
 <sub>Last updated 2026-11-25.</sub>
+
+## Latest published papers
+
+Journal and conference papers found through [OpenAlex](https://openalex.org), newest first. All 526 are in **[PUBLISHED.md](PUBLISHED.md)** and on the [website](https://ai-in-transportation-lab.github.io/awesome-mcp/).
+
+| Date | Title | Venue |
+| --- | --- | --- |
+| 2026-11-23 | [A Multilingual Security Benchmark for Indirect Prompt Injection in a Local Model Context Protocol File‐Summarization Workflow](https://doi.org/10.1002/spy2.70272) | Security and Privacy |
+| 2026-11-22 | [Fully automated safety monitoring via sensor-based agentic LLM with Model Context Protocol](https://doi.org/10.1016/j.autcon.2026.107392) | Automation in Construction |
+| 2026-11-21 | [Beyond Jenkins Logs: Benchmarking MCP-Enabled AI for Root-Cause Analysis and Remediation in Enterprise CI/CD](https://openalex.org/W7238546181) | International Journal of Business & Computational Science |
+| 2026-11-18 | [Spatio-Temporal Provenance Guard: Detecting Privilege Escalation Attacks That Exploit Spatio-Temporal Data Loss in Multi-Agent MCP Environments](https://doi.org/10.3390/app162211449) | Applied Sciences |
+| 2026-11-14 | [MCP Tool Poisoning in Agentic AI Frameworks: A Cross-Framework Measurement Study](https://doi.org/10.1145/3847352.3848107) | ACM Workshop on Artificial Intelligence and Security (AISec) |
+| 2026-11-14 | [POSTER: From Signals to Risk: Taxonomy-Guided Mapping of Security-Relevant Signals in Open-Source MCP Servers](https://doi.org/10.1145/3830454.3846460) | ACM SIGSAC Conference on Computer and Communications Security (CCS) |
+| 2026-11-10 | [Tool-augmented LLMs for chemical engineering: A model-source-driven MCP framework for membrane process simulation](https://doi.org/10.1016/j.cherd.2026.11.026) | Chemical Engineering Research and Design |
+| 2026-11-09 | [Directional Contract Transition Revalidation for Model Context Protocol Tools: An Approval Continuity Framework for Evolving Agent Capabilities](https://doi.org/10.3390/fi18110615) | Future Internet |
+| 2026-11-07 | [Finlet AI: An Evidence-Driven Multi-Agent Financial Intelligence Platform Using Model Context Protocol and Deterministic Risk Governance](https://doi.org/10.48175/ijarsct-40710) | International Journal of Advanced Research in Science Communication and Technology |
+| 2026-11-07 | [MULTI-AGENT COORDINATION AND DISCOVERY USING MODEL CONTEXT PROTOCOL](https://doi.org/10.62441/actainnovations.vi.3587) | Acta Innovations |
+
+## Survey references
+
+The 243 works cited by our survey, grouped by the section or subsection that first cites them. This list is separate from the arXiv tracker and does not change when new papers appear. The analysis is in the survey; the list is here so you can find and filter what it builds on. See **[SURVEY.md](SURVEY.md)** or the [website](https://ai-in-transportation-lab.github.io/awesome-mcp/#survey).
+
+| Where the survey cites them | Works |
+| --- | ---: |
+| Introduction | 20 |
+| Survey Methodology | 11 |
+| Autonomous and Adaptive Systems: Definitions and a Reference Model | 9 |
+| Background and Positioning | 53 |
+| Taxonomy of Unifying Models for Autonomous and Adaptive Systems | 10 |
+| Adaptive Protocol Mechanisms | 5 |
+| Context-Aware Frameworks | 2 |
+| Unification Models | 5 |
+| System Integration Architectures | 7 |
+| Model Context Protocol: Specification, Architecture, and Mechanisms | 27 |
+| MCP versus Established Protocols and Middleware | 27 |
+| MCP in Context-Aware Transport Systems | 28 |
+| Multi-Robot Coordination | 9 |
+| Smart Manufacturing and Industrial Cyber-Physical Systems | 6 |
+| Edge-AI Fleets and Federated Edge Intelligence | 4 |
+| Performance Analysis and Evaluation | 11 |
+| Challenges and Open Problems | 5 |
+| Future Research Directions | 4 |
 
 ## Servers
 
@@ -259,4 +303,9 @@ If this collection or the benchmark is useful in your work, please cite our surv
 
 ## License
 
-[Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). Share and adapt with attribution.
+| What | License |
+| --- | --- |
+| Code: `scripts/`, `site/`, `benchmark/` and the workflows | [MIT](LICENSE) |
+| Content: `data/`, the generated lists and the documentation | [CC BY 4.0](LICENSE-CC-BY-4.0) |
+
+Paper metadata comes from arXiv and OpenAlex, which publish it openly. Fonts and icons on the site keep their own licenses, in [`site/fonts/`](site/fonts/LICENSE.txt) and [`site/icons.LICENSE.txt`](site/icons.LICENSE.txt).
