@@ -1,0 +1,28 @@
+name: Report a problem
+description: A broken link, an outdated description, or a project that is archived or gone
+labels: ["fix"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry?
+      description: Name or URL of the resource, or the arXiv ID of the paper.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong?
+      options:
+        - Broken link
+        - Project is archived or abandoned
+        - Description is wrong or outdated
+        - Wrong category or tags
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What should it say instead, and where did you check?
