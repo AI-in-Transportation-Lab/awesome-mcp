@@ -1,0 +1,15 @@
+name: Missing paper
+description: Report a relevant paper that the arXiv updater did not pick up
+labels: ["papers"]
+body:
+  - type: input
+    id: arxiv
+    attributes:
+      label: arXiv ID or URL
+      placeholder: "2508.19239"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it relevant to MCP?
