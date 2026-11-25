@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this collection or the benchmark in your work, please cite the survey below."
+title: "Awesome MCP"
+type: software
+repository-code: "https://github.com/AI-in-Transportation-Lab/awesome-mcp"
+url: "https://ai-in-transportation-lab.github.io/awesome-mcp/"
+license: CC-BY-4.0
+authors:
+  - family-names: Chhetri
+    given-names: Gaurab
+  - family-names: Somvanshi
+    given-names: Shriyank
+  - family-names: Islam
+    given-names: Md Monzurul
+  - family-names: Brotee
+    given-names: Shamyo
+  - family-names: Mimi
+    given-names: Mahmuda Sultana
+  - family-names: Koirala
+    given-names: Dipti
+  - family-names: Pandey
+    given-names: Biplov
+  - family-names: Das
+    given-names: Subasish
+# The survey is cited as its arXiv preprint for now. Replace this block with the
+# journal reference once the paper is published.
+preferred-citation:
+  type: article
+  title: "Model Context Protocols in Adaptive Transport Systems: A Survey"
+  journal: "arXiv preprint arXiv:2508.19239"
+  year: 2025
+  url: "https://arxiv.org/abs/2508.19239"
+  authors:
+    - family-names: Chhetri
+      given-names: Gaurab
+    - family-names: Somvanshi
+      given-names: Shriyank
+    - family-names: Islam
+      given-names: Md Monzurul
+    - family-names: Brotee
+      given-names: Shamyo
+    - family-names: Mimi
+      given-names: Mahmuda Sultana
+    - family-names: Koirala
+      given-names: Dipti
+    - family-names: Pandey
+      given-names: Biplov
+    - family-names: Das
+      given-names: Subasish

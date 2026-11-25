@@ -1,0 +1,40 @@
+name: Suggest a resource
+description: Suggest a server, client, SDK, tutorial, benchmark or other MCP resource
+labels: ["resource"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Servers
+        - Clients and hosts
+        - SDKs and frameworks
+        - Agent frameworks
+        - Developer tools and infrastructure
+        - Security
+        - Benchmarks and evaluation
+        - Learning and documentation
+        - Directories and other lists
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What is it, and why is it useful?
+      description: One or two factual sentences.
+    validations:
+      required: true
