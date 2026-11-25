@@ -1,0 +1,66 @@
+{
+  "id": "benchmarks",
+  "title": "Benchmarks and evaluation",
+  "order": 7,
+  "description": "Benchmarks that measure how well models and agents use MCP.",
+  "items": [
+    {
+      "name": "MCP overhead micro-benchmark",
+      "url": "https://github.com/benchmark/",
+      "description": "Serialization and transport micro-benchmark with a reference MAPE-K MCP server (this repository).",
+      "tags": [
+        "latency",
+        "this-repo"
+      ]
+    },
+    {
+      "name": "MCP-Bench",
+      "url": "https://github.com/Accenture/mcp-bench",
+      "description": "Benchmarks tool-using LLM agents on complex real-world tasks across MCP servers.",
+      "tags": [
+        "agents"
+      ]
+    },
+    {
+      "name": "MCP-Universe",
+      "url": "https://github.com/SalesforceAIResearch/MCP-Universe",
+      "description": "Framework for benchmarking models against real-world MCP servers.",
+      "tags": [
+        "agents"
+      ]
+    },
+    {
+      "name": "LiveMCPBench",
+      "url": "https://github.com/icip-cas/LiveMCPBench",
+      "description": "Evaluates whether agents can navigate a large set of MCP tools.",
+      "tags": [
+        "agents",
+        "tool-selection"
+      ]
+    },
+    {
+      "name": "MCPMark",
+      "url": "https://github.com/eval-sys/mcpmark",
+      "description": "Stress-testing benchmark for models and agents on MCP tasks.",
+      "tags": [
+        "agents"
+      ]
+    },
+    {
+      "name": "MCPEval",
+      "url": "https://github.com/SalesforceAIResearch/MCPEval",
+      "description": "MCP-based deep evaluation system for agents.",
+      "tags": [
+        "agents"
+      ]
+    },
+    {
+      "name": "MCPToolBench++",
+      "url": "https://github.com/mcp-tool-bench/MCPToolBenchPP",
+      "description": "Tool-use benchmark for agents and models over MCP tools.",
+      "tags": [
+        "tool-use"
+      ]
+    }
+  ]
+}

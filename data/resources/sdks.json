@@ -1,0 +1,140 @@
+{
+  "id": "sdks",
+  "title": "SDKs and frameworks",
+  "order": 3,
+  "description": "Libraries for building MCP servers and clients.",
+  "items": [
+    {
+      "name": "Python SDK",
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "description": "The official Python SDK.",
+      "tags": [
+        "python"
+      ],
+      "official": true
+    },
+    {
+      "name": "TypeScript SDK",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+      "description": "The official TypeScript SDK.",
+      "tags": [
+        "typescript"
+      ],
+      "official": true
+    },
+    {
+      "name": "Java SDK",
+      "url": "https://github.com/modelcontextprotocol/java-sdk",
+      "description": "The official Java SDK.",
+      "tags": [
+        "java"
+      ],
+      "official": true
+    },
+    {
+      "name": "Kotlin SDK",
+      "url": "https://github.com/modelcontextprotocol/kotlin-sdk",
+      "description": "The official Kotlin SDK.",
+      "tags": [
+        "kotlin"
+      ],
+      "official": true
+    },
+    {
+      "name": "C# SDK",
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk",
+      "description": "The official C# SDK, maintained with Microsoft.",
+      "tags": [
+        "csharp"
+      ],
+      "official": true
+    },
+    {
+      "name": "Go SDK",
+      "url": "https://github.com/modelcontextprotocol/go-sdk",
+      "description": "The official Go SDK, maintained with Google.",
+      "tags": [
+        "go"
+      ],
+      "official": true
+    },
+    {
+      "name": "Rust SDK",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk",
+      "description": "The official Rust SDK.",
+      "tags": [
+        "rust"
+      ],
+      "official": true
+    },
+    {
+      "name": "Swift SDK",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk",
+      "description": "The official Swift SDK.",
+      "tags": [
+        "swift"
+      ],
+      "official": true
+    },
+    {
+      "name": "Ruby SDK",
+      "url": "https://github.com/modelcontextprotocol/ruby-sdk",
+      "description": "The official Ruby SDK.",
+      "tags": [
+        "ruby"
+      ],
+      "official": true
+    },
+    {
+      "name": "PHP SDK",
+      "url": "https://github.com/modelcontextprotocol/php-sdk",
+      "description": "The official PHP SDK.",
+      "tags": [
+        "php"
+      ],
+      "official": true
+    },
+    {
+      "name": "FastMCP",
+      "url": "https://github.com/PrefectHQ/fastmcp",
+      "description": "The fast, Pythonic way to build MCP servers and clients.",
+      "tags": [
+        "python"
+      ]
+    },
+    {
+      "name": "mcp-use",
+      "url": "https://github.com/mcp-use/mcp-use",
+      "description": "Full-stack framework for building MCP servers, clients and MCP Apps.",
+      "tags": [
+        "typescript",
+        "python"
+      ]
+    },
+    {
+      "name": "Spring AI",
+      "url": "https://github.com/spring-projects/spring-ai",
+      "description": "Application framework for AI engineering on the JVM, with MCP client and server support.",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "name": "MCP Apps (ext-apps)",
+      "url": "https://github.com/modelcontextprotocol/ext-apps",
+      "description": "Spec and SDK for interactive UIs served over MCP.",
+      "tags": [
+        "ui"
+      ],
+      "official": true
+    },
+    {
+      "name": "MCP-UI",
+      "url": "https://github.com/MCP-UI-Org/mcp-ui",
+      "description": "UI over MCP: SDK for returning interactive components from tools.",
+      "tags": [
+        "ui"
+      ]
+    }
+  ]
+}
