@@ -1,4 +1,5 @@
-node_modules
+_site/
+node_modules/
 *.pdf
 .vscode
-papers.json
+.DS_Store

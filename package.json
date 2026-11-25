@@ -1,0 +1,14 @@
+{
+  "name": "awesome-mcp",
+  "private": true,
+  "type": "module",
+  "description": "Curated resources for the Model Context Protocol: papers, servers, clients, SDKs and tutorials.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "update:papers": "node scripts/update-papers.js",
+    "validate": "node scripts/validate.js",
+    "build:readme": "node scripts/build-readme.js",
+    "build:site": "node scripts/build-site.js",
+    "build": "npm run validate && npm run build:readme && npm run build:site"
+  }
+}
