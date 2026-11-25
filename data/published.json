@@ -2035,6 +2035,7 @@
     "citedBy": 0,
     "added": "2026-11-25",
     "topics": [
+      "adaptive",
       "industrial"
     ]
   },
@@ -3113,7 +3114,9 @@
     "openAccess": false,
     "citedBy": 1,
     "added": "2026-11-25",
-    "topics": []
+    "topics": [
+      "adaptive"
+    ]
   },
   {
     "id": "W7167936539",
@@ -3484,9 +3487,7 @@
     "openAccess": false,
     "citedBy": 0,
     "added": "2026-11-25",
-    "topics": [
-      "transportation"
-    ]
+    "topics": []
   },
   {
     "id": "W7203888742",
@@ -4994,9 +4995,7 @@
     "openAccess": false,
     "citedBy": 0,
     "added": "2026-11-25",
-    "topics": [
-      "transportation"
-    ]
+    "topics": []
   },
   {
     "id": "W7155397645",
@@ -6004,9 +6003,7 @@
     "openAccess": false,
     "citedBy": 0,
     "added": "2026-11-25",
-    "topics": [
-      "transportation"
-    ]
+    "topics": []
   },
   {
     "id": "W7133318232",
@@ -6403,9 +6400,7 @@
     "openAccess": true,
     "citedBy": 2,
     "added": "2026-11-25",
-    "topics": [
-      "transportation"
-    ]
+    "topics": []
   },
   {
     "id": "W7151432150",
@@ -7329,9 +7324,7 @@
     "openAccess": false,
     "citedBy": 3,
     "added": "2026-11-25",
-    "topics": [
-      "transportation"
-    ]
+    "topics": []
   },
   {
     "id": "W7116771128",
@@ -8730,9 +8723,7 @@
     "openAccess": true,
     "citedBy": 18,
     "added": "2026-11-25",
-    "topics": [
-      "transportation"
-    ]
+    "topics": []
   },
   {
     "id": "W7155046878",
@@ -8822,9 +8813,7 @@
     "openAccess": true,
     "citedBy": 7,
     "added": "2026-11-25",
-    "topics": [
-      "transportation"
-    ]
+    "topics": []
   },
   {
     "id": "W7117548899",

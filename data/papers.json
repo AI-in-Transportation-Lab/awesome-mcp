@@ -36,7 +36,6 @@
     "category": "cs.AI",
     "summary": "Experimental platforms that enable multiple participants to engage in spoken dialogue and perform physical actions concurrently in a shared environment are important for studying cooperation between humans and embodied AI agents. In this paper, we propose EMIP (Embodied Multi-Party Interaction Platform), a virtual environment platform built on Minecraft. Through an Internet-based client-server architecture, EMIP connects multiple humans and multiple AI agents to the same virtual environment and supports full-duplex speech communication and simultaneous physical interaction. It provides interfaces based on the Model Context Protocol (MCP) for environmental observation, physical action execution, and audio input and output, enabling researchers to develop their own agent control methods using large language models (LLMs). Additional features include centralized control of an agent group through a single EMIP agent client, collaborative object transportation by multiple agents, and experimental support functions such as recording and retrieving observation histories. By integrating these features into a reusable platform, EMIP aims to support research on human-human, human-agent, and agent-agent cooperation under different participant configurations and agent control methods. Usage examples illustrate concurrent speech and physical action, task coordination, and overlapping speech. The source code for the platform is publicly available on GitHub (https://github.com/AI-Humans-Lab/EMIP-Embodied-Multi-Party-Interaction-Platform).",
     "topics": [
-      "transportation",
       "robotics"
     ]
   },
@@ -199,7 +198,6 @@
     "category": "eess.SP",
     "summary": "Mobile networks are outgrowing manual tuning: parameters multiply, services diversify, and traffic shifts faster than experts can react. The machine learning (ML) models that automate radio control are narrow: each is trained for one task, degrades when conditions move, and needs specialist retraining. This article introduces FM-in-the-loop, a framework for 6G radio access networks in which a foundation model (FM) reasons while lightweight machine learning agents act. It reads operator intents in plain language, decomposes them into subtasks, coordinates task-specific agents over Model Context Protocol (MCP) interfaces, and supervises them across their lifecycle---while the orchestration FM never enters the latency-critical control path. We locate seven integration points across four lifecycle stages, compare three cloud-to-edge deployments, and evaluate two elements: channel representations from a wireless FM are tested under noise-level and channel-estimation-error shift, and an instrumented emulation of the orchestration loop reports the measured cost of turning an operator intent into dispatched agent goals. Hallucination, cost, and standardization barriers remain.",
     "topics": [
-      "transportation",
       "networks"
     ]
   },
@@ -512,6 +510,7 @@
     "category": "cs.AI",
     "summary": "Modern cyber physical systems (CPS) integrate heterogeneous sensors, actuators, controllers, and services, composed at runtime rather than at design time. Orchestrating such systems through natural language (NL) is attractive, but unconstrained large language model (LLM) tool use is risky because actions must respect device capabilities, runtime state, and safety constraints. We present Safe Orchestrate, a reference architecture for runtime checked, intent driven CPS orchestration. Given an NL intent, it derives atomic goals, generates a runtime checkable specification for each, grounds the specifications to device affordances, and verifies every candidate action against runtime state and safety constraints before execution. In a Web of Things (WoT) instantiation, the architecture produces Linear Temporal Logic (LTL) style specifications from the NL intent, grounds them to Thing Description (TD) affordances exposed through the Model Context Protocol (MCP), and checks candidate actions against satisfiability modulo theories (SMT) backed guardrails. We evaluate this instantiation on simulated smart home, greenhouse, and industrial automation tasks against a direct LLM to MCP baseline. Safe Orchestrate maintains 100% required action accuracy on every task and 100% MCP Execution Similarity (MCP ES) on all but one, where MCP ES is 92%. By contrast, the baseline degrades on multi device, event triggered, and ordered tasks, with MCP ES falling to 13%. These results suggest that combining LLM based specification generation with role aware grounding and runtime constraint checking improves reliability for open CPS orchestration without enriched TD annotations or planning domain expertise.",
     "topics": [
+      "adaptive",
       "industrial"
     ]
   },
@@ -772,7 +771,9 @@
     "summary": "The rise of agentic artificial intelligence (AI) in the built environment is shifting attention from isolated AI tools toward autonomous systems that reason, plan, and act across project and organizational workflows. The effectiveness of such systems depends not only on large language model capabilities, but also on the readiness of heterogeneous data environments across the Architecture, Engineering, and Construction (AEC) sector. These environments combine structured sources, such as CAD and BIM models, schedules, cost databases, and asset registers, with unstructured ones, including technical reports, design narratives, planning and policy documents, contracts, meeting minutes, and risk registers. This paper reviews how built environment data can be organized to support agentic AI-ready workflows, focusing on knowledge structures, interoperability, and access and integration mechanisms such as retrieval-augmented generation (RAG) and the Model Context Protocol (MCP). Drawing on existing literature, it examines approaches proposed to organize structured and unstructured data and considers how such data can be contextualized and made accessible to AI agents in a reliable manner. The paper synthesizes current perspectives, highlights challenges around fragmentation and interoperability, and identifies open questions for future research on AI-compatible information management in the built environment.",
     "url": "https://arxiv.org/abs/2611.02286",
     "added": "2026-11-25",
-    "topics": []
+    "topics": [
+      "adaptive"
+    ]
   },
   {
     "id": "2610.41885",
@@ -1002,9 +1003,7 @@
     "published": "2026-10-24",
     "category": "cs.SE",
     "summary": "As general-purpose LLM agent harnesses mature, organizations must decide whether to continue developing in-house systems or adopt existing alternatives. We study this decision at Volvo Group for GUI testing of Android-based in-vehicle infotainment (IVI) systems. We compare a production, custom-built harness with two general-purpose harnesses, Claude Code and OpenCode, keeping the tools, accessed through the Model Context Protocol (MCP), and the models the same. We evaluate the harnesses with up to four models on Volvo's IVI test cases and on open-ended tasks in public apps (Google Maps, Booking.com), and interview ten practitioners: developers, the product owner, and testers. On Volvo's stepwise IVI tests, general-purpose harnesses match the custom-built harness in success but vary more across runs. Their inference cost per task is 2.6-10.7 times higher, yet the engineering effort they save outweighs this: for a nightly IVI regression suite, total monthly cost, including engineering effort and inference, is 3-66% lower. On open-ended public-app tasks, they succeed more often, mainly because they recover better from incorrect actions. Interviews suggest that external advances can turn an in-house harness into technical debt even without deterioration. Adopting a general-purpose harness shifts maintenance from the agent loop to tools and instructions, but gives teams less control over what the model receives. Regardless of the harness, testers want to inspect the agent's actions and ensure that it follows the prescribed test scenario.",
-    "topics": [
-      "transportation"
-    ]
+    "topics": []
   },
   {
     "id": "2610.33633",
@@ -1179,6 +1178,7 @@
     "summary": "Large organizations increasingly face what this book calls the cognitive complexity wall: at the scale of hundreds of interacting components, maintaining the dependency map and reacting at the pace of incidents exceeds what a human team can deliver. This conceptual volume proposes AAM/5C, in which five capabilities (Capture, Comprehend, Choose, Coordinate, Control) are instantiated across seven logical layers, L1 to L7. A single authorization rule, R-AUT, separates who proposes, who decides and who executes: a probabilistic planner (L4) proposes; a governance layer (L6) decides under signed policies and records its verdict in a signed evaluation proof; a security layer (L5) issues a short-lived act token bound to that proof; a policy enforcement point verifies both before the target layer materializes the act. Under an explicit guarantee contract, two analytical statements (H7a, H8a) hold by construction. The other statements of its ten hypotheses (H1 to H10), including log completeness (H7b) and non-bypass of the enforcement point (H8b), are refutable, and the protocol that could refute them is fixed before any measurement. The contribution of the book is a prescriptive reference model that articulates, under this single authorization rule, known mechanisms and adds three constructs, all to be validated: the Validation step of the Distributed Autonomy Loop, the ephemeral authority surface and the cognitive dependency plane. The book positions them against autonomic computing, multi-agent systems, enterprise architecture and agent protocols (MCP, A2A), gives an authorization policy in Rego and a partial TLA+ specification of peer consensus, and sets out a validation program with quantified milestones. It reports no empirical results. This English edition is a translation of the French original, produced with the assistance of AI tools and validated by the author.",
     "topics": [
       "security",
+      "adaptive",
       "agents"
     ]
   },
@@ -1300,6 +1300,7 @@
     "added": "2026-11-25",
     "topics": [
       "benchmark",
+      "adaptive",
       "networks",
       "industrial",
       "agents"
@@ -1425,9 +1426,7 @@
     "summary": "Transportation planning has traditionally required substantial expertise in network modeling, traffic assignment, and optimization. As a result, strategic analyses such as network design, capacity expansion, and model calibration remain inaccessible to non-expert decision makers. Recent advances in large language models (LLMs) provide an opportunity to bridge this gap by enabling natural-language interaction with complex transportation planning tools. However, existing LLM-based systems primarily serve as interfaces to simulation software and lack the ability to efficiently search, evaluate, and optimize transportation solutions. This study proposes an integrated human-AI transportation planning framework that combines a large language model, a model context protocol (MCP) interface, an open-source transportation planning engine (AequilibraE), and a differentiable user equilibrium (UE) assignment layer. The framework allows non-expert users to execute network analyses and improve solutions for optimization. A differentiable UE layer is developed by directly differentiating the Karush-Kuhn-Tucker (KKT) conditions of the Beckmann traffic assignment problem. The proposed framework is demonstrated through two representative planning tasks: calibration of travel time functions from observed traffic counts and network design under budget constraints. The examples illustrate how differentiable transportation models and LLM agents can jointly democratize transportation planning and substantially reduce barriers between domain expertise and transportation decision making.",
     "url": "https://arxiv.org/abs/2610.16140",
     "added": "2026-11-25",
-    "topics": [
-      "transportation"
-    ]
+    "topics": []
   },
   {
     "id": "2610.14956",
@@ -1694,8 +1693,7 @@
     "category": "cs.CR",
     "summary": "Distributed Energy Resource (DER) environments rely on network communication protocols to coordinate control commands, measurements, and device states across edge assets and cloud systems. Edge anomaly detection systems (ADS) monitor this traffic to identify deviations from normal communication behavior, flagging suspicious flows for further investigation. When the ADS flags abnormal network traffic, a single attack label is often insufficient for operational response: the label reports the detector's selected class but does not expose alternative threat interpretations that may warrant investigation. This paper presents Cybersecurity Threat Reasoning with Explainable Artificial Intelligence (CyTReX), an evidence-grounded threat reasoning framework for DER security that transforms network-level anomaly alerts into ranked, analyst-facing threat hypotheses designed to support Security Operations Center (SOC) triage and investigation. CyTReX constrains large language model (LLM) reasoning through a structured evidence packet, defined as a consolidated record of detection outputs, model explanations, and cyber threat intelligence (CTI) context. The evidence packet integrates edge-layer anomaly detection evidence, cloud reasoning layer attack interpretation, Shapley Additive Explanations (SHAP) network-feature attributions, surrogate decision rules, and Model Context Protocol (MCP)-enabled CTI enrichment. This ensures that every ranked hypothesis and attack-tree branch is traceable to explicit evidence rather than free-form LLM inference, and that incomplete or conflicting evidence is communicated rather than suppressed. Evaluation across five configurations shows that additional reasoning components improve hypothesis specificity, evidence traceability, and analytical grounding, with the complete pipeline providing the richest evidence-grounded reasoning context.",
     "topics": [
-      "security",
-      "transportation"
+      "security"
     ]
   },
   {
@@ -2023,7 +2021,7 @@
     "added": "2026-11-25",
     "topics": [
       "benchmark",
-      "transportation",
+      "adaptive",
       "robotics",
       "networks",
       "agents"
@@ -2144,7 +2142,8 @@
     "url": "https://arxiv.org/abs/2609.19100",
     "added": "2026-11-25",
     "topics": [
-      "security"
+      "security",
+      "adaptive"
     ]
   },
   {
@@ -2160,8 +2159,7 @@
     "summary": "The Model Context Protocol (MCP) standardizes communication between autonomous Artificial Intelligence (AI) agents and remote tools over Streamable HTTP. This shift introduces a class of machine-generated, authenticated, and high-frequency JSON-RPC traffic directly into enterprise networks. Enterprise network defenders have historically relied on machine-like cadence as an Indicator of Compromise (IoC). In this study, we show that without explicit network-layer indication, MCP traffic structurally and temporally resembles Command and Control (C2) beaconing behavior, specifically the polling architectures used by advanced persistent threats like Cobalt Strike. Counter to theoretical assumptions about machine-generated polling, our measurements reveal a visibility gap: standard enterprise Intrusion Detection Systems (IDS) and behavioral beacon-scoring frameworks do not classify MCP remote tool usage as anomalous within our testbed scope. Through a controlled Docker-based testbed simulating eleven mathematically defined traffic profiles across three TLS conditions (Opaque, TLS-Inspected, and Cleartext), we evaluate Suricata signature matching and RITA behavioral scoring against MCP JSON-RPC patterns. Our results show that MCP traffic, regardless of temporal smearing (jitter) or TLS inspection visibility, evades detection within this configuration, yielding a consistent 0.0 behavioral beacon score and near-zero IDS content alerts under the Emerging Threats (ET) Open ruleset. While opaque TLS obscures HTTP content, it exposes agent traffic to flow-level temporal analysis; however, NIDS heuristics tuned to identify traditional malware do not flag the lognormal inter-arrival distributions characteristic of generative AI reasoning loops. To address this gap, we propose an agent-native network indication standard including Agent-Native ALPN and standardized out-of-band headers.",
     "topics": [
       "security",
-      "benchmark",
-      "transportation"
+      "benchmark"
     ]
   },
   {
@@ -2231,7 +2229,6 @@
     "category": "cs.RO",
     "summary": "An agentic AI driver-assistance framework that integrates perception, compliance reasoning, vehicle-state interpretation, and safety arbitration into a modular and auditable pipeline. The architecture, referred to as DriveMCP, incorporates a sensor-like perception stack alongside DriveLM as the vision-language front end to generate a graph-structured scene understanding (Graph Visual Question Answering) and language-grounded driving information. Key compliance elements in world_state, including posted speed limits and jurisdiction cues, are derived from DriveLM outputs through a structured parsing layer rather than being injected as simulator ground truth. A stateful orchestration layer coordinates specialized experts exposed as Model Context Protocol (MCP) servers: (i) a Rules server that performs retrieval-augmented compliance reasoning over jurisdiction-specific traffic codes and sign conventions, (ii) a Weather server that estimates traction risk and contextual speed advisories, and (iii) an MCP-CAN server that surfaces Controller Area Network (CAN)/On-Board Diagnostics (OBD) telemetry and diagnostic context for health-aware risk shaping. These outputs are fused to generate a structured decision that prompts a recommended course of action. The outcome is then further filtered by a Responsibility-Sensitive Safety (RSS)-inspired guardrail that arbitrates speak versus act decisions under bounded online adaptation. In CARLA simulation across multilingual, cross-border, and dynamic speed-limit scenarios, DriveMCP reduces traffic infractions and overspeed relative to the VLM-Direct, VLM-Direct+RAG, and VLM-Tools-NoArbiter baselines, while improving hazard response time and maintaining sub-second advisory latency.",
     "topics": [
-      "transportation",
       "networks"
     ]
   },
@@ -2489,6 +2486,7 @@
     "url": "https://arxiv.org/abs/2609.09503",
     "added": "2026-11-25",
     "topics": [
+      "adaptive",
       "robotics",
       "industrial",
       "agents"
@@ -2608,7 +2606,6 @@
     "added": "2026-11-25",
     "topics": [
       "security",
-      "transportation",
       "robotics",
       "agents"
     ]
@@ -3399,7 +3396,6 @@
     "url": "https://arxiv.org/abs/2608.04235",
     "added": "2026-11-25",
     "topics": [
-      "transportation",
       "networks"
     ]
   },
@@ -3532,7 +3528,7 @@
     "added": "2026-11-25",
     "topics": [
       "security",
-      "transportation",
+      "adaptive",
       "networks",
       "industrial"
     ]
@@ -3556,7 +3552,8 @@
     "url": "https://arxiv.org/abs/2610.30157",
     "added": "2026-11-25",
     "topics": [
-      "security"
+      "security",
+      "adaptive"
     ]
   },
   {
@@ -3572,7 +3569,6 @@
     "url": "https://arxiv.org/abs/2607.26111",
     "added": "2026-11-25",
     "topics": [
-      "transportation",
       "industrial"
     ]
   },
@@ -3611,8 +3607,7 @@
     "url": "https://arxiv.org/abs/2607.25398",
     "added": "2026-11-25",
     "topics": [
-      "benchmark",
-      "transportation"
+      "benchmark"
     ]
   },
   {
@@ -4757,7 +4752,6 @@
     "summary": "Agent-interoperability protocols such as A2A and MCP standardize what agents say to one another but assume address-based transport. Whether over HTTP(S) or a content-protecting binding such as MLS-based SLIM, these transports protect message content yet leave the communication graph exposed: which agent contacts which, when, and how often. In agent systems this graph is more consequential than a privacy framing suggests. Endpoints are capability-labeled, workflows are structured and chained, and interactions are coupled to actions, so an observer recovers more than past relationships: it can recognize a recurring pending workflow from its opening and, at machine speed, act on it before it completes. The threat is one of workflow integrity, not privacy alone. We give a threat model for the communication graph and locate what makes its metadata distinctively consequential: not stronger fingerprinting but exposure across independent trust domains, coupled to autonomous action. We define transport- and bootstrap-layer privacy properties, give them an indistinguishability-game semantics, evaluate transports, and give an A2A case study where a metadata-protecting binding surfaces its implicit identity assumptions. On a corpus of real multi-agent A2A traffic from the official reference agents, on a live A2A binding, and with a generative model as a controlled instrument, a label-blind classifier recovers a task's class from passive metadata at 6x chance, and from only its opening; a defense-aware adversary does not overturn this, and only the full set of properties drives recovery toward chance. Acting on the leak is distinct from recoverability: under a fixed budget an adversary captures 0.63 of a clairvoyant attacker's advantage on the corpus (0.41 from a workflow's opening), governed by top-ranked precision rather than overall accuracy, so integrity and privacy come apart under defense.",
     "topics": [
       "security",
-      "transportation",
       "agents"
     ]
   },
@@ -4902,7 +4896,6 @@
     "url": "https://arxiv.org/abs/2606.03755",
     "added": "2026-11-25",
     "topics": [
-      "transportation",
       "robotics",
       "agents"
     ]
@@ -5083,7 +5076,8 @@
     "url": "https://arxiv.org/abs/2605.30604",
     "added": "2026-11-25",
     "topics": [
-      "security"
+      "security",
+      "adaptive"
     ]
   },
   {
@@ -5204,7 +5198,6 @@
     "url": "https://arxiv.org/abs/2605.27685",
     "added": "2026-11-25",
     "topics": [
-      "transportation",
       "agents"
     ]
   },
@@ -5324,8 +5317,7 @@
     "url": "https://arxiv.org/abs/2605.22333",
     "added": "2026-11-25",
     "topics": [
-      "security",
-      "transportation"
+      "security"
     ]
   },
   {
@@ -5478,9 +5470,7 @@
     "published": "2026-05-13",
     "category": "cs.AI",
     "summary": "Self-driving laboratories (SDLs) are attracting increasing attention as a means of accelerating scientific discovery; however, developing SDL software remains technically demanding. To improve accessibility, orchestration software frameworks have been proposed to coordinate SDL components, but many existing frameworks are primarily designed for human interaction and lack standardized interfaces for direct integration with AI agents. In this work, we propose an SDL software architecture based on the Model Context Protocol (MCP), in which all SDL functionalities are exposed through MCP servers. Following this design principle, we introduce NIMO Controller, an MCP-based SDL orchestrator that integrates the experimental planning software NIMO. It provides a visual programming interface automatically generated through MCP-based tool discovery, allowing human users to design experimental workflows without writing code. The same MCP backend is also accessible to AI agents, providing a unified interface through which both human users and AI agents can interact with SDL components. AI agents can invoke MCP tools directly or generate NIMO workflows from natural language instructions. We evaluated the agentic workflow generation performance of various LLMs and conducted a user study using a color-matching SDL.",
-    "topics": [
-      "transportation"
-    ]
+    "topics": []
   },
   {
     "id": "2605.13989",
@@ -5613,8 +5603,7 @@
     "url": "https://arxiv.org/abs/2605.11053",
     "added": "2026-11-25",
     "topics": [
-      "security",
-      "transportation"
+      "security"
     ]
   },
   {
@@ -5633,7 +5622,8 @@
     "url": "https://arxiv.org/abs/2605.10787",
     "added": "2026-11-25",
     "topics": [
-      "benchmark"
+      "benchmark",
+      "adaptive"
     ]
   },
   {
@@ -5801,6 +5791,7 @@
     "category": "cs.AI",
     "summary": "Large Language Models (LLMs) are increasingly explored as high-level reasoning engines for cyber-physical systems, yet their application to real-time UAV swarm management remains challenging due to heterogeneous interfaces, limited grounding, and the need for long-running closed-loop execution. This paper presents a mission-agnostic, agent-enhanced LLM framework for UAV swarm control, where users express mission objectives in natural language and the system autonomously executes them through grounded, real-time interactions. The proposed architecture combines an LLM-based Agent Core with a Model Context Protocol (MCP) gateway and a Web-of-Drones abstraction based on W3C Web of Things (WoT) standards. By exposing drones, sensors, and services as standardized WoT Things, the framework enables structured tool-based interaction, continuous state observation, and safe actuation without relying on code generation. We evaluate the framework using ArduPilot-based simulation across four swarm missions and six state-of-the-art LLMs. Results show that, despite strong reasoning abilities, current general-purpose LLMs still struggle to achieve reliable execution - even for simple swarm tasks - when operating without explicit grounding and execution support. Task-specific planning tools and runtime guardrails substantially improve robustness, while token consumption alone is not indicative of execution quality or reliability.",
     "topics": [
+      "adaptive",
       "industrial",
       "agents"
     ]
@@ -5948,7 +5939,7 @@
     "category": "cs.AI",
     "summary": "This article outlines a new framework of traffic light optimization through a digital twin of the transport infrastructure, managed by agentic AI to ensure real-time autonomous decisions. The framework relies on physical sensors and edge computing to measure real-time traffic information and simulate traffic flow in a constantly updated digital twin. The traffic light is automatically controlled through the digital twin according to traffic congestion, travel delay and traffic patterns. This approach is implemented as a three-layer system: perception, conceptualization and action. The perception layer receives data on physical systems; the conceptualization layer uses LangChain to process the data; and the action layer links to the Model Context Protocol (MCP) and traffic management APIs to implement optimised traffic signal control algorithms. The results show that the framework minimizes waiting time at traffic lights and positively affects the effectiveness of the entire traffic flow, which is better than the fixed-time and reinforcement learning-based baselines.",
     "topics": [
-      "transportation",
+      "adaptive",
       "networks"
     ]
   },
@@ -5994,7 +5985,6 @@
     "added": "2026-11-25",
     "topics": [
       "benchmark",
-      "transportation",
       "agents"
     ]
   },
@@ -6243,8 +6233,7 @@
     "url": "https://arxiv.org/abs/2604.17125",
     "added": "2026-11-25",
     "topics": [
-      "security",
-      "transportation"
+      "security"
     ]
   },
   {
@@ -6544,6 +6533,7 @@
     "url": "https://arxiv.org/abs/2604.07681",
     "added": "2026-11-25",
     "topics": [
+      "adaptive",
       "agents"
     ]
   },
@@ -7260,7 +7250,7 @@
     "url": "https://arxiv.org/abs/2603.10294",
     "added": "2026-11-25",
     "topics": [
-      "transportation"
+      "adaptive"
     ]
   },
   {
@@ -7543,6 +7533,7 @@
     "category": "cs.AI",
     "summary": "The field of Artificial Intelligence is undergoing a transition from Generative AI -- probabilistic generation of text and images -- to Agentic AI, in which autonomous systems execute actions within external environments on behalf of users. This transition exposes a fundamental architectural mismatch: Large Language Models (LLMs) produce stochastic, unstructured outputs, whereas the backend infrastructure they must control -- databases, APIs, cloud services -- requires deterministic, schema-conformant inputs. The present paper describes the Auton Agentic AI Framework, a principled architecture for standardizing the creation, execution, and governance of autonomous agent systems. The framework is organized around a strict separation between the Cognitive Blueprint, a declarative, language-agnostic specification of agent identity and capabilities, and the Runtime Engine, the platform-specific execution substrate that instantiates and runs the agent. This separation enables cross-language portability, formal auditability, and modular tool integration via the Model Context Protocol (MCP). The paper formalizes the agent execution model as an augmented Partially Observable Markov Decision Process (POMDP) with a latent reasoning space, introduces a hierarchical memory consolidation architecture inspired by biological episodic memory systems, defines a constraint manifold formalism for safety enforcement via policy projection rather than post-hoc filtering, presents a three-level self-evolution framework spanning in-context adaptation through reinforcement learning, and describes runtime optimizations -- including parallel graph execution, speculative inference, and dynamic context pruning -- that reduce end-to-end latency for multi-step agent workflows.",
     "topics": [
+      "adaptive",
       "networks"
     ]
   },
@@ -7662,7 +7653,6 @@
     "summary": "We present AgentOptics, an agentic AI framework for high-fidelity, autonomous optical system control built on the Model Context Protocol (MCP). AgentOptics interprets natural language tasks and executes protocol-compliant actions on heterogeneous optical devices through a structured tool abstraction layer. We implement 64 standardized MCP tools across 8 representative optical devices and construct a 410-task benchmark to evaluate request understanding, role-aware responses, multi-step coordination, robustness to linguistic variation, and error handling. We assess two deployment configurations--commercial online LLMs and locally hosted open-source LLMs--and compare them with LLM-based code generation baselines. AgentOptics achieves 87.7%--99.0% average task success rates, significantly outperforming code-generation approaches, which reach up to 50% success. We further demonstrate broader applicability through five case studies extending beyond device-level control to system orchestration, monitoring, and closed-loop optimization. These include DWDM link provisioning and coordinated monitoring of coherent 400 GbE and analog radio-over-fiber (ARoF) channels; autonomous characterization and bias optimization of a wideband ARoF link carrying 5G fronthaul traffic; multi-span channel provisioning with launch power optimization; closed-loop fiber polarization stabilization; and distributed acoustic sensing (DAS)-based fiber monitoring with LLM-assisted event detection. These results establish AgentOptics as a scalable, robust paradigm for autonomous control and orchestration of heterogeneous optical systems.",
     "topics": [
       "benchmark",
-      "transportation",
       "networks"
     ]
   },
@@ -8341,6 +8331,7 @@
     "added": "2026-11-25",
     "topics": [
       "security",
+      "adaptive",
       "industrial"
     ]
   },
@@ -8564,8 +8555,7 @@
     "url": "https://arxiv.org/abs/2601.12744",
     "added": "2026-11-25",
     "topics": [
-      "benchmark",
-      "transportation"
+      "benchmark"
     ]
   },
   {
@@ -8583,6 +8573,7 @@
     "summary": "Artificial Intelligence is moving from models that only generate text to Agentic AI, where systems behave as autonomous entities that can perceive, reason, plan, and act. Large Language Models (LLMs) are no longer used only as passive knowledge engines but as cognitive controllers that combine memory, tool use, and feedback from their environment to pursue extended goals. This shift already supports the automation of complex workflows in software engineering, scientific discovery, and web navigation, yet the variety of emerging designs, from simple single loop agents to hierarchical multi agent systems, makes the landscape hard to navigate. In this paper, we investigate architectures and propose a unified taxonomy that breaks agents into Perception, Brain, Planning, Action, Tool Use, and Collaboration. We use this lens to describe the move from linear reasoning procedures to native inference time reasoning models, and the transition from fixed API calls to open standards like the Model Context Protocol (MCP) and Native Computer Use. We also group the environments in which these agents operate, including digital operating systems, embodied robotics, and other specialized domains, and we review current evaluation practices. Finally, we highlight open challenges, such as hallucination in action, infinite loops, and prompt injection, and outline future research directions toward more robust and reliable autonomous systems.",
     "topics": [
       "security",
+      "adaptive",
       "robotics"
     ]
   },
@@ -8733,6 +8724,7 @@
     "added": "2026-11-25",
     "topics": [
       "benchmark",
+      "adaptive",
       "networks"
     ]
   },
@@ -8918,9 +8910,7 @@
     "summary": "Traffic simulation is important for transportation optimization and policy making. While existing simulators such as SUMO and MATSim offer fully-featured platforms and utilities, users without too much knowledge about these platforms often face significant challenges when conducting experiments from scratch and applying them to their daily work. To solve this challenge, we propose TrafficSimAgent, an LLM-based agent framework that serves as an expert in experiment design and decision optimization for general-purpose traffic simulation tasks. The framework facilitates execution through cross-level collaboration among expert agents: high-level expert agents comprehend natural language instructions with high flexibility, plan the overall experiment workflow, and invoke corresponding MCP-compatible tools on demand; meanwhile, low-level expert agents select optimal action plans for fundamental elements based on real-time traffic conditions. Extensive experiments across multiple scenarios show that TrafficSimAgent effectively executes simulations under various conditions and consistently produces reasonable outcomes even when user instructions are ambiguous. Besides, the carefully designed expert-level autonomous decision-driven optimization in TrafficSimAgent yields superior performance when compared with other systems and SOTA LLM based methods.",
     "url": "https://arxiv.org/abs/2512.20996",
     "added": "2026-11-25",
-    "topics": [
-      "transportation"
-    ]
+    "topics": []
   },
   {
     "id": "2512.19432",
@@ -9274,6 +9264,7 @@
     "url": "https://arxiv.org/abs/2512.08769",
     "added": "2026-11-25",
     "topics": [
+      "adaptive",
       "agents"
     ]
   },
@@ -9419,6 +9410,7 @@
     "topics": [
       "security",
       "benchmark",
+      "adaptive",
       "networks"
     ]
   },
@@ -9577,7 +9569,8 @@
     "url": "https://arxiv.org/abs/2511.21661",
     "added": "2026-11-25",
     "topics": [
-      "benchmark"
+      "benchmark",
+      "adaptive"
     ]
   },
   {
@@ -9678,7 +9671,6 @@
     "summary": "Generative AI is reshaping offensive cybersecurity by enabling autonomous red team agents that can plan, execute, and adapt during penetration tests. However, existing approaches face trade-offs between generality and specialization, and practical deployments reveal challenges such as hallucinations, context limitations, and ethical concerns. In this work, we introduce a novel command & control (C2) architecture leveraging the Model Context Protocol (MCP) to coordinate distributed, adaptive reconnaissance agents covertly across networks. Notably, we find that our architecture not only improves goal-directed behavior of the system as whole, but also eliminates key host and network artifacts that can be used to detect and prevent command & control behavior altogether. We begin with a comprehensive review of state-of-the-art generative red teaming methods, from fine-tuned specialist models to modular or agentic frameworks, analyzing their automation capabilities against task-specific accuracy. We then detail how our MCP-based C2 can overcome current limitations by enabling asynchronous, parallel operations and real-time intelligence sharing without periodic beaconing. We furthermore explore advanced adversarial capabilities of this architecture, its detection-evasion techniques, and address dual-use ethical implications, proposing defensive measures and controlled evaluation in lab settings. Experimental comparisons with traditional C2 show drastic reductions in manual effort and detection footprint. We conclude with future directions for integrating autonomous exploitation, defensive LLM agents, predictive evasive maneuvers, and multi-agent swarms. The proposed MCP-enabled C2 framework demonstrates a significant step toward realistic, AI-driven red team operations that can simulate advanced persistent threats while informing the development of next-generation defensive systems.",
     "topics": [
       "security",
-      "transportation",
       "agents"
     ]
   },
@@ -9713,9 +9705,7 @@
     "summary": "The growing complexity of urban mobility systems has made traffic simulation indispensable for evidence-based transportation planning and policy evaluation. However, despite the analytical capabilities of platforms such as the Simulation of Urban MObility (SUMO), their application remains largely confined to domain experts. Developing realistic simulation scenarios requires expertise in network construction, origin-destination modeling, and parameter configuration for policy experimentation, creating substantial barriers for non-expert users such as policymakers, urban planners, and city officials. Moreover, the requests expressed by these users are often incomplete and abstract-typically articulated as high-level objectives, which are not well aligned with the imperative, sequential workflows employed in existing language-model-based simulation frameworks. To address these challenges, this study proposes AgentSUMO, an agentic framework for interactive simulation scenario generation via large language models. AgentSUMO departs from imperative, command-driven execution by introducing an adaptive reasoning layer that interprets user intents, assesses task complexity, infers missing parameters, and formulates executable simulation plans. The framework is structured around two complementary components, the Interactive Planning Protocol, which governs reasoning and user interaction, and the Model Context Protocol, which manages standardized communication and orchestration among simulation tools. Through this design, AgentSUMO converts abstract policy objectives into executable simulation scenarios. Experiments on urban networks in Seoul and Manhattan demonstrate that the agentic workflow achieves substantial improvements in traffic flow metrics while maintaining accessibility for non-expert users, successfully bridging the gap between policy goals and executable simulation workflows.",
     "url": "https://arxiv.org/abs/2511.06804",
     "added": "2026-11-25",
-    "topics": [
-      "transportation"
-    ]
+    "topics": []
   },
   {
     "id": "2511.05867",
@@ -10082,7 +10072,6 @@
     "topics": [
       "security",
       "benchmark",
-      "transportation",
       "networks"
     ]
   },
@@ -11101,7 +11090,7 @@
     "url": "https://arxiv.org/abs/2508.19239",
     "added": "2026-11-25",
     "topics": [
-      "transportation"
+      "adaptive"
     ]
   },
   {
@@ -12033,7 +12022,6 @@
     "url": "https://arxiv.org/abs/2506.15167",
     "added": "2026-11-25",
     "topics": [
-      "transportation",
       "agents"
     ]
   },
@@ -12151,7 +12139,7 @@
     "url": "https://arxiv.org/abs/2506.13068",
     "added": "2026-11-25",
     "topics": [
-      "transportation",
+      "adaptive",
       "agents"
     ]
   },
@@ -12225,9 +12213,7 @@
     "summary": "Human spatiotemporal behavior simulation is critical for urban planning research, yet traditional rule-based and statistical approaches suffer from high computational costs, limited generalizability, and poor scalability. While large language models (LLMs) show promise as \"world simulators,\" they face challenges in spatiotemporal reasoning including limited spatial cognition, lack of physical constraint understanding, and group homogenization tendencies. This paper introduces a framework integrating chain-of-thought (CoT) reasoning with Model Context Protocol (MCP) to enhance LLMs' capability in simulating spatiotemporal behaviors that correspond with validation data patterns. The methodology combines human-like progressive reasoning through a five-stage cognitive framework with comprehensive data processing via six specialized MCP tool categories: temporal management, spatial navigation, environmental perception, personal memory, social collaboration, and experience evaluation. Experiments in Shanghai's Lujiazui district validate the framework's effectiveness across 1,000 generated samples. Results demonstrate high similarity with real mobile signaling data, achieving generation quality scores of 7.86 to 8.36 across different base models. Parallel processing experiments show efficiency improvements, with generation times decreasing from 1.30 to 0.17 minutes per sample when scaling from 2 to 12 processes. This work contributes to integrating CoT reasoning with MCP for urban behavior modeling, advancing LLMs applications in urban computing and providing a practical approach for synthetic mobility data generation. The framework offers a foundation for smart city planning, transportation forecasting, and participatory urban design applications.",
     "url": "https://arxiv.org/abs/2506.10853",
     "added": "2026-11-25",
-    "topics": [
-      "transportation"
-    ]
+    "topics": []
   },
   {
     "id": "2506.07672",
@@ -12352,9 +12338,7 @@
     "summary": "Traffic simulation tools, such as SUMO, are essential for urban mobility research. However, such tools remain challenging for users due to complex manual workflows involving network download, demand generation, simulation setup, and result analysis. In this paper, we introduce SUMO-MCP, a novel platform that not only wraps SUMO' s core utilities into a unified tool suite but also provides additional auxiliary utilities for common preprocessing and postprocessing tasks. Using SUMO-MCP, users can issue simple natural-language prompts to generate traffic scenarios from OpenStreetMap data, create demand from origin-destination matrices or random patterns, run batch simulations with multiple signal-control strategies, perform comparative analyses with automated reporting, and detect congestion for signal-timing optimization. Furthermore, the platform allows flexible custom workflows by dynamically combining exposed SUMO tools without additional coding. Experiments demonstrate that SUMO-MCP significantly makes traffic simulation more accessible and reliable for researchers. We will release code for SUMO-MCP at https://github.com/ycycycl/SUMO-MCP in the future.",
     "url": "https://arxiv.org/abs/2506.03548",
     "added": "2026-11-25",
-    "topics": [
-      "transportation"
-    ]
+    "topics": []
   },
   {
     "id": "2506.01804",
