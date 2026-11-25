@@ -242,7 +242,14 @@ If this collection or the benchmark is useful in your work, please cite our surv
 ```bibtex
 @article{chhetri2025model,
   title   = {Model Context Protocols in Adaptive Transport Systems: A Survey},
-  author  = {Gaurab Chhetri and Shriyank Somvanshi and Md Monzurul Islam and Shamyo Brotee and Mahmuda Sultana Mimi and Dipti Koirala and Biplov Pandey and Subasish Das},
+  author  = {Gaurab Chhetri and
+            Shriyank Somvanshi and
+            Md Monzurul Islam and
+            Shamyo Brotee and
+            Mahmuda Sultana Mimi and
+            Dipti Koirala and
+            Biplov Pandey and
+            Subasish Das},
   journal = {arXiv preprint arXiv:2508.19239},
   year    = {2025}
 }
