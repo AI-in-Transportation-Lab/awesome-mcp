@@ -1,8 +1,8 @@
-# Papers
+# Preprints
 
-261 arXiv papers on the Model Context Protocol, newest first. Generated from [`data/papers.json`](data/papers.json) and refreshed daily; searchable on the [website](https://ai-in-transportation-lab.github.io/awesome-mcp/). Back to the [README](README.md).
+686 arXiv preprints on the Model Context Protocol, newest first. Generated from [`data/papers.json`](data/papers.json) and refreshed daily; searchable on the [website](https://ai-in-transportation-lab.github.io/awesome-mcp/). Back to the [README](README.md).
 
-## November 2026 (41)
+## November 2026 (40)
 
 - [LimoBench: How Street Smart Are Large Language Models?](https://arxiv.org/abs/2611.31682) · Gautam Choudhary, Jack Peng, Udesh Kumarasinghe et al.
 - [EMIP: Embodied Multi-Party Interaction Platform](https://arxiv.org/abs/2611.29333) · Koichiro Terao, Rikunari Sagara, Moe Nagao et al.
@@ -21,11 +21,11 @@
 - [Do Rule-Based Tools Help LLMs Translate Endangered Uralic Languages in the Prompt or over MCP?](https://arxiv.org/abs/2611.19439) · Iaroslav Chelombitko, Mika Hämäläinen
 - [Beyond Plain MCP: Do Decision Models and Code Mode Make Tool Use Cheaper and Faster?](https://arxiv.org/abs/2611.19123) · Abhishek Rai
 - [Alloy: A Multi-Material Physics Engine for Robot Learning](https://arxiv.org/abs/2611.16312) · Pranay Gupta, Deepanshu Rohilla
-- [ORCHID-SAGE: Fully Reproducible CALPHAD Assessment from Evidence to Phase Diagram](https://arxiv.org/abs/2611.16308) · Raymundo Arróyave
 - [ProdPilot: A Layered Model Context Protocol System for Automated Production Readiness and Deployment of Vibe-Coded Projects](https://arxiv.org/abs/2611.17381) · Muhammad Sudais Khalid, Muhammad Junaid Asif, Rehan Naveed Abbasi et al.
 - [SpaceMCP: Vision Language Model Spatial Reasoning via Model Context Protocol](https://arxiv.org/abs/2611.15680) · Ameen Izhac, Nobuko Yoshida, Ronald Clark
 - [OverServe: Resource Amplification Attacks on SaaS Agents via Tool--Prompt Co-Design](https://arxiv.org/abs/2611.14808) · Ruiheng Yu, Oteo Mamo, Siyu Gan et al.
 - [Agent-Guided Discovery of Exchange-Correlation Functionals with Physics-based Validation](https://arxiv.org/abs/2611.13329) · Achuth Chandrasekhar, Amir Barati Farimani
+- [ShadowBench-MCP: Measuring Shadow Invocations in MCP-Style Tool Routing](https://arxiv.org/abs/2611.11720) · Eyhab Al-Masri, Wenjun Yang
 - [PRISM: Causal Counterfactual Minimization of Agent Tool Privileges via Information Bottleneck Role Induction](https://arxiv.org/abs/2611.11539) · Yang Luo, Qingni Shen, Tairui Wang et al.
 - [Tracing MCP Security Vulnerabilities: Constructing and Analyzing an MCP Security Vulnerability Dataset](https://arxiv.org/abs/2611.11104) · Xu He, Sagar Patel, Shu Wang
 - [Jais 3: Introducing Arabic-centric Agentic AI](https://arxiv.org/abs/2611.10224) · Team IFM, Haonan Li, Hadi Abdine et al.
@@ -41,15 +41,13 @@
 - [MCP Tool Poisoning in Agentic AI Frameworks: A Cross-Framework Measurement Study](https://arxiv.org/abs/2611.03555) · Farooq Shaikh, Biagio Montaruli
 - [Towards a Trustworthy and Governable Internet of Agentics: An Architectural Perspective on Protocols, Systems, and Services](https://arxiv.org/abs/2611.03066) · Haoyi Xiong, Yi Liu, Jiang Bian et al.
 - [CAREFUL-Bench: Effect-Aware, Judge-Free Evaluation of Multi-Turn LLM Function Calling](https://arxiv.org/abs/2611.02978) · Alexander Kovalenko, Artem Redchych
-- [Reimagining computational quantum research with AI scientists](https://arxiv.org/abs/2611.02833) · Yuxuan Du, Hanqing Zhao, Xinbiao Wang et al.
 - [Where Does MCP Security End? A Three-Tier Mitigation Mapping Framework for the OWASP MCP Top 10](https://arxiv.org/abs/2611.02611) · Christopher Krakauer, Andreas Schaad
 - [When Neither Side Confirms: Destructive Tool Approval Across MCP Servers and Hosts](https://arxiv.org/abs/2611.02527) · Junwei Yao, Zike Yang, Zhijun Wang et al.
 - [Toward Agentic AI-Ready Workflows in Built Environment Organizations: Knowledge Structures and Interoperability Challenges](https://arxiv.org/abs/2611.02286) · Ahmet Bahaddin Ersoz, Justin McHenry, Yevgeniya Kovalchuk et al.
 
-## October 2026 (54)
+## October 2026 (53)
 
 - [How Much Can Tool Calls Reveal About You? Privacy Leakage from Tool-Call Traces](https://arxiv.org/abs/2610.41885) · Donghang Duan, Qingyu Liu, Yifei Liu et al.
-- [Evaluating Instrument-Centered AI Agents for Table-Top Science Experiments](https://arxiv.org/abs/2610.41717) · Jiaqi Cai, Siyu Cheng, William S. Huxter et al.
 - [EvoMCP: Co-evolving MCP agents and training data](https://arxiv.org/abs/2610.41479) · Xuanang Gao, Kepeng Lin, Xinyan Shi et al.
 - [Cross-Interface Authorization for AI Computer-Use Agents](https://arxiv.org/abs/2610.41397) · Genliang Zhu, Chu Wang
 - [PCM: A Proof-Carrying Message Protocol for Verifiable Multi-Agent Communication](https://arxiv.org/abs/2610.39109) · Bravish Ghosh
@@ -61,6 +59,7 @@
 - [Generation and Verification: Human-Agent Collaboration for Safety-Critical Automotive Software Engineering](https://arxiv.org/abs/2610.35982) · Elizaveta Zinovyeva, Aiham Taleb, Nikita Kozodoi et al.
 - [Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents](https://arxiv.org/abs/2610.34298) · Zhenning Shi, Liang Pang, Yongqi Li
 - [Build or Adopt? Custom-Built vs. General-Purpose LLM Agent Harnesses for Automotive GUI Testing](https://arxiv.org/abs/2610.33636) · Arsham Gholamzadeh Khoee, Ruyu Fu, Jiaqi Wei et al.
+- [ProbeID: Verifying MCP Tool Identity for LLM Agents under Registry Drift](https://arxiv.org/abs/2610.33633) · Guanxing Chen, Sining Zhang, Haohuai He et al.
 - [EVM-Anchored Provenance for AI-Assisted Code Evolution: A Smoke-Scale Deployment Report](https://arxiv.org/abs/2610.33350) · Einar César Santos
 - [Deletion Is Not Substitution: Component Attribution in a Layered Prompt-Injection Gateway for LLM Tool Calls](https://arxiv.org/abs/2610.33198) · İpek Abasıkeleş Turgut, Edip Gümüş
 - [Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance](https://arxiv.org/abs/2610.32555) · Antonio Ken Iannillo, Joshua Segun Owotogbe, Roberto Natella et al.
@@ -77,9 +76,9 @@
 - [From TCP/IP to MCP: Security and Governance Lessons from Internet Protocols for Agentic AI](https://arxiv.org/abs/2610.26624) · Ben Bucknall, Andrew Byrley, Lewis Hammond
 - [Autonomous intelligence for mining productivity: a multi-agent AI approach to operational value creation](https://arxiv.org/abs/2610.26369) · N Guerin, A Dehoux, M Nakhla
 - [GatewayBench: Unified Capability and Security Evaluation Platform for MCP Gateways](https://arxiv.org/abs/2610.23449) · Yitian Zheng, Zhaorun Chen, Haoyu Li et al.
+- [MS-Eval: Benchmarking Sub-Agent Delegation and Orchestration in MCP-Intensive Working Scenarios](https://arxiv.org/abs/2610.22869) · Bowen Ding, Qixin Wang, Lexing Ruan et al.
 - [My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale](https://arxiv.org/abs/2610.22301) · Zeqian Huang, Mingyue Tang, Aonan Guan et al.
 - [Approve What, Exactly? Effect Binding and Trusted Rendering for Agent Step-Up Authorization](https://arxiv.org/abs/2610.21063) · Sai Varun Kodathala, Prashanth Pollishetty, Jaylen Cargill
-- [MASON: Materials Atomistic Structure builder Operated in Natural language](https://arxiv.org/abs/2610.21015) · Xinyue Zhang, Jixiang Li, Bin Shao et al.
 - [Thinking in Graphs: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents](https://arxiv.org/abs/2610.20902) · Joas Antonio dos Santos Barbosa
 - [Plant Memory: Technical Language Processing and a Verified Maintenance Ontology for Agent-Accessible Failure Knowledge from SAP PM Work Orders](https://arxiv.org/abs/2610.19131) · Akash Raj
 - [Large Language Model Assisted Transportation Planning through a Differentiable User Equilibrium Layer](https://arxiv.org/abs/2610.16140) · Eunseung Lee, Gyeongjun Kim, Keemin Sohn
@@ -100,10 +99,9 @@
 - [CyTReX: Explainable AI-Based Cybersecurity Threat Reasoning Framework for DER Networks](https://arxiv.org/abs/2610.04286) · Damilola Popoola, Souradeep Bhattacharya, Manimaran Govindarasu
 - [The Cost of a Hop: Benchmarking NLIP and A2A](https://arxiv.org/abs/2610.04053) · Ranjan Sinha, Anindita Das, Ashika Anand Babu et al.
 - [Toward SLM-based agentic task-tool intent matching](https://arxiv.org/abs/2610.03213) · Chiara Troiani, Arash Salarian, Majed El Helou et al.
-- [LATHE: LAnguage-driven Toolkit for Hypothesis-based crystal Editing](https://arxiv.org/abs/2610.02671) · Qianyu Zheng, Shuyi Jia, Victor Fung
 - [Evaluating and Improving the Robustness of Large Language Models to Input Sequence Variations](https://arxiv.org/abs/2610.02432) · Narek Maloyan
 
-## September 2026 (27)
+## September 2026 (51)
 
 - [Skill-Based AI Agents for Power-System Studies](https://arxiv.org/abs/2609.40272) · Pavel Etingov, Shuchismita Biswas
 - [MCP Error Messages Written for Developers Hurt the Most Capable Agents Most](https://arxiv.org/abs/2609.35381) · Xiaonan Xu, Wenjing Wu
@@ -113,212 +111,651 @@
 - [A Safety-Bounded SDC-to-MCP Gateway for Medical AI Agents](https://arxiv.org/abs/2609.31358) · Bennet Gerlach, Stefan Fischer
 - [RecToolBench: Benchmarking Recommendation-Specific Tool Orchestration under Fuzzy User Intent](https://arxiv.org/abs/2609.30717) · Xiao Chen, Yicheng Zhao, Yingying Wu et al.
 - [Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol](https://arxiv.org/abs/2609.30341) · Jaime Alonso Ruiz, Carlos Aparicio, Gabriel Huecas et al.
-- [Teaching an LLM agent to fit XRR curves with X-Ray Calc 3](https://arxiv.org/abs/2609.28926) · Oleksiy V. Penkov, Jingjing Peng, Haoyu Fu
 - [Progressive Skill Discovery as Access Control for Tool-Using LLM Agents: Structural Governance through Role-Scoped Capability Delivery](https://arxiv.org/abs/2609.28693) · Michael Stettler, Benjamin Girardet, Jonas Canton et al.
-- [Multi-Agent AI Architecture for Regulated Insurers: A generic AI framework under Solvency II and the AI Act in Austria and Germany](https://arxiv.org/abs/2609.27636) · Walter Kurz
+- [Spatial and Semantic Reasoning for LLM-Driven Robot Navigation via MCP](https://arxiv.org/abs/2609.27340) · Jungsoo Lee, Jaegyun Park, Wansoo Kim
 - [A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem](https://arxiv.org/abs/2609.26761) · Laizhen Li, Xuan Wang, Peicheng Zhao et al.
+- [Ascent: An Agentic System over the Model Context Protocol for Real-World Clinical Data Analysis](https://arxiv.org/abs/2609.24620) · Angelo Ziletti, Leonardo D'Ambrosi, Melanie Tuchardt et al.
 - [MCP-GRANITE Benchmark: GRANularity Interface TEsting for MCP-Based LLM Agents](https://arxiv.org/abs/2609.24161) · Demetris Paschalides, Moysis Symeonides, George Pallis et al.
+- [MCPGen: Benchmarking LLMs on Executable MCPWorkflow Development](https://arxiv.org/abs/2609.23925) · Yingxuan Yang, Jiaqi Liu, Lirui Guan et al.
+- [PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI](https://arxiv.org/abs/2609.23695) · Mohamed Amine Ferrag, Merouane Debbah, Abderrahmane Lakas et al.
+- [Runtime Authorization Consistency Checking for MCP-based Agentic Workflows](https://arxiv.org/abs/2609.23498) · Aiyao Zhang, Xiaodong Lee, Zhixian Zhuang et al.
+- [Counterfactual Tool Ranking under Utility, Cost, and Privilege Constraints](https://arxiv.org/abs/2609.22819) · Jiapeng Li
 - [Zero-Trust Authorization and Discovery for Enterprise MCP](https://arxiv.org/abs/2609.22573) · Huan Li, Yuwei Wang, Srinivasan Manoharan
+- [OpenRoIS: A Community-Driven Open-Source Middleware Implementing the Robotic Interaction Service (RoIS) Framework for Physical Robots, Virtual Avatars, and Digital Services](https://arxiv.org/abs/2609.21178) · Sebastian Carrera Villalobos, Christopher Nolan Arellano, Arne Hitzmann et al.
 - [Localizing Post-Wire Semantic Changes in MCP Agent Frameworks](https://arxiv.org/abs/2610.00182) · Aditi Patodiya
+- [Closed-World Resolution Against Tool Hallucination in LLM Agents](https://arxiv.org/abs/2609.19425) · Laxmipriya Ganesh Iyer
+- [Characterizing Network Centralization and Observability in the Remote MCP Ecosystem](https://arxiv.org/abs/2609.19100) · Muhammad Abdullah Sohail
 - [When Agents Look Like Beacons: NIDS Evasion by Model Context Protocol Traffic](https://arxiv.org/abs/2609.19091) · Muhammad Abdullah Sohail
 - [Measuring and Exploiting Implicit Trust in LLM Tool-Calling Pipelines](https://arxiv.org/abs/2609.18217) · Murali Ediga, Sudipta Chattopadhyay
+- [PentestChain: A Cost-Aware, MCP-Orchestrated Framework for Automated Penetration Testing with Free-Tier LLMs](https://arxiv.org/abs/2609.18120) · Rushabh Vipulkumar Patel, Dipo Dunsin, Mohammed Almaiah et al.
+- [TuiML: Machine Learning for AI Agents](https://arxiv.org/abs/2609.17984) · Nilesh Verma, Nick Lim, Albert Bifet et al.
 - [DriveMCP: An Agentic AI framework for Advanced Driver Assistance System](https://arxiv.org/abs/2609.17247) · Farzad Nadiri, Mehdi Cina, Ahmad B. Rad
 - [EchoPath: Execution-Level Replayable Memory for GUI Agents](https://arxiv.org/abs/2609.16635) · Yao Zhao, Aditya Shanmugham, Swastik Roy et al.
-- [An Open-Source Hardware and Software Toolkit to Enable Agentic RHEED-Guided Thin-Film Synthesis](https://arxiv.org/abs/2609.15922) · Asraful Haque, Christopher M. Rouleau, Rama K. Vasudevan et al.
 - [Authorization Architectures for Tool-Using AI Agents](https://arxiv.org/abs/2609.15906) · Rakesh Kumar Surapani, Pradeep Kumar Dolabehera Kakitapelli, Arun Morampudi et al.
+- [When Tool Calls Succeed but Workflows Fail: Anomalies at the Agent-Tool Boundary](https://arxiv.org/abs/2609.15397) · Artem Trofimov, Boris Novikov
 - [Cartograph: Federated Tool Discovery with Operator-Attested Retrieval for AI Agents](https://arxiv.org/abs/2609.30293) · Justice Owusu Agyemang, Michael Agyare, Kwame Opuni-Boachie Obour Agyekum et al.
 - [The Stochastic Deputy: Structural Tenant Isolation for Tool-Using LLM Agents](https://arxiv.org/abs/2609.14780) · Mirza Samad Ahmed Baig, Syeda Anshrah Gillani, Asher Ali et al.
+- [Runtime Authorization for Resources Acquired by AI Agents](https://arxiv.org/abs/2609.14744) · Genliang Zhu, Chu Wang
+- [A Two-Dimensional Study of the Model Context Protocol: Publication and Adoption](https://arxiv.org/abs/2609.14721) · Natarajan Chidambaram, Mauro Dalle Lucca Tosi, Jordi Cabot
+- [Same Name, Different Server: A Security Census of Silent Drift in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2609.14119) · Obada Kraishan
+- [AutoTailor: Automatic, User-Aligned Capability Selection and Adaptation for Web Agents](https://arxiv.org/abs/2609.13548) · Xinyun Cao, Adriana Szekeres, Fazle Elahi Faisal
 - [AnchorVLN: Geometry-Anchored Vision-Language Grounding Reasoning for Open-Vocabulary Navigation](https://arxiv.org/abs/2609.12285) · Long Giang Vu, Chengkai Yao, Yuxin Liu et al.
+- [What a Random Draw from the MCP Registry Contains, and What Tool-Use Benchmarks Contain Instead](https://arxiv.org/abs/2609.10962) · Haseeb Mohammed Afsar
+- [A2ABreak: Systematic Security Analysis of the A2A Protocol](https://arxiv.org/abs/2609.10871) · Alireza Lotfi, Mirza Masfiqur Rahman, Imtiaz Karim et al.
+- [No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers](https://arxiv.org/abs/2609.10854) · Zehua Zhang, Jie Hu, Pratham Hegde et al.
+- [Agentic AI-enabled Semantic Commissioning of a Cognitive Digital Twin for Reconfigurable Manufacturing](https://arxiv.org/abs/2609.09503) · Yangyang Liu, Xun Xu, Jan Polzer
+- [Beyond Fluent Generation: A CPU Reliability Benchmark for MCP-Style Tool Calling in Sub-2B Small Language Models for Edge Deployment](https://arxiv.org/abs/2609.07370) · Abrar Shahriar Qurat-Ul-Ain Mastoi
+- [How Long Until Your Robot Ignores You? A Safety Benchmark for LLM Orchestrators in Human-Humanoid Collaboration](https://arxiv.org/abs/2609.07288) · Aulon Bajrami, Mohamed Elshamouty, Werner Kraus
+- [DianShi-RxnDB: A Large-Scale, Fine-Grained Organic Reaction Data Platform Built via a Fully Automated Pipeline for Researchers and AI Agents](https://arxiv.org/abs/2609.06703) · Yubin Wang, Xingjian Wei, Jiang Wu et al.
+- [Agentic AI for Staged Three-Dimensional Finite-Element Tunnel Modelling](https://arxiv.org/abs/2610.00056) · Ochok Duangsano, Kuo-Chieh Chao, Sompote Youwai et al.
+- [From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments](https://arxiv.org/abs/2609.04894) · Linsen Zhu, Mengqing Cai
+- [BuildOcc: A Large Language Model Occupant Agent Platform for Building Energy Research](https://arxiv.org/abs/2609.02729) · Wooyoung Jung
 - [ACLE-MCP: Attested Capability Leases for Execution-Time Trust in Remote LLM Tool Use](https://arxiv.org/abs/2609.02690) · Zhiyang Ding, Yang Luo, Guangpu Chen et al.
+- [CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI](https://arxiv.org/abs/2609.02459) · Austin Tudor David Andrews, Liam Wilkinson, Jamie Heagerty et al.
 - [Public-Sharing Labels and Verbatim Field Egress in an MCP-to-A2A Agent Configuration: A Controlled Multi-Model Study](https://arxiv.org/abs/2609.01693) · Arpan Kumar Mahapatra
 - [Skill-as-API: Confidential Multi-Agent Coordination for Agentic Software Engineering](https://arxiv.org/abs/2609.01677) · Ziwei Zhao, Yu Gu, Haojun Liang et al.
 
-## August 2026 (9)
+## August 2026 (45)
 
-- [Orchestra: Corroboration-Based Regulatory Candidate Discovery via Composed Bioinformatics MCP Agents](https://arxiv.org/abs/2609.05496) · Jose A. Bird
+- [Delegation Without Trust: An Empirical Gap Analysis of Identity, Authorization, and Runtime Governance in Multi-Agent LLM Systems](https://arxiv.org/abs/2609.00267) · Panduranga Sai Varma Dantuluri, Jyotirmoy Sundi
+- [Can MCP Clients Decide What to Do After Failure? A Result-Only Actionability Audit](https://arxiv.org/abs/2609.00072) · Rishabh Mehan
+- [Domain-Grounded Tool Orchestration for LLM-Guided Scientific Analysis](https://arxiv.org/abs/2608.30696) · Jeff Lee, Sebastien Jourdain, Cory Quammen et al.
+- [Bridging Semantics and Physics with Constrained LLMs for Safe and Trustworthy Robotic Manipulation](https://arxiv.org/abs/2608.29379) · Wenhao Hong, Lan Wei, Dandan Zhang
+- [Oculi: A Conversational Agentic Platform for Automated Credit Risk Analysis](https://arxiv.org/abs/2608.28944) · Vennise Ho, Kristian Diana, Sandy Mourad et al.
+- [Breaking Darknet CAPTCHAs with general purpose LLM](https://arxiv.org/abs/2608.28794) · Benjamin Fehrensen, Jens Hubler
+- [ASTRA - Agentic System for Ticket Resolution and Analysis](https://arxiv.org/abs/2608.28790) · Shashidhar Reddy Javaji, Mohamed Trabelsi, Jin Cao et al.
 - [Claude Code Complete User Handbook](https://arxiv.org/abs/2608.26742) · David Soldani
+- [Benchmarking AI Agents for Hardware Design Automation via MCP Tool Calling](https://arxiv.org/abs/2608.26199) · Leonardo Liparulo, Francesco Pierri
 - [Agentic AI for operating scientific instruments for nanoscale characterization](https://arxiv.org/abs/2608.26198) · Zahra Ayar, Marcos Penedo, Mahdi Mehdikhani et al.
 - [ToolMinimize: Auditing and Rewriting LLM Agent Tool Calls to Minimize Privacy Exposure](https://arxiv.org/abs/2608.24957) · Wenbiao Li, Yuqiao Xu
+- [Hybrid Semantic Tool Discovery for Enterprise MCP Gateway: Architecture and Implementation](https://arxiv.org/abs/2608.23992) · Olympia Saha, Amy Wang, Srinivasan Manoharan
+- [Beyond the Mandate: A Systematic Security Analysis of the Agent Payments Protocol (AP2)](https://arxiv.org/abs/2608.23858) · Avital Aviv, Parth A. Gandh, Ron Bitton et al.
 - [TrustShiftProbe: Characterizing, Benchmarking, and Defending Staged Trust Attacks on MCP Servers](https://arxiv.org/abs/2608.23763) · Mehrdad Rostamzadeh, Sidhant Narula, Mohammad Ghasemigol et al.
+- [ARGUS: MCP-Grounded Root Cause Analysis for Kubernetes Incidents](https://arxiv.org/abs/2608.23084) · Ergi Senja, Seyed Mohammad Reza Razavi Zadegan, Philipp Leitner
+- [MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning](https://arxiv.org/abs/2608.22167) · Ziyang Luo, Yan Yang, Xiangru Jian et al.
+- [From SQL Generation to Tool Selection: A Domain-Oriented Pattern for MCP Servers](https://arxiv.org/abs/2608.22063) · Bartolomeo Bogliolo
+- [AEGIS: Preventing Cross-Domain Resource Abuse in MCP](https://arxiv.org/abs/2608.20481) · Shriti Priya, Teryl Taylor, Frederico Araujo
+- [Delegating or Doing? Understanding User Behavior in Hybrid Human-Agent Interfaces](https://arxiv.org/abs/2608.19551) · Gavin Dizon, Tyrone Justin Sta Maria, Jordan Aiko Deja et al.
+- [A Multi-Agent Platform for Automated Enterprise Analytics and Insight Generation](https://arxiv.org/abs/2608.18740) · Manoj N M, Vijayakrishna S, Manjunath Srinivas et al.
+- [Flama: a Python framework for development and deployment of production-ready APIs, machine learning, and LLM services](https://arxiv.org/abs/2608.18733) · José A. Perdiguero López, Miguel A. Durán-Olivencia
 - [Task-Conditioned Least-Privilege Learning for Executable Terminal and MCP Agents](https://arxiv.org/abs/2608.18351) · Alexander Tu, Michael Tu
-- [Spectroscopic Binary Detection as Agent-Callable Tools: Detecting 40,000+ Main-Sequence Binary Candidates from SDSS DR19 APOGEE Spectra](https://arxiv.org/abs/2608.10866) · Serat M. Saad, Yuan-Sen Ting
+- [Redakto - The Incognito Tab for LLMs](https://arxiv.org/abs/2608.18260) · Saurav Kumar Saha, Tom Röhr, Felix Bießmann
+- [When Agents Act on Web3: An Attack-Surface Survey of MCP, Skills, and Tool Calling](https://arxiv.org/abs/2608.17275) · Rabimba Karanjai, Yang Lu, Nour Diallo et al.
+- [Mandato: Protocol-Level Enforcement of Digitally Signed Mandates on AI Agent Actions with Cryptographically Chained Audit Trails](https://arxiv.org/abs/2608.14074) · Giovanni Racioppi
+- [Retrieval-grounded robot program generation and simulation-based correction via Model Context Protocol](https://arxiv.org/abs/2608.21417) · Zhichao Zhou, Siyuan Chen, Omkar Salunkhe et al.
+- [Ontology-Grounded Project Memory for Coding Agents](https://arxiv.org/abs/2608.13662) · James Adam
+- [Labels Are Not Endpoints: Treatment Leakage and Construct Validity in MCP Agent Security Evaluation](https://arxiv.org/abs/2608.12880) · Rana Muhammad Ahmed, Sabahat Abbas
+- [MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication](https://arxiv.org/abs/2611.03662) · Xikai Sun, Kebin Liu, Fan Dang et al.
+- [Semantic Graph Unification for Industrial Digital Threads: Bridging 11 Heterogeneous Manufacturing Systems Through Ontology-Driven Knowledge Graphs](https://arxiv.org/abs/2608.24918) · Grama Chethan
+- [A Gateway Architecture for Enterprise MCP Authentication: Unifying Heterogeneous Auth, Identity Delegation, and the User / Non-User Persona Problem](https://arxiv.org/abs/2608.10760) · Suraj Kumar, Amy Wang, Srinivasan Manoharan
+- [The Scaffolding Matters More Than the Interface: A Controlled Comparison of MCP and CLI Tool Use Across Seven Agent Scaffoldings, Five Language Models, and One Software Task](https://arxiv.org/abs/2608.08654) · Marc Alier Forment, María José Casañ Guerrero, Francisco José García-Peñalvo et al.
+- [LLM within MCP Matters: Measuring Inefficient Resource Utilization Driven by LLMs](https://arxiv.org/abs/2608.08467) · Minhan Cho, Soyoung Park, Kihyeon Jeong et al.
+- [Neurosymbolic Discovery of Algebraic Graph Constructions](https://arxiv.org/abs/2608.08118) · David Seka, Stefan Szeider
+- [Agentic AI: User Empowerment or Foreclosure?](https://arxiv.org/abs/2608.06510) · David Gamba, Daniel M. Romero, Grant Schoenebeck
+- [Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations](https://arxiv.org/abs/2608.06305) · Sagar Tamang, Ayush Vyas, Tabarakul Hazarika
+- [Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture](https://arxiv.org/abs/2608.06130) · Leo Sambrook, Sampo Sovio
+- [Diagnosing Tool-Selection Reasoning in LLM Agents with Canary Tools](https://arxiv.org/abs/2608.04719) · Atul Anand, Sourav Chattaraj
+- [Eigenius: A Typed Knowledge-Graph DBMS with Epistemic Stratification and Institution-Mediated Reasoning](https://arxiv.org/abs/2608.04457) · Hans-Martin Will, Allen L. Brown, Matthew Fuchs
+- [When Agentic Executions Fail: Detecting and Localizing Runtime Faults from Telemetry](https://arxiv.org/abs/2608.14680) · Chenkai Zhang, Yiran Li, Yifang Tian et al.
+- [Scale-CDA: A Scalable Aftermarket Platform to Democratize Cooperative Driving Automation in Production Cars](https://arxiv.org/abs/2608.04235) · Hao Zhou, Shengming Yuan, Yuhang Wang et al.
+- [Screenshots or Tools? Eliciting Tool Use and Managing Multimodal Context in Hybrid GUI-MCP Computer-Use Agents](https://arxiv.org/abs/2608.03327) · Siqi Fan, Minghao Li, Xiaoqian Ma et al.
+- [UrbanAgent: A Tool-Augmented Agent for Cross-System Urban Tasks](https://arxiv.org/abs/2608.03018) · Jiayu Cao, Xingyuan Zeng, feiyu Li et al.
 - [Registry Descriptions Go Stale Unevenly: An 89-Day Measurement of Model Context Protocol Drift, and Why Drift-Ranked Re-Auditing Under-Covers It](https://arxiv.org/abs/2608.00997) · Gautam Bharti
 - [Safety Invariants for Agents Orchestrating Irreversible State Transitions: A Four-Dimensional Formalism Evaluated on Public Ledgers](https://arxiv.org/abs/2608.00783) · Zhaoming Yin
 
-## July 2026 (13)
+## July 2026 (43)
 
+- [Cross-Benchmark Generalization in Long-Horizon Agents](https://arxiv.org/abs/2608.00181) · Sushant Mehta, Logan Ritchie, Liudas Panavas et al.
 - [Exposed by Design: A Dynamic Security Assessment of Internet-Facing MCP Servers at Scale](https://arxiv.org/abs/2608.00150) · Nicolás Padilla
+- [The AnyLog Edge Data Fabric](https://arxiv.org/abs/2607.28836) · Roy Shadmon, Mark Davidson, Eric Aquaronne et al.
+- [MCP vs CLI for AI Agents: A Comparative Analysis of Tool Integration Strategies for Autonomous Systems](https://arxiv.org/abs/2610.30157) · Arun Malik, Nitish Talasu, Bradley Klemick et al.
+- [Validating ETCS Data with the B Mathematical Language: An Industrial Pipeline and a Blueprint for LLM Integration](https://arxiv.org/abs/2607.26111) · Thierry Lecomte, Vincent Germain
 - [An Empirical Study of Model Context Protocol Applications](https://arxiv.org/abs/2607.25635) · Muhammad Hamza Arshad Majeed, May Mahmoud, Sarah Nadi
+- [HANDBOOK.md: A Benchmark for Long-Context Agentic Instruction Following](https://arxiv.org/abs/2607.25398) · Liudas Panavas, Sebastian Minus, Bradley Monton et al.
+- [Hybrid Analysis for Secure MCP Tool Use in LLM Agents](https://arxiv.org/abs/2607.25297) · Ping He, Yuexiang Xie, Yaliang Li et al.
 - [Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides](https://arxiv.org/abs/2610.22373) · Ryan Tran, YueMing Zhang, Lingfeng Tao et al.
-- [A corrective agentic hybrid RAG and an operations-grounded evaluation for a scientific facility](https://arxiv.org/abs/2607.24663) · Rajat Sainju, Dariusz Jarosz, Hairong Shang et al.
 - [APPA: Recoverable Information-Flow Control for Real-World LLM Agents](https://arxiv.org/abs/2607.24625) · Arseny Kravchenko, Vadim Liventsev, Innokentii Konstantinov et al.
+- [Making Mathematical Knowledge Explainable, Accessible and Interoperable Through Large Language Model Integration](https://arxiv.org/abs/2607.24512) · Jan Range, Björn Schembera, Dominik Göddeke
 - [6G: From Connectivity Infrastructure to Guaranteed Digital Services](https://arxiv.org/abs/2607.24185) · David Soldani, Petrit Nahi, Awn Muhammad et al.
+- [SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving](https://arxiv.org/abs/2607.23933) · Yihui Zhang, Tianyu Wo, Jinghao Wang et al.
 - [A Comparative Study of MCP and A2A for Inter-Agent Coordination in LLM-Based Systems](https://arxiv.org/abs/2607.23884) · Ionut Predoaia, Tuong Manh Vu, Konstantinos Barmpis et al.
+- [Euclid-MCP: A Model Context Protocol Server for Deterministic Logical Reasoning via Prolog](https://arxiv.org/abs/2607.21412) · Bartolomeo Bogliolo
+- [ChainWatch: A Kill Chain-Aligned Sequential Detection Framework for Multi-Step Attacks in MCP-Based AI Agent Systems](https://arxiv.org/abs/2607.19432) · Om Narayan, Rashmi Jyoti, Ramkinker Singh
+- [Schema-Bound LLM Control of Scientific Instrumentation through Model Context Protocol Skills](https://arxiv.org/abs/2607.17012) · Roberto dos Reis, Vinayak P. Dravid
+- [DataFlow-Harness: A Grounded Code-Agent Platform for Constructing Editable LLM Data Pipelines](https://arxiv.org/abs/2607.16617) · Runming He, Zhen Hao Wong, Hao Liang et al.
+- [ToolVerse: Unlocking Massive Environments and Long-Horizon Tasks for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.15660) · Shuaiyu Zhou, Fengpeng Yue, Zengjie Hu et al.
 - [Scaling LLM Agent Tool Access: The MCP Gateway](https://arxiv.org/abs/2607.15593) · Mingxin Li, Enge Song, Yueshang Zuo et al.
-- [JW-ASTClaw: A Generalizable Multi-Agent Framework for Autonomous Solar Telescope and Its Implementation within Chinese Meridian Project](https://arxiv.org/abs/2607.13549) · Li-Yue Tong, Jia-Ben Lin, Yuan-Yong Deng et al.
+- [Human-Robot Interaction in GenAI Architectures via the Agent-Client Protocol](https://arxiv.org/abs/2607.14919) · Jesus Moncada-Ramirez, Jose-Raul Ruiz-Sarmiento, Javier Gonzalez-Jimenez
+- [Ground-Side Mission Plan Compilation with Policy-as-Code Guardrails for Cloud-Native Satellite Platforms](https://arxiv.org/abs/2607.14798) · Hsiu-Chi Tsai, Chia-Tung Chung
+- [FlowGuard: From Signals to Evidence for MCP Security Detection](https://arxiv.org/abs/2607.14754) · Baichao An, Pei Chen, Geng Hong et al.
+- [MCPEvol-Bench: Benchmarking LLM Agent Performance Across Dynamic Evolutions of MCP Servers](https://arxiv.org/abs/2607.14642) · Huanxi Liu, Kun Hu, Jiaqi Liao et al.
+- [SYNAPSE: A Multi-LLM Orchestrated AI Tutor for Secure Software Development Education with Neurodivergent-First Design](https://arxiv.org/abs/2607.14601) · Giusy Ferrara, Ashkan Sami
+- [Orchestrating Power Grid Studies with Multi-Agent AI and MCP Servers](https://arxiv.org/abs/2607.14158) · Jérôme Picault, Clément Goubet
+- [MCP-Driven Accessibility Tree Standardization for AI-Powered Screen Reader Agents](https://arxiv.org/abs/2608.24898) · Vishnu Ramineni, Nitin Saksena, Akash Kumar Agarwal et al.
 - [Contract-Grounded Behavior Tree Synthesis via Coding Agents](https://arxiv.org/abs/2607.12220) · Jonathan Salfity, Robert Blake Anderson, Mitch Pryor
+- [AgentCheck: A Reproduce-Intervene-Mitigate Workbench for LLM Agents over MCP](https://arxiv.org/abs/2607.11098) · Aritra Mazumder, Nusrat jahan Lia
+- [Rethinking MCP Security: A Large-Scale Study of Runtime MCP Servers and Security Scanner Reliability](https://arxiv.org/abs/2607.11086) · Pei Chen, Baichao An, Mengying Wu et al.
+- [When Does Restricting a Coding Agent to execute_code Help? A Regime $\times$ Agent-Design Ablation](https://arxiv.org/abs/2607.10569) · Hong Yang, Qi Yu, Travis Desell
+- [A Large-Scale Dataset of MCP Implementations on GitHub](https://arxiv.org/abs/2607.10123) · Benny Toeppe, Amine Barrak, Emna Ksontini
+- [Do LLM Agents Negotiate Rationally? A Mechanism-Design Framework for Verifiable Multi-Agent Interaction over A2A/MCP](https://arxiv.org/abs/2608.14613) · Wael Albayaydh, Rui Zhao
+- [DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers](https://arxiv.org/abs/2607.20531) · Jerzy Kamiński, Ilya Galyukshev, Artem Kuznetsov et al.
+- [The Context Access Divide: Interaction-Level Architecture as a Complementary Dimension of Agentic Inequality](https://arxiv.org/abs/2607.08495) · Masahiro Fujita
+- [From Legacy Documentation to OSCAL: An MCP-Based Agent Pipeline for Threat-Informed Continuous Compliance in Critical Infrastructure](https://arxiv.org/abs/2607.08288) · Lea Roxanne Muth, Marian Margraf
+- [Mitigating Taint-Style Vulnerabilities in MCP Servers via Security-Aware Tool Descriptions](https://arxiv.org/abs/2607.07461) · Yang Shi, Jiaheng Fu, Yihe Huang et al.
+- [MCP-Enabled Agentic AI for Autonomous IPoDWDM Network Lifecycle Automation](https://arxiv.org/abs/2607.05975) · Chunmin Xia, Jakub Harbaczewski, Nikhil Dsilva et al.
 - [Unicode TAG-Block Concealment of Tool-Metadata Payloads in the Model Context Protocol: An Approval-View Fidelity Gap Across Three Independent Server Implementations](https://arxiv.org/abs/2607.05744) · Mohammadreza Rashidi
 - [The Balkanization of Execution-Security Research for AI Coding Agents: Isolation, Access Control, and Time-of-Check-to-Time-of-Use Vulnerabilities](https://arxiv.org/abs/2607.05743) · Mohammadreza Rashidi
+- [Determinants and Limits of LLM Security-Tool Orchestration: A Study with HexStrike-AI](https://arxiv.org/abs/2607.02873) · Romain Gerard, Assmaa Zeghaider, Yan Guo
 - [ContextNest: Verifiable Context Governance for Autonomous AI Agent](https://arxiv.org/abs/2607.02116) · Misha Sulpovar, Benn R. Konsynski, Qaish Kanchwala et al.
+- [Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory](https://arxiv.org/abs/2608.20397) · Mustafa Arslan
 
-## June 2026 (12)
+## June 2026 (40)
 
+- [Ansari: A Retrieval-Grounded Islamic AI Assistant -- Architecture, Deployment, and Lessons from 140,000 Conversations](https://arxiv.org/abs/2608.20390) · M Waleed Kadous, Amr Elsayed, Abdullah Al Nahas et al.
+- [Governance Gaps in Agent Interoperability Protocols: What MCP, A2A, and ACP Cannot Express](https://arxiv.org/abs/2606.31498) · Richard Kang, Yudho Diponegoro
+- [Securing the AI Agent: A Unified Framework for Multi-Layer Agent Red Teaming](https://arxiv.org/abs/2606.31227) · Yong Yang, Xing Zheng, Huiyu Wu et al.
+- [MCP Server Architecture Patterns for LLM-Integrated Applications](https://arxiv.org/abs/2606.30317) · Carson Rodrigues, Oysturn Vas
 - [From Tool Connection to Execution Control: Benchmarking Security Invariants in MCP-Style Agent Runtimes](https://arxiv.org/abs/2606.29073) · Ting Liu
-- [A hardware-safety-gated system for LLM-written native ARTIQ control code on a trapped-ion platform](https://arxiv.org/abs/2606.27231) · Duanyang Wang, Lu Qi, Yuanheng Xie et al.
+- [LAMP: Lean-based Agentic framework with MCP and Proof Repair](https://arxiv.org/abs/2606.28841) · Santhana Srinivasan R, Maithilee Patawar
+- [ShareLock: A Stealthy Multi-Tool Threshold Poisoning Attack Against MCP](https://arxiv.org/abs/2606.27027) · Liwei Liu, Tianzhu Han, Zijian Liu et al.
+- [Agent Seer: Synthesizing Scenarios from Specification Understanding](https://arxiv.org/abs/2608.26133) · Harish Karumuri, Mahesh Vemula, David Lopes Pegna
+- [The Web4 Agent Economy: A Large-Scale Empirical Study of the Landscape, Challenges, and Opportunities](https://arxiv.org/abs/2606.25876) · Yuhan Jin, Shuohan Wu, Chong Chen et al.
+- [Smallholder Farmers on Remote Islands Receiving Retrieval-Grounded Multilingual LLM Assistance and Agronomic Advice](https://arxiv.org/abs/2606.25647) · Nikolaos D. Tantaroudas, Ilias Karachalios, Andrew J. McCracken
+- [Agents Don't Paginate: First-Chunk Selection for LLM Tool Responses](https://arxiv.org/abs/2608.26130) · Tatiana Petrova, Andrei Mazniak, Radu State
 - [The Hitchhiker's Guide to Agentic AI: From Foundations to Systems](https://arxiv.org/abs/2606.24937) · Haggai Roitman
+- ["What Happens Locally, Leaks Globally": Detecting Privacy Leakage Risks in MCP Servers](https://arxiv.org/abs/2606.21338) · Biwei Yan, Minghui Xu, Yijun Yang et al.
+- [Context-Aware Generative AI for Automated Telecom Test Script Generation](https://arxiv.org/abs/2606.21151) · Gautam Prasad, Chandramohan T. N., Joy Bose
+- [Teaching Software Engineering with LLM and MCP Integration: From Classroom to Industry Practice](https://arxiv.org/abs/2606.19167) · Kehui Chen, Jacky Keung, Weining Li et al.
 - [ProvenanceGuard: Source-Aware Factuality Verification for MCP-Based LLM Agents](https://arxiv.org/abs/2606.18037) · Ander Alvarez, Santhiya Rajan, Alessandro Genuardi et al.
 - [Pepti-Agent: An AI Agent for Peptide Design and Optimization](https://arxiv.org/abs/2606.15422) · Houxu Chen, Achuth Chandrasekhar, Amir Barati Farimani
+- [PrologMCP: A Standardized Prolog Tool Interface for LLM Agents](https://arxiv.org/abs/2606.14935) · Agnieszka Mensfelt, Adarsh Prabhakaran, Adrian Haret et al.
 - [PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents](https://arxiv.org/abs/2606.12329) · Ripon Chandra Malo, Tong Qiu
+- [Agents All the Way Down; A Methodology for Building Custom AI Agents from Substrate to Production](https://arxiv.org/abs/2606.11869) · Marc Alier Forment, Juanan Pereira, Francisco José García-Peñalvo et al.
 - [Game-Theoretic Multi-Agent Control for Robust Contextual Reasoning in LLMs](https://arxiv.org/abs/2606.10322) · Saeid Jamshidi, Amin Nikanjam, Arghavan Moradi Dakhel et al.
+- [Less Context, Better Agents: Efficient Context Engineering for Long-Horizon Tool-Using LLM Agents](https://arxiv.org/abs/2606.10209) · Abhilasha Lodha, Mahsa Pahlavikhah Varnosfaderani, Abir Chakraborty et al.
+- [Understanding How Enterprises Adopt the Model Context Protocol for LLM-Driven Software Engineering](https://arxiv.org/abs/2606.09182) · Kehui Chen, Yicheng Sun, Jacky Keung et al.
 - [VATS: Exploiting Implicit Authority in Error-Path Injection via Systematic Mutation](https://arxiv.org/abs/2606.07992) · Harshil Patel, Kunal Pai
 - [From Privacy to Workflow Integrity: Communication-Graph Metadata in Autonomous Agent Interoperability](https://arxiv.org/abs/2606.07150) · Bijaya Dangol
+- [The Custody Envelope Threshold: Authority-Scaled Admission of External Artifacts in Institutional Infrastructure](https://arxiv.org/abs/2606.06767) · Amadeus Brandes
 - [Queen-Bee Agents: A BeeSpec-Centered Architecture for Governed Enterprise MCP Orchestration](https://arxiv.org/abs/2606.06545) · Dutao Zhang, Liaotian
+- [TokenMizer: Graph-Structured Session Memory for Long-Horizon LLM Context Management](https://arxiv.org/abs/2606.06337) · Shweta Mishra
+- [A Taxonomy of Runtime Faults in Model Context Protocol Servers](https://arxiv.org/abs/2606.05339) · Joshua Owotogbe, Indika Kumara, Antonio Ken Iannillo et al.
+- [Description-Code Inconsistency in Real-world MCP Servers: Measurement, Detection, and Security Implications](https://arxiv.org/abs/2606.04769) · Yutao Shi, Xiaohan Zhang, Xiangjing Zhang et al.
+- [Beyond Prompt-Based Planning: MCP-Native Graph Planning-based Biomedical Agent System](https://arxiv.org/abs/2606.04494) · Zhangtianyi Chen, Florensia Widjaja, Wufei Dai et al.
+- [Synthesize and Reward -- Reinforcement Learning for Multi-Step Tool Use in Live Environments](https://arxiv.org/abs/2606.03892) · Ibrahim Abdelaziz, Asim Munawar, Kinjal Basu et al.
+- [LAP: An Agent-to-Instrument Protocol for Autonomous Science](https://arxiv.org/abs/2606.03755) · Linwu Zhu, Liqiang Gao, Yan Chen et al.
 - [OpenAgenet / OAN Yellow Paper: Technical Architecture for Trust-Governed Resource Identity and Discovery](https://arxiv.org/abs/2606.03163) · Jinliang Xu
 - [OpenAgenet / OAN White Paper: Open Infrastructure for Trusted Agent Interconnection](https://arxiv.org/abs/2606.03161) · Jinliang Xu
+- [Capability Advertisement as a Market for Lemons: A Trust Layer for Heterogeneous Agent Networks](https://arxiv.org/abs/2606.03034) · Gaurav Naresh Mittal
+- [Reproducibility is the New Copyleft: Defining AGI-oriented Reproducible Builds](https://arxiv.org/abs/2606.03019) · Masayuki Hatta
+- [MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation](https://arxiv.org/abs/2606.02470) · Wenhao Wang, Peizhi Niu, Gongyi Zou et al.
+- [Scaling Agentic Capabilities via Grounded Interaction Synthesis](https://arxiv.org/abs/2606.02001) · Wenhang Shi, Jinhao Dong, Yiren Chen et al.
+- [SafeMCP: Proactive Power Regulation for LLM Agent Defense via Environment-Grounded Look-Ahead Reasoning](https://arxiv.org/abs/2606.01991) · Lichao Wang, Zhaoxing Ren, Tianzhuo Yang et al.
 
-## May 2026 (13)
+## May 2026 (48)
 
+- [memorywire: A Vendor-Neutral Wire Format for Agent Memory Operations](https://arxiv.org/abs/2606.01138) · Thamilvendhan Munirathinam
+- [SS-ZKR: Spatial-Semantic Zero-Knowledge Routing for Privacy-Preserving Multi-Agent Collaboration](https://arxiv.org/abs/2606.00962) · Hassan Touheed
+- [An Organization-Scoped LLM Agent Runtime Architecture for Regulated Cybersecurity Operations](https://arxiv.org/abs/2605.30604) · George Fatouros, Georgios Makridis, George Kousiouris et al.
+- [mcp-proto-okn: Natural-language access to open scientific knowledge graphs through the Model Context Protocol](https://arxiv.org/abs/2605.30283) · Peter W. Rose, Benjamin M. Good, Amanda M. Saravia-Butler et al.
+- [Indexing the Unreadable: LLM-Native Recursive Construction and Search of Service Taxonomies](https://arxiv.org/abs/2605.29270) · Wei Zheng, Yang Yan, Yiyang Shao et al.
+- [AIRGuard: Guarding Agent Actions with Runtime Authority Control](https://arxiv.org/abs/2605.28914) · Suliu Qin, Haomin Zhuang, Yujun Zhou et al.
+- [DeltaMCP: Incremental Regeneration via Spec-Aware Transformation for MCP servers](https://arxiv.org/abs/2605.28148) · Aditya Pujara, Xiaogang Zhu, Hsiang-Ting Chen
+- [TCP-MCP: Landscape-Guided Co-Evolution of Prompts and Communication Topologies for Multi-Agent Systems](https://arxiv.org/abs/2605.27850) · Yi Ding, Zijie Xuan, Haowei Zhou et al.
+- [Decoupled Intelligence: A Multi-Agent LLM Framework for Controllable Traffic Scenario Generation in SUMO](https://arxiv.org/abs/2605.27685) · Shuyang Li, Ruimin Ke
 - [Device Context Protocol: A Compact, Safety-First Architecture for LLM-Driven Control of Constrained Devices](https://arxiv.org/abs/2605.26159) · Dongxu Yang
+- [The Open Source Economic Index of AI Adoption and Capability](https://arxiv.org/abs/2606.26118) · Seamus Somerstep, Aritra Guha, Divesh Srivastava et al.
+- [Attested Tool-Server Admission: A Security Extension to the Model Context Protocol](https://arxiv.org/abs/2605.24248) · Alfredo Metere
+- [When the Manual Lies: A Realistic Benchmark to Evaluate MCP Poisoning Attacks for LLM Agents](https://arxiv.org/abs/2605.24069) · Shi Liu, Xuehai Tang, Xikang Yang et al.
+- [HarnessAPI: A Skill-First Framework for Unified Streaming APIs and MCP Tools](https://arxiv.org/abs/2605.22733) · Edwin Jose
+- [Contractual Skills: A GovernSpec Design Framework for Enterprise AI Agents](https://arxiv.org/abs/2605.22634) · Ting Liu
+- [A First Measurement Study on Authentication Security in Real-World Remote MCP Servers](https://arxiv.org/abs/2605.22333) · Huijun Zhou, Xiaohan Zhang, Haozhe Zhang et al.
+- [AiraXiv: An AI-Driven Open-Access Platform for Human and AI Scientists](https://arxiv.org/abs/2605.21481) · Junshu Pan, Panzhong Lu, Yixuan Weng et al.
+- [VIPER-MCP: Detecting and Exploiting Taint-Style Vulnerabilities in Model Context Protocol Servers](https://arxiv.org/abs/2605.21392) · Pengyu Sun, Zifeng Kang, Qishu Jin et al.
 - [Formal Skill: Programmable Runtime Skills for Efficient and Accurate LLM Agents](https://arxiv.org/abs/2605.19604) · Xi Zhang, Meijun Gao, Yuntian Zhao et al.
+- [Prompts Don't Protect: Architectural Enforcement via MCP Proxy for LLM Tool Access Control](https://arxiv.org/abs/2605.18414) · Rohith Uppala
+- [ADR: An Agentic Detection System for Enterprise Agentic AI Security](https://arxiv.org/abs/2605.17380) · Chenning Li, Pan Hu, Justin Xu et al.
+- [ColPackAgent: Agent-Skill-Guided Hard-Particle Monte Carlo Workflows for Colloidal Packing](https://arxiv.org/abs/2605.15625) · Lijie Ding, Changwoo Do
+- [Making OpenAPI Documentation Agent-Ready: Detecting Documentation and REST Smells with a Multi-Agent LLM System](https://arxiv.org/abs/2605.14312) · Rayfran Rocha Lima, Davi G. Assunção Pinheiro, Thiago Medeiros de Menezes
 - [NIMO Controller: a self-driving laboratory orchestrator based on the Model Context Protocol](https://arxiv.org/abs/2605.15227) · Naruki Yoshikawa, Ryo Tamura
 - [VectraYX-Nano: A 42M-Parameter Spanish Cybersecurity Language Model with Curriculum Learning and Native Tool Use](https://arxiv.org/abs/2605.13989) · Juan S. Santillana
+- [Grid-Orch: An LLM-Powered Orchestrator for Distribution Grid Simulation and Analytics](https://arxiv.org/abs/2605.12728) · Boming Liu, Jin Dong, Jianming Lian
 - [LychSim: A Controllable and Interactive Simulation Framework for Vision Research](https://arxiv.org/abs/2605.12449) · Wufei Ma, Chloe Wang, Siyi Chen et al.
+- [State Twins: An Off-Chain Substrate for Agentic Reasoning over Decentralized Finance Protocols](https://arxiv.org/abs/2605.11522) · Ian C. Moore
+- [CTFusion: A CTF-based Benchmark for LLM Agent Evaluation](https://arxiv.org/abs/2605.11504) · Dongjun Lee, Ga-eun Bae, Insu Yun
+- [Options, Not Clicks: Lattice Refinement for Consent-Driven MCP Authorization](https://arxiv.org/abs/2605.11360) · Ying Li, Yanju Chen, Peiran Wang et al.
+- [Training-Free Refusal of MCP Exploits via Retrieval-Augmented Generation](https://arxiv.org/abs/2605.11217) · John T. Halloran
+- [Content-Aware Attack Detection in LLM Agent Tool-Call Traffic: An Empirical Study of Features, Architectures, and Evaluation Protocols](https://arxiv.org/abs/2605.11053) · Sultan Zavrak
+- [ComplexMCP: Evaluation of LLM Agents in Dynamic, Interdependent, and Large-Scale Tool Sandbox](https://arxiv.org/abs/2605.10787) · Yuanyang Li, Xue Yang, Longyue Wang et al.
+- [Merlin: Deterministic Byte-Exact Deduplication for Lossless Context Optimization in Large Language Model Inference](https://arxiv.org/abs/2605.09990) · Sietse Schelpe
+- [Evaluating Tool Cloning in Agentic-AI Ecosystems](https://arxiv.org/abs/2605.09817) · Taein Kim, David Jiang, Yuepeng Hu et al.
+- [Open Ontologies: Tool-Augmented Ontology Engineering with Stable Matching Alignment](https://arxiv.org/abs/2605.09184) · Fabio Rovai
+- [MCP-Cosmos: World Model-Augmented Agents for Complex Task Execution in MCP Environments](https://arxiv.org/abs/2605.09131) · Giridhar Ganapavarapu, Dhaval Patel
 - [Octopus Protocol: One-Shot Hardware Discovery and Control for AI Agents via Infrastructure-as-Prompts](https://arxiv.org/abs/2605.09055) · Quilee Simeon, Justin M. Wei, Yile Fan
 - [Unsafe by Flow: Uncovering Bidirectional Data-Flow Risks in MCP Ecosystem](https://arxiv.org/abs/2605.07836) · Xinyi Hou, Yanjie Zhao, Haoyu Wang
 - [SecureMCP: A Policy-Enforced LLM Data Access Framework for AIoT Systems via Model Context Protocol](https://arxiv.org/abs/2605.05260) · Wonbae Kim, Hee-Kyong Yoo
+- [AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use](https://arxiv.org/abs/2605.04785) · Chenglin Yang
 - [CP$^2$N$^2$: A Control Plane for Heterogeneous Physical Neural Networks](https://arxiv.org/abs/2605.04256) · Stefan Fischer, Maliheh Hariri, Sebastian Otte
 - [Say the Mission, Execute the Swarm: Agent-Enhanced LLM Reasoning in the Web-of-Drones](https://arxiv.org/abs/2605.03788) · Andrea Iannoli, Lorenzo Gigli, Luca Sciullo et al.
+- [DADL: A Declarative Description Language for Enterprise Tool Libraries in LLM Agent Systems](https://arxiv.org/abs/2605.05247) · Axel Dunkel
 - [When Agents Handle Secrets: A Survey of Confidential Computing for Agentic AI](https://arxiv.org/abs/2605.03213) · Javad Forough, Marios Kogias, Hamed Haddadi
 - [Tool Use as Action: Towards Agentic Control in Mobile Core Networks](https://arxiv.org/abs/2605.02811) · Purna Sai Garigipati, Onur Ayan, Kishor Chandra Joshi et al.
+- [NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science](https://arxiv.org/abs/2605.02092) · Bing Zhou, Xiao Huang, Huan Ning et al.
 - [Feedback-Normalized Developer Memory for Reinforcement-Learning Coding Agents: A Safety-Gated MCP Architecture](https://arxiv.org/abs/2605.01567) · Mehmet Iscan
 
-## April 2026 (14)
+## April 2026 (43)
 
+- [Exploring LLM Agent Designs and Interaction Modalities for Scientific Visualization](https://arxiv.org/abs/2604.27996) · Jackson Vonderhorst, Kuangshi Ai, Haichao Miao et al.
+- [MCPHunt: An Evaluation Framework for Cross-Boundary Data Propagation in Multi-Server MCP Agents](https://arxiv.org/abs/2604.27819) · Haonan Li, Tianjun Sun, Yongqing Wang et al.
 - [Autonomous Traffic Signal Optimization Using Digital Twin and Agentic AI for Real-Time Decision-Making](https://arxiv.org/abs/2604.27753) · Salman Jan, Toqeer Ali Syed, Shahid Kamal et al.
 - [From CRUD to Autonomous Agents: Formal Validation and Zero-Trust Security for Semantic Gateways in AI-Native Enterprise Systems](https://arxiv.org/abs/2604.25555) · Ignacio Peyrano
+- [Cutscene Agent: An LLM Agent Framework for Automated 3D Cutscene Generation](https://arxiv.org/abs/2604.25318) · Lanshan He, Haozhou Pang, Qi Gan et al.
+- [Agentic Witnessing: Pragmatic and Scalable TEE-Enabled Privacy-Preserving Auditing](https://arxiv.org/abs/2604.24203) · Antony Rowstron
 - [An Agentic Framework for Intent Co-Creation in 6G NaaS: Architecture and Open-Source Model Evaluation](https://arxiv.org/abs/2604.23288) · Kostis Trantzas, Besiana Agko, Christos Tranoris et al.
+- [Towards Agentic Test-Driven Quality Assurance for 6G Networks](https://arxiv.org/abs/2604.23285) · Christos Tranoris, Besiana Agko, Kostis Trantzas et al.
+- [Tool Attention Is All You Need: Dynamic Tool Gating and Lazy Schema Loading for Eliminating the MCP/Tools Tax in Scalable Agentic Workflows](https://arxiv.org/abs/2604.21816) · Anuj Sadani, Deepak Kumar
 - [MCP Pitfall Lab: Exposing Developer Pitfalls in MCP Tool Server Security under Multi-Vector Attacks](https://arxiv.org/abs/2604.21477) · Run Hao, Zhuoran Tan
+- [Breaking MCP with Function Hijacking Attacks: Novel Threats for Function Calling and Agentic Models](https://arxiv.org/abs/2604.20994) · Yannis Belkhiter, Giulio Zizzo, Sergio Maffeis et al.
 - [YAIFS: Yet (not) Another Intelligent Fog Simulator: A Framework for Agent-Driven Computing Continuum Modeling & Simulation](https://arxiv.org/abs/2604.19181) · Isaac Lera, Carlos Guerrero
+- [How Adversarial Environments Mislead Agentic AI?](https://arxiv.org/abs/2604.18874) · Zhonghao Zhan, Huichi Zhou, Zhenhao Li et al.
 - [Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence](https://arxiv.org/abs/2604.18292) · Guanting Dong, Junting Lu, Junjie Huang et al.
+- [WebCompass: Towards Multimodal Web Coding Evaluation for Code Language Models](https://arxiv.org/abs/2604.18224) · Xinping Lei, Xinyu Che, Junqi Xiong et al.
+- [From Language to Action: Enhancing LLM Task Efficiency with Task-Aware MCP Server Recommendation](https://arxiv.org/abs/2604.17234) · Shiyu He, Zhiman Chen, Yuqi Zhao et al.
+- [Evaluating a Layered Prompt-Injection Defence for the Model Context Protocol: A Record-Level Audit of Decision Conventions, Corpus Provenance and Reproducibility](https://arxiv.org/abs/2604.17125) · İpek Abasıkeleş Turgut, Edip Gümüş
+- [Workstream: A Local-First Developer Command Center for the AI-Augmented Engineering Workflow](https://arxiv.org/abs/2604.17055) · Happy Bhati
+- [Skilldex: A Package Manager and Registry for Agent Skill Packages with Hierarchical Scope-Based Distribution](https://arxiv.org/abs/2604.16911) · Sampriti Saha, Pranav Hemanth
+- [Governed MCP: Kernel-Level Tool Governance for AI Agents via Logit-Based Safety Primitives](https://arxiv.org/abs/2604.16870) · Daeyeon Son
 - [enclawed: A Configurable, Sector-Neutral Hardening Framework for Single-User AI Assistant Gateways](https://arxiv.org/abs/2604.16838) · Alfredo Metere
+- [Long-Term Memory for VLA-based Agents in Open-World Task Execution](https://arxiv.org/abs/2604.15671) · Xu Huang, Weixin Mao, Yinhao Li et al.
 - [RegNetAgents: A Multi-Agent Framework for Cross-Network Regulatory Driver Identification in Cancer Genomics](https://arxiv.org/abs/2607.14097) · Jose A. Bird
+- [Anumati: Proof of Adherence as a Formal Consent Model for Autonomous Agent Protocols](https://arxiv.org/abs/2604.16524) · Ravi Kiran Kadaboina
+- [SpaceMind: A Modular and Self-Evolving Embodied Vision-Language Agent Framework for Autonomous On-orbit Servicing](https://arxiv.org/abs/2604.14399) · Aodi Wu, Haodong Han, Xubo Luo et al.
+- [MCPThreatHive: Automated Threat Intelligence for Model Context Protocol Ecosystems](https://arxiv.org/abs/2604.13849) · Yi Ting Shen, Kentaroh Toyoda, Alex Leung
+- [Coding-Free and Privacy-Preserving Agentic Framework for Data-Driven Clinical Research](https://arxiv.org/abs/2604.12258) · Taehun Kim, Hyeryun Park, Hyeonhoon Lee et al.
+- [Resilient Write: A Six-Layer Durable Write Surface for LLM Coding Agents](https://arxiv.org/abs/2604.10842) · Justice Owusu Agyemang, Jerry John Kponyo, Elliot Amponsah et al.
+- [Machine Learning-Based Detection of MCP Attacks](https://arxiv.org/abs/2604.10534) · Tobias Mattsson, Samuel Nyberg, Anton Borg et al.
+- [Agentic Application in Power Grid Static Analysis: Automatic Code Generation and Error Correction](https://arxiv.org/abs/2604.09995) · Qinjuan Wang, Shan Yang, Yongli Zhu
+- [EE-MCP: Self-Evolving MCP-GUI Agents via Automated Environment Generation and Experience Learning](https://arxiv.org/abs/2604.09815) · Tiantian He, Yihang Chen, Keyue Jiang et al.
 - [MPAC: A Multi-Principal Agent Coordination Protocol for Interoperable Multi-Agent Collaboration](https://arxiv.org/abs/2604.09744) · Kaiyang Qian, Xinmin Fang, Zhengxiong Li
+- [RemoteAgent: Bridging Vague Human Intents and Earth Observation with RL-based Agentic MLLMs](https://arxiv.org/abs/2604.07765) · Liang Yao, Shengxiang Xu, Fan Liu et al.
+- [Multi-Agent Orchestration for High-Throughput Materials Screening on a Leadership-Class System](https://arxiv.org/abs/2604.07681) · Thang Duc Pham, Harikrishna Tummalapalli, Fakhrul Hasan Bhuiyan et al.
 - [MCP-DPT: A Defense-Placement Taxonomy and Coverage Analysis for Model Context Protocol Security](https://arxiv.org/abs/2604.07551) · Mehrdad Rostamzadeh, Sidhant Narula, Nahom Birhan et al.
 - [Agent-Driven Corpus Linguistics: A Framework for Autonomous Linguistic Discovery](https://arxiv.org/abs/2604.07189) · Jia Yu, Weiwei Yu, Pengfei Xiao et al.
 - [Trust-as-a-Service: Intelligent Collaboration Orchestration via Model Context Protocol-Aided Agentic AI](https://arxiv.org/abs/2604.07065) · Botao Zhu, Xianbin Wang
 - [Flowr -- Scaling Up Retail Supply Chain Operations Through Agentic AI in Large Scale Supermarket Chains](https://arxiv.org/abs/2604.05987) · Eranga Bandara, Ross Gore, Sachin Shetty et al.
 - [A Formal Security Framework for MCP-Based AI Agents: Threat Taxonomy, Verification Models, and Defense Mechanisms](https://arxiv.org/abs/2604.05969) · Nirajan Acharya, Gaurav Kumar Gupta
+- [LanG -- A Governance-Aware Agentic AI Platform for Unified Security Operations](https://arxiv.org/abs/2604.05440) · Anes Abdennebi, Nadjia Kara, Laaziz Lahlou et al.
+- [PolyJarvis: An LLM-Orchestrated Agent for Automated All-Atom Molecular Dynamics of Amorphous Homopolymers](https://arxiv.org/abs/2604.02537) · Alexander Zhao, Achuth Chandrasekhar, Amir Barati Farimani
+- [From Component Manipulation to System Compromise: Understanding and Detecting Malicious MCP Servers](https://arxiv.org/abs/2604.01905) · Yiheng Huang, Zhijia Zhao, Bihuan Chen et al.
+- [PHMForge: Evaluating LLM Agents on Industrial Prognostics through MCP-Native, Algorithm-Grounded Tools](https://arxiv.org/abs/2604.01532) · Yusheng Li, Tianjun Feng, Yunfeng Chen et al.
 
-## March 2026 (9)
+## March 2026 (46)
 
+- [Terminal Agents Suffice for Enterprise Automation](https://arxiv.org/abs/2604.00073) · Patrice Bechard, Orlando Marquez Ayala, Emily Chen et al.
+- [Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research](https://arxiv.org/abs/2603.28986) · Martin Legrand, Tao Jiang, Matthieu Feraud et al.
+- [Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP](https://arxiv.org/abs/2603.27277) · Martin Vogel, Falk Meyer-Eschenbach, Severin Kohler et al.
+- [Sovereign Context Protocol: An Open Attribution Layer for Human-Generated Content in the Age of Large Language Models](https://arxiv.org/abs/2603.27094) · Praneel Panchigar, Torlach Rush, Matthew Canabarro
+- [AVDA: Autonomous Vibe Detection Authoring for Cybersecurity](https://arxiv.org/abs/2603.25930) · Fatih Bulut, Carlo DePaolis, Raghav Batta et al.
+- [FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol](https://arxiv.org/abs/2603.24943) · Jie Zhu, Yimin Tian, Boyang Li et al.
+- [Bridging Code Property Graphs and Language Models for Program Analysis](https://arxiv.org/abs/2603.24837) · Ahmed Lekssays
+- [AIP: Agent Identity Protocol for Verifiable Delegation Across MCP and A2A](https://arxiv.org/abs/2603.24775) · Sunil Prakash
+- [Formal Semantics for Agentic Tool Protocols: A Process Calculus Approach](https://arxiv.org/abs/2603.24747) · Andreas Schlapbach
 - [IndustriConnect: MCP Adapters and Mock-First Evaluation for AI-Assisted Industrial Operations](https://arxiv.org/abs/2603.24703) · Melwin Xavier, Melveena Jolly, Vaisakh M A et al.
 - [Invisible Threats from Model Context Protocol: Generating Stealthy Injection Payload via Tree-based Adaptive Search](https://arxiv.org/abs/2603.24203) · Yulin Shen, Xudong Pan, Geng Hong et al.
 - [RoboHarness: A Memory-Augmented Policy Harness for Vision-Language-Action Model Robustness via In-Context Adaptation](https://arxiv.org/abs/2603.24060) · Zhuoran Li, Zhiyang Li, Kaijun Zhou et al.
+- [How are AI agents used? Evidence from 177,000 MCP tools](https://arxiv.org/abs/2603.23802) · Merlin Stein
+- [Agent Audit: A Security Analysis System for LLM Agent Applications](https://arxiv.org/abs/2603.22853) · Haiyue Zhang, Yi Nian, Yue Zhao
 - [STRIATUM-CTF: A Protocol-Driven Agentic Framework for Autonomous CTF Solving](https://arxiv.org/abs/2603.22577) · James Hugglestone, Samuel Jacob Chacko, Dawson Stoller et al.
+- [Model Context Protocol Threat Modeling and Analyzing Vulnerabilities to Prompt Injection with Tool Poisoning](https://arxiv.org/abs/2603.22489) · Charoes Huang, Xin Huang, Ngoc Phu Tran et al.
+- [Are AI-assisted Development Tools Immune to Prompt Injection?](https://arxiv.org/abs/2603.21642) · Charoes Huang, Xin Huang, Amin Milani Fard
+- [Auditing MCP Servers for Over-Privileged Tool Capabilities](https://arxiv.org/abs/2603.21641) · Charoes Huang, Xin Huang, Amin Milani Fard
+- [EnterpriseLab: A Full-Stack Platform for developing and deploying agents in Enterprises](https://arxiv.org/abs/2603.21630) · Ankush Agarwal, Harsh Vishwakarma, Suraj Nagaje et al.
+- [STEM Agent: A Self-Adapting, Tool-Enabled, Extensible Architecture for Multi-Protocol AI Agent Systems](https://arxiv.org/abs/2603.22359) · Alfred Shen, Aaron Shen
+- [T-MAP: Red-Teaming LLM Agents with Trajectory-aware Evolutionary Search](https://arxiv.org/abs/2603.22341) · Hyomin Lee, Sangwoo Park, Yumin Choi et al.
+- [Putnam 2025 Problems in Rocq using Opus 4.6 and Rocq-MCP](https://arxiv.org/abs/2603.20405) · Guillaume Baudart, Marc Lelarge, Tristan Stérin et al.
+- [Bypassing Document Ingestion: An MCP Approach to Financial Q&A](https://arxiv.org/abs/2603.20316) · Sasan Mansouri, Edoardo Pilla, Mark Wahrenburg et al.
+- [Semantic Tool Discovery for Large Language Models: A Vector-Based Approach to MCP Tool Selection](https://arxiv.org/abs/2603.20313) · Sarat Mudunuri, Jian Wan, Ally Qin et al.
+- [MCP-38: A Comprehensive Threat Taxonomy for Model Context Protocol Systems (v1.0)](https://arxiv.org/abs/2603.18063) · Yi Ting Shen, Kentaroh Toyoda, Alex Leung
+- [citecheck: An MCP Server for Automated Bibliographic Verification and Repair in Scholarly Manuscripts](https://arxiv.org/abs/2603.17339) · Junhyeok Lee
+- [Open Biomedical Knowledge Graphs at Scale: Construction, Federation, and AI Agent Access with Samyama Graph Database](https://arxiv.org/abs/2603.15080) · Madhulatha Mandarapu, Sandeep Kunkunuru
+- [From Natural Language to PromQL: A Catalog-Driven Framework with Dynamic Temporal Resolution for Cloud-Native Observability](https://arxiv.org/abs/2604.13048) · Twinkll Sisodia
+- [Separating Intelligence from Execution: A Workflow Engine for the Model Context Protocol](https://arxiv.org/abs/2605.00827) · Abhinav Singh Parmar
+- [Bridging Protocol and Production: Design Patterns for Deploying AI Agents with Model Context Protocol](https://arxiv.org/abs/2603.13417) · Vasundra Srinivasan
+- [Simulation-in-the-Reasoning (SiR): A Conceptual Framework for Empirically Grounded AI in Autonomous Transportation](https://arxiv.org/abs/2603.10294) · Wuping Xin
+- [MCP-in-SoS: Risk assessment framework for open-source MCP servers](https://arxiv.org/abs/2603.10194) · Pratyay Kumar, Miguel Antonio Guirao Aguilera, Srikathyayani Srikanteswara et al.
+- [Compatibility at a Cost: Systematic Discovery and Exploitation of MCP Clause-Compliance Vulnerabilities](https://arxiv.org/abs/2603.10163) · Nanzi Yang, Weiheng Bai, Kangjie Lu
 - [AgenticCyOps: Securing Multi-Agentic AI Integration in Enterprise Cyber Operations](https://arxiv.org/abs/2603.09134) · Shaswata Mitra, Raj Patel, Sudip Mittal et al.
+- [From Days to Minutes: An Autonomous AI Agent Achieves Reliable Clinical Triage in Remote Patient Monitoring](https://arxiv.org/abs/2603.09052) · Seunghwan Kim, Tiffany H. Kung, Heena Verma et al.
+- [Coverage-Guided Multi-Agent Harness Generation for Java Library Fuzzing](https://arxiv.org/abs/2603.08616) · Nils Loose, Nico Winkel, Kristoffer Hempel et al.
+- [LeJOT-AutoML: LLM-Driven Feature Engineering for Job Execution Time Prediction in Databricks Cost Optimization](https://arxiv.org/abs/2603.07897) · Lizhi Ma, Yi-Xiang Hu, Yihui Ren et al.
+- [Give Them an Inch and They Will Take a Mile:Understanding and Measuring Caller Identity Confusion in MCP-Based AI Systems](https://arxiv.org/abs/2603.07473) · Yuhang Huang, Boyang Ma, Biwei Yan et al.
 - [Turn: A Language for Agentic Computation](https://arxiv.org/abs/2603.08755) · Muyukani Kizito
+- [Agentic LLM Planning via Step-Wise PDDL Simulation: An Empirical Characterisation](https://arxiv.org/abs/2603.06064) · Kai Göbel, Pierrick Lorang, Patrik Zips et al.
+- [Real Faults in Model Context Protocol (MCP) Software: a Comprehensive Taxonomy](https://arxiv.org/abs/2603.05637) · Mina Taraghi, Mohammad Mehdi Morovati, Foutse Khomh
 - [VDCook:DIY video data cook your MLLMs](https://arxiv.org/abs/2603.05539) · Chengwei Wu
 - [ORION: Intent-Aware Orchestration in Open RAN for SLA-Driven Network Management](https://arxiv.org/abs/2603.03667) · Gabriela da Silva Machado, Gustavo Z. Bruno, Alexandre Huff et al.
 - [REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry](https://arxiv.org/abs/2603.03018) · Yuvraj Agrawal
+- [Catalyst-Agent: Autonomous heterogeneous catalyst screening with an LLM Agent](https://arxiv.org/abs/2603.01311) · Achuth Chandrasekhar, Janghoon Ock, Amir Barati Farimani
+- [GeoMCP: A Trustworthy Framework for AI-Assisted Analytical Geotechnical Engineering](https://arxiv.org/abs/2603.01022) · Yared W. Bekele
 
-## February 2026 (10)
+## February 2026 (35)
 
 - [The Auton Agentic AI Framework](https://arxiv.org/abs/2602.23720) · Sheng Cao, Zhao Chang, Chang Li et al.
+- [IDP Accelerator: Agentic Document Intelligence from Extraction to Compliance Validation](https://arxiv.org/abs/2602.23481) · Md Mofijul Islam, Md Sirajus Salekin, Joe King et al.
+- [AdapTools: Adaptive Tool-based Indirect Prompt Injection Attacks on Agentic LLMs](https://arxiv.org/abs/2602.20720) · Che Wang, Jiaming Zhang, Ziqi Zhang et al.
 - [AWCP: A Workspace Delegation Protocol for Deep-Engagement Collaboration across Remote Agents](https://arxiv.org/abs/2602.20493) · Xiaohang Nie, Zihan Guo, Youliang Chen et al.
+- [CT-Flow: Orchestrating CT Interpretation Workflow with Model Context Protocol Servers](https://arxiv.org/abs/2603.00123) · Yannian Gu, Xizhuo Zhang, Linjie Mu et al.
 - [Agentic AI for Scalable and Robust Optical Systems Control](https://arxiv.org/abs/2602.20144) · Zehao Wang, Mingzhe Han, Wei Cheng et al.
+- [CodeCompass: Navigating the Navigation Paradox in Agentic Code Intelligence](https://arxiv.org/abs/2602.20048) · Tarakanath Paipuru
+- [From Agent-Only Social Networks to Autonomous Scientific Research: Lessons from OpenClaw and Moltbook, and the Architecture of ClawdLab and Beach.Science](https://arxiv.org/abs/2602.19810) · Lukas Weidener, Marko Brkić, Phillip Lee et al.
+- [Security Risks of AI Agents Hiring Humans: An Empirical Marketplace Study](https://arxiv.org/abs/2602.19514) · Pulak Mehta
 - [Trustworthy AI LLM Scalability Risk Index (LSRI): A Cybersecurity Framework Assessing Agentic-AI Security & Software Model Supply Chain Safety Boosting AI-Generated Malware Defense & Explainability Mitigating Emerging Risks of Generative AI](https://arxiv.org/abs/2602.19021) · Kiarash Ahi, Vaibhav Agrawal, Saeed Valizadeh
 - [From Docs to Descriptions: Smell-Aware Evaluation of MCP Server Descriptions](https://arxiv.org/abs/2602.18914) · Peiran Wang, Ying Li, Yuqiang Sun et al.
+- [The Convergence of Schema-Guided Dialogue Systems and the Model Context Protocol](https://arxiv.org/abs/2602.18764) · Andreas Schlapbach
+- [SuperLocalMemory: Privacy-Preserving Multi-Agent Memory with Bayesian Trust Defense Against Memory Poisoning](https://arxiv.org/abs/2603.02240) · Varun Pratap Bhardwaj
+- [The Compute ICE-AGE: OPAL ONE, Continuity That Persists While Reasoning Is Idle](https://arxiv.org/abs/2602.16736) · R. Jay Martin
+- [From Tool Orchestration to Code Execution: A Study of MCP Design Choices](https://arxiv.org/abs/2602.15945) · Yuval Felendler, Parth A. Gandhi, Idan Habler et al.
 - [EAA: Automating materials characterization with vision language model agents](https://arxiv.org/abs/2602.15294) · Ming Du, Yanqi Luo, Srutarshi Banerjee et al.
+- [Model Context Protocol (MCP) Tool Descriptions Are Smelly! Towards Improving AI Agent Efficiency with Augmented MCP Tool Descriptions](https://arxiv.org/abs/2602.14878) · Mohammed Mehedi Hasan, Hao Li, Gopi Krishnan Rajbahadur et al.
+- [Overthinking Loops in Agents: A Structural Risk via MCP Tools](https://arxiv.org/abs/2602.14798) · Yohan Lee, Jisoo Jang, Seoyeon Choi et al.
 - [MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in Model Context Protocol Agents](https://arxiv.org/abs/2602.14281) · Zhenhong Zhou, Yuanhe Zhang, Hongwei Cai et al.
 - [AgentRob: From Virtual Forum Agents to Hijacked Physical Robots](https://arxiv.org/abs/2602.13591) · Wenrui Liu, Yaxuan Wang, Xun Zhang et al.
 - [Human Tool: An MCP-Style Framework for Human-Agent Collaboration](https://arxiv.org/abs/2602.12953) · Yuanrong Tang, Huiling Peng, Bingxi Zhao et al.
+- [Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward](https://arxiv.org/abs/2602.12430) · Renjun Xu, Yang Yan
+- [CausalAgent: A Conversational Multi-Agent System for End-to-End Causal Inference](https://arxiv.org/abs/2602.11527) · Jiawei Zhu, Wei Chen, Ruichu Cai
+- [Beyond Context Sharing: A Unified Agent Communication Protocol (ACP) for Secure, Federated, and Autonomous Agent-to-Agent (A2A) Orchestration](https://arxiv.org/abs/2602.15055) · Naveen Kumar Krishnan
+- [Security Threat Modeling for Emerging AI-Agent Protocols: A Comparative Analysis of MCP, A2A, Agora, and ANP](https://arxiv.org/abs/2602.11327) · Zeynab Anbiaee, Mahdi Rabbani, Mansur Mirani et al.
 - [Information Fidelity in Tool-Using LLM Agents: A Martingale Analysis of the Model Context Protocol](https://arxiv.org/abs/2602.13320) · Flint Xiaofeng Fan, Cheston Tan, Roger Wattenhofer et al.
+- [PeroMAS: A Multi-agent System of Perovskite Material Discovery](https://arxiv.org/abs/2602.13312) · Yishu Wang, Wei Liu, Yifan Li et al.
+- [AgentSkiller: Scaling Generalist Agent Intelligence through Semantically Integrated Cross-Domain Data Synthesis](https://arxiv.org/abs/2602.09372) · Zexu Sun, Bokai Ji, Hengyi Cai et al.
+- [Don't believe everything you read: Understanding and Measuring MCP Behavior under Misleading Tool Descriptions](https://arxiv.org/abs/2602.03580) · Zhihao Li, Boyang Ma, Xuelong Dai et al.
+- [Ontology-to-tools compilation for executable semantic constraint enforcement in LLM agents](https://arxiv.org/abs/2602.03439) · Xiaochi Zhou, Patrick Bulter, Changxuan Yang et al.
+- [Beyond Quantity: Trajectory Diversity Scaling for Code Agents](https://arxiv.org/abs/2602.03219) · Guhong Chen, Chenghao Sun, Cheng Fu et al.
+- [Internet of Agentic AI: Incentive-Compatible Distributed Teaming and Workflow](https://arxiv.org/abs/2602.03145) · Ya-Ting Yang, Quanyan Zhu
+- [Unmediated AI-Assisted Scholarly Citations](https://arxiv.org/abs/2602.01686) · Stefan Szeider
+- [S1-NexusAgent: a Self-Evolving Agent Framework for Multidisciplinary Scientific Research](https://arxiv.org/abs/2602.01550) · S1-NexusAgent Team
+- [SMCP: Secure Model Context Protocol](https://arxiv.org/abs/2602.01129) · Xinyi Hou, Shenao Wang, Yifan Zhang et al.
 
-## January 2026 (12)
+## January 2026 (30)
 
+- [MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers](https://arxiv.org/abs/2602.00933) · Chaithanya Bandi, Razvan-Gabriel Dumitru, Ben Hertzberg et al.
 - [Verifiable Manifest Signing and Transparency Enforcement for Secure MCP-Based LLM Pipelines](https://arxiv.org/abs/2601.23132) · Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel et al.
+- [MedMCP-Calc: Benchmarking LLMs for Realistic Medical Calculator Scenarios via MCP Integration](https://arxiv.org/abs/2601.23049) · Yakun Zhu, Yutong Huang, Shengqian Qin et al.
+- [MCP-Diag: A Deterministic, Protocol-Driven Architecture for AI-Native Network Diagnostics](https://arxiv.org/abs/2601.22633) · Devansh Lodha, Mohit Panchal, Sameer G. Kulkarni
+- [Securing AI Agents in Cyber-Physical Systems: A Survey of Environmental Interactions, Deepfake Threats, and Defenses](https://arxiv.org/abs/2601.20184) · Mohsen Hatami, Van Tuan Pham, Hozefa Lakadawala et al.
 - [An Agentic AI Control Plane for 6G Network Slice Orchestration, Monitoring, and Trading](https://arxiv.org/abs/2602.13227) · Eranga Bandara, Ross Gore, Sachin Shetty et al.
 - [OptAgent: an Agentic AI framework for Intelligent Building Operations](https://arxiv.org/abs/2601.20005) · Zixin Jiang, Weili Xu, Bing Dong
 - [Faramesh: A Protocol-Agnostic Execution Control Plane for Autonomous Agent Systems](https://arxiv.org/abs/2601.17744) · Amjad Fatmi
 - [Breaking the Protocol: Security Analysis of the Model Context Protocol Specification and Prompt Injection Vulnerabilities in Tool-Integrated LLM Agents](https://arxiv.org/abs/2601.17549) · Narek Maloyan, Dmitry Namiot
+- [Prompt Injection Attacks on Agentic Coding Assistants: A Systematic Analysis of Vulnerabilities in Skills, Tools, and Protocol Ecosystems](https://arxiv.org/abs/2601.17548) · Narek Maloyan, Dmitry Namiot
+- [Pipeline Inspection, Visualization, and Interoperability in PyTerrier](https://arxiv.org/abs/2601.17502) · Emmanouil Georgios Lionis, Craig Macdonald, Sean MacAvaney
+- [Towards a Declarative Agentic Layer for Intelligent Agents in MCP-Based Server Ecosystems](https://arxiv.org/abs/2601.17435) · Maria Jesus Rodriguez-Sanchez, Manuel Noguera, Angel Ruiz-Zafra et al.
 - [An LLM-Agnostic, MAVLink-Based Drone Command and Control Interface and Agentic Harness Using the Model Context Protocol](https://arxiv.org/abs/2601.15486) · Javier Noé Ramos Silva, Peter J. Burke
+- [FAME: QoS-aware Async Service Orchestration for Agentic Workflows](https://arxiv.org/abs/2601.14735) · Haseeb Abdullah Kollorath, Vaibhav Jha, Varad Kulkarni et al.
+- [Agentic SPARQL: Evaluating SPARQL-MCP-powered Intelligent Agents on the Federated KGQA Benchmark](https://arxiv.org/abs/2603.06582) · Daniel Dobriy, Frederik Bauer, Amr Azzam et al.
+- [The Orchestration of Multi-Agent Systems: Architectures, Protocols, and Enterprise Adoption](https://arxiv.org/abs/2601.13671) · Apoorva Adimulam, Rajesh Gupta, Sumit Kumar
+- [Vision Language Models for Optimization-Driven Intent Processing in Autonomous Networks](https://arxiv.org/abs/2601.12744) · Tasnim Ahmed, Yifan Zhu, Salimur Choudhury
 - [Agentic Artificial Intelligence (AI): Architectures, Taxonomies, and Evaluation of Large Language Model Agents](https://arxiv.org/abs/2601.12560) · Arunkumar V, Gangadharan G. R., Rajkumar Buyya
 - [AJAR: Adaptive Jailbreak Architecture for Red-teaming](https://arxiv.org/abs/2601.10971) · Yipu Dou, Wang Yang
+- [Beyond Max Tokens: Stealthy Resource Amplification via Tool Calling Chains in LLM Agents](https://arxiv.org/abs/2601.10955) · Kaiyu Zhou, Yongsen Zheng, Yicheng He et al.
+- [AI-NativeBench: An Open-Source White-Box Agentic Benchmark Suite for AI-Native Systems](https://arxiv.org/abs/2601.09393) · Zirui Wang, Guangba Yu, Michael R. Lyu
 - [Data Product MCP: Chat with your Enterprise Data](https://arxiv.org/abs/2601.08687) · Marco Tonnarelli, Filippo Scaramuzza, Simon Harrer et al.
+- [ACE-Router: Generalizing History-Aware Routing from MCP Tools to the Agent Web](https://arxiv.org/abs/2601.08276) · Zhiyuan Yao, Zishan Xu, Yifu Guo et al.
 - [Towards Verifiably Safe Tool Use for LLM Agents](https://arxiv.org/abs/2601.08012) · Aarya Doshi, Yining Hong, Congying Xu et al.
+- [MCP-ITP: An Automated Framework for Implicit Tool Poisoning in MCP](https://arxiv.org/abs/2601.07395) · Ruiqi Li, Zhiqiang Wang, Yunhao Yao et al.
+- [From Structured Graphs to Unstructured Evidence: Agentic Root Cause Analysis on Digital Twins](https://arxiv.org/abs/2601.07342) · Nicolas Tacheny
+- [An Intelligent AI glasses System with Multi-Agent Architecture for Real-Time Voice Processing and Task Execution](https://arxiv.org/abs/2601.06235) · Sheng-Kai Chen, Jyh-Horng Wu, Ching-Yao Lin et al.
+- [Enhancing Model Context Protocol (MCP) with Context-Aware Server Collaboration](https://arxiv.org/abs/2601.11595) · Meenakshi Amulya Jayanti, X. Y. Han
 - [Enterprise Identity Integration for AI-Assisted Developer Services: Architecture, Implementation, and Case Study](https://arxiv.org/abs/2601.02698) · Manideep Reddy Chinthareddy
 - [MCP-SandboxScan: WASM-based Secure Execution and Runtime Analysis for MCP Tools](https://arxiv.org/abs/2601.01241) · Zhuoran Tan, Run Hao, Jeremy Singer et al.
 
-## December 2025 (10)
+## December 2025 (31)
 
+- [Vibe Coding, Interface Flattening](https://arxiv.org/abs/2512.24939) · Hongrui Jin
+- [MCPAgentBench: A Real-world Task Benchmark for Evaluating LLM Agent MCP Tool Use](https://arxiv.org/abs/2512.24565) · Zixiang Liu, Wenrui Liu, Elsie Dai et al.
+- [Higress-RAG: A Holistic Optimization Framework for Enterprise Retrieval-Augmented Generation via Dual Hybrid Retrieval, Adaptive Routing, and CRAG](https://arxiv.org/abs/2602.23374) · Weixi Lin
+- [Learning Context: A Unified Framework and Roadmap for Context-Aware AI in Education](https://arxiv.org/abs/2512.24362) · Naiming Liu, Brittany Bradford, Johaun Hatchett et al.
 - [Agentic AI for Autonomous Defense in Software Supply Chain Security: Beyond Provenance to Vulnerability Mitigation](https://arxiv.org/abs/2512.23480) · Toqeer Ali Syed, Mohammad Riyaz Belgaum, Salman Jan et al.
+- [TrafficSimAgent: A Hierarchical Agent Framework for Autonomous Traffic Simulation with MCP Control](https://arxiv.org/abs/2512.20996) · Yuwei Du, Jun Zhang, Jie Feng et al.
 - [MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments](https://arxiv.org/abs/2512.19432) · Quyu Kong, Xu Zhang, Zhenyu Yang et al.
+- [A Modular Reference Architecture for MCP-Servers Enabling Agentic BIM Interaction](https://arxiv.org/abs/2601.00809) · Tobias Heimig-Elschner, Changyu Du, Anna Scheuvens et al.
+- [HumanMCP: A Human-Like Query Dataset for Evaluating MCP Tool Retrieval Performance](https://arxiv.org/abs/2602.23367) · Shubh Laddha, Lucas Changbencharoen, Win Kuptivej et al.
+- [CodeMem: Architecting Reproducible Agents via Dynamic MCP and Procedural Memory](https://arxiv.org/abs/2512.15813) · Nishant Gaurav, Adit Akarsh, Tejas Ravishankar et al.
+- [Step-GUI Technical Report](https://arxiv.org/abs/2512.15431) · Haolong Yan, Jia Wang, Xin Huang et al.
+- [MCP-SafetyBench: A Benchmark for Safety Evaluation of Large Language Models with Real-World MCP Servers](https://arxiv.org/abs/2512.15163) · Xuanjun Zong, Zhiqi Shen, Lei Wang et al.
+- [MCPZoo: A Large-Scale Dataset of Runnable Model Context Protocol Servers for AI Agent](https://arxiv.org/abs/2512.15144) · Mengying Wu, Pei Chen, Geng Hong et al.
+- [Seismology modeling agent: A smart assistant for geophysical researchers](https://arxiv.org/abs/2512.14429) · Yukun Ren, Siwei Yu, Kai Chen et al.
+- [IntentMiner: Intent Inversion Attack via Tool Call Analysis in the Model Context Protocol](https://arxiv.org/abs/2512.14166) · Yunhao Yao, Zhiqiang Wang, Haoran Cheng et al.
+- [Workflows vs Agents for Code Translation](https://arxiv.org/abs/2512.14762) · Henry Gray, Tom Yotam, Octavian Udrea
+- [Zero-Knowledge Audit for Internet of Agents: Privacy-Preserving Communication Verification with Model Context Protocol](https://arxiv.org/abs/2512.14737) · Guanlin Jing, Huayi Qi
 - [RoboNeuron: A Middle-Layer Infrastructure for Agent-Driven Orchestration in Embodied AI](https://arxiv.org/abs/2512.10394) · Weifan Guan, Qinghao Hu, Huasen Xi et al.
+- [A Practical Guide for Designing, Developing, and Deploying Production-Grade Agentic AI Workflows](https://arxiv.org/abs/2512.08769) · Eranga Bandara, Ross Gore, Peter Foytik et al.
+- [Systematization of Knowledge: Security and Safety in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2512.08290) · Shiva Gaire, Srijan Gyawali, Saroj Mishra et al.
+- [CFD-copilot: leveraging domain-adapted large language model and model context protocol to enhance simulation automation](https://arxiv.org/abs/2512.07917) · Zhehao Dong, Shanghai Du, Zhen Lu et al.
 - [SoK: Trust-Authorization Mismatch in LLM Agent Interactions](https://arxiv.org/abs/2512.06914) · Guanquan Shi, Haohua Du, Zhiqiang Wang et al.
 - [Semantic Attacks on Tool-Augmented LLMs: Securing the Model Context Protocol Against Descriptor-Level Manipulation](https://arxiv.org/abs/2512.06556) · Saeid Jamshidi, Arghavan Moradi Dakhel, Kawser Wazed Nafi et al.
+- [MCP-AI: Protocol-Driven Intelligence Framework for Autonomous Reasoning in Healthcare](https://arxiv.org/abs/2512.05365) · Zag ElSayed, Craig Erickson, Ernest Pedapati
 - [AgentBay: A Hybrid Interaction Sandbox for Seamless Human-AI Intervention in Agentic Systems](https://arxiv.org/abs/2512.04367) · Yun Piao, Hongbo Min, Hang Su et al.
 - [Benchmark for Planning and Control with Large Language Model Agents: Blocksworld with Model Context Protocol](https://arxiv.org/abs/2512.03955) · Niklas Jobs, Luis Miguel Vieira da Silva, Jayanth Somashekaraiah et al.
+- ["MCP Does Not Stand for Misuse Cryptography Protocol": Uncovering Cryptographic Misuse in Model Context Protocol at Scale](https://arxiv.org/abs/2512.03775) · Biwei Yan, Yue Zhang, Minghui Xu et al.
+- [DAWZY: A New Addition to AI powered "Human in the Loop" Music Co-creation](https://arxiv.org/abs/2512.03289) · Aaron C Elkins, Sanchit Singh, Adrian Kieback et al.
 - [PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing, Review, and Editing](https://arxiv.org/abs/2512.02589) · Junyi Hou, Andre Lin Huikai, Nuo Chen et al.
 - [Leveraging Large Language Models to Bridge Cross-Domain Transparency in Stablecoins](https://arxiv.org/abs/2512.02418) · Yuexin Xiang, Yuchen Lei, Yuanzhe Zhang et al.
 - [LeechHijack: Covert Computational Resource Exploitation in Intelligent Agent Systems](https://arxiv.org/abs/2512.02321) · Yuanhe Zhang, Weiliu Wang, Zhenhong Zhou et al.
 
-## November 2025 (5)
+## November 2025 (16)
 
 - [MCP vs RAG vs NLWeb vs HTML: A Comparison of the Effectiveness and Efficiency of Different Agent Interfaces to the Web (Technical Report)](https://arxiv.org/abs/2511.23281) · Aaron Steiner, Ralph Peeters, Christian Bizer
+- [AI/ML Model Cards in Edge AI Cyberinfrastructure: towards Agentic AI](https://arxiv.org/abs/2511.21661) · Beth Plale, Neelesh Karthikeyan, Isuru Gamage et al.
 - [Securing the Model Context Protocol (MCP): Risks, Controls, and Governance](https://arxiv.org/abs/2511.20920) · Herman Errico, Jiquan Ngiam, Shanita Sojan
+- [Z-Space: A Multi-Agent Tool Orchestration Framework for Enterprise-Grade LLM Automation](https://arxiv.org/abs/2511.19483) · Qingsong He, Jing Nan, Jiayu Jiao et al.
+- [Agent-as-a-Graph: Knowledge Graph-Based Tool and Agent Retrieval for LLM Multi-Agent Systems](https://arxiv.org/abs/2511.18194) · Faheem Nizar, Elias Lumer, Anmol Gulati et al.
+- [M^3-Bench: Multi-Modal, Multi-Hop, Multi-Threaded Tool-Using MLLM Agent Benchmark](https://arxiv.org/abs/2511.17729) · Yang Zhou, Mingyu Zhao, Zhenting Wang et al.
 - [Hiding in the AI Traffic: Abusing MCP for LLM-Powered Agentic Red Teaming](https://arxiv.org/abs/2511.15998) · Strahinja Janjusevic, Anna Baron Garcia, Sohrob Kazerounian
-- [TEM Agent: enhancing transmission electron microscopy (TEM) with modern AI tools](https://arxiv.org/abs/2511.08819) · Morgan K. Wall, Alexander J. Pattison, Edward S. Barnard et al.
+- [Tele-LLM-Hub: Building Context-Aware Multi-Agent LLM Systems for Telecom Networks](https://arxiv.org/abs/2511.09087) · Pranshav Gajjar, Cong Shen, Vijay K Shah
+- [AgentSUMO: An Agentic Framework for Interactive Simulation Scenario Generation in SUMO via Large Language Models](https://arxiv.org/abs/2511.06804) · Minwoo Jeong, Jeeyun Chang, Yoonjin Yoon
+- [Can LLM Infer Risk Information From MCP Server System Logs?](https://arxiv.org/abs/2511.05867) · Jiayi Fu, Yuansen Zhang, Yinggui Wang
 - [ORCHID: Orchestrated Retrieval-Augmented Classification with Human-in-the-Loop Intelligent Decision-Making for High-Risk Property](https://arxiv.org/abs/2511.04956) · Maria Mahbub, Vanessa Lama, Sanjay Das et al.
+- [LLM-enhanced Air Quality Monitoring Interface via Model Context Protocol](https://arxiv.org/abs/2511.03706) · Yu-Erh Pan, Ayesha Siddika Nipu
+- [Uncovering Code Insights: Leveraging GitHub Artifacts for Deeper Code Understanding](https://arxiv.org/abs/2511.03549) · Ziv Nevo, Orna Raz, Karen Yorav
+- [ROSBag MCP Server: Analyzing Robot Data with LLMs for Agentic Embodied AI Applications](https://arxiv.org/abs/2511.03497) · Lei Fu, Sahar Salimpour, Leonardo Militano et al.
+- [Tool-to-Agent Retrieval: Bridging Tools and Agents for Scalable LLM Multi-Agent Systems](https://arxiv.org/abs/2511.01854) · Elias Lumer, Faheem Nizar, Anmol Gulati et al.
+- [TPS-Bench: Evaluating AI Agents' Tool Planning \& Scheduling Abilities in Compounding Tasks](https://arxiv.org/abs/2511.01527) · Hanwen Xu, Xuyao Huang, Yuzhe Liu et al.
 
-## October 2025 (4)
+## October 2025 (32)
 
+- [From Pixels to Paths: A Multi-Agent Framework for Editable Scientific Illustration](https://arxiv.org/abs/2510.27452) · Jianwen Sun, Fanrui Zhang, Yukang Feng et al.
+- [Who Grants the Agent Power? Defending Against Instruction Injection via Task-Centric Access Control](https://arxiv.org/abs/2510.26212) · Yifeng Cai, Ziming Wang, Zhaomeng Deng et al.
+- [MCP4IFC: IFC-Based Building Design Using Large Language Models](https://arxiv.org/abs/2511.05533) · Bharathi Kannan Nithyanantham, Tobias Sesterhenn, Ashwin Nedungadi et al.
+- [The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution](https://arxiv.org/abs/2510.25726) · Junlong Li, Wenshuo Zhao, Jian Zhao et al.
+- [OSWorld-MCP: Benchmarking MCP Tool Invocation In Computer-Use Agents](https://arxiv.org/abs/2510.24563) · Hongrui Jia, Jitong Liao, Xi Zhang et al.
+- [MCP-Flow: Facilitating LLM Agents to Master Real-World, Diverse and Scaling MCP Tools](https://arxiv.org/abs/2510.24284) · Wenhao Wang, Peizhi Niu, Zhao Xu et al.
+- [MCPGuard : Automatically Detecting Vulnerabilities in MCP Servers](https://arxiv.org/abs/2510.23673) · Bin Wang, Zexin Liu, Hao Yu et al.
+- [Alita-G: Self-Evolving Generative Agent for Agent Generation](https://arxiv.org/abs/2510.23601) · Jiahao Qiu, Xuan Qi, Hongru Wang et al.
 - [AgentBound: Securing Execution Boundaries of AI Agents](https://arxiv.org/abs/2510.21236) · Christoph Bühler, Matteo Biagiola, Luca Di Grazia et al.
+- [AegisMCP: Online Graph Intrusion Detection for Tool-Augmented LLMs on Edge Devices](https://arxiv.org/abs/2510.19462) · Zhonghao Zhan, Amir Al Sadi, Krinos Li et al.
+- [ETOM: A Five-Level Benchmark for Evaluating Tool Orchestration within the MCP Ecosystem](https://arxiv.org/abs/2510.19423) · Jia-Kai Dong, I-Wei Huang, Chun-Tin Wu et al.
+- [TheMCPCompany: Creating General-purpose Agents with Task-specific Tools](https://arxiv.org/abs/2510.19286) · Reza Esfandiarpoor, Vishwas Suryanarayanan, Stephen H. Bach et al.
+- [Model Context Contracts - MCP-Enabled Framework to Integrate LLMs With Blockchain Smart Contracts](https://arxiv.org/abs/2510.19856) · Eranga Bandara, Sachin Shetty, Ravi Mukkamala et al.
+- [JAUNT: Joint Alignment of User Intent and Network State for QoE-centric LLM Tool Routing](https://arxiv.org/abs/2510.18550) · Enhan Li, Hongyang Du
+- [Network and Systems Performance Characterization of MCP-Enabled LLM Agents](https://arxiv.org/abs/2511.07426) · Zihao Ding, Mufeng Zhu, Yao Liu
 - [A First Look at the Security Issues in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2510.16558) · Xiaofan Li, Xing Gao
+- [JSPLIT: A Taxonomy-based Solution for Prompt Bloating in Model Context Protocol](https://arxiv.org/abs/2510.14537) · Emanuele Antonioni, Stefan Markovic, Anirudha Shankar et al.
+- [Formalizing the Safety, Security, and Functional Properties of Agentic AI Systems](https://arxiv.org/abs/2510.14133) · Edoardo Allegrini, Ananth Shreekumar, Z. Berkay Celik
 - [NetMCP: Network-Aware Model Context Protocol Platform for LLM Capability Extension](https://arxiv.org/abs/2510.13467) · Enhan Li, Hongyang Du, Kaibin Huang
+- [MCP Security Bench (MSB): Benchmarking Attacks Against Model Context Protocol in LLM Agents](https://arxiv.org/abs/2510.15994) · Dongsen Zhang, Zekun Li, Xu Luo et al.
+- [Ax-Prover: A Deep Reasoning Agentic Framework for Theorem Proving in Mathematics and Quantum Physics](https://arxiv.org/abs/2510.12787) · Benjamin Breen, Marco Del Tredici, Jacob McCarran et al.
 - [LLM$\times$MapReduce-V3: Enabling Interactive In-Depth Survey Generation through a MCP-Driven Hierarchically Modular Agent System](https://arxiv.org/abs/2510.10890) · Yu Chao, Siyu Lin, xiaorong wang et al.
+- [Generative AI and the Transformation of Software Development Practices](https://arxiv.org/abs/2510.10819) · Vivek Acharya
+- [Extending ResourceLink: Patterns for Large Dataset Processing in MCP Applications](https://arxiv.org/abs/2510.05968) · Scott Frees
+- [3Dify: a Framework for Procedural 3D-CG Generation Assisted by LLMs Using MCP and RAG](https://arxiv.org/abs/2510.04536) · Shun-ichiro Hayashi, Daichi Mukunoki, Tetsuya Hoshino et al.
+- [PentestMCP: A Toolkit for Agentic Penetration Testing](https://arxiv.org/abs/2510.03610) · Zachary Ezetta, Wu-chang Feng
+- [ARMs: Adaptive Red-Teaming Agent against Multimodal Models with Plug-and-Play Attacks](https://arxiv.org/abs/2510.02677) · Zhaorun Chen, Xun Liu, Mintong Kang et al.
+- [Automatic Building Code Review: A Case Study](https://arxiv.org/abs/2510.02634) · Hanlong Wan, Weili Xu, Michael Rosenberg et al.
+- [Agentic Additive Manufacturing Alloy Evaluation](https://arxiv.org/abs/2510.02567) · Peter Pak, Achuth Chandrasekhar, Amir Barati Farimani
+- [InfoMosaic-Bench: Evaluating Multi-Source Information Seeking in Tool-Augmented Agents](https://arxiv.org/abs/2510.02271) · Yaxin Du, Yuanshuo Zhang, Xiyuan Yang et al.
+- [Secure Multi-Modal Data Fusion in Federated Digital Health Systems via MCP](https://arxiv.org/abs/2510.01780) · Aueaphum Aueawatthanaphisut
+- [TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments](https://arxiv.org/abs/2510.01179) · Zhangchen Xu, Adriana Meza Soria, Shawn Tan et al.
 
-## September 2025 (6)
+## September 2025 (23)
 
+- [A Measurement Study of Model Context Protocol Ecosystem](https://arxiv.org/abs/2509.25292) · Hechuan Guo, Yongle Hao, Yue Zhang et al.
+- [When MCP Servers Attack: Taxonomy, Feasibility, and Mitigation](https://arxiv.org/abs/2509.24272) · Weibo Zhao, Jiahao Liu, Bonan Ruan et al.
+- [MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP Use](https://arxiv.org/abs/2509.24002) · Zijian Wu, Xiangyan Liu, Xinyuan Zhang et al.
 - [Model Context Protocol for Vision Systems: Audit, Security, and Protocol Extensions](https://arxiv.org/abs/2509.22814) · Aditi Tiwari, Akshit Bhalla, Darshan Prasad
 - [Agentic-AI Healthcare: Multilingual, Privacy-First Framework with MCP Agents](https://arxiv.org/abs/2510.02325) · Mohammed A. Shehab
 - [IoT-MCP: Bridging LLMs and IoT Systems Through Model Context Protocol](https://arxiv.org/abs/2510.01260) · Ningyuan Yang, Guanliang Lyu, Mingchen Ma et al.
+- [Automatic Red Teaming LLM-based Agents with Model Context Protocol Tools](https://arxiv.org/abs/2509.21011) · Ping He, Changjiang Li, Binbin Zhao et al.
 - [Dynamic ReAct: Scalable Tool Selection for Large-Scale MCP Environments](https://arxiv.org/abs/2509.20386) · Nishant Gaurav, Adit Akarsh, Ankit Ranjan et al.
+- [Privacy in Action: Towards Realistic Privacy Mitigation and Evaluation for LLM-Powered Agents](https://arxiv.org/abs/2509.17488) · Shouju Wang, Fenglin Yu, Xirui Liu et al.
 - [EHR-MCP: Real-world Evaluation of Clinical Information Retrieval by Large Language Models via Model Context Protocol](https://arxiv.org/abs/2509.15957) · Kanato Masayoshi, Masahiro Hashimoto, Ryoichi Yokoyama et al.
+- [Cuckoo Attack: Stealthy and Persistent Attacks Against AI-IDE](https://arxiv.org/abs/2509.15572) · Xinpeng Liu, Junming Liu, Peiyu Liu et al.
+- [Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178) · Ling Yue, Nithin Somasekharan, Tingwen Zhang et al.
+- [$Agent^2$: An Agent-Generates-Agent Framework for Reinforcement Learning Automation](https://arxiv.org/abs/2509.13368) · Yuan Wei, Xiaohan Shan, Ran Miao et al.
+- [Toward PDDL Planning Copilot](https://arxiv.org/abs/2509.12987) · Yarin Benyamin, Argaman Mordoch, Shahaf S. Shperberg et al.
+- [Readme_AI: Dynamic Context Construction for Large Language Models](https://arxiv.org/abs/2509.19322) · Millie Vyas, Timothy Blattner, Alden Dima
+- [MCP-AgentBench: Evaluating Real-World Language Agent Performance with MCP-Mediated Tools](https://arxiv.org/abs/2509.09734) · Zikang Guo, Benfeng Xu, Chiwei Zhu et al.
+- [AgentX: Towards Orchestrating Robust Agentic Workflow Patterns with FaaS-hosted MCP Services](https://arxiv.org/abs/2509.07595) · Shiva Sai Krishna Anand Tokal, Vaibhav Jha, Anand Eswaran et al.
+- [Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents](https://arxiv.org/abs/2509.06917) · Jiacheng Miao, Joe R. Davis, Yaohui Zhang et al.
+- [Parasites in the Toolchain: A Large-Scale Analysis of Attacks on the MCP Ecosystem](https://arxiv.org/abs/2509.06572) · Shuli Zhao, Qinsheng Hou, Zihan Zhan et al.
+- [Code2MCP: Transforming Code Repositories into MCP Services](https://arxiv.org/abs/2509.05941) · Chaoqian Ouyang, Ling Yue, Shimin Di et al.
+- [An Agentic Model Context Protocol Framework for Medical Concept Standardization](https://arxiv.org/abs/2509.03828) · Jaerong Ahn, Andrew Wen, Nan Wang et al.
+- [Throttling Web Agents Using Reasoning Gates](https://arxiv.org/abs/2509.01619) · Abhinav Kumar, Jaechul Roh, Ali Naseh et al.
 - [Towards Agentic OS: An LLM Agent Framework for Linux Schedulers](https://arxiv.org/abs/2509.01245) · Yusheng Zheng, Yanpeng Hu, Wei Zhang et al.
 
-## August 2025 (6)
+## August 2025 (32)
 
+- [A Multimodal GUI Architecture for Interfacing with LLM-Based Conversational Assistants](https://arxiv.org/abs/2510.06223) · Hans G. W. van Dam
+- [Accelerating Latency-Critical Applications with AI-Powered Semi-Automatic Fine-Grained Parallelization on SMT Processors](https://arxiv.org/abs/2509.00883) · Denis Los, Igor Petushkov
+- [GDS Agent for Graph Algorithmic Reasoning](https://arxiv.org/abs/2508.20637) · Borun Shi, Ioannis Panagiotas
 - [MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers](https://arxiv.org/abs/2508.20453) · Zhenting Wang, Qi Chang, Hemani Patel et al.
+- [MindGuard: Intrinsic Decision Inspection for Securing LLM Agents Against Metadata Poisoning](https://arxiv.org/abs/2508.20412) · Zhiqiang Wang, Haohua Du, Guanquan Shi et al.
+- [Servant, Stalker, Predator: How An Honest, Helpful, And Harmless (3H) Agent Unlocks Adversarial Skills](https://arxiv.org/abs/2508.19500) · David Noever
+- [Model Context Protocols in Adaptive Transport Systems: A Survey](https://arxiv.org/abs/2508.19239) · Gaurab Chhetri, Shriyank Somvanshi, Md Monzurul Islam et al.
 - [AniME: Adaptive Multi-Agent Planning for Long Animation Generation](https://arxiv.org/abs/2508.18781) · Lisai Zhang, Baohan Xu, Siqian Yang et al.
+- [Experiences with Model Context Protocol Servers for Science and High Performance Computing](https://arxiv.org/abs/2508.18489) · Haochen Pan, Ryan Chard, Reid Mello et al.
+- [Anemoi: A Semi-Centralized Multi-agent System Based on Agent-to-Agent Communication MCP server from Coral Protocol](https://arxiv.org/abs/2508.17068) · Xinxing Ren, Caelum Forder, Qianbo Zang et al.
+- [LiveMCP-101: Stress Testing and Diagnosing MCP-enabled Agents on Challenging Queries](https://arxiv.org/abs/2508.15760) · Ming Yin, Dinghan Shen, Silei Xu et al.
+- [MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers](https://arxiv.org/abs/2508.14704) · Ziyang Luo, Zhiqi Shen, Wenzhuo Yang et al.
+- [MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers](https://arxiv.org/abs/2508.14925) · Zhiqiang Wang, Yichao Gao, Yanting Wang et al.
+- [Agentic DraCor and the Art of Docstring Engineering: Evaluating MCP-empowered LLM Usage of the DraCor API](https://arxiv.org/abs/2508.13774) · Peer Trilcke, Ingo Börner, Henny Sluyter-Gäthje et al.
+- [AI-Powered Assistant for Long-Term Access to RHIC Knowledge](https://arxiv.org/abs/2509.09688) · Mohammad Atif, Vincent Garonne, Eric Lancon et al.
 - [Help or Hurdle? Rethinking Model Context Protocol-Augmented Large Language Models](https://arxiv.org/abs/2508.12566) · Wei Song, Haonan Zhong, Ziqi Ding et al.
+- [MCPXKIT: The Unified Toolkit for Analyzing Model Context Protocol Security](https://arxiv.org/abs/2508.12538) · Yongjian Guo, Puzhuo Liu, Wanlun Ma et al.
+- [MCPSecBench: A Systematic Security Benchmark and Playground for Testing Model Context Protocols](https://arxiv.org/abs/2508.13220) · Yixuan Yang, Cuifeng Gao, Daoyuan Wu et al.
+- [MCP-Guard: A Multi-Stage Defense-in-Depth Framework for Securing Model Context Protocol in Agentic AI](https://arxiv.org/abs/2508.10991) · Wenpeng Xing, Zhonghao Qi, Yupeng Qin et al.
+- [Modeling Human Responses to Multimodal AI Content](https://arxiv.org/abs/2508.10769) · Zhiqi Shen, Shaojing Fan, Danni Xu et al.
 - [MCP2OSC: Parametric Control by Natural Language](https://arxiv.org/abs/2508.10414) · Yuan-Yi Fan
+- [MCP-Orchestrated Multi-Agent System for Automated Disinformation Detection](https://arxiv.org/abs/2508.10143) · Alexandru-Andrei Avram, Adrian Groza, Alexandru Lecu
+- [HGMF: A Hierarchical Gaussian Mixture Framework for Scalable Tool Invocation within the Model Context Protocol](https://arxiv.org/abs/2508.07602) · Wenpeng Xing, Zhipeng Chen, Changting Lin et al.
+- [MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool Use Benchmark](https://arxiv.org/abs/2508.07575) · Shiqing Fan, Xichen Ding, Liang Zhang et al.
+- [Quantifying Conversation Drift in MCP via Latent Polytope](https://arxiv.org/abs/2508.06418) · Haoran Shi, Hongwei Yao, Shuo Shao et al.
+- [TURA: Tool-Augmented Unified Retrieval Agent for AI Search](https://arxiv.org/abs/2508.04604) · Zhejun Zhao, Yuchen Li, Alley Liu et al.
 - [XARP Tools: An Extended Reality Platform for Humans and AI Agents](https://arxiv.org/abs/2508.04108) · Arthur Caetano, Radha Kumaran, Kelvin Jou et al.
+- [PROV-AGENT: Unified Provenance for Tracking AI Agent Interactions in Agentic Workflows](https://arxiv.org/abs/2508.02866) · Renan Souza, Amal Gueroudji, Stephen DeWitt et al.
+- [Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools](https://arxiv.org/abs/2508.02110) · Kanghua Mo, Li Hu, Yucheng Long et al.
+- [M3LLM: Model Context Protocol-aided Mixture of Vision Experts For Multimodal LLMs in Networks](https://arxiv.org/abs/2508.01805) · Yongjie Zeng, Hongyang Du
+- [LiveMCPBench: Can Agents Navigate an Ocean of MCP Tools?](https://arxiv.org/abs/2508.01780) · Guozhao Mo, Wenliang Zhong, Jiawei Chen et al.
 - [AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM Agents](https://arxiv.org/abs/2508.01012) · Yiyi Lu, Hoi Ian Au, Junyao Zhang et al.
 
-## July 2025 (4)
+## July 2025 (14)
 
 - [Magentic-UI: Towards Human-in-the-loop Agentic Systems](https://arxiv.org/abs/2507.22358) · Hussein Mozannar, Gagan Bansal, Cheng Tan et al.
 - [MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Calling in LLM Agent Multi-Turn Conversations](https://arxiv.org/abs/2507.21428) · Elias Lumer, Anmol Gulati, Vamse Kumar Subbiah et al.
+- [Trivial Trojans: How Minimal MCP Servers Enable Cross-Tool Exfiltration of Sensitive Data](https://arxiv.org/abs/2507.19880) · Nicola Croce, Tobin South
+- [MCP4EDA: LLM-Powered Model Context Protocol RTL-to-GDSII Automation with Backend Aware Synthesis Optimization](https://arxiv.org/abs/2507.19570) · Yiting Wang, Wanghao Ye, Yexiao He et al.
+- [From REST to MCP: An Empirical Study of API Wrapping and Automated Server Generation for LLM Agents](https://arxiv.org/abs/2507.16044) · Meriem Mastouri, Emna Ksontini, Amine Barrak et al.
+- [Technical Implementation of Tippy: Multi-Agent Architecture and System Design for Drug Discovery Laboratory Automation](https://arxiv.org/abs/2507.17852) · Yao Fehlis, Charles Crain, Aidan Jensen et al.
+- [MCPEval: Automatic MCP-based Deep Evaluation for AI Agent Models](https://arxiv.org/abs/2507.12806) · Zhiwei Liu, Jielin Qiu, Shiyu Wang et al.
+- [GoalfyMax: A Protocol-Driven Multi-Agent System for Intelligent Experience Entities](https://arxiv.org/abs/2507.09497) · Siyi Wu, Zeyu Wang, Xinyuan Song et al.
 - [ToolRegistry: A Protocol-Agnostic Tool Management Library for Function-Calling LLMs](https://arxiv.org/abs/2507.10593) · Peng Ding, Rick Stevens
 - [Gradientsys: A Multi-Agent LLM Scheduler with ReAct Orchestration](https://arxiv.org/abs/2507.06520) · Xinyuan Song, Zeyu Wang, Siyi Wu et al.
+- [AgentMaster: A Multi-Agent Conversational Framework Using A2A and MCP Protocols for Multimodal Information Retrieval and Analysis](https://arxiv.org/abs/2507.21105) · Callie C. Liao, Duoduo Liao, Sai Surya Gadiraju
+- [Bridging AI and Software Security: A Comparative Vulnerability Assessment of LLM Agent Deployment Paradigms](https://arxiv.org/abs/2507.06323) · Tarek Gasmi, Ramzi Guesmi, Ines Belhadj et al.
+- [We Urgently Need Privilege Management in MCP: A Measurement of API Usage in MCP Ecosystems](https://arxiv.org/abs/2507.06250) · Zhihao Li, Kun Li, Boyang Ma et al.
+- [VTS-Guided AI Interaction Workflow for Business Insights](https://arxiv.org/abs/2507.00347) · Sun Ding, Ude Enebeli, Atilhan et al.
 
-## June 2025 (5)
+## June 2025 (23)
 
+- [A Large-Scale Evolvable Dataset for Model Context Protocol Ecosystem and Security Analysis](https://arxiv.org/abs/2506.23474) · Zhiwei Lin, Bonan Ruan, Jiahao Liu et al.
+- [Teaching a Language Model to Speak the Language of Tools](https://arxiv.org/abs/2506.23394) · Simeon Emanuilov
+- [M3: Conversational LLMs Simplify Secure Clinical Data Access, Understanding, and Analysis](https://arxiv.org/abs/2507.01053) · Rafi Al Attrach, Pedro Moreira, Rajna Fani et al.
+- [Deep Research Agents: A Systematic Examination And Roadmap](https://arxiv.org/abs/2506.18096) · Yuxuan Huang, Yihang Chen, Haozheng Zhang et al.
+- [LLM Agent for Hyper-Parameter Optimization](https://arxiv.org/abs/2506.15167) · Wanzhe Wang, Jianqiu Peng, Menghao Hu et al.
+- [AgentDistill: Training-Free Agent Distillation with Generalizable MCP Boxes](https://arxiv.org/abs/2506.14728) · Jiahao Qiu, Xinzhe Juan, Yimin Wang et al.
+- [RadFabric: Agentic AI System with Reasoning Capability for Radiology](https://arxiv.org/abs/2506.14142) · Wenting Chen, Yi Dong, Zhaojun Ding et al.
 - [We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered Agent Systems](https://arxiv.org/abs/2506.13666) · Junfeng Fang, Zijun Yao, Ruipeng Wang et al.
 - [Model Context Protocol (MCP) at First Glance: Studying the Security and Maintainability of MCP Servers](https://arxiv.org/abs/2506.13538) · Mohammed Mehedi Hasan, Hao Li, Emad Fallahzadeh et al.
+- [Towards the Autonomous Optimization of Urban Logistics: Training Generative AI with Scientific Tools via Agentic Digital Twins and Model Context Protocol](https://arxiv.org/abs/2506.13068) · Haowen Xu, Yulin Sun, Jose Tupayachi et al.
+- [Enhancing Clinical Decision Support and EHR Insights through LLMs and the Model Context Protocol: An Open-Source MCP-FHIR Framework](https://arxiv.org/abs/2506.13800) · Abul Ehtesham, Aditi Singh, Saket Kumar
 - [Beyond Formal Semantics for Capabilities and Skills: Model Context Protocol in Manufacturing](https://arxiv.org/abs/2506.11180) · Luis Miguel Vieira da Silva, Aljosha Köcher, Felix Gehlhoff
 - [Agentic Semantic Control for Autonomous Wireless Space Networks: Extending Space-O-RAN with MCP-Driven Distributed Intelligence](https://arxiv.org/abs/2506.10925) · Eduardo Baena, Paolo Testolina, Michele Polese et al.
+- [A Study on Individual Spatiotemporal Activity Generation Method Using MCP-Enhanced Chain-of-Thought Large Language Models](https://arxiv.org/abs/2506.10853) · Yu Zhang, Yang Hu, De Wang
+- [MCPWorld: A Unified Benchmarking Testbed for API, GUI, and Hybrid Computer Use Agents](https://arxiv.org/abs/2506.07672) · Yunhe Yan, Shihe Wang, Jiajun Du et al.
+- [Personalized Constitutionally-Aligned Agentic Superego: Secure AI Behavior Aligned to Diverse Human Values](https://arxiv.org/abs/2506.13774) · Nell Watson, Ahmed Amer, Evan Harris et al.
+- [QuantMCP: Grounding Large Language Models in Verifiable Financial Reality](https://arxiv.org/abs/2506.06622) · Yifan Zeng
+- [LeanExplore: A search engine for Lean 4 declarations](https://arxiv.org/abs/2506.11085) · Justin Asher
+- [Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games](https://arxiv.org/abs/2506.03610) · Dongmin Park, Minkyu Kim, Beongjun Choi et al.
+- [SUMO-MCP: Leveraging the Model Context Protocol for Autonomous Traffic Simulation and Optimization](https://arxiv.org/abs/2506.03548) · Chenglong Ye, Gang Xiong, Junyou Shang et al.
+- [A Study on the MCP x A2A Framework for Enhancing Interoperability of LLM-based Autonomous Agents](https://arxiv.org/abs/2506.01804) · Cheonsu Jeong
 - [ETDI: Mitigating Tool Squatting and Rug Pull Attacks in Model Context Protocol (MCP) by using OAuth-Enhanced Tool Definitions and Policy-Based Access Control](https://arxiv.org/abs/2506.01333) · Manish Bhatt, Vineeth Sai Narajala, Idan Habler
+- [MCP-Zero: Active Tool Discovery for Autonomous LLM Agents](https://arxiv.org/abs/2506.01056) · Xiang Fei, Xiawu Zheng, Hao Feng
 
-## May 2025 (3)
+## May 2025 (26)
 
 - [Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol (MCP) Ecosystem](https://arxiv.org/abs/2506.02040) · Hao Song, Yiming Shen, Wenxuan Luo et al.
+- [Chances and Challenges of the Model Context Protocol in Digital Forensics and Incident Response](https://arxiv.org/abs/2506.00274) · Jan-Niclas Hilgert, Carlo Jakobs, Michael Külper et al.
+- [MCP Safety Training: Learning to Refuse Falsely Benign MCP Exploits using Improved Preference Alignment](https://arxiv.org/abs/2505.23634) · John Halloran
+- [AgentDNS: A Root Domain Naming System for LLM Agents](https://arxiv.org/abs/2505.22368) · Enfang Cui, Yujun Cheng, Rui She et al.
+- [ADA: Automated Moving Target Defense for AI Workloads via Ephemeral Infrastructure-Native Rotation in Kubernetes](https://arxiv.org/abs/2505.23805) · Akram Sheriff, Ken Huang, Zsolt Nemeth et al.
+- [Survey of LLM Agent Communication with MCP: A Software Design Pattern Centric Review](https://arxiv.org/abs/2506.05364) · Anjana Sarkar, Soumyendu Sarkar
+- [Alita: Generalist Agent Enabling Scalable Agentic Reasoning with Minimal Predefinition and Maximal Self-Evolution](https://arxiv.org/abs/2505.20286) · Jiahao Qiu, Xuan Qi, Tongcheng Zhang et al.
+- [Towards Humanoid Robot Autonomy: A Dynamic Architecture Integrating Continuous thought Machines (CTM) and Model Context Protocol (MCP)](https://arxiv.org/abs/2505.19339) · Libo Wang
+- [LiteCUA: Computer as MCP Server for Computer-Use Agent on AIOS](https://arxiv.org/abs/2505.18829) · Kai Mei, Xi Zhu, Hang Gao et al.
 - [Tool Preferences in Agentic LLMs are Unreliable](https://arxiv.org/abs/2505.18135) · Kazem Faghih, Wenxiao Wang, Yize Cheng et al.
+- [Invisible Prompts, Visible Threats: Malicious Font Injection in External Resources for Large Language Models](https://arxiv.org/abs/2505.16957) · Junjie Xiong, Changjia Zhu, Shuhang Lin et al.
+- [MCP-RADAR: A Multi-Dimensional Benchmark for Evaluating Tool Use Capabilities in Large Language Models](https://arxiv.org/abs/2505.16700) · Xuanqi Gao, Siyi Xie, Juan Zhai et al.
+- [MCIP: Protecting MCP Safety via Model Contextual Integrity Protocol](https://arxiv.org/abs/2505.14590) · Huihao Jing, Haoran Li, Wenbin Hu et al.
+- [TAIJI: MCP-based Multi-Modal Data Analytics on Data Lakes](https://arxiv.org/abs/2505.11270) · Chao Zhang, Shaolei Zhang, Quehuan Liu et al.
+- [MPMA: Preference Manipulation Attack Against Model Context Protocol](https://arxiv.org/abs/2505.11154) · Zihan Wang, Rui Zhang, Yu Liu et al.
 - [Mind the Metrics: Patterns for Telemetry-Aware In-IDE AI Application Development using the Model Context Protocol (MCP)](https://arxiv.org/abs/2506.11019) · Vincent Koc, Jacques Verre, Douglas Blank et al.
+- [Agent-as-a-Service based on Agent Network](https://arxiv.org/abs/2505.08446) · Yuhan Zhu, Haojie Liu, Jian Wang et al.
+- [ParaView-MCP: An Autonomous Visualization Agent with Direct Tool Use](https://arxiv.org/abs/2505.07064) · Shusen Liu, Haichao Miao, Peer-Timo Bremer
+- [ScaleMCP: Dynamic and Auto-Synchronizing Model Context Protocol Tools for LLM Agents](https://arxiv.org/abs/2505.06416) · Elias Lumer, Anmol Gulati, Vamse Kumar Subbiah et al.
+- [Foam-Agent: A Large Language Model-Based Multi-Agent Framework for Automating Computational Fluid Dynamics Workflows](https://arxiv.org/abs/2505.04997) · Ling Yue, Nithin Somasekharan, Tingwen Zhang et al.
+- [From Glue-Code to Protocols: A Critical Analysis of A2A and MCP Integration for Scalable Agent Systems](https://arxiv.org/abs/2505.03864) · Qiaomu Li, Ying Xie
+- [RAG-MCP: Mitigating Prompt Bloat in LLM Tool Selection via Retrieval-Augmented Generation](https://arxiv.org/abs/2505.03275) · Tiantian Gan, Qiyao Sun
+- [Moving From Monolithic To Microservices Architecture for Multi-Agent Systems](https://arxiv.org/abs/2505.07838) · Muskaan Goyal, Pranav Bhasin
+- [SafeMate: A Modular RAG-Based Agent for Context-Aware Emergency Guidance](https://arxiv.org/abs/2505.02306) · Junfeng Jiao, Jihyung Park, Yiming Xu et al.
+- [A survey of agent interoperability protocols: Model Context Protocol (MCP), Agent Communication Protocol (ACP), Agent-to-Agent Protocol (A2A), and Agent Network Protocol (ANP)](https://arxiv.org/abs/2505.02279) · Abul Ehtesham, Aditi Singh, Gaurav Kumar Gupta et al.
+- [Model Context Protocol-based Internet of Experts For Wireless Environment-aware LLM Agents](https://arxiv.org/abs/2505.01834) · Zongxi Liu, Hongyang Du
 
-## April 2025 (4)
+## April 2025 (11)
 
+- [Simplified and Secure MCP Gateways for Enterprise AI Integration](https://arxiv.org/abs/2504.19997) · Ivo Brett
 - [Securing GenAI Multi-Agent Systems Against Tool Squatting: A Zero Trust Registry-Based Approach](https://arxiv.org/abs/2504.19951) · Vineeth Sai Narajala, Ken Huang, Idan Habler
+- [From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review](https://arxiv.org/abs/2504.19678) · Mohamed Amine Ferrag, Norbert Tihanyi, Merouane Debbah
+- [Advancing Multi-Agent Systems Through Model Context Protocol: Architecture, Implementation, and Applications](https://arxiv.org/abs/2504.21030) · Naveen Krishnan
+- [Building A Secure Agentic AI Application Leveraging A2A Protocol](https://arxiv.org/abs/2504.16902) · Idan Habler, Ken Huang, Vineeth Sai Narajala et al.
+- [Planet as a Brain: Towards Internet of AgentSites based on AIOS Server](https://arxiv.org/abs/2504.14411) · Xiang Zhang, Yongfeng Zhang
+- [MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System](https://arxiv.org/abs/2504.12757) · Sonu Kumar, Anubhav Girdhar, Ritesh Patil et al.
+- [Evaluation Report on MCP Servers](https://arxiv.org/abs/2504.11094) · Zhiling Luo, Xiaorong Shi, Xuanrui Lin et al.
 - [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999) · Arash Ahmadi, Sarah Sharif, Yaser M. Banad
 - [Enterprise-Grade Security for the Model Context Protocol (MCP): Frameworks and Mitigation Strategies](https://arxiv.org/abs/2504.08623) · Vineeth Sai Narajala, Idan Habler
 - [MCP Safety Audit: LLMs with the Model Context Protocol Allow Major Security Exploits](https://arxiv.org/abs/2504.03767) · Brandon Radosevich, John Halloran
+
+## March 2025 (1)
+
+- [Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions](https://arxiv.org/abs/2503.23278) · Xinyi Hou, Yanjie Zhao, Shenao Wang et al.
+
+## December 2024 (1)
+
+- [MCP-Solver: Integrating Language Models with Constraint Programming Systems](https://arxiv.org/abs/2501.00539) · Stefan Szeider
+
+## June 2023 (1)
+
+- [An Automated Survey of Generative Artificial Intelligence: Large Language Models, Architectures, Protocols, and Applications](https://arxiv.org/abs/2306.02781) · Eduardo C. Garrido-Merchán, Álvaro López López
+
+## May 2019 (1)
+
+- [MCP: Learning Composable Hierarchical Control with Multiplicative Compositional Policies](https://arxiv.org/abs/1905.09808) · Xue Bin Peng, Michael Chang, Grace Zhang et al.
