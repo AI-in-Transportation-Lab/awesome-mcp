@@ -25,7 +25,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open p
 
 Everything below is searchable on the **[website](https://ai-in-transportation-lab.github.io/awesome-mcp/)**, and papers are refreshed from arXiv every day.
 
-**686** preprints · **526** published papers · **243** survey references · **19** servers · **10** clients · **15** SDKs and frameworks
+**686** preprints · **526** published papers · **243** survey references · **22** servers · **10** clients · **15** SDKs and frameworks
 
 <details>
 <summary><b>Contents</b></summary>
@@ -145,6 +145,9 @@ MCP servers that expose tools, resources and prompts for real systems
 | [lit-mcp](https://github.com/gauravfs-14/lit-mcp) | Academic literature search across databases, for LLM-assisted literature reviews | `research` |
 | [WritBase](https://github.com/Writbase/writbase) | MCP-native task management for fleets of AI agents, with permissions and provenance | `agents` |
 | [operant-mcp](https://github.com/operantlabs/operant-mcp) | Security testing server with tools for penetration testing and forensics | `security` |
+| [Screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp) | Search locally captured screen text and audio history from an MCP client; needs a running Screenpipe instance and is source-available | `recall` `local` |
+| [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | Lets a coding agent edit footage, add narration and captions, and render a checked MP4, as a CLI and MCP server | `video` |
+| [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) | Local-first payment runtime for agents with a stdio MCP server, owner-set limits and approval, and x402 payments; macOS on Apple Silicon only | `payments` |
 
 ## Clients
 
@@ -208,6 +211,7 @@ Testing, debugging, proxying and registry infrastructure
 | [mcp-proxy](https://github.com/sparfenyuk/mcp-proxy) | Bridges Streamable HTTP and stdio MCP transports | `proxy` |
 | [Docker MCP Gateway](https://github.com/docker/mcp-gateway) | Docker CLI plugin that runs and manages MCP servers in containers | `gateway` |
 | [MCP Context Forge](https://github.com/IBM/mcp-context-forge) | Gateway, registry and proxy that sits in front of MCP and A2A servers | `gateway` |
+| [Agent QA](https://github.com/vostride/agent-qa) | Write, run and triage web and mobile regression tests in natural language, with memory across runs, from the CLI or a coding agent over MCP | `testing` |
 
 ## Security
 

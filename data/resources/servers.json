@@ -171,6 +171,31 @@
       "tags": [
         "security"
       ]
+    },
+    {
+      "name": "Screenpipe",
+      "url": "https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp",
+      "description": "Search locally captured screen text and audio history from an MCP client; needs a running Screenpipe instance and is source-available",
+      "tags": [
+        "recall",
+        "local"
+      ]
+    },
+    {
+      "name": "OrkasVideoStudio",
+      "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+      "description": "Lets a coding agent edit footage, add narration and captions, and render a checked MP4, as a CLI and MCP server",
+      "tags": [
+        "video"
+      ]
+    },
+    {
+      "name": "Agent Payment Node",
+      "url": "https://github.com/nuanu-ai/agent-payment-node",
+      "description": "Local-first payment runtime for agents with a stdio MCP server, owner-set limits and approval, and x402 payments; macOS on Apple Silicon only",
+      "tags": [
+        "payments"
+      ]
     }
   ]
 }
