@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .venv/
+# Working output of the benchmark scripts. Only the reference runs are committed.
+results/*
+!results/macbook-m4-pro/
