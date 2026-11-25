@@ -65,7 +65,7 @@ const stats = [
 
 const bibtex = `@article{chhetri2025model,
   title   = {${meta.paper.title}},
-  author  = {${meta.paper.authors.join(" and ")}},
+  author  = {${meta.paper.authors.join(" and\n            ")}},
   journal = {arXiv preprint arXiv:${meta.paper.arxiv}},
   year    = {${meta.paper.year}}
 }`;
