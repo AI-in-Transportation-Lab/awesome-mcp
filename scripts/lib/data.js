@@ -6,6 +6,8 @@ const read = (rel) => JSON.parse(fs.readFileSync(new URL(rel, ROOT), "utf8"));
 
 export const loadMeta = () => read("data/meta.json");
 export const loadPapers = () => read("data/papers.json");
+export const loadPublished = () => read("data/published.json");
+export const loadSurvey = () => read("data/survey.json");
 export const loadBenchmark = () => read("benchmark/results/macbook-m4-pro/aggregate.json");
 
 /** Resource categories, ordered by their `order` field. */

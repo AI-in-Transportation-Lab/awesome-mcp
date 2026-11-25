@@ -1,6 +1,6 @@
 // Sanity-check everything under data/. Run by CI on every pull request.
 import fs from "node:fs";
-import { ROOT, loadMeta, loadPapers, loadCategories } from "./lib/data.js";
+import { ROOT, loadMeta, loadPapers, loadCategories, loadPublished, loadSurvey } from "./lib/data.js";
 
 const errors = [];
 const fail = (msg) => errors.push(msg);
@@ -42,8 +42,31 @@ for (const p of loadPapers()) {
   if (p.published && !/^\d{4}-\d{2}-\d{2}$/.test(p.published)) fail(`${where}: bad date "${p.published}"`);
 }
 
+// Published papers (OpenAlex)
+const seenPub = new Set();
+for (const p of loadPublished()) {
+  const where = `published ${p.id ?? "?"}`;
+  for (const k of ["id", "title", "url", "published"]) if (!p[k]) fail(`${where}: missing ${k}`);
+  if (seenPub.has(p.id)) fail(`${where}: duplicate id`);
+  seenPub.add(p.id);
+}
+
+// The survey's reference list
+const survey = loadSurvey();
+const groupIds = new Set((survey.groups ?? []).map((g) => g.id));
+const seenKey = new Set();
+for (const e of survey.entries ?? []) {
+  const where = `survey ${e.key ?? "?"}`;
+  for (const k of ["key", "title", "group"]) if (!e[k]) fail(`${where}: missing ${k}`);
+  if (!e.authors?.length) fail(`${where}: no authors`);
+  if (seenKey.has(e.key)) fail(`${where}: duplicate key`);
+  seenKey.add(e.key);
+  for (const g of [e.group, ...(e.also ?? [])]) if (!groupIds.has(g)) fail(`${where}: unknown group ${g}`);
+  if (e.url && !isWeb(e.url)) fail(`${where}: bad url "${e.url}"`);
+}
+
 if (errors.length) {
   console.error(`${errors.length} problem(s):\n` + errors.map((e) => `  - ${e}`).join("\n"));
   process.exit(1);
 }
-console.log(`OK: ${seenUrl.size} resources in ${seenCat.size} categories, ${seenId.size} papers`);
+console.log(`OK: ${seenUrl.size} resources in ${seenCat.size} categories, ${seenId.size} preprints, ${seenPub.size} published, ${seenKey.size} survey references`);
