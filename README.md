@@ -4,9 +4,8 @@
 
 **One place for Model Context Protocol papers, servers, clients, SDKs, benchmarks and tutorials.**
 
-[![Website](https://img.shields.io/badge/website-open-2ea44f)](https://ai-in-transportation-lab.github.io/awesome-mcp/)
-[![arXiv](https://img.shields.io/badge/arXiv-2508.19239-b31b1b)](https://arxiv.org/abs/2508.19239)
-[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)](LICENSE)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-lightgrey)](LICENSE)
+[![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey)](LICENSE-CC-BY-4.0)
 [![Last commit](https://img.shields.io/github/last-commit/AI-in-Transportation-Lab/awesome-mcp)](https://github.com/AI-in-Transportation-Lab/awesome-mcp/commits/main)
 [![Stars](https://img.shields.io/github/stars/AI-in-Transportation-Lab/awesome-mcp?style=flat)](https://github.com/AI-in-Transportation-Lab/awesome-mcp/stargazers)
 
@@ -15,23 +14,21 @@
 </div>
 
 > [!NOTE]
-> **Our survey: [Model Context Protocols in Adaptive Transport Systems: A Survey](https://arxiv.org/abs/2508.19239)**
+> **Our survey**
 >
-> Gaurab Chhetri, Shriyank Somvanshi, Md Monzurul Islam, Shamyo Brotee, Mahmuda Sultana Mimi, Dipti Koirala, Biplov Pandey, Subasish Das
+> [Model Context Protocols in Adaptive Transport Systems: A Survey](https://arxiv.org/abs/2508.19239)
+> <br><sub>Gaurab Chhetri, Shriyank Somvanshi, Md Monzurul Islam, Shamyo Brotee, Mahmuda Sultana Mimi, Dipti Koirala, Biplov Pandey, Subasish Das</sub>
 >
 > [Read on arXiv](https://arxiv.org/abs/2508.19239) · [Cite it](#cite) · [Works it cites](SURVEY.md) · [Benchmark and code](#benchmark-and-reference-server)
 
 The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open protocol that lets language-model applications connect to external tools, data and prompts through a uniform interface. This repository collects what you need to work with it: the research literature, servers, clients, SDKs, benchmarks and tutorials. It is maintained by the [AI in Transportation Lab](https://github.com/AI-in-Transportation-Lab).
 
+Everything below is searchable on the **[website](https://ai-in-transportation-lab.github.io/awesome-mcp/)**, and papers are refreshed from arXiv every day.
+
 **686** preprints · **526** published papers · **243** survey references · **19** servers · **10** clients · **15** SDKs and frameworks
 
-> [!TIP]
-> A searchable version of everything below lives at **[ai-in-transportation-lab.github.io/awesome-mcp](https://ai-in-transportation-lab.github.io/awesome-mcp/)**. Papers are refreshed from arXiv every day.
-
-> [!NOTE]
-> The tables in this file are generated from [`data/`](data/). To add or fix an entry, edit the JSON there and open a pull request; see [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Contents
+<details>
+<summary><b>Contents</b></summary>
 
 - [Latest preprints](#latest-preprints)
 - [Latest published papers](#latest-published-papers)
@@ -49,6 +46,8 @@ The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open p
 - [Contributing](#contributing)
 - [Cite](#cite)
 - [License](#license)
+
+</details>
 
 ## Latest preprints
 
@@ -285,6 +284,9 @@ Where to find more servers and clients
 ## Contributing
 
 Contributions are welcome: new servers, clients, tutorials, benchmarks, corrections. Papers are collected automatically, so there is no need to submit those. Start with [CONTRIBUTING.md](CONTRIBUTING.md) or open an [issue](https://github.com/AI-in-Transportation-Lab/awesome-mcp/issues/new/choose).
+
+> [!NOTE]
+> The tables in this file are generated from [`data/`](data/). To add or fix an entry, edit the JSON there and open a pull request.
 
 ## Cite
 
