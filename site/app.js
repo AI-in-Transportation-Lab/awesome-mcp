@@ -1,6 +1,7 @@
 // Awesome MCP site. Plain ES modules; all data comes from ./data/*.json.
 const $ = (id) => document.getElementById(id);
-const PAGE = 30;
+const PAGE = 10; // rows of papers or references per step
+const CARD_PAGE = 12; // resource cards per step (two columns)
 const BOARD_ROWS = 7;
 
 /** Build an element. Text always goes through textContent, so data can never inject HTML. */
@@ -45,6 +46,7 @@ const state = {
   cat: "servers",
   tab: "preprints", year: "all", topic: "all", shown: PAGE,
   group: "all",
+  resShown: CARD_PAGE, surShown: PAGE,
 };
 let meta, preprints, published, survey, cats, bench, topicLabels;
 
@@ -61,6 +63,13 @@ function highlight(text, q) {
   return text.split(re).map((part, i) => (i % 2 ? h("mark", {}, part) : part));
 }
 const authorsLine = (list = [], max = 4) => (list.length > max ? `${list.slice(0, max).join(", ")} et al.` : list.join(", "));
+
+/** Show or hide a "Show more" button depending on how many items are left. */
+function showMore(id, total, shown) {
+  const btn = $(id);
+  btn.hidden = total <= shown;
+  btn.textContent = `Show more (${total - shown} left)`;
+}
 
 // ---------- hero board ----------
 function renderBoard() {
@@ -94,7 +103,7 @@ const resourceMatches = (catId) => cats.find((x) => x.id === catId).items.filter
 function renderCategories() {
   const all = cats.reduce((n, c) => n + resourceMatches(c.id).length, 0);
   const tab = (id, label, n) =>
-    h("button", { type: "button", role: "tab", "aria-selected": state.cat === id, onclick: () => { state.cat = id; renderResources(); } },
+    h("button", { type: "button", role: "tab", "aria-selected": state.cat === id, onclick: () => { state.cat = id; state.resShown = CARD_PAGE; renderResources(); } },
       h("span", { class: "lab" }, icon(CAT_ICON[id] ?? "layout-grid"), label), h("span", { class: "n" }, String(n)));
   $("cats").replaceChildren(tab("all", "All", all), ...cats.map((c) => tab(c.id, c.title, resourceMatches(c.id).length)));
 }
@@ -106,7 +115,7 @@ function renderResources() {
   const pool = state.cat === "all" ? cats : [cat];
   const rows = pool.flatMap((c) => resourceMatches(c.id).map((it) => ({ it, c })));
   $("resource-list").replaceChildren(
-    ...rows.map(({ it, c }) =>
+    ...rows.slice(0, state.resShown).map(({ it, c }) =>
       h("li", { class: "card" },
         h("div", { class: "card-head" },
           tileFor(it, c.id),
@@ -118,6 +127,7 @@ function renderResources() {
             state.cat === "all" && h("span", { class: "flag" }, c.title),
             (it.tags ?? []).map((t) => h("button", { class: "tag", type: "button", onclick: () => setResourceQuery(t) }, t))))));
   $("resource-empty").hidden = rows.length > 0;
+  showMore("res-more", rows.length, state.resShown);
   renderStatus();
 }
 
@@ -202,7 +212,7 @@ const refMatches = (g) => survey.entries.filter((e) => (g === "all" || e.group =
 
 function renderGroups() {
   const tab = (id, label, n, title) =>
-    h("button", { type: "button", role: "tab", title, "aria-selected": state.group === id, onclick: () => { state.group = id; renderSurvey(); } },
+    h("button", { type: "button", role: "tab", title, "aria-selected": state.group === id, onclick: () => { state.group = id; state.surShown = PAGE; renderSurvey(); } },
       h("span", { class: "lab" }, h("span", { class: "t" }, label)), h("span", { class: "n" }, String(n)));
   $("groups").replaceChildren(tab("all", "All", refMatches("all").length), ...survey.groups.map((g) => tab(g.id, g.short ?? g.title, refMatches(g.id).length, g.title)));
 }
@@ -216,7 +226,7 @@ function renderSurvey() {
     !g && " for the analysis.");
   const rows = refMatches(state.group).sort((a, b) => (b.year ?? 0) - (a.year ?? 0) || a.title.localeCompare(b.title));
   $("survey-list").replaceChildren(
-    ...rows.slice(0, 200).map((e) =>
+    ...rows.slice(0, state.surShown).map((e) =>
       h("li", { class: "ref" },
         h("span", { class: "mono" }, e.year ?? ""),
         h("div", { class: "p-title" },
@@ -224,6 +234,7 @@ function renderSurvey() {
           h("p", { class: "p-authors" }, [authorsLine(e.authors), e.venue].filter(Boolean).join(" · "))),
         )));
   $("survey-empty").hidden = rows.length > 0;
+  showMore("sur-more", rows.length, state.surShown);
   renderStatus();
 }
 
@@ -316,7 +327,8 @@ function onGlobalQuery() {
   const q = $("q").value.trim();
   for (const id of ["res-q", "pap-q", "sur-q"]) $(id).value = q;
   state.resQ = state.papQ = state.surQ = q;
-  state.shown = PAGE;
+  state.shown = state.surShown = PAGE;
+  state.resShown = CARD_PAGE;
   if (q) { state.cat = "all"; state.group = "all"; }
   else { if (state.cat === "all") state.cat = cats[0].id; }
   syncUrl();
@@ -330,12 +342,14 @@ function setResourceQuery(value) {
 }
 function onResourceQuery() {
   state.resQ = $("res-q").value.trim();
+  state.resShown = CARD_PAGE;
   if (state.resQ) state.cat = "all"; else if (state.cat === "all") state.cat = cats[0].id;
   renderResources();
 }
 function onPaperQuery() { state.papQ = $("pap-q").value.trim(); state.shown = PAGE; renderPapers(); }
 function onSurveyQuery() {
   state.surQ = $("sur-q").value.trim();
+  state.surShown = PAGE;
   if (state.surQ) state.group = "all";
   renderSurvey();
 }
@@ -376,6 +390,8 @@ async function main() {
   const initial = new URLSearchParams(location.search).get("q");
   if (initial) { $("q").value = initial; onGlobalQuery(); }
   $("more").addEventListener("click", () => { state.shown += PAGE; renderPapers(); });
+  $("res-more").addEventListener("click", () => { state.resShown += CARD_PAGE; renderResources(); });
+  $("sur-more").addEventListener("click", () => { state.surShown += PAGE; renderSurvey(); });
   document.addEventListener("keydown", (e) => {
     if (e.key === "/" && !/^(input|textarea)$/i.test(document.activeElement?.tagName ?? "")) { e.preventDefault(); $("q").focus(); }
   });
