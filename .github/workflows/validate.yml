@@ -1,0 +1,26 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate data
+        run: node scripts/validate.js
+      - name: README and PAPERS.md are up to date
+        run: |
+          node scripts/build-readme.js
+          git diff --exit-code README.md PAPERS.md || {
+            echo "::error::README.md or PAPERS.md is out of date. Run 'node scripts/build-readme.js' and commit the result."
+            exit 1
+          }
+      - name: Site builds
+        run: node scripts/build-site.js
