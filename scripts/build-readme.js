@@ -114,6 +114,13 @@ const readme = `<div align="center">
 
 </div>
 
+> [!NOTE]
+> **Our survey: [${meta.paper.title}](${meta.paper.url})**
+>
+> ${meta.paper.authors.join(", ")}
+>
+> [Read on arXiv](${meta.paper.url}) · [Cite it](#cite) · [Works it cites](SURVEY.md) · [Benchmark and code](#benchmark-and-reference-server)
+
 The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open protocol that lets language-model applications connect to external tools, data and prompts through a uniform interface. This repository collects what you need to work with it: the research literature, servers, clients, SDKs, benchmarks and tutorials. It is maintained by the [AI in Transportation Lab](https://github.com/AI-in-Transportation-Lab).
 
 ${stats}
