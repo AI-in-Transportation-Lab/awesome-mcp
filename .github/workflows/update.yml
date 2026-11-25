@@ -1,5 +1,7 @@
 name: Update papers
 
+# One short job a day. The scripts use only Node's standard library, which is
+# already on the runner, so there is no setup or install step.
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -7,22 +9,28 @@ on:
 
 permissions:
   contents: write
+  actions: write # lets the job start the Pages deploy when something changed
+
+concurrency:
+  group: update-papers
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - name: Fetch new papers from arXiv
-        run: node scripts/update-papers.js
-      - name: Validate data
-        run: node scripts/validate.js
-      - name: Regenerate README and PAPERS.md
-        run: node scripts/build-readme.js
-      - name: Commit changes
+          fetch-depth: 1
+      - name: Fetch, validate and regenerate
+        run: |
+          node scripts/update-papers.js
+          node scripts/validate.js
+          node scripts/build-readme.js
+      - name: Commit and deploy only if something changed
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           if git diff --quiet; then
             echo "No new papers."
@@ -33,3 +41,4 @@ jobs:
           git add data/papers.json README.md PAPERS.md
           git commit -m "papers: update from arXiv ($(date -u +%Y-%m-%d))"
           git push
+          gh workflow run pages.yml --ref main

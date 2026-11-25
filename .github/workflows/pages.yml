@@ -1,14 +1,11 @@
 name: Deploy site
 
+# Runs when the site or its data changes on main, and when the daily update
+# commits new papers (that job starts this one). Nothing runs on a quiet day.
 on:
   push:
     branches: [main]
-    paths: ["site/**", "data/**", "benchmark/results/**", "scripts/build-site.js"]
-  # The daily paper update is pushed with the default token, which does not
-  # trigger other workflows on push, so deploy when it finishes instead.
-  workflow_run:
-    workflows: ["Update papers"]
-    types: [completed]
+    paths: ["site/**", "data/**", "benchmark/results/**", "scripts/build-site.js", "scripts/lib/**"]
   workflow_dispatch:
 
 permissions:
@@ -22,8 +19,8 @@ concurrency:
 
 jobs:
   deploy:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -31,9 +28,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
+          fetch-depth: 1
       - run: node scripts/build-site.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

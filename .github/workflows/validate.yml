@@ -1,26 +1,38 @@
 name: Validate
 
+# Only runs on pull requests that touch the data, scripts or site, and cancels
+# superseded runs. Takes a few seconds.
 on:
   pull_request:
-  push:
-    branches: [main]
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - "site/**"
+      - "README.md"
+      - "PAPERS.md"
+      - ".github/workflows/**"
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 3
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - name: Validate data
-        run: node scripts/validate.js
-      - name: README and PAPERS.md are up to date
+          fetch-depth: 1
+      - name: Validate, check generated files, build the site
         run: |
+          node scripts/validate.js
           node scripts/build-readme.js
           git diff --exit-code README.md PAPERS.md || {
             echo "::error::README.md or PAPERS.md is out of date. Run 'node scripts/build-readme.js' and commit the result."
             exit 1
           }
-      - name: Site builds
-        run: node scripts/build-site.js
+          node scripts/build-site.js
