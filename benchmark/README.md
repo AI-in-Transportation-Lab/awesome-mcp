@@ -1,6 +1,6 @@
 # MCP micro-benchmark and reference MAPE-K server
 
-Executable artifact for the survey [*Model Context Protocols in Adaptive Transport Systems: A Survey*](https://arxiv.org/abs/2508.19239) (Section 7.3 and the reference model). It contains:
+Executable artifact for our survey [*Model Context Protocols in Adaptive Transport Systems: A Survey*](https://arxiv.org/abs/2508.19239). It contains:
 
 - a **serialization micro-benchmark** (JSON, orjson, MessagePack, CBOR, Protocol Buffers),
 - a **transport micro-benchmark** (raw TCP, Zenoh, DDS, gRPC, JSON-RPC, MCP over stdio and Streamable HTTP),
