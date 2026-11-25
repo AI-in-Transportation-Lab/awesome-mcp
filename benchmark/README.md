@@ -73,3 +73,7 @@ results/
 - `measure_response_size.py` launches the sibling echo server and uses the same M3 payload as the serialization benchmark. The size-matched ablation builds valid JSON responses at the exact target byte length, accounting for request-ID length.
 - The generated Protobuf files correspond to `context.proto`; they are not result tables.
 - All payloads and the fallback bridge stream are synthetic. The network, SDK and middleware calls, and the elapsed-time measurements, are real. They do not model real traffic, contention, human approval, or deterministic control.
+
+## License
+
+The code in this directory is released under the [MIT License](../LICENSE). The results and this documentation are under [CC BY 4.0](../LICENSE-CC-BY-4.0).
