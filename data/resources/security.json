@@ -2,12 +2,12 @@
   "id": "security",
   "title": "Security",
   "order": 6,
-  "description": "Scanning and guidance for MCP deployments.",
+  "description": "Scanning and guidance for MCP deployments",
   "items": [
     {
       "name": "Agent Scan",
       "url": "https://github.com/snyk/agent-scan",
-      "description": "Security scanner for AI agents, MCP servers and agent skills (formerly mcp-scan).",
+      "description": "Security scanner for AI agents, MCP servers and agent skills (formerly mcp-scan)",
       "tags": [
         "scanner"
       ]
@@ -15,7 +15,7 @@
     {
       "name": "MCP security best practices",
       "url": "https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices",
-      "description": "Official guidance on attacks and mitigations for MCP implementations.",
+      "description": "Official guidance on attacks and mitigations for MCP implementations",
       "tags": [
         "guidance"
       ],
@@ -24,7 +24,7 @@
     {
       "name": "MCPSecBench",
       "url": "https://github.com/AIS2Lab/MCPSecBench",
-      "description": "Systematic security benchmark and playground for MCP.",
+      "description": "Systematic security benchmark and playground for MCP",
       "tags": [
         "benchmark"
       ]
@@ -32,7 +32,7 @@
     {
       "name": "MCPTox",
       "url": "https://github.com/zhiqiangwang4/MCPTox-Benchmark",
-      "description": "Benchmark for tool-poisoning attacks on real-world MCP servers.",
+      "description": "Benchmark for tool-poisoning attacks on real-world MCP servers",
       "tags": [
         "benchmark"
       ]

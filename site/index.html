@@ -4,8 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Awesome MCP</title>
-  <meta name="description" content="Model Context Protocol papers, servers, clients, SDKs, benchmarks and tutorials in one searchable place. Papers refresh daily from arXiv.">
+  <meta name="description" content="Search arXiv papers, servers, clients, SDKs and benchmarks for the Model Context Protocol. New papers are indexed every night.">
+  <meta name="color-scheme" content="light dark">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,33 +26,47 @@
 
   <main id="top">
     <section class="hero wrap">
-      <h1>Everything on the Model Context Protocol, in one place.</h1>
-      <p class="lede" id="tagline">Papers, servers, clients, SDKs, benchmarks and tutorials. Papers refresh daily from arXiv.</p>
-      <label class="search">
-        <span class="sr">Search papers and resources</span>
-        <input id="q" type="search" placeholder="Search papers and resources, e.g. security, Rust, browser" autocomplete="off">
-      </label>
-      <p class="stats" id="stats" aria-live="polite"></p>
+      <div class="hero-text">
+        <h1>Find your way around the Model Context Protocol</h1>
+        <p class="lede" id="lede">Search arXiv papers, servers, clients, SDKs and benchmarks. New papers are indexed every night.</p>
+        <label class="search">
+          <span class="sr">Search papers and resources</span>
+          <input id="q" type="search" placeholder="Search papers, servers, SDKs" autocomplete="off" spellcheck="false">
+          <kbd aria-hidden="true">/</kbd>
+        </label>
+        <p class="status" id="stats" aria-live="polite"></p>
+      </div>
+      <aside class="board" aria-labelledby="board-title">
+        <div class="board-head">
+          <h2 id="board-title">Latest from arXiv</h2>
+          <span class="mono" id="board-date"></span>
+        </div>
+        <ol class="board-rows" id="board"></ol>
+      </aside>
     </section>
 
     <section id="resources" class="wrap">
       <div class="head">
         <h2>Resources</h2>
-        <p class="muted">Curated servers, clients, SDKs and more. Every link is checked.</p>
+        <p>Servers, clients, SDKs, tools and reading material</p>
       </div>
-      <div class="chips" id="cats" role="tablist" aria-label="Resource categories"></div>
-      <p class="muted cat-desc" id="cat-desc"></p>
-      <ul class="list" id="resource-list"></ul>
-      <p class="empty" id="resource-empty" hidden>No resources match your search.</p>
+      <div class="split">
+        <div class="rail" id="cats" role="tablist" aria-label="Resource categories" aria-orientation="vertical"></div>
+        <div>
+          <p class="cat-desc" id="cat-desc"></p>
+          <ul class="rows" id="resource-list"></ul>
+          <p class="empty" id="resource-empty" hidden>No resources match your search.</p>
+        </div>
+      </div>
     </section>
 
     <section id="papers" class="wrap">
       <div class="head">
         <h2>Papers</h2>
-        <p class="muted">arXiv papers that mention the Model Context Protocol, newest first.</p>
+        <p>arXiv papers that mention the Model Context Protocol, newest first</p>
       </div>
-      <div class="chips" id="years" aria-label="Filter by year"></div>
-      <ul class="list papers" id="paper-list"></ul>
+      <div class="years" id="years" aria-label="Filter by year"></div>
+      <ul class="rows papers" id="paper-list"></ul>
       <p class="empty" id="paper-empty" hidden>No papers match your search.</p>
       <button class="more" id="more" type="button" hidden>Show more</button>
     </section>
@@ -58,17 +74,17 @@
     <section id="benchmark" class="wrap">
       <div class="head">
         <h2>Benchmark</h2>
-        <p class="muted" id="bench-sub"></p>
+        <p id="bench-sub"></p>
       </div>
       <div id="bench"></div>
-      <p class="note">Synthetic, single-host and loopback only; read these as orders of magnitude, not guarantees.
+      <p class="note">Synthetic payloads, one host, loopback only. Read the numbers as orders of magnitude.
         Code, setup and limits are in <a href="https://github.com/AI-in-Transportation-Lab/awesome-mcp/tree/main/benchmark">benchmark/</a>.</p>
     </section>
 
     <section id="cite" class="wrap">
       <div class="head">
         <h2>Cite</h2>
-        <p class="muted">If this collection or the benchmark helps your work, please cite our survey.</p>
+        <p>Please cite our survey if this collection or the benchmark helps your work</p>
       </div>
       <div class="code">
         <button type="button" id="copy">Copy</button>

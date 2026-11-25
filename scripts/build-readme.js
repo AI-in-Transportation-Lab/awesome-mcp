@@ -93,7 +93,7 @@ const readme = `<div align="center">
 [![Last commit](https://img.shields.io/github/last-commit/${meta.repo})](${repoUrl}/commits/main)
 [![Stars](https://img.shields.io/github/stars/${meta.repo}?style=flat)](${repoUrl}/stargazers)
 
-[Website](${meta.site}) · [Papers](PAPERS.md) · [Servers](#servers) · [Clients](#clients-and-hosts) · [SDKs](#sdks-and-frameworks) · [Benchmark](#benchmark-and-reference-server) · [Contribute](CONTRIBUTING.md)
+[Website](${meta.site}) · [Papers](PAPERS.md) · [Servers](#servers) · [Clients](#clients) · [SDKs](#sdks) · [Benchmark](#benchmark-and-reference-server) · [Contribute](CONTRIBUTING.md)
 
 </div>
 
@@ -167,7 +167,7 @@ ${[...byMonth]
   .map(
     ([m, ps]) => `## ${monthName(m)} (${ps.length})
 
-${ps.map((p) => `- [${p.title.replace(/([[\]])/g, "\\$1")}](${p.url})${p.authors?.length ? ` — ${authorLine(p.authors)}` : ""}`).join("\n")}
+${ps.map((p) => `- [${p.title.replace(/([[\]])/g, "\\$1")}](${p.url})${p.authors?.length ? ` · ${authorLine(p.authors)}` : ""}`).join("\n")}
 `
   )
   .join("\n")}`;

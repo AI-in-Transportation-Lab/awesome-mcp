@@ -1,13 +1,13 @@
 {
   "id": "tools",
-  "title": "Developer tools and infrastructure",
+  "title": "Tools and infrastructure",
   "order": 5,
-  "description": "Testing, debugging, proxying and registry infrastructure.",
+  "description": "Testing, debugging, proxying and registry infrastructure",
   "items": [
     {
       "name": "MCP Inspector",
       "url": "https://github.com/modelcontextprotocol/inspector",
-      "description": "Interactive tool for testing and debugging MCP servers.",
+      "description": "Interactive tool for testing and debugging MCP servers",
       "tags": [
         "testing"
       ],
@@ -16,7 +16,7 @@
     {
       "name": "MCP Registry",
       "url": "https://github.com/modelcontextprotocol/registry",
-      "description": "Community-driven registry service for MCP servers.",
+      "description": "Community-driven registry service for MCP servers",
       "tags": [
         "registry"
       ],
@@ -25,7 +25,7 @@
     {
       "name": "mcpo",
       "url": "https://github.com/open-webui/mcpo",
-      "description": "Exposes MCP servers as OpenAPI HTTP servers.",
+      "description": "Exposes MCP servers as OpenAPI HTTP servers",
       "tags": [
         "proxy"
       ]
@@ -33,7 +33,7 @@
     {
       "name": "mcp-proxy",
       "url": "https://github.com/sparfenyuk/mcp-proxy",
-      "description": "Bridges Streamable HTTP and stdio MCP transports.",
+      "description": "Bridges Streamable HTTP and stdio MCP transports",
       "tags": [
         "proxy"
       ]
@@ -41,7 +41,7 @@
     {
       "name": "Docker MCP Gateway",
       "url": "https://github.com/docker/mcp-gateway",
-      "description": "Docker CLI plugin that runs and manages MCP servers in containers.",
+      "description": "Docker CLI plugin that runs and manages MCP servers in containers",
       "tags": [
         "gateway"
       ]
@@ -49,7 +49,7 @@
     {
       "name": "MCP Context Forge",
       "url": "https://github.com/IBM/mcp-context-forge",
-      "description": "Gateway, registry and proxy that sits in front of MCP and A2A servers.",
+      "description": "Gateway, registry and proxy that sits in front of MCP and A2A servers",
       "tags": [
         "gateway"
       ]
