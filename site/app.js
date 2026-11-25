@@ -20,6 +20,36 @@ function h(tag, props = {}, ...kids) {
   return node;
 }
 
+const SVG_NS = "http://www.w3.org/2000/svg";
+/** An icon from the sprite in icons.svg. */
+function icon(name) {
+  const svg = document.createElementNS(SVG_NS, "svg");
+  svg.setAttribute("class", "icon");
+  svg.setAttribute("aria-hidden", "true");
+  const use = document.createElementNS(SVG_NS, "use");
+  use.setAttribute("href", `icons.svg#${name}`);
+  svg.append(use);
+  return svg;
+}
+const CAT_ICON = { all: "layout-grid", servers: "server", clients: "devices", sdks: "package", agents: "hierarchy-2", tools: "tool", security: "shield-check", benchmarks: "gauge", learning: "book-2", directories: "list-details" };
+
+/** Links like "benchmark/" point into this repository. */
+const hrefOf = (it) => (/^https?:/.test(it.url) ? it.url : `https://github.com/${meta.repo}/tree/main/${it.url}`);
+/** GitHub owners get their avatar as the tile; everything else shows its category icon. */
+function githubOwner(url) {
+  try { const u = new URL(url); return u.hostname === "github.com" ? u.pathname.split("/")[1] : null; } catch { return null; }
+}
+function tileFor(it, catId) {
+  const owner = githubOwner(hrefOf(it));
+  const tile = h("span", { class: "tile", "aria-hidden": "true" }, icon(CAT_ICON[catId] ?? "layout-grid"));
+  if (owner) {
+    const img = h("img", { src: `https://github.com/${encodeURIComponent(owner)}.png?size=80`, alt: "", width: "40", height: "40", loading: "lazy", referrerpolicy: "no-referrer" });
+    img.addEventListener("error", () => img.remove());
+    tile.append(img);
+  }
+  return tile;
+}
+
 const getJSON = (path) =>
   fetch(path).then((r) => {
     if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
@@ -62,7 +92,7 @@ function renderCategories() {
   const all = cats.reduce((n, c) => n + resourceMatches(c.id).length, 0);
   const tab = (id, label, n) =>
     h("button", { type: "button", role: "tab", "aria-selected": state.cat === id, onclick: () => { state.cat = id; renderResources(); } },
-      h("span", {}, label), h("span", { class: "n" }, String(n)));
+      h("span", { class: "lab" }, icon(CAT_ICON[id] ?? "layout-grid"), label), h("span", { class: "n" }, String(n)));
   $("cats").replaceChildren(tab("all", "All", all), ...cats.map((c) => tab(c.id, c.title, resourceMatches(c.id).length)));
 }
 
@@ -74,12 +104,14 @@ function renderResources() {
   const rows = pool.flatMap((c) => resourceMatches(c.id).map((it) => ({ it, c })));
   $("resource-list").replaceChildren(
     ...rows.map(({ it, c }) =>
-      h("li", {},
-        h("div", { class: "row-title" }, h("a", { href: it.url, rel: "noopener" }, highlight(it.name))),
+      h("li", { class: "card" },
+        h("div", { class: "card-head" },
+          tileFor(it, c.id),
+          h("div", { class: "card-title" }, h("a", { href: hrefOf(it), rel: "noopener" }, highlight(it.name)), icon("arrow-up-right"))),
         h("p", { class: "row-desc" }, highlight(it.description)),
         (it.official || it.tags?.length > 0 || state.cat === "all") &&
           h("div", { class: "row-meta" },
-            it.official && h("span", { class: "flag official" }, "official"),
+            it.official && h("span", { class: "flag official" }, icon("rosette-discount-check"), "official"),
             state.cat === "all" && h("span", { class: "flag" }, c.title),
             (it.tags ?? []).map((t) => h("button", { class: "tag", type: "button", onclick: () => setQuery(t) }, t))))));
   $("resource-empty").hidden = rows.length > 0;
@@ -111,7 +143,7 @@ function renderPapers() {
         h("div", { class: "p-title" },
           h("a", { href: p.url, rel: "noopener" }, highlight(p.title)),
           h("p", { class: "p-authors" }, authors(p)),
-          p.summary && h("details", { class: "abs" }, h("summary", {}, "Abstract"), h("p", {}, p.summary))),
+          p.summary && h("details", { class: "abs" }, h("summary", {}, icon("chevron-right"), "Abstract"), h("p", {}, p.summary))),
         p.category && h("span", { class: "code-tag" }, p.category))));
   $("paper-empty").hidden = pool.length > 0;
   const more = $("more");
@@ -174,10 +206,12 @@ function renderCite() {
   year    = {${p.year}}
 }`;
   $("bibtex").textContent = bib;
-  $("copy").addEventListener("click", async (e) => {
-    try { await navigator.clipboard.writeText(bib); e.target.textContent = "Copied"; }
-    catch { e.target.textContent = "Select and copy"; }
-    setTimeout(() => (e.target.textContent = "Copy"), 1800);
+  const btn = $("copy");
+  const set = (name, text) => btn.replaceChildren(icon(name), h("span", {}, text));
+  btn.addEventListener("click", async () => {
+    try { await navigator.clipboard.writeText(bib); set("check", "Copied"); }
+    catch { set("copy", "Select and copy"); }
+    setTimeout(() => set("copy", "Copy"), 1800);
   });
 }
 

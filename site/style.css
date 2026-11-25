@@ -53,12 +53,16 @@ button { font: inherit; color: inherit; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .mono { font-family: var(--mono); font-size: 12px; line-height: 16px; letter-spacing: 0.01em; font-variant-numeric: tabular-nums; color: var(--text-3); }
 
+.icon { width: 16px; height: 16px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+
 /* Top bar */
 .top { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--page) 90%, transparent); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
 .bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 56px; }
-.brand { white-space: nowrap; flex: none; font-weight: 500; font-size: 16px; text-decoration: none; letter-spacing: -0.01em; }
+.brand { display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; flex: none; font-weight: 500; font-size: 16px; text-decoration: none; letter-spacing: -0.01em; }
+.brand-mark { width: 20px; height: 20px; stroke-width: 1.75; color: var(--accent-ink); }
 nav { display: flex; gap: 20px; font-size: 14px; overflow-x: auto; }
 nav a { color: var(--text-2); text-decoration: none; white-space: nowrap; }
+nav .gh { display: inline-flex; align-items: center; gap: 6px; }
 nav a:hover { color: var(--text); }
 
 /* Hero */
@@ -66,8 +70,9 @@ nav a:hover { color: var(--text); }
 h1 { font-size: clamp(36px, 4.6vw, 56px); line-height: 1.06; font-weight: 500; letter-spacing: -0.03em; margin: 0 0 20px; text-wrap: balance; }
 .lede { font-size: 18px; line-height: 28px; color: var(--text-2); margin: 0 0 32px; max-width: 32rem; }
 .search { position: relative; display: block; }
+.search .lead { position: absolute; left: 16px; top: 16px; color: var(--text-3); pointer-events: none; }
 .search input {
-  width: 100%; height: 48px; padding: 0 44px 0 16px; font: inherit; color: var(--text);
+  width: 100%; height: 48px; padding: 0 48px 0 44px; font: inherit; color: var(--text);
   background: var(--card); border: 1px solid var(--line); border-radius: var(--r-ctl);
   box-shadow: 0 1px 2px rgb(0 0 0 / 0.05);
   transition: border-color 150ms var(--ease);
@@ -84,11 +89,14 @@ h1 { font-size: clamp(36px, 4.6vw, 56px); line-height: 1.06; font-weight: 500; l
 /* Departure board: the newest papers, as the page's first piece of content */
 .board { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 4px 20px 0; overflow: hidden; box-shadow: 0 8px 24px rgb(0 0 0 / 0.06); -webkit-mask-image: linear-gradient(#000 78%, transparent); mask-image: linear-gradient(#000 78%, transparent); }
 .board-head { display: flex; justify-content: space-between; align-items: center; height: 48px; border-bottom: 1px solid var(--line); }
-.board-head h2 { font-size: 13px; line-height: 16px; font-weight: 500; margin: 0; color: var(--text-2); }
+.board-head h2 { display: flex; align-items: center; gap: 8px; font-size: 13px; line-height: 16px; font-weight: 500; margin: 0; color: var(--text-2); }
 .board-rows { list-style: none; margin: 0; padding: 0; }
 .board-rows li { display: grid; grid-template-columns: 88px minmax(0, 1fr) auto; gap: 16px; align-items: center; height: 52px; border-bottom: 1px solid var(--line); }
 .board-rows a { color: var(--text); text-decoration: none; font-size: 14px; line-height: 20px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .board-rows li:hover a { text-decoration: underline; text-decoration-color: var(--text-3); }
+.board-rows .skel { display: block; padding-top: 16px; }
+.skel span { display: block; height: 8px; border-radius: 4px; background: var(--raised); }
+.skel span + span { width: 60%; margin-top: 8px; }
 .code-tag { font: 500 12px/16px var(--mono); color: var(--text-2); background: var(--raised); padding: 2px 8px; border-radius: var(--r-tag); }
 
 /* Sections */
@@ -107,6 +115,9 @@ h2 { font-size: 28px; line-height: 32px; font-weight: 500; letter-spacing: -0.02
 }
 .rail button:hover { background: var(--raised); color: var(--text); }
 .rail button[aria-selected="true"] { background: var(--raised); color: var(--text); font-weight: 500; box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.06), 0 0 0 1px var(--line); }
+.rail .lab { display: inline-flex; align-items: center; gap: 10px; }
+.rail .lab .icon { color: var(--text-3); }
+.rail button[aria-selected="true"] .lab .icon { color: var(--accent-ink); }
 .rail .n { font: 400 12px/16px var(--mono); color: var(--text-3); font-variant-numeric: tabular-nums; }
 .cat-desc { margin: 0 0 8px; color: var(--text-2); font-size: 14px; line-height: 20px; min-height: 36px; display: flex; align-items: center; }
 
@@ -124,6 +135,23 @@ h2 { font-size: 28px; line-height: 32px; font-weight: 500; letter-spacing: -0.02
 .flag.official { color: var(--text-2); }
 mark { background: color-mix(in srgb, var(--accent) 35%, transparent); color: inherit; border-radius: 2px; }
 
+.cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.card { position: relative; display: flex; flex-direction: column; gap: 8px; padding: 16px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-card); transition: border-color 150ms var(--ease), box-shadow 150ms var(--ease); }
+.card:hover { border-color: var(--text-3); box-shadow: 0 8px 24px rgb(0 0 0 / 0.06); }
+.card-head { display: flex; align-items: center; gap: 12px; }
+.tile { position: relative; width: 40px; height: 40px; flex: none; display: grid; place-items: center; background: var(--raised); border: 1px solid var(--line); border-radius: var(--r-ctl); color: var(--text-2); overflow: hidden; }
+.tile .icon { width: 18px; height: 18px; }
+.tile img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.card-title { min-width: 0; display: flex; align-items: center; gap: 6px; font-weight: 500; }
+.card-title a { text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.card-title a::after { content: ""; position: absolute; inset: 0; border-radius: var(--r-card); }
+.card-title .icon { color: var(--text-3); transition: color 150ms var(--ease), transform 150ms var(--ease); }
+.card:hover .card-title .icon { color: var(--text); transform: translate(1px, -1px); }
+.card .row-desc { margin: 0; flex: 1; }
+.card .row-meta { margin-top: 0; position: relative; z-index: 1; align-items: center; }
+.flag { display: inline-flex; align-items: center; gap: 4px; }
+.flag .icon { width: 14px; height: 14px; color: var(--accent-ink); }
+
 /* Papers: same board-row format */
 .years { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 16px; }
 .years button { height: 32px; padding: 0 12px; background: transparent; border: 0; border-radius: var(--r-ctl); color: var(--text-2); cursor: pointer; transition: background-color 150ms var(--ease), color 150ms var(--ease); }
@@ -135,7 +163,10 @@ mark { background: color-mix(in srgb, var(--accent) 35%, transparent); color: in
 .papers .p-title a:hover { text-decoration: underline; text-decoration-color: var(--text-3); }
 .papers .p-authors { margin: 2px 0 0; font-size: 13px; line-height: 20px; color: var(--text-3); }
 details.abs { margin-top: 4px; }
-details.abs summary { cursor: pointer; font-size: 13px; color: var(--text-3); width: max-content; }
+details.abs summary { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; font-size: 13px; color: var(--text-3); width: max-content; list-style: none; }
+details.abs summary::-webkit-details-marker { display: none; }
+details.abs summary .icon { width: 14px; height: 14px; transition: transform 150ms var(--ease); }
+details.abs[open] summary .icon { transform: rotate(90deg); }
 details.abs summary:hover { color: var(--text); }
 details.abs p { margin: 8px 0 0; font-size: 14px; line-height: 22px; color: var(--text-2); max-width: 60ch; }
 .more { display: block; margin: 24px auto 0; height: 40px; padding: 0 20px; border-radius: var(--r-ctl); cursor: pointer; background: var(--raised); border: 1px solid var(--line); transition: border-color 150ms var(--ease); }
@@ -169,11 +200,15 @@ details.abs p { margin: 8px 0 0; font-size: 14px; line-height: 22px; color: var(
 
 .code { position: relative; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-card); }
 .code pre { margin: 0; padding: 20px; overflow-x: auto; font: 400 13px/20px var(--mono); }
-.code button { position: absolute; top: 12px; right: 12px; height: 28px; padding: 0 12px; font-size: 13px; border-radius: var(--r-ctl); cursor: pointer; background: var(--raised); border: 1px solid var(--line); }
+.code button { position: absolute; top: 12px; right: 12px; display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 12px; font-size: 13px; border-radius: var(--r-ctl); cursor: pointer; background: var(--raised); border: 1px solid var(--line); }
 .code button:hover { border-color: var(--text-3); }
 
-.foot { padding-top: 64px; padding-bottom: 64px; color: var(--text-3); font-size: 13px; line-height: 20px; }
-.foot p { margin: 0; max-width: 60ch; }
+.foot { margin-top: 96px; border-top: 1px solid var(--line); color: var(--text-3); font-size: 13px; line-height: 20px; }
+.foot-in { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px 32px; padding-top: 32px; padding-bottom: 48px; }
+.foot p { margin: 0; max-width: 44ch; }
+.foot ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 24px; }
+.foot li a { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: var(--text-2); }
+.foot li a:hover { color: var(--text); }
 
 /* One entrance on load */
 @media (prefers-reduced-motion: no-preference) {
@@ -196,8 +231,12 @@ details.abs p { margin: 8px 0 0; font-size: 14px; line-height: 22px; color: var(
   .axis { display: none; }
   .lane { padding: 12px 0; }
   .lane .plot { height: 32px; min-height: 32px; }
+  .cards { grid-template-columns: 1fr; }
   .papers > li { grid-template-columns: 1fr; }
-  .papers .code-tag { justify-self: start; }
+  .papers .board-rows .skel { display: block; padding-top: 16px; }
+.skel span { display: block; height: 8px; border-radius: 4px; background: var(--raised); }
+.skel span + span { width: 60%; margin-top: 8px; }
+.code-tag { justify-self: start; }
 }
 @media (max-width: 480px) {
   .wrap { padding: 0 16px; }

@@ -6,6 +6,10 @@
   <title>Awesome MCP</title>
   <meta name="description" content="Search arXiv papers, servers, clients, SDKs and benchmarks for the Model Context Protocol. New papers are indexed every night.">
   <meta name="color-scheme" content="light dark">
+  <meta property="og:title" content="Awesome MCP">
+  <meta property="og:description" content="Search arXiv papers, servers, clients, SDKs and benchmarks for the Model Context Protocol.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preload" href="fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
@@ -13,13 +17,13 @@
 <body>
   <header class="top">
     <div class="wrap bar">
-      <a class="brand" href="#top">Awesome MCP</a>
+      <a class="brand" href="#top"><svg class="icon brand-mark" aria-hidden="true"><use href="icons.svg#route"/></svg><span>Awesome MCP</span></a>
       <nav aria-label="Sections">
         <a href="#resources">Resources</a>
         <a href="#papers">Papers</a>
         <a href="#benchmark">Benchmark</a>
         <a href="#cite">Cite</a>
-        <a href="https://github.com/AI-in-Transportation-Lab/awesome-mcp" rel="noopener">GitHub</a>
+        <a class="gh" href="https://github.com/AI-in-Transportation-Lab/awesome-mcp" rel="noopener"><svg class="icon" aria-hidden="true"><use href="icons.svg#brand-github"/></svg><span>GitHub</span></a>
       </nav>
     </div>
   </header>
@@ -31,6 +35,7 @@
         <p class="lede" id="lede">Search arXiv papers, servers, clients, SDKs and benchmarks. New papers are indexed every night.</p>
         <label class="search">
           <span class="sr">Search papers and resources</span>
+          <svg class="icon lead" aria-hidden="true"><use href="icons.svg#search"/></svg>
           <input id="q" type="search" placeholder="Search papers, servers, SDKs" autocomplete="off" spellcheck="false">
           <kbd aria-hidden="true">/</kbd>
         </label>
@@ -38,10 +43,10 @@
       </div>
       <aside class="board" aria-labelledby="board-title">
         <div class="board-head">
-          <h2 id="board-title">Latest from arXiv</h2>
+          <h2 id="board-title"><svg class="icon" aria-hidden="true"><use href="icons.svg#file-text"/></svg>Latest from arXiv</h2>
           <span class="mono" id="board-date"></span>
         </div>
-        <ol class="board-rows" id="board"></ol>
+        <ol class="board-rows" id="board"><li class="skel" aria-hidden="true"><span></span><span></span></li><li class="skel" aria-hidden="true"><span></span><span></span></li><li class="skel" aria-hidden="true"><span></span><span></span></li><li class="skel" aria-hidden="true"><span></span><span></span></li><li class="skel" aria-hidden="true"><span></span><span></span></li><li class="skel" aria-hidden="true"><span></span><span></span></li></ol>
       </aside>
     </section>
 
@@ -54,7 +59,7 @@
         <div class="rail" id="cats" role="tablist" aria-label="Resource categories" aria-orientation="vertical"></div>
         <div>
           <p class="cat-desc" id="cat-desc"></p>
-          <ul class="rows" id="resource-list"></ul>
+          <ul class="cards" id="resource-list"></ul>
           <p class="empty" id="resource-empty" hidden>No resources match your search.</p>
         </div>
       </div>
@@ -87,16 +92,22 @@
         <p>Please cite our survey if this collection or the benchmark helps your work</p>
       </div>
       <div class="code">
-        <button type="button" id="copy">Copy</button>
+        <button type="button" id="copy"><svg class="icon" aria-hidden="true"><use href="icons.svg#copy"/></svg><span>Copy</span></button>
         <pre><code id="bibtex"></code></pre>
       </div>
     </section>
   </main>
 
-  <footer class="wrap foot">
-    <p>Maintained by the <a href="https://github.com/AI-in-Transportation-Lab">AI in Transportation Lab</a>.
-      Content is available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
-      Suggest a resource on <a href="https://github.com/AI-in-Transportation-Lab/awesome-mcp/issues/new/choose">GitHub</a>.</p>
+  <footer class="foot">
+    <div class="wrap foot-in">
+      <p>Maintained by the <a href="https://github.com/AI-in-Transportation-Lab">AI in Transportation Lab</a>.
+        Content is available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+      <ul>
+        <li><a href="https://github.com/AI-in-Transportation-Lab/awesome-mcp/issues/new/choose"><svg class="icon" aria-hidden="true"><use href="icons.svg#plus"/></svg>Suggest a resource</a></li>
+        <li><a href="https://arxiv.org/abs/2508.19239"><svg class="icon" aria-hidden="true"><use href="icons.svg#quote"/></svg>Our survey</a></li>
+        <li><a href="https://github.com/AI-in-Transportation-Lab/awesome-mcp"><svg class="icon" aria-hidden="true"><use href="icons.svg#brand-github"/></svg>Source</a></li>
+      </ul>
+    </div>
   </footer>
 
   <script src="app.js" type="module"></script>

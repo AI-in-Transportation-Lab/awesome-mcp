@@ -31,7 +31,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open p
 - [Clients](#clients)
 - [SDKs](#sdks)
 - [Agent frameworks](#agent-frameworks)
-- [Tools and infrastructure](#tools-and-infrastructure)
+- [Developer tools](#developer-tools)
 - [Security](#security)
 - [Benchmarks](#benchmarks)
 - [Learning](#learning)
@@ -146,7 +146,7 @@ Agent frameworks with built-in MCP support
 | [Pydantic AI](https://github.com/pydantic/pydantic-ai) | Typed Python agent framework with MCP client support | `python` |
 | [mcp-agent](https://github.com/lastmile-ai/mcp-agent) | Builds effective agents from MCP servers and simple workflow patterns | `python` |
 
-## Tools and infrastructure
+## Developer tools
 
 Testing, debugging, proxying and registry infrastructure
 

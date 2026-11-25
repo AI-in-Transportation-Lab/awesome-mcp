@@ -1,6 +1,6 @@
 {
   "id": "tools",
-  "title": "Tools and infrastructure",
+  "title": "Developer tools",
   "order": 5,
   "description": "Testing, debugging, proxying and registry infrastructure",
   "items": [
