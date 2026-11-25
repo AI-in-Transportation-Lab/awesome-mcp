@@ -1,0 +1,31 @@
+{
+  "M1 route_request": {
+    "pb_serialize_only_us": 0.12622890062630177,
+    "pb_build_plus_serialize_us": 1.2513329274952412,
+    "json_stdlib_encode_us": 1.756645506247878
+  },
+  "M2 link_state_notification": {
+    "pb_serialize_only_us": 0.1110835000872612,
+    "pb_build_plus_serialize_us": 0.4321874585002661,
+    "json_stdlib_encode_us": 0.9938748553395271
+  },
+  "M3 perception_frame (50 det.)": {
+    "pb_serialize_only_us": 1.8998126033693552,
+    "pb_build_plus_serialize_us": 34.45729147642851,
+    "json_stdlib_encode_us": 82.82066718675196
+  },
+  "M4 occupancy_grid (100x100)": {
+    "pb_serialize_only_us": 0.38145831786096096,
+    "pb_build_plus_serialize_us": 230.0420415122062,
+    "json_stdlib_encode_us": 252.74695851840082
+  },
+  "M4_json_base64": {
+    "bytes": 13434,
+    "ratio_vs_json_intlist": 0.5184270443406784,
+    "encode_us": 16.806458588689566,
+    "decode_us": 7.507437607273459,
+    "orjson_encode_us": 0.6399999838322401,
+    "orjson_decode_us": 2.8648748993873596
+  },
+  "M3_float32_max_abs_error_x_m": 3.662109378410605e-06
+}

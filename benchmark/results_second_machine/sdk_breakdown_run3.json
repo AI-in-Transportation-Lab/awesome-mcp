@@ -1,0 +1,46 @@
+{
+  "A_sizes": {
+    "frame_json_bytes": 7609,
+    "request_bytes": 7709,
+    "response_bytes": 24427,
+    "content_text_bytes": 14783,
+    "structured_content_bytes": 7609
+  },
+  "C_sdk_server_raw_client": {
+    "median_us": 719.8748644441366,
+    "p95_us": 779.7093130648136,
+    "p99_us": 884.4579569995403
+  },
+  "B_handrolled_size_matched": {
+    "median_us": 158.3124976605177,
+    "p95_us": 168.04225742816925,
+    "p99_us": 176.6672357916832,
+    "response_bytes": 24428
+  },
+  "B_handrolled_echo_natural": {
+    "median_us": 240.66632613539696,
+    "p95_us": 251.87525898218155,
+    "p99_us": 265.70772752165794,
+    "response_bytes": 7689
+  },
+  "D_server_profile_tottime_share": {
+    "mcp SDK": 0.044152442617323755,
+    "pydantic": 0.1358613183218653,
+    "jsonschema/referencing": 0.0,
+    "anyio/asyncio": 0.09996466881646919,
+    "json (stdlib/orjson)": 0.0,
+    "other": 0.7200215702443367,
+    "total_s": 0.9877959500000048,
+    "calls": 550
+  },
+  "D_server_profile_top_packages": {
+    "python builtins": 0.5310088141179334,
+    "pydantic": 0.12965623821397462,
+    "anyio": 0.09057580869814216,
+    "mcp": 0.044152442617323755,
+    "stdlib:typing": 0.03477644244238887,
+    "stdlib:base_events": 0.03390810419905026,
+    "stdlib:threading": 0.0110028503356386,
+    "stdlib:queue": 0.010931113860104355
+  }
+}

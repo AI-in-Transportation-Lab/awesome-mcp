@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "python": "3.12.11",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "cpu": "arm",
+    "iters": 2000,
+    "rounds": 5,
+    "timestamp": "2026-10-19 13:59:10"
+  },
+  "messages": {
+    "M1 route_request": {
+      "JSON (stdlib)": {
+        "bytes": 205,
+        "gzip_bytes": 168,
+        "encode_us": 1.8211668357253075,
+        "decode_us": 1.2681875377893448
+      },
+      "JSON (orjson)": {
+        "bytes": 205,
+        "gzip_bytes": 168,
+        "encode_us": 0.2062499988824129,
+        "decode_us": 0.3191875293850899
+      },
+      "MessagePack": {
+        "bytes": 174,
+        "gzip_bytes": 177,
+        "encode_us": 0.5939377006143332,
+        "decode_us": 0.562416622415185
+      },
+      "CBOR": {
+        "bytes": 174,
+        "gzip_bytes": 175,
+        "encode_us": 2.0451040472835302,
+        "decode_us": 1.2052501551806927
+      },
+      "Protobuf": {
+        "bytes": 81,
+        "gzip_bytes": 97,
+        "encode_us": 0.12864591553807259,
+        "decode_us": 0.2095624804496765
+      }
+    },
+    "M2 link_state_notification": {
+      "JSON (stdlib)": {
+        "bytes": 119,
+        "gzip_bytes": 125,
+        "encode_us": 1.006874954327941,
+        "decode_us": 0.8523541036993265
+      },
+      "JSON (orjson)": {
+        "bytes": 119,
+        "gzip_bytes": 125,
+        "encode_us": 0.07960409857332706,
+        "decode_us": 0.16258354298770428
+      },
+      "MessagePack": {
+        "bytes": 103,
+        "gzip_bytes": 117,
+        "encode_us": 0.36735390312969685,
+        "decode_us": 0.2713336143642664
+      },
+      "CBOR": {
+        "bytes": 105,
+        "gzip_bytes": 118,
+        "encode_us": 0.8674373384565115,
+        "decode_us": 0.5421875976026058
+      },
+      "Protobuf": {
+        "bytes": 49,
+        "gzip_bytes": 64,
+        "encode_us": 0.1107705757021904,
+        "decode_us": 0.16195815987884998
+      }
+    },
+    "M3 perception_frame (50 det.)": {
+      "JSON (stdlib)": {
+        "bytes": 7609,
+        "gzip_bytes": 2595,
+        "encode_us": 82.55345793440938,
+        "decode_us": 38.9121666084975
+      },
+      "JSON (orjson)": {
+        "bytes": 7609,
+        "gzip_bytes": 2595,
+        "encode_us": 11.431791353970766,
+        "decode_us": 15.621312661096454
+      },
+      "MessagePack": {
+        "bytes": 7702,
+        "gzip_bytes": 4022,
+        "encode_us": 15.68981260061264,
+        "decode_us": 22.250646026805043
+      },
+      "CBOR": {
+        "bytes": 7727,
+        "gzip_bytes": 4028,
+        "encode_us": 62.68475018441677,
+        "decode_us": 46.41129192896187
+      },
+      "Protobuf": {
+        "bytes": 3445,
+        "gzip_bytes": 2831,
+        "encode_us": 2.0353335421532393,
+        "decode_us": 2.1523749455809593
+      }
+    },
+    "M4 occupancy_grid (100x100)": {
+      "JSON (stdlib)": {
+        "bytes": 25913,
+        "gzip_bytes": 2975,
+        "encode_us": 213.55487499386072,
+        "decode_us": 314.516166690737
+      },
+      "JSON (orjson)": {
+        "bytes": 25913,
+        "gzip_bytes": 2975,
+        "encode_us": 24.1327709518373,
+        "decode_us": 55.36060384474695
+      },
+      "MessagePack": {
+        "bytes": 10077,
+        "gzip_bytes": 2441,
+        "encode_us": 0.663624843582511,
+        "decode_us": 0.5112709477543831
+      },
+      "CBOR": {
+        "bytes": 10079,
+        "gzip_bytes": 2439,
+        "encode_us": 1.498708501458168,
+        "decode_us": 0.9362290147691965
+      },
+      "Protobuf": {
+        "bytes": 10026,
+        "gzip_bytes": 2375,
+        "encode_us": 0.3728540614247322,
+        "decode_us": 0.29008369892835617
+      }
+    }
+  }
+}
