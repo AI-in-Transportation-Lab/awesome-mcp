@@ -53,6 +53,14 @@
       "tags": [
         "gateway"
       ]
+    },
+    {
+      "name": "Agent QA",
+      "url": "https://github.com/vostride/agent-qa",
+      "description": "Write, run and triage web and mobile regression tests in natural language, with memory across runs, from the CLI or a coding agent over MCP",
+      "tags": [
+        "testing"
+      ]
     }
   ]
 }
