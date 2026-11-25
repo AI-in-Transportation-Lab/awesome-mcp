@@ -24,8 +24,12 @@ jobs:
         with:
           fetch-depth: 1
       - name: Fetch, validate and regenerate
+        env:
+          # Optional free key from openalex.org; without it the shared anonymous quota applies.
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: |
           node scripts/update-papers.js
+          node scripts/update-published.js
           node scripts/validate.js
           node scripts/build-readme.js
       - name: Commit and deploy only if something changed
@@ -38,7 +42,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/papers.json README.md PAPERS.md
-          git commit -m "papers: update from arXiv ($(date -u +%Y-%m-%d))"
+          git add data/papers.json data/published.json README.md PAPERS.md PUBLISHED.md SURVEY.md
+          git commit -m "papers: update from arXiv and OpenAlex ($(date -u +%Y-%m-%d))"
           git push
           gh workflow run pages.yml --ref main

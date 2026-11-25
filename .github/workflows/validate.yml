@@ -10,6 +10,8 @@ on:
       - "site/**"
       - "README.md"
       - "PAPERS.md"
+      - "PUBLISHED.md"
+      - "SURVEY.md"
       - ".github/workflows/**"
 
 concurrency:
@@ -31,8 +33,8 @@ jobs:
         run: |
           node scripts/validate.js
           node scripts/build-readme.js
-          git diff --exit-code README.md PAPERS.md || {
-            echo "::error::README.md or PAPERS.md is out of date. Run 'node scripts/build-readme.js' and commit the result."
+          git diff --exit-code README.md PAPERS.md PUBLISHED.md SURVEY.md || {
+            echo "::error::The generated Markdown files are out of date. Run 'node scripts/build-readme.js' and commit the result."
             exit 1
           }
           node scripts/build-site.js
