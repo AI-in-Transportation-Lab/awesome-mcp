@@ -237,6 +237,10 @@ November 25, 2026 at 07:57:10 AM UTC
 - [EMIP: Embodied Multi-Party Interaction Platform](https://arxiv.org/abs/2611.29333)
 
 
+## Benchmark and Reference Server
+
+The [`benchmark/`](benchmark/) directory holds the executable artifact that accompanies the survey: a serialization and transport micro-benchmark (JSON, orjson, MessagePack, CBOR, Protocol Buffers; raw TCP, DDS, Zenoh, gRPC, JSON-RPC, MCP over stdio and Streamable HTTP) and a reference MAPE-K MCP server pinned to the official Python SDK 2.3.0. See [`benchmark/README.md`](benchmark/README.md) for setup, commands and limitations. The benchmark is synthetic and indicates orders of magnitude only.
+
 ## Library
 
 - [WritBase](https://github.com/Writbase/writbase) - MCP-native task management for AI agent fleets. Multi-agent permissions, full provenance, inter-agent task delegation, and A2A protocol alignment.

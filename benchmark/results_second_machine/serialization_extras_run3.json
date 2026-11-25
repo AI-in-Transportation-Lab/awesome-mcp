@@ -1,0 +1,31 @@
+{
+  "M1 route_request": {
+    "pb_serialize_only_us": 0.12781238183379173,
+    "pb_build_plus_serialize_us": 1.2705414555966854,
+    "json_stdlib_encode_us": 1.8692915327847004
+  },
+  "M2 link_state_notification": {
+    "pb_serialize_only_us": 0.11664535850286484,
+    "pb_build_plus_serialize_us": 0.44306227937340736,
+    "json_stdlib_encode_us": 1.0478750336915255
+  },
+  "M3 perception_frame (50 det.)": {
+    "pb_serialize_only_us": 1.9941460341215131,
+    "pb_build_plus_serialize_us": 34.53010390512645,
+    "json_stdlib_encode_us": 82.40343746729195
+  },
+  "M4 occupancy_grid (100x100)": {
+    "pb_serialize_only_us": 0.389978988096118,
+    "pb_build_plus_serialize_us": 234.9398334044963,
+    "json_stdlib_encode_us": 215.27295815758407
+  },
+  "M4_json_base64": {
+    "bytes": 13434,
+    "ratio_vs_json_intlist": 0.5184270443406784,
+    "encode_us": 17.220583511516452,
+    "decode_us": 6.973042152822018,
+    "orjson_encode_us": 0.6187914405018091,
+    "orjson_decode_us": 2.9131039045751095
+  },
+  "M3_float32_max_abs_error_x_m": 3.662109378410605e-06
+}

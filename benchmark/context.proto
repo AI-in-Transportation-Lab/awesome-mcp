@@ -1,0 +1,60 @@
+// context.proto -- Protobuf schema for the representative context objects
+// used in the MCP-vs-binary serialization benchmark (Section 7 of the paper).
+// The field layout mirrors the JSON objects exchanged in the JSON-RPC examples
+// so that payload sizes and (de)serialization costs are directly comparable.
+syntax = "proto3";
+package aas.context;
+
+message LatLon { double lat = 1; double lon = 2; }
+
+message RouteConstraints {
+  uint32 max_travel_time_s = 1;
+  repeated string avoid_links = 2;
+  string priority = 3;
+}
+
+message RoutePlanRequest {
+  string request_id = 1;
+  LatLon origin = 2;
+  LatLon destination = 3;
+  RouteConstraints constraints = 4;
+}
+
+message LinkStateChanged {
+  string link_id = 1;
+  string new_state = 2;
+  int32 expected_latency_increase_ms = 3;
+  string timestamp = 4;
+}
+
+message Detection {
+  uint32 id = 1;
+  string cls = 2;
+  float x = 3; float y = 4; float z = 5;
+  float vx = 6; float vy = 7;
+  repeated float cov = 8;        // 6 entries (upper-triangular 3x3)
+  float confidence = 9;
+}
+
+message PerceptionFrame {
+  string source_id = 1;
+  string frame_id = 2;
+  double stamp_s = 3;
+  string context_version = 4;
+  repeated Detection detections = 5;
+}
+
+message OccupancyGrid {
+  string frame_id = 1;
+  double stamp_s = 2;
+  uint32 width = 3;
+  uint32 height = 4;
+  float resolution_m = 5;
+  bytes cells = 6;               // int8 occupancy values, row-major
+}
+
+// gRPC service used by the transport benchmark (unary request/response).
+service ContextService {
+  rpc Echo (PerceptionFrame) returns (PerceptionFrame);
+  rpc PlanRoute (RoutePlanRequest) returns (LinkStateChanged);
+}
