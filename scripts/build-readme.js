@@ -104,9 +104,8 @@ const readme = `<div align="center">
 
 **${meta.tagline}**
 
-[![Website](https://img.shields.io/badge/website-open-2ea44f)](${meta.site})
-[![arXiv](https://img.shields.io/badge/arXiv-${meta.paper.arxiv}-b31b1b)](${meta.paper.url})
-[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)](LICENSE)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-lightgrey)](LICENSE)
+[![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey)](LICENSE-CC-BY-4.0)
 [![Last commit](https://img.shields.io/github/last-commit/${meta.repo})](${repoUrl}/commits/main)
 [![Stars](https://img.shields.io/github/stars/${meta.repo}?style=flat)](${repoUrl}/stargazers)
 
@@ -115,25 +114,25 @@ const readme = `<div align="center">
 </div>
 
 > [!NOTE]
-> **Our survey: [${meta.paper.title}](${meta.paper.url})**
+> **Our survey**
 >
-> ${meta.paper.authors.join(", ")}
+> [${meta.paper.title}](${meta.paper.url})
+> <br><sub>${meta.paper.authors.join(", ")}</sub>
 >
 > [Read on arXiv](${meta.paper.url}) · [Cite it](#cite) · [Works it cites](SURVEY.md) · [Benchmark and code](#benchmark-and-reference-server)
 
 The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open protocol that lets language-model applications connect to external tools, data and prompts through a uniform interface. This repository collects what you need to work with it: the research literature, servers, clients, SDKs, benchmarks and tutorials. It is maintained by the [AI in Transportation Lab](https://github.com/AI-in-Transportation-Lab).
 
+Everything below is searchable on the **[website](${meta.site})**, and papers are refreshed from arXiv every day.
+
 ${stats}
 
-> [!TIP]
-> A searchable version of everything below lives at **[${meta.site.replace(/^https:\/\//, "").replace(/\/$/, "")}](${meta.site})**. Papers are refreshed from arXiv every day.
-
-> [!NOTE]
-> The tables in this file are generated from [\`data/\`](data/). To add or fix an entry, edit the JSON there and open a pull request; see [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Contents
+<details>
+<summary><b>Contents</b></summary>
 
 ${toc}
+
+</details>
 
 ## Latest preprints
 
@@ -172,6 +171,9 @@ ${benchTable}
 ## Contributing
 
 Contributions are welcome: new servers, clients, tutorials, benchmarks, corrections. Papers are collected automatically, so there is no need to submit those. Start with [CONTRIBUTING.md](CONTRIBUTING.md) or open an [issue](${repoUrl}/issues/new/choose).
+
+> [!NOTE]
+> The tables in this file are generated from [\`data/\`](data/). To add or fix an entry, edit the JSON there and open a pull request.
 
 ## Cite
 
