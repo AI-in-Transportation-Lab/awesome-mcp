@@ -7,10 +7,15 @@
 // metadata (authors, date, summary) are enriched from the arXiv API.
 import fs from "node:fs";
 import { search, byIds } from "./lib/arxiv.js";
+import { topicsOf } from "./lib/topics.js";
 
 const FILE = new URL("../data/papers.json", import.meta.url);
-// Papers that mention the protocol by name. Add more clauses here to widen the net.
-const QUERY = 'all:"model context protocol"';
+// Scope: computer science and electrical engineering papers that name the protocol in
+// the title or abstract, plus papers that say "MCP" in the title and are about LLMs or
+// agents (so "MCP" in other fields does not slip in). Widen or narrow it here.
+const QUERY =
+  '(ti:"model context protocol" OR abs:"model context protocol" OR (ti:MCP AND (abs:LLM OR abs:agent OR abs:"language model"))) AND (cat:cs.* OR cat:eess.*)';
+const IN_SCOPE = (p) => /^(cs|eess)\./.test(p.category ?? "");
 
 const arg = (name, fallback) => {
   const i = process.argv.indexOf(`--${name}`);
@@ -39,7 +44,12 @@ for (const p of found) {
 }
 console.log(`Fetched ${found.length}, added ${added}, total ${byId.size}`);
 
-const out = [...byId.values()].sort(
+// 3. Keep to the scope, and (re)label topics from the current rules.
+const kept = [...byId.values()].filter(IN_SCOPE);
+if (kept.length < byId.size) console.log(`Dropped ${byId.size - kept.length} out-of-scope papers`);
+for (const p of kept) p.topics = topicsOf(p.title, p.summary);
+
+const out = kept.sort(
   (a, b) => (b.published || "").localeCompare(a.published || "") || b.id.localeCompare(a.id)
 );
 fs.mkdirSync(new URL("../data/", import.meta.url), { recursive: true });
