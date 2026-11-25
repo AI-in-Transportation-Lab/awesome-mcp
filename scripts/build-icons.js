@@ -6,7 +6,7 @@ const VERSION = "3.52.0";
 const ICONS = [
   "route", "brand-github", "search", "server", "devices", "package", "hierarchy-2", "tool", "shield-check",
   "gauge", "book-2", "list-details", "layout-grid", "arrow-up-right", "rosette-discount-check", "chevron-right",
-  "copy", "check", "file-text", "plus", "quote", "external-link",
+  "copy", "check", "file-text", "plus", "quote", "external-link", "menu-2", "x",
 ];
 
 const symbols = [];

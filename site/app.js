@@ -265,6 +265,24 @@ async function main() {
   });
 }
 
+/** Mobile drawer: a native <dialog>, so focus is trapped and Escape closes it. */
+function setupMenu() {
+  const drawer = $("drawer");
+  const opener = $("menu-open");
+  opener.addEventListener("click", () => drawer.showModal());
+  $("menu-close").addEventListener("click", () => drawer.close());
+  // A click on the backdrop lands on the dialog element itself, outside its box.
+  drawer.addEventListener("click", (e) => {
+    const r = drawer.getBoundingClientRect();
+    if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) drawer.close();
+  });
+  drawer.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => drawer.close()));
+  // Rotating a phone or resizing past the breakpoint should not leave it open.
+  matchMedia("(min-width: 641px)").addEventListener("change", (m) => { if (m.matches && drawer.open) drawer.close(); });
+  drawer.addEventListener("close", () => opener.focus({ preventScroll: true }));
+}
+
+setupMenu();
 main().catch((err) => {
   console.error(err);
   $("stats").textContent = "Could not load the data. Refresh, or browse the lists on GitHub.";

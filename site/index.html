@@ -23,8 +23,9 @@
         <a href="#papers">Papers</a>
         <a href="#benchmark">Benchmark</a>
         <a href="#cite">Cite</a>
-        <a class="gh" href="https://github.com/AI-in-Transportation-Lab/awesome-mcp" rel="noopener"><svg class="icon" aria-hidden="true"><use href="icons.svg#brand-github"/></svg><span>GitHub</span></a>
       </nav>
+      <a class="gh" aria-label="GitHub repository" href="https://github.com/AI-in-Transportation-Lab/awesome-mcp" rel="noopener"><svg class="icon" aria-hidden="true"><use href="icons.svg#brand-github"/></svg><span>GitHub</span></a>
+      <button class="menu-btn" id="menu-open" type="button" aria-label="Open menu" aria-haspopup="dialog" aria-controls="drawer"><svg class="icon" aria-hidden="true"><use href="icons.svg#menu-2"/></svg></button>
     </div>
   </header>
 
@@ -109,6 +110,23 @@
       </ul>
     </div>
   </footer>
+
+  <dialog class="drawer" id="drawer" aria-label="Menu" tabindex="-1" autofocus>
+    <div class="drawer-head">
+      <span class="drawer-title">Menu</span>
+      <button class="menu-btn" id="menu-close" type="button" aria-label="Close menu"><svg class="icon" aria-hidden="true"><use href="icons.svg#x"/></svg></button>
+    </div>
+    <nav class="drawer-nav" aria-label="Sections">
+      <a href="#resources"><svg class="icon" aria-hidden="true"><use href="icons.svg#layout-grid"/></svg>Resources</a>
+      <a href="#papers"><svg class="icon" aria-hidden="true"><use href="icons.svg#file-text"/></svg>Papers</a>
+      <a href="#benchmark"><svg class="icon" aria-hidden="true"><use href="icons.svg#gauge"/></svg>Benchmark</a>
+      <a href="#cite"><svg class="icon" aria-hidden="true"><use href="icons.svg#quote"/></svg>Cite</a>
+    </nav>
+    <div class="drawer-foot">
+      <a href="https://github.com/AI-in-Transportation-Lab/awesome-mcp" rel="noopener"><svg class="icon" aria-hidden="true"><use href="icons.svg#brand-github"/></svg>GitHub</a>
+      <a href="https://github.com/AI-in-Transportation-Lab/awesome-mcp/issues/new/choose" rel="noopener"><svg class="icon" aria-hidden="true"><use href="icons.svg#plus"/></svg>Suggest a resource</a>
+    </div>
+  </dialog>
 
   <script src="app.js" type="module"></script>
 </body>
