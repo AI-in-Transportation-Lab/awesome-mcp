@@ -1,10 +1,13 @@
-import json, statistics as st, os
-H = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results_second_machine")
+import json, statistics as st, os, sys, platform
+# Usage: python3 aggregate_replication.py [label]   (reads and writes results/<label>/)
+LABEL = sys.argv[1] if len(sys.argv) > 1 else "macbook-m4-pro"
+H = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results", LABEL)
 tr = [json.load(open(f"{H}/transport_run{i}.json"))["transports"] for i in (1, 2, 3)]
 ser = [json.load(open(f"{H}/serialization_run{i}.json"))["messages"] for i in (1, 2, 3)]
 ext = [json.load(open(f"{H}/serialization_extras_run{i}.json")) for i in (1, 2, 3)]
 sdk = [json.load(open(f"{H}/sdk_breakdown_run{i}.json")) for i in (1, 2, 3)]
-out = {"machine": "Apple M4 Pro, 12 cores, 24 GB, macOS 26.5.2, Python 3.12.11, mcp 2.3.0", "runs": 3}
+MACHINE = "Apple M4 Pro, 12 cores, 24 GB, macOS 26.5.2, Python 3.12.11, mcp 2.3.0" if LABEL == "macbook-m4-pro" else f"{platform.platform()}, Python {platform.python_version()}"
+out = {"machine": MACHINE, "runs": 3}
 def agg(vals): return {"median": st.median(vals), "min": min(vals), "max": max(vals)}
 order = ["tcp-msgpack", "zenoh-pubsub", "dds-cyclone", "grpc-unary", "jsonrpc-stdio", "mcp-stdio-res", "mcp-stdio", "mcp-shttp"]
 out["transport_us"] = {k: {m: agg([r[k][m] for r in tr]) for m in ("median_us", "p95_us", "p99_us")} | {"payload_bytes": tr[0][k]["payload_bytes"]} for k in order}
