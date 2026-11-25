@@ -1,0 +1,40 @@
+{
+  "id": "agents",
+  "title": "Agent frameworks",
+  "order": 4,
+  "description": "Agent frameworks with built-in MCP support.",
+  "items": [
+    {
+      "name": "OpenAI Agents SDK",
+      "url": "https://github.com/openai/openai-agents-python",
+      "description": "Lightweight multi-agent framework with MCP server support.",
+      "tags": [
+        "python"
+      ]
+    },
+    {
+      "name": "Google Agent Development Kit",
+      "url": "https://github.com/google/adk-python",
+      "description": "Code-first toolkit for building and evaluating agents, with MCP tools.",
+      "tags": [
+        "python"
+      ]
+    },
+    {
+      "name": "Pydantic AI",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "description": "Typed Python agent framework with MCP client support.",
+      "tags": [
+        "python"
+      ]
+    },
+    {
+      "name": "mcp-agent",
+      "url": "https://github.com/lastmile-ai/mcp-agent",
+      "description": "Builds effective agents from MCP servers and simple workflow patterns.",
+      "tags": [
+        "python"
+      ]
+    }
+  ]
+}

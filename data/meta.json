@@ -1,0 +1,22 @@
+{
+  "name": "Awesome MCP",
+  "tagline": "One place for Model Context Protocol papers, servers, clients, SDKs, benchmarks and tutorials.",
+  "repo": "AI-in-Transportation-Lab/awesome-mcp",
+  "site": "https://ai-in-transportation-lab.github.io/awesome-mcp/",
+  "paper": {
+    "title": "Model Context Protocols in Adaptive Transport Systems: A Survey",
+    "authors": [
+      "Gaurab Chhetri",
+      "Shriyank Somvanshi",
+      "Md Monzurul Islam",
+      "Shamyo Brotee",
+      "Mahmuda Sultana Mimi",
+      "Dipti Koirala",
+      "Biplov Pandey",
+      "Subasish Das"
+    ],
+    "year": 2025,
+    "arxiv": "2508.19239",
+    "url": "https://arxiv.org/abs/2508.19239"
+  }
+}

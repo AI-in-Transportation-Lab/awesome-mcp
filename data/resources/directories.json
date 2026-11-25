@@ -1,0 +1,73 @@
+{
+  "id": "directories",
+  "title": "Directories and other lists",
+  "order": 9,
+  "description": "Where to find more servers and clients.",
+  "items": [
+    {
+      "name": "Official MCP Registry",
+      "url": "https://registry.modelcontextprotocol.io",
+      "description": "The community registry of published MCP servers.",
+      "tags": [
+        "registry"
+      ],
+      "official": true
+    },
+    {
+      "name": "Smithery",
+      "url": "https://smithery.ai",
+      "description": "Registry and hosting for MCP servers.",
+      "tags": [
+        "registry"
+      ]
+    },
+    {
+      "name": "Glama MCP directory",
+      "url": "https://glama.ai/mcp/servers",
+      "description": "Searchable directory of MCP servers.",
+      "tags": [
+        "registry"
+      ]
+    },
+    {
+      "name": "mcp.so",
+      "url": "https://mcp.so",
+      "description": "Community directory of MCP servers and clients.",
+      "tags": [
+        "registry"
+      ]
+    },
+    {
+      "name": "awesome-mcp-servers (punkpeye)",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "description": "Large collection of MCP servers.",
+      "tags": [
+        "list"
+      ]
+    },
+    {
+      "name": "awesome-mcp-servers (wong2)",
+      "url": "https://github.com/wong2/awesome-mcp-servers",
+      "description": "Curated list of MCP servers.",
+      "tags": [
+        "list"
+      ]
+    },
+    {
+      "name": "awesome-mcp-clients",
+      "url": "https://github.com/punkpeye/awesome-mcp-clients",
+      "description": "Collection of MCP clients.",
+      "tags": [
+        "list"
+      ]
+    },
+    {
+      "name": "awesome-remote-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-remote-mcp-servers",
+      "description": "Collection of remote MCP servers.",
+      "tags": [
+        "list"
+      ]
+    }
+  ]
+}

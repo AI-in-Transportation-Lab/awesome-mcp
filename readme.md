@@ -1,283 +1,255 @@
-# Awesome MCP - Model Context Protocol 
+<div align="center">
 
-![Awesome](https://awesome.re/badge.svg)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![GitHub Contributors](https://img.shields.io/github/contributors/gauravfs-14/awesome-mcp.svg)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/gauravfs-14/awesome-mcp.svg)
-[![GitHub Stars](https://img.shields.io/github/stars/gauravfs-14/awesome-mcp.svg?style=social)](https://github.com/gauravfs-14/awesome-mcp)
-![GitHub Forks](https://img.shields.io/github/forks/gauravfs-14/awesome-mcp.svg)
+# Awesome MCP
 
-A carefully curated collection of high-quality tools, libraries, research papers, projects, and tutorials centered around Model Context Protocol (MCP) — a novel paradigm designed to enable modular, adaptive coordination between large language models (LLMs) and external tools or data contexts. This repository serves as a comprehensive, well-organized knowledge hub for researchers and developers exploring the next frontier of interactive, context-aware AI systems.
+**One place for Model Context Protocol papers, servers, clients, SDKs, benchmarks and tutorials.**
 
-The MCP framework facilitates fine-grained orchestration of model behavior through structured, tool-integrated communication protocols. It supports advanced workflows like adaptive reasoning, multi-tool routing, contextual memory access, and iterative refinement. By treating models not as static endpoints but as participants in a dynamic co-mining or co-creation loop, MCP pushes the boundaries of what intelligent systems can achieve.
+[![Website](https://img.shields.io/badge/website-open-2ea44f)](https://ai-in-transportation-lab.github.io/awesome-mcp/)
+[![arXiv](https://img.shields.io/badge/arXiv-2508.19239-b31b1b)](https://arxiv.org/abs/2508.19239)
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/AI-in-Transportation-Lab/awesome-mcp)](https://github.com/AI-in-Transportation-Lab/awesome-mcp/commits/main)
+[![Stars](https://img.shields.io/github/stars/AI-in-Transportation-Lab/awesome-mcp?style=flat)](https://github.com/AI-in-Transportation-Lab/awesome-mcp/stargazers)
 
-To keep the community up-to-date with the latest developments, this repository is continuously enriched with newly published MCP-related papers, real-world use cases, and open-source implementations. From LangGraph-based architectures to custom tool routers and model-control interfaces, the collection aims to highlight both foundational ideas and emerging best practices.
+[Website](https://ai-in-transportation-lab.github.io/awesome-mcp/) · [Papers](PAPERS.md) · [Servers](#servers) · [Clients](#clients-and-hosts) · [SDKs](#sdks-and-frameworks) · [Benchmark](#benchmark-and-reference-server) · [Contribute](CONTRIBUTING.md)
+
+</div>
+
+The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open protocol that lets language-model applications connect to external tools, data and prompts through a uniform interface. This repository collects what you need to work with it: the research literature, servers, clients, SDKs, benchmarks and tutorials. It is maintained by the [AI in Transportation Lab](https://github.com/AI-in-Transportation-Lab).
+
+**261** papers · **19** servers · **10** clients · **15** SDKs and frameworks
+
+> [!TIP]
+> A searchable version of everything below lives at **[ai-in-transportation-lab.github.io/awesome-mcp](https://ai-in-transportation-lab.github.io/awesome-mcp/)**. Papers are refreshed from arXiv every day.
 
 > [!NOTE]
-> 📢 **Announcement:** Our paper is now available on [arXiv](https://arxiv.org/abs/2508.19239)!  
-> **Title:** *Model Context Protocols in Adaptive Transport Systems: A Survey*  
-> If you find this paper interesting, please consider citing our work. Thank you for your support!
+> The tables in this file are generated from [`data/`](data/). To add or fix an entry, edit the JSON there and open a pull request; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-```bibtex
-@article{chhetri2025model,
-  title={Model Context Protocols in Adaptive Transport Systems: A Survey},
-  author={Chhetri, Gaurab and Somvanshi, Shriyank and Islam, Md Monzurul and Brotee, Shamyo and Mimi, Mahmuda Sultana and Koirala, Dipti and Pandey, Biplov and Das, Subasish},
-  journal={arXiv preprint arXiv:2508.19239},
-  year={2025}
-}
-```
+## Contents
 
-Whether you are building AI agents, researching model-tool alignment, or experimenting with novel retrieval-augmented generation pipelines, this resource offers a centralized, evolving platform to explore the powerful and expanding universe of MCP-enabled systems.
+- [Latest papers](#latest-papers)
+- [Servers](#servers)
+- [Clients and hosts](#clients-and-hosts)
+- [SDKs and frameworks](#sdks-and-frameworks)
+- [Agent frameworks](#agent-frameworks)
+- [Developer tools and infrastructure](#developer-tools-and-infrastructure)
+- [Security](#security)
+- [Benchmarks and evaluation](#benchmarks-and-evaluation)
+- [Learning and documentation](#learning-and-documentation)
+- [Directories and other lists](#directories-and-other-lists)
+- [Benchmark](#benchmark-and-reference-server)
+- [Contributing](#contributing)
+- [Cite](#cite)
+- [License](#license)
 
-## Last Updated
-November 25, 2026 at 07:57:10 AM UTC
+## Latest papers
 
+New arXiv papers that mention the Model Context Protocol, newest first. The full list of 261 papers, grouped by month, is in **[PAPERS.md](PAPERS.md)** and on the [website](https://ai-in-transportation-lab.github.io/awesome-mcp/).
 
-## Theorem
+| Date | Title | Authors |
+| --- | --- | --- |
+| 2026-11-23 | [LimoBench: How Street Smart Are Large Language Models?](https://arxiv.org/abs/2611.31682) | Gautam Choudhary, Jack Peng, Udesh Kumarasinghe et al. |
+| 2026-11-22 | [EMIP: Embodied Multi-Party Interaction Platform](https://arxiv.org/abs/2611.29333) | Koichiro Terao, Rikunari Sagara, Moe Nagao et al. |
+| 2026-11-22 | [IteraSong: LLM-Guided Iterative Symbolic Music Creation in a Web DAW](https://arxiv.org/abs/2611.29225) | Di Lu, Xinran Zhang, Yan Gao et al. |
+| 2026-11-21 | [Ads for Agents: Measuring Ad-Serving MCP Servers](https://arxiv.org/abs/2611.28911) | Shahrooz Pouryousef, Sohini Chakraborty, Ali Montazer et al. |
+| 2026-11-20 | [Epistemic Guard: Out-of-Process MCP Receipt Proxying, Post-Turn Prose Supervision, and Provenance-Gated Memory for Tool-Using Autonomous Agents](https://arxiv.org/abs/2611.27095) | Sean Maxwell |
+| 2026-11-20 | [Subverting Tool Arguments: Defense-Evading Metadata Poisoning in LLM Agents](https://arxiv.org/abs/2611.27041) | Shih-Chieh Dai, Xinyu Sun, Haichuan Zhang et al. |
+| 2026-11-19 | [SYLVA: Self-Correcting Multi-Agent Markets over Frozen LLMs via Escrow Settlement, Step-Level Fault Isolation, and Contextual Routing](https://arxiv.org/abs/2611.28148) | Hui Zhao |
+| 2026-11-19 | [InfantConnect: integrating developmental brain atlases and electrophysiological network analysis](https://arxiv.org/abs/2611.26911) | Alessandro Crimi, Paweł Gryboś |
+| 2026-11-19 | [Law at the Speed of AI: Critical Legal Infrastructure for the Machine Age: Autonomy Under Law Architecture (AULA)](https://arxiv.org/abs/2611.25985) | Natasha E Blycha, James Myint, Chen Feng et al. |
+| 2026-11-18 | [FinVeriQA: Financial Research Agents for Question Answering: Routing, Retrieval, MCP Tool Use, and Provenance-Aware Evidence Verification](https://arxiv.org/abs/2611.25071) | Meenakshi Rajpurohit, Anna Phan, Ravikumar Komandur Narayanan et al. |
+| 2026-11-17 | [Foundation Model-Driven Agentic AI for 6G](https://arxiv.org/abs/2611.23494) | Mohammad Ghassemi, Han Zhang, Akram Bin Sediq et al. |
+| 2026-11-16 | [When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents](https://arxiv.org/abs/2611.21577) | Zeynab Anbiaee, Sajjad Dadkhah, Ali A. Ghorbani |
+| 2026-11-16 | [Experience Rot: Experienced Agents Fail Where Novices Succeed](https://arxiv.org/abs/2611.20922) | Zhen Xu, Hang Yin, Zitao Zhang et al. |
+| 2026-11-15 | [Type-Confusion Security](https://arxiv.org/abs/2611.20298) | Silei Ren, Hanxi Chen, Suraaj Kanniwadi et al. |
+| 2026-11-14 | [Do Rule-Based Tools Help LLMs Translate Endangered Uralic Languages in the Prompt or over MCP?](https://arxiv.org/abs/2611.19439) | Iaroslav Chelombitko, Mika Hämäläinen |
+| 2026-11-14 | [Beyond Plain MCP: Do Decision Models and Code Mode Make Tool Use Cheaper and Faster?](https://arxiv.org/abs/2611.19123) | Abhishek Rai |
+| 2026-11-12 | [Alloy: A Multi-Material Physics Engine for Robot Learning](https://arxiv.org/abs/2611.16312) | Pranay Gupta, Deepanshu Rohilla |
+| 2026-11-12 | [ORCHID-SAGE: Fully Reproducible CALPHAD Assessment from Evidence to Phase Diagram](https://arxiv.org/abs/2611.16308) | Raymundo Arróyave |
+| 2026-11-11 | [ProdPilot: A Layered Model Context Protocol System for Automated Production Readiness and Deployment of Vibe-Coded Projects](https://arxiv.org/abs/2611.17381) | Muhammad Sudais Khalid, Muhammad Junaid Asif, Rehan Naveed Abbasi et al. |
+| 2026-11-11 | [SpaceMCP: Vision Language Model Spatial Reasoning via Model Context Protocol](https://arxiv.org/abs/2611.15680) | Ameen Izhac, Nobuko Yoshida, Ronald Clark |
 
-## Papers (199)
-- [Agentic Semantic Control for Autonomous Wireless Space Networks: Extending Space-O-RAN with MCP-Driven Distributed Intelligence](https://arxiv.org/abs/2506.10925)
-- [Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2506.02040)
-- [ETDI: Mitigating Tool Squatting and Rug Pull Attacks in Model Context Protocol (MCP) by using OAuth-Enhanced Tool Definitions and Policy-Based Access Control](https://arxiv.org/abs/2506.01333)
-- [Gaming Tool Preferences in Agentic LLMs](https://arxiv.org/abs/2505.18135)
-- [Enterprise-Grade Security for the Model Context Protocol (MCP): Frameworks and Mitigation Strategies](https://arxiv.org/abs/2504.08623)
-- [Securing GenAI Multi-Agent Systems Against Tool Squatting: A Zero Trust Registry-Based Approach](https://arxiv.org/abs/2504.19951)
-- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999)
-- [MCP Safety Audit: LLMs with the Model Context Protocol Allow Major Security Exploits](https://arxiv.org/abs/2504.03767)
-- [Beyond Formal Semantics for Capabilities and Skills: Model Context Protocol in Manufacturing](https://arxiv.org/abs/2506.11180)
-- [Mind the Metrics: Patterns for Telemetry-Aware In-IDE AI Application Development using the Model Context Protocol (MCP)](https://arxiv.org/abs/2506.11019)
-- [We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered Agent Systems](https://arxiv.org/abs/2506.13666)
-- [Model Context Protocol (MCP) at First Glance: Studying the Security and Maintainability of MCP Servers](https://arxiv.org/abs/2506.13538)
-- [Gradientsys: A Multi-Agent LLM Scheduler with ReAct Orchestration](https://arxiv.org/abs/2507.06520)
-- [MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Calling in LLM Agent Multi-Turn Conversations](https://arxiv.org/abs/2507.21428)
-- [Magentic-UI: Towards Human-in-the-loop Agentic Systems](https://arxiv.org/abs/2507.22358)
-- [MCP2OSC: Parametric Control by Natural Language](https://arxiv.org/abs/2508.10414)
-- [Help or Hurdle? Rethinking Model Context Protocol-Augmented Large Language Models](https://arxiv.org/abs/2508.12566)
-- [Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol (MCP) Ecosystem](https://arxiv.org/abs/2506.02040)
-- [AniME: Adaptive Multi-Agent Planning for Long Animation Generation](https://arxiv.org/abs/2508.18781)
-- [MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers](https://arxiv.org/abs/2508.20453)
-- [Towards Agentic OS: An LLM Agent Framework for Linux Schedulers](https://arxiv.org/abs/2509.01245)
-- [EHR-MCP: Real-world Evaluation of Clinical Information Retrieval by Large Language Models via Model Context Protocol](https://arxiv.org/abs/2509.15957)
-- [XARP Tools: An Extended Reality Platform for Humans and AI Agents](https://arxiv.org/abs/2508.04108)
-- [Tool Preferences in Agentic LLMs are Unreliable](https://arxiv.org/abs/2505.18135)
-- [Dynamic ReAct: Scalable Tool Selection for Large-Scale MCP Environments](https://arxiv.org/abs/2509.20386)
-- [Model Context Protocol for Vision Systems: Audit, Security, and Protocol Extensions](https://arxiv.org/abs/2509.22814)
-- [IoT-MCP: Bridging LLMs and IoT Systems Through Model Context Protocol](https://arxiv.org/abs/2510.01260)
-- [Agentic-AI Healthcare: Multilingual, Privacy-First Framework with MCP Agents](https://arxiv.org/abs/2510.02325)
-- [LLM\times\timesMapReduce-V3: Enabling Interactive In-Depth Survey Generation through a MCP-Driven Hierarchically Modular Agent System](https://arxiv.org/abs/2510.10890)
-- [NetMCP: Network-Aware Model Context Protocol Platform for LLM Capability Extension](https://arxiv.org/abs/2510.13467)
-- [Securing AI Agent Execution](https://arxiv.org/abs/2510.21236)
-- [ORCHID: Orchestrated Retrieval-Augmented Classification with Human-in-the-Loop Intelligent Decision-Making for High-Risk Property](https://arxiv.org/abs/2511.04956)
-- [TEM Agent: enhancing transmission electron microscopy (TEM) with modern AI tools](https://arxiv.org/abs/2511.08819)
-- [Hiding in the AI Traffic: Abusing MCP for LLM-Powered Agentic Red Teaming](https://arxiv.org/abs/2511.15998)
-- [Securing the Model Context Protocol (MCP): Risks, Controls, and Governance](https://arxiv.org/abs/2511.20920)
-- [MCP vs RAG vs NLWeb vs HTML: A Comparison of the Effectiveness and Efficiency of Different Agent Interfaces to the Web (Technical Report)](https://arxiv.org/abs/2511.23281)
-- [PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing, Review, and Editing](https://arxiv.org/abs/2512.02589)
-- [Leveraging Large Language Models to Bridge On-chain and Off-chain Transparency in Stablecoins](https://arxiv.org/abs/2512.02418)
-- [LeechHijack: Covert Computational Resource Exploitation in Intelligent Agent Systems](https://arxiv.org/abs/2512.02321)
-- [Benchmark for Planning and Control with Large Language Model Agents: Blocksworld with Model Context Protocol](https://arxiv.org/abs/2512.03955)
-- [AgentBay: A Hybrid Interaction Sandbox for Seamless Human-AI Intervention in Agentic Systems](https://arxiv.org/abs/2512.04367)
-- [RoboNeuron: A Modular Framework Linking Foundation Models and ROS for Embodied AI](https://arxiv.org/abs/2512.10394)
-- [MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments](https://arxiv.org/abs/2512.19432)
-- [Agentic AI for Autonomous Defense in Software Supply Chain Security: Beyond Provenance to Vulnerability Mitigation](https://arxiv.org/abs/2512.23480)
-- [Enterprise Identity Integration for AI-Assisted Developer Services: Architecture, Implementation, and Case Study](https://arxiv.org/abs/2601.02698)
-- [Data Product MCP: Chat with your Enterprise Data](https://arxiv.org/abs/2601.08687)
-- [Towards Verifiably Safe Tool Use for LLM Agents](https://arxiv.org/abs/2601.08012)
-- [AJAR: Adaptive Jailbreak Architecture for Red-teaming](https://arxiv.org/abs/2601.10971)
-- [Agentic Artificial Intelligence (AI): Architectures, Taxonomies, and Evaluation of Large Language Model Agents](https://arxiv.org/abs/2601.12560)
-- [A Universal Large Language Model -- Drone Command and Control Interface](https://arxiv.org/abs/2601.15486)
-- [Faramesh: A Protocol-Agnostic Execution Control Plane for Autonomous Agent Systems](https://arxiv.org/abs/2601.17744)
-- [Breaking the Protocol: Security Analysis of the Model Context Protocol Specification and Prompt Injection Vulnerabilities in Tool-Integrated LLM Agents](https://arxiv.org/abs/2601.17549)
-- [OptAgent: an Agentic AI framework for Intelligent Building Operations](https://arxiv.org/abs/2601.20005)
-- [Secure Tool Manifest and Digital Signing Solution for Verifiable MCP and LLM Pipelines](https://arxiv.org/abs/2601.23132)
-- [SoK: Trust-Authorization Mismatch in LLM Agent Interactions](https://arxiv.org/abs/2512.06914)
-- [Human Tool: An MCP-Style Framework for Human-Agent Collaboration](https://arxiv.org/abs/2602.12953)
-- [AgentRob: From Virtual Forum Agents to Hijacked Physical Robots](https://arxiv.org/abs/2602.13591)
-- [Information Fidelity in Tool-Using LLM Agents: A Martingale Analysis of the Model Context Protocol](https://arxiv.org/abs/2602.13320)
-- [An Agentic AI Control Plane for 6G Network Slice Orchestration, Monitoring, and Trading](https://arxiv.org/abs/2602.13227)
-- [EAA: Automating materials characterization with vision language model agents](https://arxiv.org/abs/2602.15294)
-- [MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in Model Context Protocol Agents](https://arxiv.org/abs/2602.14281)
-- [From Docs to Descriptions: Smell-Aware Evaluation of MCP Server Descriptions](https://arxiv.org/abs/2602.18914)
-- [AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM Agents](https://arxiv.org/abs/2508.01012)
-- [AWCP: A Workspace Delegation Protocol for Deep-Engagement Collaboration across Remote Agents](https://arxiv.org/abs/2602.20493)
-- [Agentic AI for Scalable and Robust Optical Systems Control](https://arxiv.org/abs/2602.20144)
-- [The Auton Agentic AI Framework](https://arxiv.org/abs/2602.23720)
-- [REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry](https://arxiv.org/abs/2603.03018)
-- [VDCook:DIY video data cook your MLLMs](https://arxiv.org/abs/2603.05539)
-- [AgenticCyOps: Securing Multi-Agentic AI Integration in Enterprise Cyber Operations](https://arxiv.org/abs/2603.09134)
-- [Turn: A Language for Agentic Computation](https://arxiv.org/abs/2603.08755)
-- [ToolRegistry: A Protocol-Agnostic Tool Management Library for Function-Calling LLMs](https://arxiv.org/abs/2507.10593)
-- [Invisible Threats from Model Context Protocol: Generating Stealthy Injection Payload via Tree-based Adaptive Search](https://arxiv.org/abs/2603.24203)
-- [SOMA: Strategic Orchestration and Memory-Augmented System for Vision-Language-Action Model Robustness via In-Context Adaptation](https://arxiv.org/abs/2603.24060)
-- [IndustriConnect: MCP Adapters and Mock-First Evaluation for AI-Assisted Industrial Operations](https://arxiv.org/abs/2603.24703)
-- [RoboNeuron: A Middle-Layer Infrastructure for Agent-Driven Orchestration in Embodied AI](https://arxiv.org/abs/2512.10394)
-- [Leveraging Large Language Models to Bridge Cross-Domain Transparency in Stablecoins](https://arxiv.org/abs/2512.02418)
-- [Flowr -- Scaling Up Retail Supply Chain Operations Through Agentic AI in Large Scale Supermarket Chains](https://arxiv.org/abs/2604.05987)
-- [A Formal Security Framework for MCP-Based AI Agents: Threat Taxonomy, Verification Models, and Defense Mechanisms](https://arxiv.org/abs/2604.05969)
-- [Agent-Driven Corpus Linguistics: A Framework for Autonomous Linguistic Discovery](https://arxiv.org/abs/2604.07189)
-- [Trust-as-a-Service: Task-Specific Orchestration for Effective Task Completion via Model Context Protocol-Aided Agentic AI](https://arxiv.org/abs/2604.07065)
-- [MCP-DPT: A Defense-Placement Taxonomy and Coverage Analysis for Model Context Protocol Security](https://arxiv.org/abs/2604.07551)
-- [MPAC: A Multi-Principal Agent Coordination Protocol for Interoperable Multi-Agent Collaboration](https://arxiv.org/abs/2604.09744)
-- [Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence](https://arxiv.org/abs/2604.18292)
-- [enclawed: A Configurable, Sector-Neutral Hardening Framework for Single-User AI Assistant Gateways](https://arxiv.org/abs/2604.16838)
-- [YAIFS: Yet (not) Another Intelligent Fog Simulator: A Framework for Agent-Driven Computing Continuum Modeling & Simulation](https://arxiv.org/abs/2604.19181)
-- [AgentBound: Securing Execution Boundaries of AI Agents](https://arxiv.org/abs/2510.21236)
-- [An Agentic Framework for Intent Co-Creation in 6G NaaS: Architecture and Open-Source Model Evaluation](https://arxiv.org/abs/2604.23288)
-- [From CRUD to Autonomous Agents: Formal Validation and Zero-Trust Security for Semantic Gateways in AI-Native Enterprise Systems](https://arxiv.org/abs/2604.25555)
-- [A First Look at the Security Issues in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2510.16558)
-- [Autonomous Traffic Signal Optimization Using Digital Twin and Agentic AI for Real-Time Decision-Making](https://arxiv.org/abs/2604.27753)
-- [Tool Use as Action: Towards Agentic Control in Mobile Core Networks](https://arxiv.org/abs/2605.02811)
-- [Feedback-Normalized Developer Memory for Reinforcement-Learning Coding Agents: A Safety-Gated MCP Architecture](https://arxiv.org/abs/2605.01567)
-- [Say the Mission, Execute the Swarm: Agent-Enhanced LLM Reasoning in the Web-of-Drones](https://arxiv.org/abs/2605.03788)
-- [When Agents Handle Secrets: A Survey of Confidential Computing for Agentic AI](https://arxiv.org/abs/2605.03213)
-- [SecureMCP: A Policy-Enforced LLM Data Access Framework for AIoT Systems via Model Context Protocol](https://arxiv.org/abs/2605.05260)
-- [Unsafe by Flow: Uncovering Bidirectional Data-Flow Risks in MCP Ecosystem](https://arxiv.org/abs/2605.07836)
-- [Octopus Protocol: One-Shot Hardware Discovery and Control for AI Agents via Infrastructure-as-Prompts](https://arxiv.org/abs/2605.09055)
-- [LychSim: A Controllable and Interactive Simulation Framework for Vision Research](https://arxiv.org/abs/2605.12449)
-- [NIMO Controller: a self-driving laboratory orchestrator based on the Model Context Protocol](https://arxiv.org/abs/2605.15227)
-- [VectraYX-Nano: A 42M-Parameter Spanish Cybersecurity Language Model with Curriculum Learning and Native Tool Use](https://arxiv.org/abs/2605.13989)
-- [Formal Skill: Programmable Runtime Skills for Efficient and Accurate LLM Agents](https://arxiv.org/abs/2605.19604)
-- [Semantic Attacks on Tool-Augmented LLMs: Securing the Model Context Protocol Against Descriptor-Level Manipulation](https://arxiv.org/abs/2512.06556)
-- [Device Context Protocol: A Compact, Safety-First Architecture for LLM-Driven Control of Constrained Devices](https://arxiv.org/abs/2605.26159)
-- [Queen-Bee Agents: A BeeSpec-Centered Architecture for Governed Enterprise MCP Orchestration](https://arxiv.org/abs/2606.06545)
-- [VATS: Exploiting Implicit Authority in Error-Path Injection via Systematic Mutation](https://arxiv.org/abs/2606.07992)
-- [Game-Theoretic Multi-Agent Control for Robust Contextual Reasoning in LLMs](https://arxiv.org/abs/2606.10322)
-- [Pepti-Agent: An AI Agent for Peptide Design and Optimization](https://arxiv.org/abs/2606.15422)
-- [ProvenanceGuard: Source-Aware Factuality Verification for MCP-Based LLM Agents](https://arxiv.org/abs/2606.18037)
-- [From Privacy to Workflow Integrity: Communication-Graph Metadata in Autonomous Agent Interoperability](https://arxiv.org/abs/2606.07150)
-- [From Specification to Execution: AI Assisted Scientific Workflow Management](https://arxiv.org/abs/2606.18425)
-- [Trust-as-a-Service: Intelligent Collaboration Orchestration via Model Context Protocol-Aided Agentic AI](https://arxiv.org/abs/2604.07065)
-- [MCP-SandboxScan: WASM-based Secure Execution and Runtime Analysis for MCP Tools](https://arxiv.org/abs/2601.01241)
-- [Verifiable Manifest Signing and Transparency Enforcement for Secure MCP-Based LLM Pipelines](https://arxiv.org/abs/2601.23132)
-- [A hardware-safety-gated system for LLM-written native ARTIQ control code on a trapped-ion platform](https://arxiv.org/abs/2606.27231)
-- [From Tool Connection to Execution Control: Benchmarking Security Invariants in MCP-Style Agent Runtimes](https://arxiv.org/abs/2606.29073)
-- [ContextNest: Verifiable Context Governance for Autonomous AI Agent](https://arxiv.org/abs/2607.02116)
-- [Unicode TAG-Block Concealment of Tool-Metadata Payloads in the Model Context Protocol: An Approval-View Fidelity Gap Across Three Independent Server Implementations](https://arxiv.org/abs/2607.05744)
-- [The Balkanization of Execution-Security Research for AI Coding Agents: Isolation, Access Control, and Time-of-Check-to-Time-of-Use Vulnerabilities](https://arxiv.org/abs/2607.05743)
-- [MCP Pitfall Lab: Exposing Developer Pitfalls in MCP Tool Server Security under Multi-Vector Attacks](https://arxiv.org/abs/2604.21477)
-- [Contract-Grounded Behavior Tree Synthesis via Coding Agents](https://arxiv.org/abs/2607.12220)
-- [JW-ASTClaw: A Generalizable Multi-Agent Framework for Autonomous Solar Telescope and Its Implementation within Chinese Meridian Project](https://arxiv.org/abs/2607.13549)
-- [RegNetAgents: A Multi-Agent Framework for Cross-Network Regulatory Driver Identification in Cancer Genomics](https://arxiv.org/abs/2607.14097)
-- [Scalable LLM Agent Tool Access in the Cloud](https://arxiv.org/abs/2607.15593)
-- [Trustworthy AI LLM Scalability Risk Index (LSRI): A Cybersecurity Framework Assessing Agentic-AI Security & Software Model Supply Chain Safety Boosting AI-Generated Malware Defense & Explainability Mitigating Emerging Risks of Generative AI](https://arxiv.org/abs/2602.19021)
-- [A corrective agentic hybrid RAG and an operations-grounded evaluation for a scientific facility](https://arxiv.org/abs/2607.24663)
-- [The Hitchhiker's Guide to Agentic AI: From Foundations to Systems](https://arxiv.org/abs/2606.24937)
-- [A Comparative Study of MCP and A2A for Inter-Agent Coordination in LLM-Based Systems](https://arxiv.org/abs/2607.23884)
-- [An Empirical Study of Model Context Protocol Applications](https://arxiv.org/abs/2607.25635)
-- [Registry Descriptions Go Stale Unevenly: An 89-Day Measurement of Model Context Protocol Drift, and Why Drift-Ranked Re-Auditing Under-Covers It](https://arxiv.org/abs/2608.00997)
-- [Safety Invariants for Agents Orchestrating Irreversible State Transitions: A Four-Dimensional Formalism Evaluated on Public Ledgers](https://arxiv.org/abs/2608.00783)
-- [Exposed by Design: A Dynamic Security Assessment of Internet-Facing MCP Servers at Scale](https://arxiv.org/abs/2608.00150)
-- [Spectroscopic Binary Detection as Agent-Callable Tools: Detecting 40,000+ Main-Sequence Binary Candidates from SDSS DR19 APOGEE Spectra](https://arxiv.org/abs/2608.10866)
-- [RoboHarness: A Memory-Augmented Policy Harness for Vision-Language-Action Model Robustness via In-Context Adaptation](https://arxiv.org/abs/2603.24060)
-- [Task-Conditioned Least-Privilege Learning for Executable Terminal and MCP Agents](https://arxiv.org/abs/2608.18351)
-- [TrustShiftProbe: Characterizing, Benchmarking, and Defending Staged Trust Attacks on MCP Servers](https://arxiv.org/abs/2608.23763)
-- [APPA: Recoverable Information-Flow Control for Real-World LLM Agents](https://arxiv.org/abs/2607.24625)
-- [ToolMinimize: Auditing and Rewriting LLM Agent Tool Calls to Minimize Privacy Exposure](https://arxiv.org/abs/2608.24957)
-- [Claude Code Complete User Handbook](https://arxiv.org/abs/2608.26742)
-- [Agentic AI for operating scientific instruments for nanoscale characterization](https://arxiv.org/abs/2608.26198)
-- [CP^2^2N^2^2: A Control Plane for Heterogeneous Physical Neural Networks](https://arxiv.org/abs/2605.04256)
-- [ACLE-MCP: Attested Capability Leases for Execution-Time Trust in Remote LLM Tool Use](https://arxiv.org/abs/2609.02690)
-- [Public-Sharing Labels and Verbatim Field Egress in an MCP-to-A2A Agent Configuration: A Controlled Multi-Model Study](https://arxiv.org/abs/2609.01693)
-- [Skill-as-API: Confidential Multi-Agent Coordination for Agentic Software Engineering](https://arxiv.org/abs/2609.01677)
-- [Orchestra: Corroboration-Based Regulatory Candidate Discovery via Composed Bioinformatics MCP Agents](https://arxiv.org/abs/2609.05496)
-- [AnchorVLN: Geometry-Anchored Vision-Language Grounding Reasoning for Open-Vocabulary Navigation](https://arxiv.org/abs/2609.12285)
-- [An Open-Source Hardware and Software Toolkit to Enable Agentic RHEED-Guided Thin-Film Synthesis](https://arxiv.org/abs/2609.15922)
-- [Authorization Architectures for Tool-Using AI Agents](https://arxiv.org/abs/2609.15906)
-- [The Stochastic Deputy: Structural Tenant Isolation for Tool-Using LLM Agents](https://arxiv.org/abs/2609.14780)
-- [An LLM-Agnostic, MAVLink-Based Drone Command and Control Interface and Agentic Harness Using the Model Context Protocol](https://arxiv.org/abs/2601.15486)
-- [DriveMCP: An Agentic AI framework for Advanced Driver Assistance System](https://arxiv.org/abs/2609.17247)
-- [EchoPath: Execution-Level Replayable Memory for GUI Agents](https://arxiv.org/abs/2609.16635)
-- [When Agents Look Like Beacons: NIDS Evasion by Model Context Protocol Traffic](https://arxiv.org/abs/2609.19091)
-- [Measuring and Exploiting Implicit Trust in LLM Tool-Calling Pipelines](https://arxiv.org/abs/2609.18217)
-- [MCP-GRANITE Benchmark: GRANularity Interface TEsting for MCP-Based LLM Agents](https://arxiv.org/abs/2609.24161)
-- [Zero-Trust Authorization and Discovery for Enterprise MCP](https://arxiv.org/abs/2609.22573)
-- [A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem](https://arxiv.org/abs/2609.26761)
-- [Multi-Agent AI Architecture for Regulated Insurers: A generic AI framework under Solvency II and the AI Act in Austria and Germany](https://arxiv.org/abs/2609.27636)
-- [Progressive Skill Discovery as Access Control for Tool-Using LLM Agents: Structural Governance through Role-Scoped Capability Delivery](https://arxiv.org/abs/2609.28693)
-- [Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol](https://arxiv.org/abs/2609.30341)
-- [Cartograph: Federated Tool Discovery with Operator-Attested Retrieval for AI Agents](https://arxiv.org/abs/2609.30293)
-- [HTN Planning as a Coordination Layer for Multi-Server MCP Tool Orchestration](https://arxiv.org/abs/2609.33731)
-- [Skill-Based AI Agents for Power-System Studies](https://arxiv.org/abs/2609.40272)
-- [PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents](https://arxiv.org/abs/2606.12329)
-- [Localizing Post-Wire Semantic Changes in MCP Agent Frameworks](https://arxiv.org/abs/2610.00182)
-- [COPEX: Benchmarking LLM Robustness to Adversarial Context Across Model Context Protocol Layers](https://arxiv.org/abs/2610.04378)
-- [CyTReX: Explainable AI-Based Cybersecurity Threat Reasoning Framework for DER Networks](https://arxiv.org/abs/2610.04286)
-- [The Cost of a Hop: Benchmarking NLIP and A2A](https://arxiv.org/abs/2610.04053)
-- [KedgeFlow: A Programmable Control Plane for Enterprise AI Agents](https://arxiv.org/abs/2610.14810)
-- [Which Metadata Matters for LLM Tool Selection in MCP? Evidence from Controlled Factor-Level Interventions](https://arxiv.org/abs/2610.14334)
-- [GatewayBench: Unified Capability and Security Evaluation Platform for MCP Gateways](https://arxiv.org/abs/2610.23449)
-- [Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides](https://arxiv.org/abs/2610.22373)
-- [COPEX: Benchmarking LLM Robustness to Adversarial Context Across Model Context Protocol (MCP) Layers](https://arxiv.org/abs/2610.04378)
-- [Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices](https://arxiv.org/abs/2610.23921)
-- [OpenAgenet / OAN White Paper: Open Infrastructure for Trusted Agent Interconnection](https://arxiv.org/abs/2606.03161)
-- [6G: From Connectivity Infrastructure to Guaranteed Digital Services](https://arxiv.org/abs/2607.24185)
-- [Measure First, Then Allocate: Calibrated Rollout Budgets for MCP Agents in Reinforcement Learning](https://arxiv.org/abs/2610.28785)
-- [Can AI Co-Design Structures? An AI Agent for Early-Stage Structural Design](https://arxiv.org/abs/2610.31113)
-- [Agentic Architecture of Information Systems. The AAM/5C Model: A Reference Model for Distributed Autonomy](https://arxiv.org/abs/2610.30221)
-- [Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance](https://arxiv.org/abs/2610.32555)
-- [OpenAgenet / OAN Yellow Paper: Technical Architecture for Trust-Governed Resource Identity and Discovery](https://arxiv.org/abs/2606.03163)
-- [Build or Adopt? Custom-Built vs. General-Purpose LLM Agent Harnesses for Automotive GUI Testing](https://arxiv.org/abs/2610.33636)
-- [EVM-Anchored Provenance for AI-Assisted Code Evolution: A Smoke-Scale Deployment Report](https://arxiv.org/abs/2610.33350)
-- [Log-To-Leak: Prompt Injection Attacks on Tool-Using LLM Agents via the Model Context Protocol](https://arxiv.org/abs/2610.36108)
-- [PCM: A Proof-Carrying Message Protocol for Verifiable Multi-Agent Communication](https://arxiv.org/abs/2610.39109)
-- [How Deterministic SAST and AI Security Agents Divide the Work: Coverage, Harness Policy and Cost in Snyk VulnBench 2.0](https://arxiv.org/abs/2610.38617)
-- [STRIATUM-CTF: A Protocol-Driven Agentic Framework for Autonomous CTF Solving](https://arxiv.org/abs/2603.22577)
-- [Towards a Trustworthy and Governable Internet of Agentics: An Architectural Perspective on Protocols, Systems, and Services](https://arxiv.org/abs/2611.03066)
-- [Where Does MCP Security End? A Three-Tier Mitigation Mapping Framework for the OWASP MCP Top 10](https://arxiv.org/abs/2611.02611)
-- [MCP Tool Poisoning in Agentic AI Frameworks: A Cross-Framework Measurement Study](https://arxiv.org/abs/2611.03555)
-- [Scaling LLM Agent Tool Access: The MCP Gateway](https://arxiv.org/abs/2607.15593)
-- [SafeOrchestrate: Runtime Checked Intent-Driven Orchestration for Cyber-Physical Systems](https://arxiv.org/abs/2611.09364)
-- [Aegis OS: A Transactional Multi-Tenant Operating System Runtime for Eliminating Authorization Fatigue in Autonomous Coding Agents](https://arxiv.org/abs/2611.08516)
-- [ORION: Intent-Aware Orchestration in Open RAN for SLA-Driven Network Management](https://arxiv.org/abs/2603.03667)
-- [Tracing MCP Security Vulnerabilities: Constructing and Analyzing an MCP Security Vulnerability Dataset](https://arxiv.org/abs/2611.11104)
-- [When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents](https://arxiv.org/abs/2611.21577)
-- [Beyond Plain MCP: Do Decision Models and Code Mode Make Tool Use Cheaper and Faster?](https://arxiv.org/abs/2611.19123)
-- [Foundation Model-Driven Agentic AI for 6G](https://arxiv.org/abs/2611.23494)
-- [FinVeriQA: Financial Research Agents for Question Answering: Routing, Retrieval, MCP Tool Use, and Provenance-Aware Evidence Verification](https://arxiv.org/abs/2611.25071)
-- [EMIP: Embodied Multi-Party Interaction Platform](https://arxiv.org/abs/2611.29333)
+<sub>Last updated 2026-11-25.</sub>
 
+## Servers
 
-## Benchmark and Reference Server
+MCP servers that expose tools, resources and prompts for real systems.
 
-The [`benchmark/`](benchmark/) directory holds the executable artifact that accompanies the survey: a serialization and transport micro-benchmark (JSON, orjson, MessagePack, CBOR, Protocol Buffers; raw TCP, DDS, Zenoh, gRPC, JSON-RPC, MCP over stdio and Streamable HTTP) and a reference MAPE-K MCP server pinned to the official Python SDK 2.3.0. See [`benchmark/README.md`](benchmark/README.md) for setup, commands and limitations. The benchmark is synthetic and indicates orders of magnitude only.
+| Name | Description | Tags |
+| --- | --- | --- |
+| [Reference servers](https://github.com/modelcontextprotocol/servers) | The protocol's reference implementations: filesystem, git, fetch, memory and more. | **official** `reference` `files` |
+| [GitHub MCP Server](https://github.com/github/github-mcp-server) | GitHub's official server for repositories, issues, pull requests and Actions. | **official** `devtools` |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Browser automation through Playwright, driven by accessibility snapshots. | **official** `browser` |
+| [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Lets coding agents inspect, debug and automate Chrome through DevTools. | **official** `browser` `devtools` |
+| [Context7](https://github.com/upstash/context7) | Serves up-to-date, version-specific library documentation to agents. | `docs` |
+| [Notion MCP Server](https://github.com/makenotion/notion-mcp-server) | Notion's official server for reading and editing workspaces. | **official** `productivity` |
+| [Atlassian Remote MCP Server](https://github.com/atlassian/atlassian-mcp-server) | Atlassian's official remote server for Jira and Confluence. | **official** `productivity` |
+| [Cloudflare MCP servers](https://github.com/cloudflare/mcp-server-cloudflare) | Product-specific Cloudflare servers for Workers, DNS, logs and more. | **official** `cloud` |
+| [Supabase MCP](https://github.com/supabase/mcp) | Connects assistants to Supabase projects, databases and edge functions. | **official** `database` `cloud` |
+| [AWS MCP servers](https://github.com/awslabs/mcp) | Open-source MCP servers for AWS services and documentation. | **official** `cloud` |
+| [Microsoft MCP catalog](https://github.com/microsoft/mcp) | Catalog of official Microsoft MCP server implementations. | **official** `cloud` |
+| [Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server) | HashiCorp's server for the Terraform registry and workspaces. | **official** `devops` |
+| [Stripe agent toolkit](https://github.com/stripe/ai) | Stripe's tools for AI agents, including an MCP server for payments APIs. | **official** `payments` |
+| [Figma Context MCP](https://github.com/GLips/Figma-Context-MCP) | Gives coding agents Figma layout and style information. | `design` |
+| [Blender MCP](https://github.com/ahujasid/mcp-for-blender) | Controls Blender 3D scenes from an LLM client. | `3d` |
+| [ROS MCP Server](https://github.com/robotmcp/ros-mcp-server) | Connects LLMs to ROS and ROS 2 robots through MCP. | `robotics` `transportation` |
+| [lit-mcp](https://github.com/gauravfs-14/lit-mcp) | Academic literature search across databases, for LLM-assisted literature reviews. | `research` |
+| [WritBase](https://github.com/Writbase/writbase) | MCP-native task management for fleets of AI agents, with permissions and provenance. | `agents` |
+| [operant-mcp](https://github.com/operantlabs/operant-mcp) | Security testing server with tools for penetration testing and forensics. | `security` |
 
-## Library
+## Clients and hosts
 
-- [WritBase](https://github.com/Writbase/writbase) - MCP-native task management for AI agent fleets. Multi-agent permissions, full provenance, inter-agent task delegation, and A2A protocol alignment.
-- [Roundtable](https://github.com/sinaneshat/roundtable-dashboard) - Multi-model AI brainstorming MCP server — consult a council of AI models that debate your question, then a moderator synthesizes the best answer. 13 tools including consult_council, review_code, debug_issue, design_architecture, plan_implementation, and assess_tradeoffs. Remote endpoint: `https://mcp.roundtable.now/mcp`.
-- [operant-mcp](https://github.com/operantlabs/operant-mcp) - Security testing MCP server with 51 tools for penetration testing, network forensics, memory analysis, and vulnerability assessment.
+Applications that connect to MCP servers.
 
-## Tutorial
+| Name | Description | Tags |
+| --- | --- | --- |
+| [Claude Desktop](https://claude.ai/download) | Anthropic's desktop app, the original MCP host. | **official** `chat` |
+| [Claude Code](https://github.com/anthropics/claude-code) | Agentic coding tool for the terminal with MCP support. | **official** `coding` `cli` |
+| [Cursor](https://cursor.com) | AI code editor with MCP server support. | `coding` `editor` |
+| [VS Code](https://code.visualstudio.com/docs/copilot/customization/mcp-servers) | Use MCP servers with agent mode in Visual Studio Code. | `coding` `editor` |
+| [Zed](https://github.com/zed-industries/zed) | High-performance editor that can load MCP servers as context servers. | `coding` `editor` |
+| [Cline](https://github.com/cline/cline) | Autonomous coding agent for the IDE and CLI with MCP support. | `coding` |
+| [Continue](https://github.com/continuedev/continue) | Open-source coding agent that can use MCP servers. | `coding` |
+| [goose](https://github.com/aaif-goose/goose) | Extensible open-source AI agent built around MCP extensions. | `agents` |
+| [LibreChat](https://github.com/LibreChat-AI/LibreChat) | Self-hosted chat UI with agents and MCP support. | `chat` |
+| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | Desktop AI workspace with MCP support. | `chat` |
 
-### Written Tutorials
-- [Architecture of MCP - Anthropic](https://modelcontextprotocol.io/docs/learn/architecture)
-- [MCP Specification - Anthropic](https://modelcontextprotocol.io/specification/2025-06-18)
+## SDKs and frameworks
 
-### Video Tutorials
+Libraries for building MCP servers and clients.
+
+| Name | Description | Tags |
+| --- | --- | --- |
+| [Python SDK](https://github.com/modelcontextprotocol/python-sdk) | The official Python SDK. | **official** `python` |
+| [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) | The official TypeScript SDK. | **official** `typescript` |
+| [Java SDK](https://github.com/modelcontextprotocol/java-sdk) | The official Java SDK. | **official** `java` |
+| [Kotlin SDK](https://github.com/modelcontextprotocol/kotlin-sdk) | The official Kotlin SDK. | **official** `kotlin` |
+| [C# SDK](https://github.com/modelcontextprotocol/csharp-sdk) | The official C# SDK, maintained with Microsoft. | **official** `csharp` |
+| [Go SDK](https://github.com/modelcontextprotocol/go-sdk) | The official Go SDK, maintained with Google. | **official** `go` |
+| [Rust SDK](https://github.com/modelcontextprotocol/rust-sdk) | The official Rust SDK. | **official** `rust` |
+| [Swift SDK](https://github.com/modelcontextprotocol/swift-sdk) | The official Swift SDK. | **official** `swift` |
+| [Ruby SDK](https://github.com/modelcontextprotocol/ruby-sdk) | The official Ruby SDK. | **official** `ruby` |
+| [PHP SDK](https://github.com/modelcontextprotocol/php-sdk) | The official PHP SDK. | **official** `php` |
+| [FastMCP](https://github.com/PrefectHQ/fastmcp) | The fast, Pythonic way to build MCP servers and clients. | `python` |
+| [mcp-use](https://github.com/mcp-use/mcp-use) | Full-stack framework for building MCP servers, clients and MCP Apps. | `typescript` `python` |
+| [Spring AI](https://github.com/spring-projects/spring-ai) | Application framework for AI engineering on the JVM, with MCP client and server support. | `java` |
+| [MCP Apps (ext-apps)](https://github.com/modelcontextprotocol/ext-apps) | Spec and SDK for interactive UIs served over MCP. | **official** `ui` |
+| [MCP-UI](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP: SDK for returning interactive components from tools. | `ui` |
+
+## Agent frameworks
+
+Agent frameworks with built-in MCP support.
+
+| Name | Description | Tags |
+| --- | --- | --- |
+| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | Lightweight multi-agent framework with MCP server support. | `python` |
+| [Google Agent Development Kit](https://github.com/google/adk-python) | Code-first toolkit for building and evaluating agents, with MCP tools. | `python` |
+| [Pydantic AI](https://github.com/pydantic/pydantic-ai) | Typed Python agent framework with MCP client support. | `python` |
+| [mcp-agent](https://github.com/lastmile-ai/mcp-agent) | Builds effective agents from MCP servers and simple workflow patterns. | `python` |
+
+## Developer tools and infrastructure
+
+Testing, debugging, proxying and registry infrastructure.
+
+| Name | Description | Tags |
+| --- | --- | --- |
+| [MCP Inspector](https://github.com/modelcontextprotocol/inspector) | Interactive tool for testing and debugging MCP servers. | **official** `testing` |
+| [MCP Registry](https://github.com/modelcontextprotocol/registry) | Community-driven registry service for MCP servers. | **official** `registry` |
+| [mcpo](https://github.com/open-webui/mcpo) | Exposes MCP servers as OpenAPI HTTP servers. | `proxy` |
+| [mcp-proxy](https://github.com/sparfenyuk/mcp-proxy) | Bridges Streamable HTTP and stdio MCP transports. | `proxy` |
+| [Docker MCP Gateway](https://github.com/docker/mcp-gateway) | Docker CLI plugin that runs and manages MCP servers in containers. | `gateway` |
+| [MCP Context Forge](https://github.com/IBM/mcp-context-forge) | Gateway, registry and proxy that sits in front of MCP and A2A servers. | `gateway` |
+
+## Security
+
+Scanning and guidance for MCP deployments.
+
+| Name | Description | Tags |
+| --- | --- | --- |
+| [Agent Scan](https://github.com/snyk/agent-scan) | Security scanner for AI agents, MCP servers and agent skills (formerly mcp-scan). | `scanner` |
+| [MCP security best practices](https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices) | Official guidance on attacks and mitigations for MCP implementations. | **official** `guidance` |
+| [MCPSecBench](https://github.com/AIS2Lab/MCPSecBench) | Systematic security benchmark and playground for MCP. | `benchmark` |
+| [MCPTox](https://github.com/zhiqiangwang4/MCPTox-Benchmark) | Benchmark for tool-poisoning attacks on real-world MCP servers. | `benchmark` |
+
+## Benchmarks and evaluation
+
+Benchmarks that measure how well models and agents use MCP.
+
+| Name | Description | Tags |
+| --- | --- | --- |
+| [MCP overhead micro-benchmark](https://github.com/benchmark/) | Serialization and transport micro-benchmark with a reference MAPE-K MCP server (this repository). | `latency` `this-repo` |
+| [MCP-Bench](https://github.com/Accenture/mcp-bench) | Benchmarks tool-using LLM agents on complex real-world tasks across MCP servers. | `agents` |
+| [MCP-Universe](https://github.com/SalesforceAIResearch/MCP-Universe) | Framework for benchmarking models against real-world MCP servers. | `agents` |
+| [LiveMCPBench](https://github.com/icip-cas/LiveMCPBench) | Evaluates whether agents can navigate a large set of MCP tools. | `agents` `tool-selection` |
+| [MCPMark](https://github.com/eval-sys/mcpmark) | Stress-testing benchmark for models and agents on MCP tasks. | `agents` |
+| [MCPEval](https://github.com/SalesforceAIResearch/MCPEval) | MCP-based deep evaluation system for agents. | `agents` |
+| [MCPToolBench++](https://github.com/mcp-tool-bench/MCPToolBenchPP) | Tool-use benchmark for agents and models over MCP tools. | `tool-use` |
+
+## Learning and documentation
+
+Specification, documentation, courses and tutorials.
+
+| Name | Description | Tags |
+| --- | --- | --- |
+| [MCP documentation](https://modelcontextprotocol.io) | Official documentation and introduction. | **official** `docs` |
+| [Specification](https://modelcontextprotocol.io/specification/latest) | The latest protocol specification. | **official** `spec` |
+| [Architecture overview](https://modelcontextprotocol.io/docs/learn/architecture) | Hosts, clients, servers and the layers of the protocol. | **official** `docs` |
+| [Build a server](https://modelcontextprotocol.io/docs/develop/build-server) | Official tutorial for writing your first MCP server. | **official** `tutorial` |
+| [Build a client](https://modelcontextprotocol.io/docs/develop/build-client) | Official tutorial for writing your first MCP client. | **official** `tutorial` |
+| [Hugging Face MCP Course](https://huggingface.co/learn/mcp-course) | Free course on building and using MCP. | `course` |
+| [MCP: Build Rich-Context AI Apps with Anthropic](https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/) | Short course from DeepLearning.AI and Anthropic. | `course` |
+| [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) | Open-source curriculum with examples in several languages. | `course` |
+
+## Directories and other lists
+
+Where to find more servers and clients.
+
+| Name | Description | Tags |
+| --- | --- | --- |
+| [Official MCP Registry](https://registry.modelcontextprotocol.io) | The community registry of published MCP servers. | **official** `registry` |
+| [Smithery](https://smithery.ai) | Registry and hosting for MCP servers. | `registry` |
+| [Glama MCP directory](https://glama.ai/mcp/servers) | Searchable directory of MCP servers. | `registry` |
+| [mcp.so](https://mcp.so) | Community directory of MCP servers and clients. | `registry` |
+| [awesome-mcp-servers (punkpeye)](https://github.com/punkpeye/awesome-mcp-servers) | Large collection of MCP servers. | `list` |
+| [awesome-mcp-servers (wong2)](https://github.com/wong2/awesome-mcp-servers) | Curated list of MCP servers. | `list` |
+| [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients) | Collection of MCP clients. | `list` |
+| [awesome-remote-mcp-servers](https://github.com/punkpeye/awesome-remote-mcp-servers) | Collection of remote MCP servers. | `list` |
+
+## Benchmark and reference server
+
+[`benchmark/`](benchmark/) is the executable artifact for our survey: serialization and transport micro-benchmarks, plus a reference MAPE-K MCP server pinned to the official Python SDK 2.3.0. Median of three runs on an Apple M4 Pro, echoing a 50-detection perception frame over loopback:
+
+| Path | Payload (B) | Median (ms) | p99 (ms) |
+| --- | ---: | ---: | ---: |
+| Raw TCP + MessagePack | 7,702 | 0.07 | 0.08 |
+| Zenoh pub/sub | 3,445 | 0.09 | 0.17 |
+| DDS (Cyclone) pub/sub | 3,445 | 0.11 | 0.19 |
+| gRPC unary (Protobuf) | 3,445 | 0.15 | 0.21 |
+| JSON-RPC 2.0 over stdio (no SDK) | 7,609 | 0.28 | 0.33 |
+| MCP stdio `tools/call` | 7,609 | 1.01 | 1.24 |
+| MCP Streamable HTTP `tools/call` | 7,609 | 2.12 | 3.04 |
+
+> [!IMPORTANT]
+> The benchmark is synthetic and single-host. Read the numbers as orders of magnitude, not guarantees. Setup, scripts and limits are in [`benchmark/README.md`](benchmark/README.md).
 
 ## Contributing
 
-We welcome contributions to this repository! If you have a resource that you believe should be included, please submit a pull request or open an issue. Contributions can include:
+Contributions are welcome: new servers, clients, tutorials, benchmarks, corrections. Papers are collected automatically, so there is no need to submit those. Start with [CONTRIBUTING.md](CONTRIBUTING.md) or open an [issue](https://github.com/AI-in-Transportation-Lab/awesome-mcp/issues/new/choose).
 
-- New libraries or tools related to MCP.
-- Tutorials or guides that help users understand and implement MCP.
-- Research papers that advance the field of MCP.
-- Any other resources that you find valuable for the community
+## Cite
 
-## How to Contribute
+If this collection or the benchmark is useful in your work, please cite our survey. GitHub's **Cite this repository** button uses [CITATION.cff](CITATION.cff).
 
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Make your changes and commit them with a clear message.
-4. Push your changes to your forked repository.
-5. Submit a pull request to the main repository.
+```bibtex
+@article{chhetri2025model,
+  title   = {Model Context Protocols in Adaptive Transport Systems: A Survey},
+  author  = {Gaurab Chhetri and Shriyank Somvanshi and Md Monzurul Islam and Shamyo Brotee and Mahmuda Sultana Mimi and Dipti Koirala and Biplov Pandey and Subasish Das},
+  journal = {arXiv preprint arXiv:2508.19239},
+  year    = {2025}
+}
+```
 
-Before contributing, take a look at the existing resources to avoid duplicates.
+<sub>We will update the citation when the survey is published.</sub>
 
 ## License
 
-This repository is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE). You are free to share and adapt the material, provided you give appropriate credit, link to the license, and indicate if changes were made.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=gauravfs-14/awesome-mcp)](https://star-history.com/#gauravfs-14/awesome-mcp&Date)
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). Share and adapt with attribution.
