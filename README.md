@@ -14,6 +14,13 @@
 
 </div>
 
+> [!NOTE]
+> **Our survey: [Model Context Protocols in Adaptive Transport Systems: A Survey](https://arxiv.org/abs/2508.19239)**
+>
+> Gaurab Chhetri, Shriyank Somvanshi, Md Monzurul Islam, Shamyo Brotee, Mahmuda Sultana Mimi, Dipti Koirala, Biplov Pandey, Subasish Das
+>
+> [Read on arXiv](https://arxiv.org/abs/2508.19239) · [Cite it](#cite) · [Works it cites](SURVEY.md) · [Benchmark and code](#benchmark-and-reference-server)
+
 The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open protocol that lets language-model applications connect to external tools, data and prompts through a uniform interface. This repository collects what you need to work with it: the research literature, servers, clients, SDKs, benchmarks and tutorials. It is maintained by the [AI in Transportation Lab](https://github.com/AI-in-Transportation-Lab).
 
 **686** preprints · **526** published papers · **243** survey references · **19** servers · **10** clients · **15** SDKs and frameworks
