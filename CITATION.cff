@@ -4,7 +4,9 @@ title: "Awesome MCP"
 type: software
 repository-code: "https://github.com/AI-in-Transportation-Lab/awesome-mcp"
 url: "https://ai-in-transportation-lab.github.io/awesome-mcp/"
-license: CC-BY-4.0
+license:
+  - MIT
+  - CC-BY-4.0
 authors:
   - family-names: Chhetri
     given-names: Gaurab

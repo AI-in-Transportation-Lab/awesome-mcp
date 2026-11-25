@@ -16,10 +16,12 @@ Everything is generated from files in [`data/`](data/):
 | File | Used for |
 | --- | --- |
 | `data/resources/<category>.json` | The curated lists. **This is what you edit.** |
-| `data/papers.json` | Papers, written by the arXiv updater. Do not edit by hand. |
+| `data/papers.json` | arXiv preprints, written by `scripts/update-papers.js`. Do not edit by hand. |
+| `data/published.json` | Journal and conference papers from OpenAlex, written by `scripts/update-published.js`. Do not edit by hand. |
+| `data/survey.json` | The works our survey cites. Maintained by the survey authors with `scripts/import-survey.js`. |
 | `data/meta.json` | Title, website and the survey citation. |
 
-`README.md` and `PAPERS.md` are generated, so please do not edit them directly; changes would be overwritten. The website under [`site/`](site/) reads the same data.
+`README.md`, `PAPERS.md`, `PUBLISHED.md` and `SURVEY.md` are generated, so please do not edit them directly; changes would be overwritten. The website under [`site/`](site/) reads the same data.
 
 ## Add a resource
 
@@ -59,3 +61,7 @@ Everything is generated from files in [`data/`](data/):
 ## The benchmark
 
 Changes to [`benchmark/`](benchmark/) should keep `python3 verify_artifact.py` passing. Do not overwrite `benchmark/results/macbook-m4-pro/`; run `./run_replication.sh <your-label>` to add results from another machine.
+
+## License
+
+By contributing you agree that code is released under the [MIT License](LICENSE) and content under [CC BY 4.0](LICENSE-CC-BY-4.0).
