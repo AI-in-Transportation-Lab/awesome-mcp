@@ -21,14 +21,14 @@ body:
       label: Category
       options:
         - Servers
-        - Clients and hosts
-        - SDKs and frameworks
+        - Clients
+        - SDKs
         - Agent frameworks
-        - Developer tools and infrastructure
+        - Tools and infrastructure
         - Security
-        - Benchmarks and evaluation
-        - Learning and documentation
-        - Directories and other lists
+        - Benchmarks
+        - Learning
+        - Directories
     validations:
       required: true
   - type: textarea

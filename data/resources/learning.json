@@ -1,13 +1,13 @@
 {
   "id": "learning",
-  "title": "Learning and documentation",
+  "title": "Learning",
   "order": 8,
-  "description": "Specification, documentation, courses and tutorials.",
+  "description": "Specification, documentation, courses and tutorials",
   "items": [
     {
       "name": "MCP documentation",
       "url": "https://modelcontextprotocol.io",
-      "description": "Official documentation and introduction.",
+      "description": "Official documentation and introduction",
       "tags": [
         "docs"
       ],
@@ -16,7 +16,7 @@
     {
       "name": "Specification",
       "url": "https://modelcontextprotocol.io/specification/latest",
-      "description": "The latest protocol specification.",
+      "description": "The latest protocol specification",
       "tags": [
         "spec"
       ],
@@ -25,7 +25,7 @@
     {
       "name": "Architecture overview",
       "url": "https://modelcontextprotocol.io/docs/learn/architecture",
-      "description": "Hosts, clients, servers and the layers of the protocol.",
+      "description": "Hosts, clients, servers and the layers of the protocol",
       "tags": [
         "docs"
       ],
@@ -34,7 +34,7 @@
     {
       "name": "Build a server",
       "url": "https://modelcontextprotocol.io/docs/develop/build-server",
-      "description": "Official tutorial for writing your first MCP server.",
+      "description": "Official tutorial for writing your first MCP server",
       "tags": [
         "tutorial"
       ],
@@ -43,7 +43,7 @@
     {
       "name": "Build a client",
       "url": "https://modelcontextprotocol.io/docs/develop/build-client",
-      "description": "Official tutorial for writing your first MCP client.",
+      "description": "Official tutorial for writing your first MCP client",
       "tags": [
         "tutorial"
       ],
@@ -52,7 +52,7 @@
     {
       "name": "Hugging Face MCP Course",
       "url": "https://huggingface.co/learn/mcp-course",
-      "description": "Free course on building and using MCP.",
+      "description": "Free course on building and using MCP",
       "tags": [
         "course"
       ]
@@ -60,7 +60,7 @@
     {
       "name": "MCP: Build Rich-Context AI Apps with Anthropic",
       "url": "https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/",
-      "description": "Short course from DeepLearning.AI and Anthropic.",
+      "description": "Short course from DeepLearning.AI and Anthropic",
       "tags": [
         "course"
       ]
@@ -68,7 +68,7 @@
     {
       "name": "MCP for Beginners",
       "url": "https://github.com/microsoft/mcp-for-beginners",
-      "description": "Open-source curriculum with examples in several languages.",
+      "description": "Open-source curriculum with examples in several languages",
       "tags": [
         "course"
       ]

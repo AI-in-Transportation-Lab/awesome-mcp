@@ -2,12 +2,12 @@
   "id": "servers",
   "title": "Servers",
   "order": 1,
-  "description": "MCP servers that expose tools, resources and prompts for real systems.",
+  "description": "MCP servers that expose tools, resources and prompts for real systems",
   "items": [
     {
       "name": "Reference servers",
       "url": "https://github.com/modelcontextprotocol/servers",
-      "description": "The protocol's reference implementations: filesystem, git, fetch, memory and more.",
+      "description": "The protocol's reference implementations: filesystem, git, fetch, memory and more",
       "tags": [
         "reference",
         "files"
@@ -17,7 +17,7 @@
     {
       "name": "GitHub MCP Server",
       "url": "https://github.com/github/github-mcp-server",
-      "description": "GitHub's official server for repositories, issues, pull requests and Actions.",
+      "description": "GitHub's official server for repositories, issues, pull requests and Actions",
       "tags": [
         "devtools"
       ],
@@ -26,7 +26,7 @@
     {
       "name": "Playwright MCP",
       "url": "https://github.com/microsoft/playwright-mcp",
-      "description": "Browser automation through Playwright, driven by accessibility snapshots.",
+      "description": "Browser automation through Playwright, driven by accessibility snapshots",
       "tags": [
         "browser"
       ],
@@ -35,7 +35,7 @@
     {
       "name": "Chrome DevTools MCP",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "description": "Lets coding agents inspect, debug and automate Chrome through DevTools.",
+      "description": "Lets coding agents inspect, debug and automate Chrome through DevTools",
       "tags": [
         "browser",
         "devtools"
@@ -45,7 +45,7 @@
     {
       "name": "Context7",
       "url": "https://github.com/upstash/context7",
-      "description": "Serves up-to-date, version-specific library documentation to agents.",
+      "description": "Serves up-to-date, version-specific library documentation to agents",
       "tags": [
         "docs"
       ]
@@ -53,7 +53,7 @@
     {
       "name": "Notion MCP Server",
       "url": "https://github.com/makenotion/notion-mcp-server",
-      "description": "Notion's official server for reading and editing workspaces.",
+      "description": "Notion's official server for reading and editing workspaces",
       "tags": [
         "productivity"
       ],
@@ -62,7 +62,7 @@
     {
       "name": "Atlassian Remote MCP Server",
       "url": "https://github.com/atlassian/atlassian-mcp-server",
-      "description": "Atlassian's official remote server for Jira and Confluence.",
+      "description": "Atlassian's official remote server for Jira and Confluence",
       "tags": [
         "productivity"
       ],
@@ -71,7 +71,7 @@
     {
       "name": "Cloudflare MCP servers",
       "url": "https://github.com/cloudflare/mcp-server-cloudflare",
-      "description": "Product-specific Cloudflare servers for Workers, DNS, logs and more.",
+      "description": "Product-specific Cloudflare servers for Workers, DNS, logs and more",
       "tags": [
         "cloud"
       ],
@@ -80,7 +80,7 @@
     {
       "name": "Supabase MCP",
       "url": "https://github.com/supabase/mcp",
-      "description": "Connects assistants to Supabase projects, databases and edge functions.",
+      "description": "Connects assistants to Supabase projects, databases and edge functions",
       "tags": [
         "database",
         "cloud"
@@ -90,7 +90,7 @@
     {
       "name": "AWS MCP servers",
       "url": "https://github.com/awslabs/mcp",
-      "description": "Open-source MCP servers for AWS services and documentation.",
+      "description": "Open-source MCP servers for AWS services and documentation",
       "tags": [
         "cloud"
       ],
@@ -99,7 +99,7 @@
     {
       "name": "Microsoft MCP catalog",
       "url": "https://github.com/microsoft/mcp",
-      "description": "Catalog of official Microsoft MCP server implementations.",
+      "description": "Catalog of official Microsoft MCP server implementations",
       "tags": [
         "cloud"
       ],
@@ -108,7 +108,7 @@
     {
       "name": "Terraform MCP Server",
       "url": "https://github.com/hashicorp/terraform-mcp-server",
-      "description": "HashiCorp's server for the Terraform registry and workspaces.",
+      "description": "HashiCorp's server for the Terraform registry and workspaces",
       "tags": [
         "devops"
       ],
@@ -117,7 +117,7 @@
     {
       "name": "Stripe agent toolkit",
       "url": "https://github.com/stripe/ai",
-      "description": "Stripe's tools for AI agents, including an MCP server for payments APIs.",
+      "description": "Stripe's tools for AI agents, including an MCP server for payments APIs",
       "tags": [
         "payments"
       ],
@@ -126,7 +126,7 @@
     {
       "name": "Figma Context MCP",
       "url": "https://github.com/GLips/Figma-Context-MCP",
-      "description": "Gives coding agents Figma layout and style information.",
+      "description": "Gives coding agents Figma layout and style information",
       "tags": [
         "design"
       ]
@@ -134,7 +134,7 @@
     {
       "name": "Blender MCP",
       "url": "https://github.com/ahujasid/mcp-for-blender",
-      "description": "Controls Blender 3D scenes from an LLM client.",
+      "description": "Controls Blender 3D scenes from an LLM client",
       "tags": [
         "3d"
       ]
@@ -142,7 +142,7 @@
     {
       "name": "ROS MCP Server",
       "url": "https://github.com/robotmcp/ros-mcp-server",
-      "description": "Connects LLMs to ROS and ROS 2 robots through MCP.",
+      "description": "Connects LLMs to ROS and ROS 2 robots through MCP",
       "tags": [
         "robotics",
         "transportation"
@@ -151,7 +151,7 @@
     {
       "name": "lit-mcp",
       "url": "https://github.com/gauravfs-14/lit-mcp",
-      "description": "Academic literature search across databases, for LLM-assisted literature reviews.",
+      "description": "Academic literature search across databases, for LLM-assisted literature reviews",
       "tags": [
         "research"
       ]
@@ -159,7 +159,7 @@
     {
       "name": "WritBase",
       "url": "https://github.com/Writbase/writbase",
-      "description": "MCP-native task management for fleets of AI agents, with permissions and provenance.",
+      "description": "MCP-native task management for fleets of AI agents, with permissions and provenance",
       "tags": [
         "agents"
       ]
@@ -167,7 +167,7 @@
     {
       "name": "operant-mcp",
       "url": "https://github.com/operantlabs/operant-mcp",
-      "description": "Security testing server with tools for penetration testing and forensics.",
+      "description": "Security testing server with tools for penetration testing and forensics",
       "tags": [
         "security"
       ]

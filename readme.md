@@ -10,7 +10,7 @@
 [![Last commit](https://img.shields.io/github/last-commit/AI-in-Transportation-Lab/awesome-mcp)](https://github.com/AI-in-Transportation-Lab/awesome-mcp/commits/main)
 [![Stars](https://img.shields.io/github/stars/AI-in-Transportation-Lab/awesome-mcp?style=flat)](https://github.com/AI-in-Transportation-Lab/awesome-mcp/stargazers)
 
-[Website](https://ai-in-transportation-lab.github.io/awesome-mcp/) · [Papers](PAPERS.md) · [Servers](#servers) · [Clients](#clients-and-hosts) · [SDKs](#sdks-and-frameworks) · [Benchmark](#benchmark-and-reference-server) · [Contribute](CONTRIBUTING.md)
+[Website](https://ai-in-transportation-lab.github.io/awesome-mcp/) · [Papers](PAPERS.md) · [Servers](#servers) · [Clients](#clients) · [SDKs](#sdks) · [Benchmark](#benchmark-and-reference-server) · [Contribute](CONTRIBUTING.md)
 
 </div>
 
@@ -28,14 +28,14 @@ The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open p
 
 - [Latest papers](#latest-papers)
 - [Servers](#servers)
-- [Clients and hosts](#clients-and-hosts)
-- [SDKs and frameworks](#sdks-and-frameworks)
+- [Clients](#clients)
+- [SDKs](#sdks)
 - [Agent frameworks](#agent-frameworks)
-- [Developer tools and infrastructure](#developer-tools-and-infrastructure)
+- [Tools and infrastructure](#tools-and-infrastructure)
 - [Security](#security)
-- [Benchmarks and evaluation](#benchmarks-and-evaluation)
-- [Learning and documentation](#learning-and-documentation)
-- [Directories and other lists](#directories-and-other-lists)
+- [Benchmarks](#benchmarks)
+- [Learning](#learning)
+- [Directories](#directories)
 - [Benchmark](#benchmark-and-reference-server)
 - [Contributing](#contributing)
 - [Cite](#cite)
@@ -72,147 +72,147 @@ New arXiv papers that mention the Model Context Protocol, newest first. The full
 
 ## Servers
 
-MCP servers that expose tools, resources and prompts for real systems.
+MCP servers that expose tools, resources and prompts for real systems
 
 | Name | Description | Tags |
 | --- | --- | --- |
-| [Reference servers](https://github.com/modelcontextprotocol/servers) | The protocol's reference implementations: filesystem, git, fetch, memory and more. | **official** `reference` `files` |
-| [GitHub MCP Server](https://github.com/github/github-mcp-server) | GitHub's official server for repositories, issues, pull requests and Actions. | **official** `devtools` |
-| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Browser automation through Playwright, driven by accessibility snapshots. | **official** `browser` |
-| [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Lets coding agents inspect, debug and automate Chrome through DevTools. | **official** `browser` `devtools` |
-| [Context7](https://github.com/upstash/context7) | Serves up-to-date, version-specific library documentation to agents. | `docs` |
-| [Notion MCP Server](https://github.com/makenotion/notion-mcp-server) | Notion's official server for reading and editing workspaces. | **official** `productivity` |
-| [Atlassian Remote MCP Server](https://github.com/atlassian/atlassian-mcp-server) | Atlassian's official remote server for Jira and Confluence. | **official** `productivity` |
-| [Cloudflare MCP servers](https://github.com/cloudflare/mcp-server-cloudflare) | Product-specific Cloudflare servers for Workers, DNS, logs and more. | **official** `cloud` |
-| [Supabase MCP](https://github.com/supabase/mcp) | Connects assistants to Supabase projects, databases and edge functions. | **official** `database` `cloud` |
-| [AWS MCP servers](https://github.com/awslabs/mcp) | Open-source MCP servers for AWS services and documentation. | **official** `cloud` |
-| [Microsoft MCP catalog](https://github.com/microsoft/mcp) | Catalog of official Microsoft MCP server implementations. | **official** `cloud` |
-| [Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server) | HashiCorp's server for the Terraform registry and workspaces. | **official** `devops` |
-| [Stripe agent toolkit](https://github.com/stripe/ai) | Stripe's tools for AI agents, including an MCP server for payments APIs. | **official** `payments` |
-| [Figma Context MCP](https://github.com/GLips/Figma-Context-MCP) | Gives coding agents Figma layout and style information. | `design` |
-| [Blender MCP](https://github.com/ahujasid/mcp-for-blender) | Controls Blender 3D scenes from an LLM client. | `3d` |
-| [ROS MCP Server](https://github.com/robotmcp/ros-mcp-server) | Connects LLMs to ROS and ROS 2 robots through MCP. | `robotics` `transportation` |
-| [lit-mcp](https://github.com/gauravfs-14/lit-mcp) | Academic literature search across databases, for LLM-assisted literature reviews. | `research` |
-| [WritBase](https://github.com/Writbase/writbase) | MCP-native task management for fleets of AI agents, with permissions and provenance. | `agents` |
-| [operant-mcp](https://github.com/operantlabs/operant-mcp) | Security testing server with tools for penetration testing and forensics. | `security` |
+| [Reference servers](https://github.com/modelcontextprotocol/servers) | The protocol's reference implementations: filesystem, git, fetch, memory and more | **official** `reference` `files` |
+| [GitHub MCP Server](https://github.com/github/github-mcp-server) | GitHub's official server for repositories, issues, pull requests and Actions | **official** `devtools` |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Browser automation through Playwright, driven by accessibility snapshots | **official** `browser` |
+| [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Lets coding agents inspect, debug and automate Chrome through DevTools | **official** `browser` `devtools` |
+| [Context7](https://github.com/upstash/context7) | Serves up-to-date, version-specific library documentation to agents | `docs` |
+| [Notion MCP Server](https://github.com/makenotion/notion-mcp-server) | Notion's official server for reading and editing workspaces | **official** `productivity` |
+| [Atlassian Remote MCP Server](https://github.com/atlassian/atlassian-mcp-server) | Atlassian's official remote server for Jira and Confluence | **official** `productivity` |
+| [Cloudflare MCP servers](https://github.com/cloudflare/mcp-server-cloudflare) | Product-specific Cloudflare servers for Workers, DNS, logs and more | **official** `cloud` |
+| [Supabase MCP](https://github.com/supabase/mcp) | Connects assistants to Supabase projects, databases and edge functions | **official** `database` `cloud` |
+| [AWS MCP servers](https://github.com/awslabs/mcp) | Open-source MCP servers for AWS services and documentation | **official** `cloud` |
+| [Microsoft MCP catalog](https://github.com/microsoft/mcp) | Catalog of official Microsoft MCP server implementations | **official** `cloud` |
+| [Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server) | HashiCorp's server for the Terraform registry and workspaces | **official** `devops` |
+| [Stripe agent toolkit](https://github.com/stripe/ai) | Stripe's tools for AI agents, including an MCP server for payments APIs | **official** `payments` |
+| [Figma Context MCP](https://github.com/GLips/Figma-Context-MCP) | Gives coding agents Figma layout and style information | `design` |
+| [Blender MCP](https://github.com/ahujasid/mcp-for-blender) | Controls Blender 3D scenes from an LLM client | `3d` |
+| [ROS MCP Server](https://github.com/robotmcp/ros-mcp-server) | Connects LLMs to ROS and ROS 2 robots through MCP | `robotics` `transportation` |
+| [lit-mcp](https://github.com/gauravfs-14/lit-mcp) | Academic literature search across databases, for LLM-assisted literature reviews | `research` |
+| [WritBase](https://github.com/Writbase/writbase) | MCP-native task management for fleets of AI agents, with permissions and provenance | `agents` |
+| [operant-mcp](https://github.com/operantlabs/operant-mcp) | Security testing server with tools for penetration testing and forensics | `security` |
 
-## Clients and hosts
+## Clients
 
-Applications that connect to MCP servers.
-
-| Name | Description | Tags |
-| --- | --- | --- |
-| [Claude Desktop](https://claude.ai/download) | Anthropic's desktop app, the original MCP host. | **official** `chat` |
-| [Claude Code](https://github.com/anthropics/claude-code) | Agentic coding tool for the terminal with MCP support. | **official** `coding` `cli` |
-| [Cursor](https://cursor.com) | AI code editor with MCP server support. | `coding` `editor` |
-| [VS Code](https://code.visualstudio.com/docs/copilot/customization/mcp-servers) | Use MCP servers with agent mode in Visual Studio Code. | `coding` `editor` |
-| [Zed](https://github.com/zed-industries/zed) | High-performance editor that can load MCP servers as context servers. | `coding` `editor` |
-| [Cline](https://github.com/cline/cline) | Autonomous coding agent for the IDE and CLI with MCP support. | `coding` |
-| [Continue](https://github.com/continuedev/continue) | Open-source coding agent that can use MCP servers. | `coding` |
-| [goose](https://github.com/aaif-goose/goose) | Extensible open-source AI agent built around MCP extensions. | `agents` |
-| [LibreChat](https://github.com/LibreChat-AI/LibreChat) | Self-hosted chat UI with agents and MCP support. | `chat` |
-| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | Desktop AI workspace with MCP support. | `chat` |
-
-## SDKs and frameworks
-
-Libraries for building MCP servers and clients.
+Applications that connect to MCP servers
 
 | Name | Description | Tags |
 | --- | --- | --- |
-| [Python SDK](https://github.com/modelcontextprotocol/python-sdk) | The official Python SDK. | **official** `python` |
-| [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) | The official TypeScript SDK. | **official** `typescript` |
-| [Java SDK](https://github.com/modelcontextprotocol/java-sdk) | The official Java SDK. | **official** `java` |
-| [Kotlin SDK](https://github.com/modelcontextprotocol/kotlin-sdk) | The official Kotlin SDK. | **official** `kotlin` |
-| [C# SDK](https://github.com/modelcontextprotocol/csharp-sdk) | The official C# SDK, maintained with Microsoft. | **official** `csharp` |
-| [Go SDK](https://github.com/modelcontextprotocol/go-sdk) | The official Go SDK, maintained with Google. | **official** `go` |
-| [Rust SDK](https://github.com/modelcontextprotocol/rust-sdk) | The official Rust SDK. | **official** `rust` |
-| [Swift SDK](https://github.com/modelcontextprotocol/swift-sdk) | The official Swift SDK. | **official** `swift` |
-| [Ruby SDK](https://github.com/modelcontextprotocol/ruby-sdk) | The official Ruby SDK. | **official** `ruby` |
-| [PHP SDK](https://github.com/modelcontextprotocol/php-sdk) | The official PHP SDK. | **official** `php` |
-| [FastMCP](https://github.com/PrefectHQ/fastmcp) | The fast, Pythonic way to build MCP servers and clients. | `python` |
-| [mcp-use](https://github.com/mcp-use/mcp-use) | Full-stack framework for building MCP servers, clients and MCP Apps. | `typescript` `python` |
-| [Spring AI](https://github.com/spring-projects/spring-ai) | Application framework for AI engineering on the JVM, with MCP client and server support. | `java` |
-| [MCP Apps (ext-apps)](https://github.com/modelcontextprotocol/ext-apps) | Spec and SDK for interactive UIs served over MCP. | **official** `ui` |
-| [MCP-UI](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP: SDK for returning interactive components from tools. | `ui` |
+| [Claude Desktop](https://claude.ai/download) | Anthropic's desktop app, the original MCP host | **official** `chat` |
+| [Claude Code](https://github.com/anthropics/claude-code) | Agentic coding tool for the terminal with MCP support | **official** `coding` `cli` |
+| [Cursor](https://cursor.com) | AI code editor with MCP server support | `coding` `editor` |
+| [VS Code](https://code.visualstudio.com/docs/copilot/customization/mcp-servers) | Use MCP servers with agent mode in Visual Studio Code | `coding` `editor` |
+| [Zed](https://github.com/zed-industries/zed) | High-performance editor that can load MCP servers as context servers | `coding` `editor` |
+| [Cline](https://github.com/cline/cline) | Autonomous coding agent for the IDE and CLI with MCP support | `coding` |
+| [Continue](https://github.com/continuedev/continue) | Open-source coding agent that can use MCP servers | `coding` |
+| [goose](https://github.com/aaif-goose/goose) | Extensible open-source AI agent built around MCP extensions | `agents` |
+| [LibreChat](https://github.com/LibreChat-AI/LibreChat) | Self-hosted chat UI with agents and MCP support | `chat` |
+| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | Desktop AI workspace with MCP support | `chat` |
+
+## SDKs
+
+Libraries for building MCP servers and clients
+
+| Name | Description | Tags |
+| --- | --- | --- |
+| [Python SDK](https://github.com/modelcontextprotocol/python-sdk) | The official Python SDK | **official** `python` |
+| [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) | The official TypeScript SDK | **official** `typescript` |
+| [Java SDK](https://github.com/modelcontextprotocol/java-sdk) | The official Java SDK | **official** `java` |
+| [Kotlin SDK](https://github.com/modelcontextprotocol/kotlin-sdk) | The official Kotlin SDK | **official** `kotlin` |
+| [C# SDK](https://github.com/modelcontextprotocol/csharp-sdk) | The official C# SDK, maintained with Microsoft | **official** `csharp` |
+| [Go SDK](https://github.com/modelcontextprotocol/go-sdk) | The official Go SDK, maintained with Google | **official** `go` |
+| [Rust SDK](https://github.com/modelcontextprotocol/rust-sdk) | The official Rust SDK | **official** `rust` |
+| [Swift SDK](https://github.com/modelcontextprotocol/swift-sdk) | The official Swift SDK | **official** `swift` |
+| [Ruby SDK](https://github.com/modelcontextprotocol/ruby-sdk) | The official Ruby SDK | **official** `ruby` |
+| [PHP SDK](https://github.com/modelcontextprotocol/php-sdk) | The official PHP SDK | **official** `php` |
+| [FastMCP](https://github.com/PrefectHQ/fastmcp) | The fast, Pythonic way to build MCP servers and clients | `python` |
+| [mcp-use](https://github.com/mcp-use/mcp-use) | Full-stack framework for building MCP servers, clients and MCP Apps | `typescript` `python` |
+| [Spring AI](https://github.com/spring-projects/spring-ai) | Application framework for AI engineering on the JVM, with MCP client and server support | `java` |
+| [MCP Apps (ext-apps)](https://github.com/modelcontextprotocol/ext-apps) | Spec and SDK for interactive UIs served over MCP | **official** `ui` |
+| [MCP-UI](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP: SDK for returning interactive components from tools | `ui` |
 
 ## Agent frameworks
 
-Agent frameworks with built-in MCP support.
+Agent frameworks with built-in MCP support
 
 | Name | Description | Tags |
 | --- | --- | --- |
-| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | Lightweight multi-agent framework with MCP server support. | `python` |
-| [Google Agent Development Kit](https://github.com/google/adk-python) | Code-first toolkit for building and evaluating agents, with MCP tools. | `python` |
-| [Pydantic AI](https://github.com/pydantic/pydantic-ai) | Typed Python agent framework with MCP client support. | `python` |
-| [mcp-agent](https://github.com/lastmile-ai/mcp-agent) | Builds effective agents from MCP servers and simple workflow patterns. | `python` |
+| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | Lightweight multi-agent framework with MCP server support | `python` |
+| [Google Agent Development Kit](https://github.com/google/adk-python) | Code-first toolkit for building and evaluating agents, with MCP tools | `python` |
+| [Pydantic AI](https://github.com/pydantic/pydantic-ai) | Typed Python agent framework with MCP client support | `python` |
+| [mcp-agent](https://github.com/lastmile-ai/mcp-agent) | Builds effective agents from MCP servers and simple workflow patterns | `python` |
 
-## Developer tools and infrastructure
+## Tools and infrastructure
 
-Testing, debugging, proxying and registry infrastructure.
+Testing, debugging, proxying and registry infrastructure
 
 | Name | Description | Tags |
 | --- | --- | --- |
-| [MCP Inspector](https://github.com/modelcontextprotocol/inspector) | Interactive tool for testing and debugging MCP servers. | **official** `testing` |
-| [MCP Registry](https://github.com/modelcontextprotocol/registry) | Community-driven registry service for MCP servers. | **official** `registry` |
-| [mcpo](https://github.com/open-webui/mcpo) | Exposes MCP servers as OpenAPI HTTP servers. | `proxy` |
-| [mcp-proxy](https://github.com/sparfenyuk/mcp-proxy) | Bridges Streamable HTTP and stdio MCP transports. | `proxy` |
-| [Docker MCP Gateway](https://github.com/docker/mcp-gateway) | Docker CLI plugin that runs and manages MCP servers in containers. | `gateway` |
-| [MCP Context Forge](https://github.com/IBM/mcp-context-forge) | Gateway, registry and proxy that sits in front of MCP and A2A servers. | `gateway` |
+| [MCP Inspector](https://github.com/modelcontextprotocol/inspector) | Interactive tool for testing and debugging MCP servers | **official** `testing` |
+| [MCP Registry](https://github.com/modelcontextprotocol/registry) | Community-driven registry service for MCP servers | **official** `registry` |
+| [mcpo](https://github.com/open-webui/mcpo) | Exposes MCP servers as OpenAPI HTTP servers | `proxy` |
+| [mcp-proxy](https://github.com/sparfenyuk/mcp-proxy) | Bridges Streamable HTTP and stdio MCP transports | `proxy` |
+| [Docker MCP Gateway](https://github.com/docker/mcp-gateway) | Docker CLI plugin that runs and manages MCP servers in containers | `gateway` |
+| [MCP Context Forge](https://github.com/IBM/mcp-context-forge) | Gateway, registry and proxy that sits in front of MCP and A2A servers | `gateway` |
 
 ## Security
 
-Scanning and guidance for MCP deployments.
+Scanning and guidance for MCP deployments
 
 | Name | Description | Tags |
 | --- | --- | --- |
-| [Agent Scan](https://github.com/snyk/agent-scan) | Security scanner for AI agents, MCP servers and agent skills (formerly mcp-scan). | `scanner` |
-| [MCP security best practices](https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices) | Official guidance on attacks and mitigations for MCP implementations. | **official** `guidance` |
-| [MCPSecBench](https://github.com/AIS2Lab/MCPSecBench) | Systematic security benchmark and playground for MCP. | `benchmark` |
-| [MCPTox](https://github.com/zhiqiangwang4/MCPTox-Benchmark) | Benchmark for tool-poisoning attacks on real-world MCP servers. | `benchmark` |
+| [Agent Scan](https://github.com/snyk/agent-scan) | Security scanner for AI agents, MCP servers and agent skills (formerly mcp-scan) | `scanner` |
+| [MCP security best practices](https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices) | Official guidance on attacks and mitigations for MCP implementations | **official** `guidance` |
+| [MCPSecBench](https://github.com/AIS2Lab/MCPSecBench) | Systematic security benchmark and playground for MCP | `benchmark` |
+| [MCPTox](https://github.com/zhiqiangwang4/MCPTox-Benchmark) | Benchmark for tool-poisoning attacks on real-world MCP servers | `benchmark` |
 
-## Benchmarks and evaluation
+## Benchmarks
 
-Benchmarks that measure how well models and agents use MCP.
-
-| Name | Description | Tags |
-| --- | --- | --- |
-| [MCP overhead micro-benchmark](https://github.com/benchmark/) | Serialization and transport micro-benchmark with a reference MAPE-K MCP server (this repository). | `latency` `this-repo` |
-| [MCP-Bench](https://github.com/Accenture/mcp-bench) | Benchmarks tool-using LLM agents on complex real-world tasks across MCP servers. | `agents` |
-| [MCP-Universe](https://github.com/SalesforceAIResearch/MCP-Universe) | Framework for benchmarking models against real-world MCP servers. | `agents` |
-| [LiveMCPBench](https://github.com/icip-cas/LiveMCPBench) | Evaluates whether agents can navigate a large set of MCP tools. | `agents` `tool-selection` |
-| [MCPMark](https://github.com/eval-sys/mcpmark) | Stress-testing benchmark for models and agents on MCP tasks. | `agents` |
-| [MCPEval](https://github.com/SalesforceAIResearch/MCPEval) | MCP-based deep evaluation system for agents. | `agents` |
-| [MCPToolBench++](https://github.com/mcp-tool-bench/MCPToolBenchPP) | Tool-use benchmark for agents and models over MCP tools. | `tool-use` |
-
-## Learning and documentation
-
-Specification, documentation, courses and tutorials.
+Benchmarks that measure how well models and agents use MCP
 
 | Name | Description | Tags |
 | --- | --- | --- |
-| [MCP documentation](https://modelcontextprotocol.io) | Official documentation and introduction. | **official** `docs` |
-| [Specification](https://modelcontextprotocol.io/specification/latest) | The latest protocol specification. | **official** `spec` |
-| [Architecture overview](https://modelcontextprotocol.io/docs/learn/architecture) | Hosts, clients, servers and the layers of the protocol. | **official** `docs` |
-| [Build a server](https://modelcontextprotocol.io/docs/develop/build-server) | Official tutorial for writing your first MCP server. | **official** `tutorial` |
-| [Build a client](https://modelcontextprotocol.io/docs/develop/build-client) | Official tutorial for writing your first MCP client. | **official** `tutorial` |
-| [Hugging Face MCP Course](https://huggingface.co/learn/mcp-course) | Free course on building and using MCP. | `course` |
-| [MCP: Build Rich-Context AI Apps with Anthropic](https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/) | Short course from DeepLearning.AI and Anthropic. | `course` |
-| [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) | Open-source curriculum with examples in several languages. | `course` |
+| [MCP overhead micro-benchmark](https://github.com/benchmark/) | Serialization and transport micro-benchmark with a reference MAPE-K MCP server (this repository) | `latency` `this-repo` |
+| [MCP-Bench](https://github.com/Accenture/mcp-bench) | Benchmarks tool-using LLM agents on complex real-world tasks across MCP servers | `agents` |
+| [MCP-Universe](https://github.com/SalesforceAIResearch/MCP-Universe) | Framework for benchmarking models against real-world MCP servers | `agents` |
+| [LiveMCPBench](https://github.com/icip-cas/LiveMCPBench) | Evaluates whether agents can navigate a large set of MCP tools | `agents` `tool-selection` |
+| [MCPMark](https://github.com/eval-sys/mcpmark) | Stress-testing benchmark for models and agents on MCP tasks | `agents` |
+| [MCPEval](https://github.com/SalesforceAIResearch/MCPEval) | MCP-based deep evaluation system for agents | `agents` |
+| [MCPToolBench++](https://github.com/mcp-tool-bench/MCPToolBenchPP) | Tool-use benchmark for agents and models over MCP tools | `tool-use` |
 
-## Directories and other lists
+## Learning
 
-Where to find more servers and clients.
+Specification, documentation, courses and tutorials
 
 | Name | Description | Tags |
 | --- | --- | --- |
-| [Official MCP Registry](https://registry.modelcontextprotocol.io) | The community registry of published MCP servers. | **official** `registry` |
-| [Smithery](https://smithery.ai) | Registry and hosting for MCP servers. | `registry` |
-| [Glama MCP directory](https://glama.ai/mcp/servers) | Searchable directory of MCP servers. | `registry` |
-| [mcp.so](https://mcp.so) | Community directory of MCP servers and clients. | `registry` |
-| [awesome-mcp-servers (punkpeye)](https://github.com/punkpeye/awesome-mcp-servers) | Large collection of MCP servers. | `list` |
-| [awesome-mcp-servers (wong2)](https://github.com/wong2/awesome-mcp-servers) | Curated list of MCP servers. | `list` |
-| [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients) | Collection of MCP clients. | `list` |
-| [awesome-remote-mcp-servers](https://github.com/punkpeye/awesome-remote-mcp-servers) | Collection of remote MCP servers. | `list` |
+| [MCP documentation](https://modelcontextprotocol.io) | Official documentation and introduction | **official** `docs` |
+| [Specification](https://modelcontextprotocol.io/specification/latest) | The latest protocol specification | **official** `spec` |
+| [Architecture overview](https://modelcontextprotocol.io/docs/learn/architecture) | Hosts, clients, servers and the layers of the protocol | **official** `docs` |
+| [Build a server](https://modelcontextprotocol.io/docs/develop/build-server) | Official tutorial for writing your first MCP server | **official** `tutorial` |
+| [Build a client](https://modelcontextprotocol.io/docs/develop/build-client) | Official tutorial for writing your first MCP client | **official** `tutorial` |
+| [Hugging Face MCP Course](https://huggingface.co/learn/mcp-course) | Free course on building and using MCP | `course` |
+| [MCP: Build Rich-Context AI Apps with Anthropic](https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/) | Short course from DeepLearning.AI and Anthropic | `course` |
+| [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) | Open-source curriculum with examples in several languages | `course` |
+
+## Directories
+
+Where to find more servers and clients
+
+| Name | Description | Tags |
+| --- | --- | --- |
+| [Official MCP Registry](https://registry.modelcontextprotocol.io) | The community registry of published MCP servers | **official** `registry` |
+| [Smithery](https://smithery.ai) | Registry and hosting for MCP servers | `registry` |
+| [Glama MCP directory](https://glama.ai/mcp/servers) | Searchable directory of MCP servers | `registry` |
+| [mcp.so](https://mcp.so) | Community directory of MCP servers and clients | `registry` |
+| [awesome-mcp-servers (punkpeye)](https://github.com/punkpeye/awesome-mcp-servers) | Large collection of MCP servers | `list` |
+| [awesome-mcp-servers (wong2)](https://github.com/wong2/awesome-mcp-servers) | Curated list of MCP servers | `list` |
+| [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients) | Collection of MCP clients | `list` |
+| [awesome-remote-mcp-servers](https://github.com/punkpeye/awesome-remote-mcp-servers) | Collection of remote MCP servers | `list` |
 
 ## Benchmark and reference server
 

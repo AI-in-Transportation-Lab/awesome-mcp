@@ -1,13 +1,13 @@
 {
   "id": "clients",
-  "title": "Clients and hosts",
+  "title": "Clients",
   "order": 2,
-  "description": "Applications that connect to MCP servers.",
+  "description": "Applications that connect to MCP servers",
   "items": [
     {
       "name": "Claude Desktop",
       "url": "https://claude.ai/download",
-      "description": "Anthropic's desktop app, the original MCP host.",
+      "description": "Anthropic's desktop app, the original MCP host",
       "tags": [
         "chat"
       ],
@@ -16,7 +16,7 @@
     {
       "name": "Claude Code",
       "url": "https://github.com/anthropics/claude-code",
-      "description": "Agentic coding tool for the terminal with MCP support.",
+      "description": "Agentic coding tool for the terminal with MCP support",
       "tags": [
         "coding",
         "cli"
@@ -26,7 +26,7 @@
     {
       "name": "Cursor",
       "url": "https://cursor.com",
-      "description": "AI code editor with MCP server support.",
+      "description": "AI code editor with MCP server support",
       "tags": [
         "coding",
         "editor"
@@ -35,7 +35,7 @@
     {
       "name": "VS Code",
       "url": "https://code.visualstudio.com/docs/copilot/customization/mcp-servers",
-      "description": "Use MCP servers with agent mode in Visual Studio Code.",
+      "description": "Use MCP servers with agent mode in Visual Studio Code",
       "tags": [
         "coding",
         "editor"
@@ -44,7 +44,7 @@
     {
       "name": "Zed",
       "url": "https://github.com/zed-industries/zed",
-      "description": "High-performance editor that can load MCP servers as context servers.",
+      "description": "High-performance editor that can load MCP servers as context servers",
       "tags": [
         "coding",
         "editor"
@@ -53,7 +53,7 @@
     {
       "name": "Cline",
       "url": "https://github.com/cline/cline",
-      "description": "Autonomous coding agent for the IDE and CLI with MCP support.",
+      "description": "Autonomous coding agent for the IDE and CLI with MCP support",
       "tags": [
         "coding"
       ]
@@ -61,7 +61,7 @@
     {
       "name": "Continue",
       "url": "https://github.com/continuedev/continue",
-      "description": "Open-source coding agent that can use MCP servers.",
+      "description": "Open-source coding agent that can use MCP servers",
       "tags": [
         "coding"
       ]
@@ -69,7 +69,7 @@
     {
       "name": "goose",
       "url": "https://github.com/aaif-goose/goose",
-      "description": "Extensible open-source AI agent built around MCP extensions.",
+      "description": "Extensible open-source AI agent built around MCP extensions",
       "tags": [
         "agents"
       ]
@@ -77,7 +77,7 @@
     {
       "name": "LibreChat",
       "url": "https://github.com/LibreChat-AI/LibreChat",
-      "description": "Self-hosted chat UI with agents and MCP support.",
+      "description": "Self-hosted chat UI with agents and MCP support",
       "tags": [
         "chat"
       ]
@@ -85,7 +85,7 @@
     {
       "name": "Cherry Studio",
       "url": "https://github.com/CherryHQ/cherry-studio",
-      "description": "Desktop AI workspace with MCP support.",
+      "description": "Desktop AI workspace with MCP support",
       "tags": [
         "chat"
       ]

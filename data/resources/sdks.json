@@ -1,13 +1,13 @@
 {
   "id": "sdks",
-  "title": "SDKs and frameworks",
+  "title": "SDKs",
   "order": 3,
-  "description": "Libraries for building MCP servers and clients.",
+  "description": "Libraries for building MCP servers and clients",
   "items": [
     {
       "name": "Python SDK",
       "url": "https://github.com/modelcontextprotocol/python-sdk",
-      "description": "The official Python SDK.",
+      "description": "The official Python SDK",
       "tags": [
         "python"
       ],
@@ -16,7 +16,7 @@
     {
       "name": "TypeScript SDK",
       "url": "https://github.com/modelcontextprotocol/typescript-sdk",
-      "description": "The official TypeScript SDK.",
+      "description": "The official TypeScript SDK",
       "tags": [
         "typescript"
       ],
@@ -25,7 +25,7 @@
     {
       "name": "Java SDK",
       "url": "https://github.com/modelcontextprotocol/java-sdk",
-      "description": "The official Java SDK.",
+      "description": "The official Java SDK",
       "tags": [
         "java"
       ],
@@ -34,7 +34,7 @@
     {
       "name": "Kotlin SDK",
       "url": "https://github.com/modelcontextprotocol/kotlin-sdk",
-      "description": "The official Kotlin SDK.",
+      "description": "The official Kotlin SDK",
       "tags": [
         "kotlin"
       ],
@@ -43,7 +43,7 @@
     {
       "name": "C# SDK",
       "url": "https://github.com/modelcontextprotocol/csharp-sdk",
-      "description": "The official C# SDK, maintained with Microsoft.",
+      "description": "The official C# SDK, maintained with Microsoft",
       "tags": [
         "csharp"
       ],
@@ -52,7 +52,7 @@
     {
       "name": "Go SDK",
       "url": "https://github.com/modelcontextprotocol/go-sdk",
-      "description": "The official Go SDK, maintained with Google.",
+      "description": "The official Go SDK, maintained with Google",
       "tags": [
         "go"
       ],
@@ -61,7 +61,7 @@
     {
       "name": "Rust SDK",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "description": "The official Rust SDK.",
+      "description": "The official Rust SDK",
       "tags": [
         "rust"
       ],
@@ -70,7 +70,7 @@
     {
       "name": "Swift SDK",
       "url": "https://github.com/modelcontextprotocol/swift-sdk",
-      "description": "The official Swift SDK.",
+      "description": "The official Swift SDK",
       "tags": [
         "swift"
       ],
@@ -79,7 +79,7 @@
     {
       "name": "Ruby SDK",
       "url": "https://github.com/modelcontextprotocol/ruby-sdk",
-      "description": "The official Ruby SDK.",
+      "description": "The official Ruby SDK",
       "tags": [
         "ruby"
       ],
@@ -88,7 +88,7 @@
     {
       "name": "PHP SDK",
       "url": "https://github.com/modelcontextprotocol/php-sdk",
-      "description": "The official PHP SDK.",
+      "description": "The official PHP SDK",
       "tags": [
         "php"
       ],
@@ -97,7 +97,7 @@
     {
       "name": "FastMCP",
       "url": "https://github.com/PrefectHQ/fastmcp",
-      "description": "The fast, Pythonic way to build MCP servers and clients.",
+      "description": "The fast, Pythonic way to build MCP servers and clients",
       "tags": [
         "python"
       ]
@@ -105,7 +105,7 @@
     {
       "name": "mcp-use",
       "url": "https://github.com/mcp-use/mcp-use",
-      "description": "Full-stack framework for building MCP servers, clients and MCP Apps.",
+      "description": "Full-stack framework for building MCP servers, clients and MCP Apps",
       "tags": [
         "typescript",
         "python"
@@ -114,7 +114,7 @@
     {
       "name": "Spring AI",
       "url": "https://github.com/spring-projects/spring-ai",
-      "description": "Application framework for AI engineering on the JVM, with MCP client and server support.",
+      "description": "Application framework for AI engineering on the JVM, with MCP client and server support",
       "tags": [
         "java"
       ]
@@ -122,7 +122,7 @@
     {
       "name": "MCP Apps (ext-apps)",
       "url": "https://github.com/modelcontextprotocol/ext-apps",
-      "description": "Spec and SDK for interactive UIs served over MCP.",
+      "description": "Spec and SDK for interactive UIs served over MCP",
       "tags": [
         "ui"
       ],
@@ -131,7 +131,7 @@
     {
       "name": "MCP-UI",
       "url": "https://github.com/MCP-UI-Org/mcp-ui",
-      "description": "UI over MCP: SDK for returning interactive components from tools.",
+      "description": "UI over MCP: SDK for returning interactive components from tools",
       "tags": [
         "ui"
       ]
