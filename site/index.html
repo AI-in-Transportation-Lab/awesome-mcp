@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Awesome MCP</title>
-  <meta name="description" content="Search arXiv papers, servers, clients, SDKs and benchmarks for the Model Context Protocol. New papers are indexed every night.">
+  <meta name="description" content="Search arXiv preprints, published papers, servers, clients, SDKs and benchmarks for the Model Context Protocol. New papers are indexed every night.">
   <meta name="color-scheme" content="light dark">
   <meta property="og:title" content="Awesome MCP">
   <meta property="og:description" content="Search arXiv papers, servers, clients, SDKs and benchmarks for the Model Context Protocol.">
@@ -21,6 +21,7 @@
       <nav aria-label="Sections">
         <a href="#resources">Resources</a>
         <a href="#papers">Papers</a>
+        <a href="#survey">Survey</a>
         <a href="#benchmark">Benchmark</a>
         <a href="#cite">Cite</a>
       </nav>
@@ -33,7 +34,7 @@
     <section class="hero wrap">
       <div class="hero-text">
         <h1>Find your way around the Model Context Protocol</h1>
-        <p class="lede" id="lede">Search arXiv papers, servers, clients, SDKs and benchmarks. New papers are indexed every night.</p>
+        <p class="lede" id="lede">Search arXiv preprints, published papers, servers, clients, SDKs and benchmarks. New papers are indexed every night.</p>
         <label class="search">
           <span class="sr">Search papers and resources</span>
           <svg class="icon lead" aria-hidden="true"><use href="icons.svg#search"/></svg>
@@ -53,8 +54,11 @@
 
     <section id="resources" class="wrap">
       <div class="head">
-        <h2>Resources</h2>
-        <p>Servers, clients, SDKs, tools and reading material</p>
+        <div>
+          <h2>Resources</h2>
+          <p>Servers, clients, SDKs, tools and reading material</p>
+        </div>
+        <label class="sec-search"><span class="sr">Search resources</span><svg class="icon lead" aria-hidden="true"><use href="icons.svg#search"/></svg><input id="res-q" type="search" placeholder="Search resources" autocomplete="off" spellcheck="false"></label>
       </div>
       <div class="split">
         <div class="rail" id="cats" role="tablist" aria-label="Resource categories" aria-orientation="vertical"></div>
@@ -68,13 +72,48 @@
 
     <section id="papers" class="wrap">
       <div class="head">
-        <h2>Papers</h2>
-        <p>arXiv papers that mention the Model Context Protocol, newest first</p>
+        <div>
+          <h2>Papers</h2>
+          <p id="papers-sub">Research on the Model Context Protocol, newest first</p>
+        </div>
+        <label class="sec-search"><span class="sr">Search papers</span><svg class="icon lead" aria-hidden="true"><use href="icons.svg#search"/></svg><input id="pap-q" type="search" placeholder="Search papers" autocomplete="off" spellcheck="false"></label>
       </div>
-      <div class="years" id="years" aria-label="Filter by year"></div>
+      <div class="tabs" id="tabs" role="tablist" aria-label="Paper source"></div>
+      <div class="toolbar">
+        <div class="chips" id="topics" aria-label="Filter by topic"></div>
+        <div class="toolbar-row">
+          <p class="result-line" id="result-count" aria-live="polite"></p>
+          <div class="toolbar-end">
+            <label class="select">
+            <span class="sr">Year</span>
+            <select id="year-select"></select>
+            <svg class="icon" aria-hidden="true"><use href="icons.svg#chevron-down"/></svg>
+          </label>
+            <button class="clear" id="clear" type="button" hidden><svg class="icon" aria-hidden="true"><use href="icons.svg#x"/></svg>Clear filters</button>
+          </div>
+        </div>
+      </div>
       <ul class="rows papers" id="paper-list"></ul>
       <p class="empty" id="paper-empty" hidden>No papers match your search.</p>
       <button class="more" id="more" type="button" hidden>Show more</button>
+    </section>
+
+    <section id="survey" class="wrap">
+      <div class="head">
+        <div>
+          <h2>Survey references</h2>
+          <p>The works our survey cites, grouped by where it first cites them</p>
+        </div>
+        <label class="sec-search"><span class="sr">Search the reference list</span><svg class="icon lead" aria-hidden="true"><use href="icons.svg#search"/></svg><input id="sur-q" type="search" placeholder="Search the reference list" autocomplete="off" spellcheck="false"></label>
+      </div>
+      <div class="split">
+        <div class="rail" id="groups" role="tablist" aria-label="Survey sections" aria-orientation="vertical"></div>
+        <div>
+          <p class="cat-desc" id="survey-desc"></p>
+          <ul class="rows papers" id="survey-list"></ul>
+          <p class="empty" id="survey-empty" hidden>No references match your search.</p>
+        </div>
+      </div>
     </section>
 
     <section id="benchmark" class="wrap">
@@ -102,7 +141,7 @@
   <footer class="foot">
     <div class="wrap foot-in">
       <p>Maintained by the <a href="https://github.com/AI-in-Transportation-Lab">AI in Transportation Lab</a>.
-        Content is available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+        Content is available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, code under <a href="https://github.com/AI-in-Transportation-Lab/awesome-mcp/blob/main/LICENSE">MIT</a>.</p>
       <ul>
         <li><a href="https://github.com/AI-in-Transportation-Lab/awesome-mcp/issues/new/choose"><svg class="icon" aria-hidden="true"><use href="icons.svg#plus"/></svg>Suggest a resource</a></li>
         <li><a href="https://arxiv.org/abs/2508.19239"><svg class="icon" aria-hidden="true"><use href="icons.svg#quote"/></svg>Our survey</a></li>
@@ -119,6 +158,7 @@
     <nav class="drawer-nav" aria-label="Sections">
       <a href="#resources"><svg class="icon" aria-hidden="true"><use href="icons.svg#layout-grid"/></svg>Resources</a>
       <a href="#papers"><svg class="icon" aria-hidden="true"><use href="icons.svg#file-text"/></svg>Papers</a>
+      <a href="#survey"><svg class="icon" aria-hidden="true"><use href="icons.svg#books"/></svg>Survey</a>
       <a href="#benchmark"><svg class="icon" aria-hidden="true"><use href="icons.svg#gauge"/></svg>Benchmark</a>
       <a href="#cite"><svg class="icon" aria-hidden="true"><use href="icons.svg#quote"/></svg>Cite</a>
     </nav>
