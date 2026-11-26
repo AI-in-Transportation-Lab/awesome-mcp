@@ -25,7 +25,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open p
 
 Everything below is searchable on the **[website](https://ai-in-transportation-lab.github.io/awesome-mcp/)**, and papers are refreshed from arXiv every day.
 
-**686** preprints · **526** published papers · **243** survey references · **22** servers · **10** clients · **15** SDKs and frameworks
+**686** preprints · **526** published papers · **251** survey references · **22** servers · **10** clients · **15** SDKs and frameworks
 
 <details>
 <summary><b>Contents</b></summary>
@@ -97,26 +97,25 @@ Journal and conference papers found through [OpenAlex](https://openalex.org), ne
 
 ## Survey references
 
-The 243 works cited by our survey, grouped by the section or subsection that first cites them. This list is separate from the arXiv tracker and does not change when new papers appear. The analysis is in the survey; the list is here so you can find and filter what it builds on. See **[SURVEY.md](SURVEY.md)** or the [website](https://ai-in-transportation-lab.github.io/awesome-mcp/#survey).
+The 251 works cited by our survey, grouped by the section or subsection that first cites them. This list is separate from the arXiv tracker and does not change when new papers appear. The analysis is in the survey; the list is here so you can find and filter what it builds on. See **[SURVEY.md](SURVEY.md)** or the [website](https://ai-in-transportation-lab.github.io/awesome-mcp/#survey).
 
 | Where the survey cites them | Works |
 | --- | ---: |
 | Introduction | 20 |
-| Survey Methodology | 11 |
-| Autonomous and Adaptive Systems: Definitions and a Reference Model | 9 |
-| Background and Positioning | 53 |
-| Taxonomy of Unifying Models for Autonomous and Adaptive Systems | 10 |
-| Adaptive Protocol Mechanisms | 5 |
-| Context-Aware Frameworks | 2 |
-| Unification Models | 5 |
+| Survey Methodology | 9 |
+| Autonomous and Adaptive Systems: Definitions and a Reference Model | 13 |
+| Background and Positioning | 47 |
+| Adaptive Protocol Mechanisms | 18 |
+| Context-Aware Frameworks | 3 |
+| Unification Models | 4 |
 | System Integration Architectures | 7 |
-| Model Context Protocol: Specification, Architecture, and Mechanisms | 27 |
-| MCP versus Established Protocols and Middleware | 27 |
-| MCP in Context-Aware Transport Systems | 28 |
+| Model Context Protocol: Specification, Architecture, and Mechanisms | 31 |
+| MCP versus Established Protocols and Middleware | 29 |
+| MCP in Intelligent Transportation Systems | 28 |
 | Multi-Robot Coordination | 9 |
 | Smart Manufacturing and Industrial Cyber-Physical Systems | 6 |
 | Edge-AI Fleets and Federated Edge Intelligence | 4 |
-| Performance Analysis and Evaluation | 11 |
+| Performance Analysis and Evaluation | 14 |
 | Challenges and Open Problems | 5 |
 | Future Research Directions | 4 |
 

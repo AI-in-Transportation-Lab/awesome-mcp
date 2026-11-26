@@ -142,6 +142,7 @@ const SHORT = {
   "Model Context Protocol: Specification, Architecture, and Mechanisms": "MCP specification",
   "MCP versus Established Protocols and Middleware": "MCP vs. other protocols",
   "MCP in Context-Aware Transport Systems": "Transport systems",
+  "MCP in Intelligent Transportation Systems": "Transport systems",
   "Multi-Robot Coordination": "Multi-robot coordination",
   "Smart Manufacturing and Industrial Cyber-Physical Systems": "Manufacturing and industry",
   "Edge-AI Fleets and Federated Edge Intelligence": "Edge-AI fleets",
