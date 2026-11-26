@@ -30,90 +30,107 @@
     },
     {
       "id": "g5",
-      "title": "Taxonomy of Unifying Models for Autonomous and Adaptive Systems",
-      "short": "Taxonomy overview",
-      "section": "Taxonomy of Unifying Models for Autonomous and Adaptive Systems"
-    },
-    {
-      "id": "g6",
       "title": "Adaptive Protocol Mechanisms",
       "short": "Adaptive protocol mechanisms",
       "section": "Taxonomy of Unifying Models for Autonomous and Adaptive Systems"
     },
     {
-      "id": "g7",
+      "id": "g6",
       "title": "Context-Aware Frameworks",
       "short": "Context-aware frameworks",
       "section": "Taxonomy of Unifying Models for Autonomous and Adaptive Systems"
     },
     {
-      "id": "g8",
+      "id": "g7",
       "title": "Unification Models",
       "short": "Unification models",
       "section": "Taxonomy of Unifying Models for Autonomous and Adaptive Systems"
     },
     {
-      "id": "g9",
+      "id": "g8",
       "title": "System Integration Architectures",
       "short": "System integration",
       "section": "Taxonomy of Unifying Models for Autonomous and Adaptive Systems"
     },
     {
-      "id": "g10",
+      "id": "g9",
       "title": "Model Context Protocol: Specification, Architecture, and Mechanisms",
       "short": "MCP specification",
       "section": "Model Context Protocol: Specification, Architecture, and Mechanisms"
     },
     {
-      "id": "g11",
+      "id": "g10",
       "title": "MCP versus Established Protocols and Middleware",
       "short": "MCP vs. other protocols",
       "section": "MCP versus Established Protocols and Middleware"
     },
     {
-      "id": "g12",
-      "title": "MCP in Context-Aware Transport Systems",
+      "id": "g11",
+      "title": "MCP in Intelligent Transportation Systems",
       "short": "Transport systems",
       "section": "MCP-Enabled Coordination across Autonomous Domains"
     },
     {
-      "id": "g13",
+      "id": "g12",
       "title": "Multi-Robot Coordination",
       "short": "Multi-robot coordination",
       "section": "MCP-Enabled Coordination across Autonomous Domains"
     },
     {
-      "id": "g14",
+      "id": "g13",
       "title": "Smart Manufacturing and Industrial Cyber-Physical Systems",
       "short": "Manufacturing and industry",
       "section": "MCP-Enabled Coordination across Autonomous Domains"
     },
     {
-      "id": "g15",
+      "id": "g14",
       "title": "Edge-AI Fleets and Federated Edge Intelligence",
       "short": "Edge-AI fleets",
       "section": "MCP-Enabled Coordination across Autonomous Domains"
     },
     {
-      "id": "g16",
+      "id": "g15",
       "title": "Performance Analysis and Evaluation",
       "short": "Performance and evaluation",
       "section": "Performance Analysis and Evaluation"
     },
     {
-      "id": "g17",
+      "id": "g16",
       "title": "Challenges and Open Problems",
       "short": "Challenges",
       "section": "Challenges and Open Problems"
     },
     {
-      "id": "g18",
+      "id": "g17",
       "title": "Future Research Directions",
       "short": "Future directions",
       "section": "Future Research Directions"
     }
   ],
   "entries": [
+    {
+      "key": "papastergiou2017deossifying",
+      "title": "De-Ossifying the Internet Transport Layer: A Survey and Future Perspectives",
+      "authors": [
+        "Giorgos Papastergiou",
+        "Gorry Fairhurst",
+        "David Ros",
+        "Anna Brunstrom",
+        "Karl-Johan Grinnemo",
+        "Per Hurtig",
+        "Naeem Khademi",
+        "Michael Tüxen",
+        "Michael Welzl",
+        "Dragana Damjanovic",
+        "Simone Mangiante"
+      ],
+      "year": 2017,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "type": "journal",
+      "url": "https://doi.org/10.1109/comst.2016.2626780",
+      "group": "g1",
+      "also": []
+    },
     {
       "key": "langley2017quic",
       "title": "The QUIC Transport Protocol: Design and Internet-Scale Deployment",
@@ -148,29 +165,6 @@
       "also": []
     },
     {
-      "key": "papastergiou2017deossifying",
-      "title": "De-Ossifying the Internet Transport Layer: A Survey and Future Perspectives",
-      "authors": [
-        "Giorgos Papastergiou",
-        "Gorry Fairhurst",
-        "David Ros",
-        "Anna Brunstrom",
-        "Karl-Johan Grinnemo",
-        "Per Hurtig",
-        "Naeem Khademi",
-        "Michael Tuxen",
-        "Michael Welzl",
-        "Dragana Damjanovic",
-        "Simone Mangiante"
-      ],
-      "year": 2017,
-      "venue": "IEEE Communications Surveys & Tutorials",
-      "type": "journal",
-      "url": "https://doi.org/10.1109/comst.2016.2626780",
-      "group": "g1",
-      "also": []
-    },
-    {
       "key": "knappmeyer2013survey",
       "title": "Survey of Context Provisioning Middleware",
       "authors": [
@@ -178,7 +172,7 @@
         "Saad Liaquat Kiani",
         "Eike Steffen Reetz",
         "Nigel Baker",
-        "Ralf Tonjes"
+        "Ralf Tönjes"
       ],
       "year": 2013,
       "venue": "IEEE Communications Surveys & Tutorials",
@@ -186,26 +180,6 @@
       "url": "https://doi.org/10.1109/surv.2013.010413.00207",
       "group": "g1",
       "also": []
-    },
-    {
-      "key": "li2015context",
-      "title": "Context aware middleware architectures: Survey and challenges",
-      "authors": [
-        "Xin Li",
-        "Martina Eckert",
-        "José-Fernán Martinez",
-        "Gregorio Rubio"
-      ],
-      "year": 2015,
-      "venue": "Sensors",
-      "type": "journal",
-      "url": "https://doi.org/10.3390/s150820570",
-      "group": "g1",
-      "also": [
-        "g4",
-        "g5",
-        "g7"
-      ]
     },
     {
       "key": "agbaje2022survey",
@@ -223,14 +197,11 @@
       "type": "journal",
       "url": "https://doi.org/10.1109/tits.2022.3194413",
       "group": "g1",
-      "also": [
-        "g5",
-        "g8"
-      ]
+      "also": []
     },
     {
       "key": "cordis101117675",
-      "title": "ADAPTIVE TRANSPORT SYSTEMS WITH HOLISTIC REPRESENTATION OF SUPPLY AND DEMAND",
+      "title": "Adaptive Transport Systems with Holistic Representation of Supply and Demand (ADAPT-OR)",
       "authors": [
         "CORDIS"
       ],
@@ -256,18 +227,52 @@
       "also": []
     },
     {
-      "key": "duan2026communications",
-      "title": "AI Agent Communications in the Future Internet—Paving a Path Toward the Agentic Web",
+      "key": "li2015context",
+      "title": "Context aware middleware architectures: Survey and challenges",
       "authors": [
-        "Qiang Duan",
-        "Zhihui Lu"
+        "Xin Li",
+        "Martina Eckert",
+        "José-Fernán Martinez",
+        "Gregorio Rubio"
       ],
-      "year": 2026,
-      "venue": "Future Internet",
+      "year": 2015,
+      "venue": "Sensors",
       "type": "journal",
-      "url": "https://doi.org/10.3390/fi18030171",
+      "url": "https://doi.org/10.3390/s150820570",
       "group": "g1",
       "also": [
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "key": "yang2025agentprotocols",
+      "title": "A Survey of AI Agent Protocols",
+      "authors": [
+        "Yingxuan Yang",
+        "Huacan Chai",
+        "Yuanyi Song",
+        "Siyuan Qi",
+        "Muning Wen",
+        "Ning Li",
+        "Junwei Liao",
+        "Haoyi Hu",
+        "Jianghao Lin",
+        "Gaowei Chang",
+        "Weiwen Liu",
+        "Ying Wen",
+        "Yong Yu",
+        "Weinan Zhang"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "type": "preprint",
+      "url": "https://arxiv.org/abs/2504.16736",
+      "arxiv": "2504.16736",
+      "group": "g1",
+      "also": [
+        "g2",
         "g4"
       ]
     },
@@ -305,7 +310,7 @@
       "url": "https://www.anthropic.com/news/model-context-protocol",
       "group": "g1",
       "also": [
-        "g10"
+        "g9"
       ]
     },
     {
@@ -322,35 +327,30 @@
       "also": [
         "g2",
         "g3",
+        "g5",
+        "g9",
         "g10",
         "g11",
-        "g12",
-        "g17"
+        "g16"
       ]
     },
     {
       "key": "he2005survey",
-      "title": "A Survey of Transport Protocols other than “Standard” TCP",
+      "title": "A Survey of Transport Protocols other than \"Standard\" TCP",
       "authors": [
-        "Mathieu Goutelle",
         "Eric He",
-        "Sanjay Hegde",
-        "Jason Leigh",
         "Pascale Vicat-Blanc Primet",
-        "Michael Welzl",
-        "Chaoyue Xiong",
-        "Muhammad Murtaza Yousaf"
+        "Michael Welzl"
       ],
       "year": 2005,
-      "venue": "Global Grid Forum",
+      "venue": "",
       "type": "standard-or-report",
       "url": "https://ogf.org/documents/GFD.55.pdf",
       "group": "g1",
       "also": [
         "g4",
         "g5",
-        "g6",
-        "g16"
+        "g15"
       ]
     },
     {
@@ -406,11 +406,11 @@
       "year": 2026,
       "venue": "",
       "type": "standard-or-report",
-      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.3.0",
       "group": "g1",
       "also": [
         "g2",
-        "g10"
+        "g9"
       ]
     },
     {
@@ -426,7 +426,7 @@
       "group": "g1",
       "also": [
         "g2",
-        "g10"
+        "g9"
       ]
     },
     {
@@ -442,7 +442,7 @@
       "group": "g1",
       "also": [
         "g2",
-        "g10"
+        "g9"
       ]
     },
     {
@@ -458,7 +458,7 @@
       "group": "g1",
       "also": [
         "g2",
-        "g10"
+        "g9"
       ]
     },
     {
@@ -474,9 +474,9 @@
       "group": "g1",
       "also": [
         "g2",
-        "g10",
-        "g12",
-        "g17"
+        "g9",
+        "g11",
+        "g16"
       ]
     },
     {
@@ -545,44 +545,6 @@
       "also": []
     },
     {
-      "key": "page2021reporting",
-      "title": "The PRISMA 2020 statement: An updated guideline for reporting systematic reviews",
-      "authors": [
-        "Matthew J. Page",
-        "Joanne E. McKenzie",
-        "Patrick M. Bossuyt",
-        "Isabelle Boutron",
-        "Tammy C. Hoffmann",
-        "Cynthia D. Mulrow",
-        "Larissa Shamseer",
-        "Jennifer M. Tetzlaff",
-        "Elie A. Akl",
-        "Sue E. Brennan",
-        "Roger Chou",
-        "Julie Glanville",
-        "Jeremy M. Grimshaw",
-        "Asbjørn Hróbjartsson",
-        "Manoj M. Lalu",
-        "Tianjing Li",
-        "Elizabeth W. Loder",
-        "Evan Mayo-Wilson",
-        "Steve McDonald",
-        "Luke A. McGuinness",
-        "Lesley A. Stewart",
-        "James Thomas",
-        "Andrea C. Tricco",
-        "Vivian A. Welch",
-        "Penny Whiting",
-        "David Moher"
-      ],
-      "year": 2021,
-      "venue": "PLOS Medicine",
-      "type": "journal",
-      "url": "https://doi.org/10.1371/journal.pmed.1003583",
-      "group": "g2",
-      "also": []
-    },
-    {
       "key": "garousi2019grey",
       "title": "Guidelines for including grey literature and conducting multivocal literature reviews in software engineering",
       "authors": [
@@ -612,7 +574,7 @@
     },
     {
       "key": "hou2025model",
-      "title": "Model context protocol (mcp): Landscape, security threats, and future research directions",
+      "title": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions",
       "authors": [
         "Xinyi Hou",
         "Yanjie Zhao",
@@ -627,9 +589,9 @@
       "also": [
         "g4",
         "g5",
-        "g10",
-        "g12",
-        "g16"
+        "g9",
+        "g11",
+        "g15"
       ]
     },
     {
@@ -646,8 +608,8 @@
       "also": [
         "g4",
         "g5",
-        "g10",
-        "g12"
+        "g9",
+        "g11"
       ]
     },
     {
@@ -671,7 +633,7 @@
     },
     {
       "key": "singh2025survey",
-      "title": "A survey of the model context protocol (mcp): Standardizing context to enhance large language models (llms)",
+      "title": "A Survey of the Model Context Protocol (MCP): Standardizing Context to Enhance Large Language Models (LLMs)",
       "authors": [
         "Aditi Singh",
         "Abul Ehtesham",
@@ -682,35 +644,6 @@
       "venue": "Preprints.org preprint",
       "type": "preprint",
       "url": "https://doi.org/10.20944/preprints202504.0245.v1",
-      "group": "g2",
-      "also": [
-        "g4"
-      ]
-    },
-    {
-      "key": "yang2025agentprotocols",
-      "title": "A Survey of AI Agent Protocols",
-      "authors": [
-        "Yingxuan Yang",
-        "Huacan Chai",
-        "Yuanyi Song",
-        "Siyuan Qi",
-        "Muning Wen",
-        "Ning Li",
-        "Junwei Liao",
-        "Haoyi Hu",
-        "Jianghao Lin",
-        "Gaowei Chang",
-        "Weiwen Liu",
-        "Ying Wen",
-        "Yong Yu",
-        "Weinan Zhang"
-      ],
-      "year": 2025,
-      "venue": "arXiv",
-      "type": "preprint",
-      "url": "https://arxiv.org/abs/2504.16736",
-      "arxiv": "2504.16736",
       "group": "g2",
       "also": [
         "g4"
@@ -806,6 +739,20 @@
       "also": []
     },
     {
+      "key": "kephart2003vision",
+      "title": "The Vision of Autonomic Computing",
+      "authors": [
+        "Jeffrey O. Kephart",
+        "David M. Chess"
+      ],
+      "year": 2003,
+      "venue": "Computer",
+      "type": "journal",
+      "url": "https://doi.org/10.1109/MC.2003.1160055",
+      "group": "g3",
+      "also": []
+    },
+    {
       "key": "iglesia2015mapek",
       "title": "MAPE-K Formal Templates to Rigorously Design Behaviors for Self-Adaptive Systems",
       "authors": [
@@ -823,16 +770,14 @@
       "key": "dey2001understanding",
       "title": "Understanding and using context",
       "authors": [
-        "Anind K Dey"
+        "Anind K. Dey"
       ],
       "year": 2001,
-      "venue": "Personal and ubiquitous computing",
+      "venue": "Personal and Ubiquitous Computing",
       "type": "journal",
       "url": "https://doi.org/10.1007/s007790170019",
       "group": "g3",
-      "also": [
-        "g12"
-      ]
+      "also": []
     },
     {
       "key": "gheibi2020applying",
@@ -846,6 +791,24 @@
       "venue": "ACM Transactions on Autonomous and Adaptive Systems",
       "type": "journal",
       "url": "https://doi.org/10.1145/3469440",
+      "group": "g3",
+      "also": []
+    },
+    {
+      "key": "li2024genaisas",
+      "title": "Generative AI for Self-Adaptive Systems: State of the Art and Research Roadmap",
+      "authors": [
+        "Jialong Li",
+        "Mingyue Zhang",
+        "Nianyu Li",
+        "Danny Weyns",
+        "Zhi Jin",
+        "Kenji Tei"
+      ],
+      "year": 2024,
+      "venue": "ACM Transactions on Autonomous and Adaptive Systems",
+      "type": "journal",
+      "url": "https://doi.org/10.1145/3686803",
       "group": "g3",
       "also": []
     },
@@ -879,6 +842,39 @@
       "also": []
     },
     {
+      "key": "blair2009modelsrt",
+      "title": "Models@run.time",
+      "authors": [
+        "Gordon Blair",
+        "Nelly Bencomo",
+        "Robert B. France"
+      ],
+      "year": 2009,
+      "venue": "Computer",
+      "type": "journal",
+      "url": "https://doi.org/10.1109/MC.2009.326",
+      "group": "g3",
+      "also": []
+    },
+    {
+      "key": "hezavehi2021uncertainty",
+      "title": "Uncertainty in Self-adaptive Systems: A Research Community Perspective",
+      "authors": [
+        "Sara M. Hezavehi",
+        "Danny Weyns",
+        "Paris Avgeriou",
+        "Radu Calinescu",
+        "Raffaela Mirandola",
+        "Diego Perez-Palacin"
+      ],
+      "year": 2020,
+      "venue": "ACM Transactions on Autonomous and Adaptive Systems",
+      "type": "journal",
+      "url": "https://doi.org/10.1145/3487921",
+      "group": "g3",
+      "also": []
+    },
+    {
       "key": "maadi2022real",
       "title": "Real-time adaptive traffic signal control in a connected and automated vehicle environment: optimisation of signal planning with reinforcement learning under vehicle speed guidance",
       "authors": [
@@ -893,7 +889,7 @@
       "url": "https://doi.org/10.3390/s22197501",
       "group": "g4",
       "also": [
-        "g16"
+        "g15"
       ]
     },
     {
@@ -975,8 +971,8 @@
       "url": "https://doi.org/10.17487/RFC9000",
       "group": "g4",
       "also": [
-        "g11",
-        "g12"
+        "g10",
+        "g11"
       ]
     },
     {
@@ -998,8 +994,8 @@
       "key": "kyratzisQuic",
       "title": "QUIC vs TCP: A Performance Evaluation over LTE with NS-3",
       "authors": [
-        "Apostolos I Kyratzis",
-        "Panayotis G Cottis"
+        "Apostolos I. Kyratzis",
+        "Panayotis G. Cottis"
       ],
       "year": 2022,
       "venue": "Communications and Network",
@@ -1010,7 +1006,7 @@
     },
     {
       "key": "chao2021brief",
-      "title": "A brief review of multipath tcp for vehicular networks",
+      "title": "A brief review of multipath TCP for vehicular networks",
       "authors": [
         "Luomeng Chao",
         "Celimuge Wu",
@@ -1027,7 +1023,7 @@
     },
     {
       "key": "barre2011multipath",
-      "title": "MultiPath TCP: from theory to practice",
+      "title": "MultiPath TCP: From Theory to Practice",
       "authors": [
         "Sébastien Barré",
         "Christoph Paasch",
@@ -1047,7 +1043,7 @@
         "Reto Krummenacher",
         "Holger Lausen",
         "Thomas Strang",
-        "Jacek Kopecky"
+        "Jacek Kopecký"
       ],
       "year": 2007,
       "venue": "Proceedings of the International Workshop on Context-Awareness for Self-Managing Systems (CASEMANS 2007)",
@@ -1055,7 +1051,7 @@
       "url": "",
       "group": "g4",
       "also": [
-        "g17"
+        "g16"
       ]
     },
     {
@@ -1076,12 +1072,12 @@
       "url": "https://doi.org/10.3390/s16101617",
       "group": "g4",
       "also": [
-        "g17"
+        "g16"
       ]
     },
     {
       "key": "guermah2014ontology",
-      "title": "An ontology oriented architecture for context aware services adaptation",
+      "title": "An Ontology Oriented Architecture for Context Aware Services Adaptation",
       "authors": [
         "Hatim Guermah",
         "Tarik Fissaa",
@@ -1117,7 +1113,7 @@
       "title": "A middleware for context-aware agents in ubiquitous computing environments",
       "authors": [
         "Anand Ranganathan",
-        "Roy H Campbell"
+        "Roy H. Campbell"
       ],
       "year": 2003,
       "venue": "Middleware 2003",
@@ -1125,7 +1121,7 @@
       "url": "https://doi.org/10.1007/3-540-44892-6_8",
       "group": "g4",
       "also": [
-        "g7"
+        "g6"
       ]
     },
     {
@@ -1166,8 +1162,8 @@
       "key": "huebscher2004adaptive",
       "title": "Adaptive middleware for context-aware applications in smart-homes",
       "authors": [
-        "Markus C Huebscher",
-        "Julie A McCann"
+        "Markus C. Huebscher",
+        "Julie A. McCann"
       ],
       "year": 2004,
       "venue": "Proceedings of the 2nd workshop on Middleware for pervasive and ad-hoc computing",
@@ -1188,7 +1184,7 @@
         "Karthik Narasimhan",
         "Yuan Cao"
       ],
-      "year": 2022,
+      "year": 2023,
       "venue": "International Conference on Learning Representations (ICLR)",
       "type": "conference",
       "url": "",
@@ -1240,7 +1236,7 @@
         "Zhiyuan Liu",
         "Maosong Sun"
       ],
-      "year": 2023,
+      "year": 2024,
       "venue": "International Conference on Learning Representations (ICLR)",
       "type": "conference",
       "url": "",
@@ -1290,8 +1286,8 @@
         "Yuxiao Dong",
         "Jie Tang"
       ],
-      "year": 2023,
-      "venue": "International Conference on Learning Representations",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations (ICLR)",
       "type": "conference",
       "url": "",
       "group": "g4",
@@ -1306,7 +1302,7 @@
         "Pedram Razavi",
         "Karthik Narasimhan"
       ],
-      "year": 2024,
+      "year": 2025,
       "venue": "arXiv",
       "type": "preprint",
       "url": "https://arxiv.org/abs/2406.12045",
@@ -1329,11 +1325,11 @@
         "Shaokun Zhang",
         "Jiale Liu",
         "Ahmed Hassan Awadallah",
-        "Ryen W White",
+        "Ryen W. White",
         "Doug Burger",
         "Chi Wang"
       ],
-      "year": 2023,
+      "year": 2024,
       "venue": "arXiv",
       "type": "preprint",
       "url": "https://arxiv.org/abs/2308.08155",
@@ -1361,8 +1357,8 @@
         "Chenglin Wu",
         "Jürgen Schmidhuber"
       ],
-      "year": 2023,
-      "venue": "International Conference on Learning Representations",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations (ICLR)",
       "type": "conference",
       "url": "",
       "group": "g4",
@@ -1434,6 +1430,20 @@
       "also": []
     },
     {
+      "key": "duan2026communications",
+      "title": "AI Agent Communications in the Future Internet—Paving a Path Toward the Agentic Web",
+      "authors": [
+        "Qiang Duan",
+        "Zhihui Lu"
+      ],
+      "year": 2026,
+      "venue": "Future Internet",
+      "type": "journal",
+      "url": "https://doi.org/10.3390/fi18030171",
+      "group": "g4",
+      "also": []
+    },
+    {
       "key": "sapkota2025agents",
       "title": "AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges",
       "authors": [
@@ -1472,12 +1482,12 @@
         "Raghupathy Sivakumar"
       ],
       "year": 2005,
-      "venue": "International Workshop on Quality of Service",
+      "venue": "Quality of Service - IWQoS 2005",
       "type": "conference",
       "url": "https://doi.org/10.1007/11499169_7",
       "group": "g4",
       "also": [
-        "g8"
+        "g5"
       ]
     },
     {
@@ -1489,13 +1499,12 @@
         "Florian Rosenberg"
       ],
       "year": 2007,
-      "venue": "International Journal of ad Hoc and ubiquitous Computing",
+      "venue": "International Journal of Ad Hoc and Ubiquitous Computing",
       "type": "journal",
       "url": "https://doi.org/10.1504/IJAHUC.2007.014070",
       "group": "g4",
       "also": [
-        "g5",
-        "g12"
+        "g5"
       ]
     },
     {
@@ -1503,7 +1512,7 @@
       "title": "A context-aware approach to wireless transmission adaptation",
       "authors": [
         "Veljko Pejovic",
-        "Elizabeth M Belding"
+        "Elizabeth M. Belding"
       ],
       "year": 2011,
       "venue": "2011 8th Annual IEEE Communications Society Conference on Sensor, Mesh and Ad Hoc Communications and Networks",
@@ -1511,10 +1520,62 @@
       "url": "https://doi.org/10.1109/sahcn.2011.5984947",
       "group": "g4",
       "also": [
-        "g6",
-        "g8",
-        "g16"
+        "g5",
+        "g7",
+        "g15"
       ]
+    },
+    {
+      "key": "wang2026ioa",
+      "title": "Internet of Agents: Fundamentals, Applications, and Challenges",
+      "authors": [
+        "Yuntao Wang",
+        "Shaolong Guo",
+        "Yanghe Pan",
+        "Zhou Su",
+        "Fahao Chen",
+        "Tom H. Luan",
+        "Peng Li",
+        "Jiawen Kang",
+        "Dusit Niyato"
+      ],
+      "year": 2026,
+      "venue": "IEEE Transactions on Cognitive Communications and Networking",
+      "type": "journal",
+      "url": "https://doi.org/10.1109/TCCN.2025.3623369",
+      "group": "g4",
+      "also": []
+    },
+    {
+      "key": "ferrag2026review",
+      "title": "From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review",
+      "authors": [
+        "Mohamed Amine Ferrag",
+        "Norbert Tihanyi",
+        "Mérouane Debbah"
+      ],
+      "year": 2026,
+      "venue": "IEEE Access",
+      "type": "journal",
+      "url": "https://doi.org/10.1109/ACCESS.2026.3698694",
+      "group": "g4",
+      "also": []
+    },
+    {
+      "key": "chhabra2026agenticsec",
+      "title": "Agentic AI Security: Threats, Defenses, Evaluation, and Open Challenges",
+      "authors": [
+        "Anshuman Chhabra",
+        "Shrestha Datta",
+        "Shahriar Kabir Nahin",
+        "Prasant Mohapatra"
+      ],
+      "year": 2026,
+      "venue": "IEEE Access",
+      "type": "journal",
+      "url": "https://doi.org/10.1109/ACCESS.2026.3675554",
+      "group": "g4",
+      "also": []
     },
     {
       "key": "salehie2009selfadaptive",
@@ -1616,9 +1677,9 @@
       "url": "https://doi.org/10.1145/3770855.3817478",
       "group": "g4",
       "also": [
+        "g15",
         "g16",
-        "g17",
-        "g18"
+        "g17"
       ]
     },
     {
@@ -1681,215 +1742,97 @@
       "also": []
     },
     {
-      "key": "krishnan2025advancing",
-      "title": "Advancing multi-agent systems through model context protocol: Architecture, implementation, and applications",
+      "key": "iren1999transport",
+      "title": "The transport layer: tutorial and survey",
       "authors": [
-        "Naveen Krishnan"
+        "Sami Iren",
+        "Paul D. Amer",
+        "Phillip T. Conrad"
       ],
-      "year": 2025,
-      "venue": "arXiv",
-      "type": "preprint",
-      "url": "https://arxiv.org/abs/2504.21030",
-      "arxiv": "2504.21030",
-      "group": "g4",
-      "also": [
-        "g5",
-        "g10"
-      ]
-    },
-    {
-      "key": "hasan2025mcpfirstglance",
-      "title": "Model Context Protocol (MCP) at First Glance: Studying the Security and Maintainability of MCP Servers",
-      "authors": [
-        "Mohammed Mehedi Hasan",
-        "Hao Li",
-        "Emad Fallahzadeh",
-        "Gopi Krishnan Rajbahadur",
-        "Bram Adams",
-        "Ahmed E. Hassan"
-      ],
-      "year": 2026,
-      "venue": "ACM Transactions on Software Engineering and Methodology",
+      "year": 1999,
+      "venue": "ACM Computing Surveys (CSUR)",
       "type": "journal",
-      "url": "https://doi.org/10.1145/3814959",
-      "group": "g4",
-      "also": [
-        "g10"
-      ]
-    },
-    {
-      "key": "radosevich2025mcpsafety",
-      "title": "MCP Safety Audit: LLMs with the Model Context Protocol Allow Major Security Exploits",
-      "authors": [
-        "John T. Halloran",
-        "Brandon Radosevich",
-        "Gavin Black"
-      ],
-      "year": 2025,
-      "venue": "arXiv",
-      "type": "preprint",
-      "url": "https://arxiv.org/abs/2504.03767",
-      "arxiv": "2504.03767",
-      "group": "g4",
+      "url": "https://doi.org/10.1145/344588.344609",
+      "group": "g5",
       "also": []
     },
     {
-      "key": "narajala2025enterprise",
-      "title": "Enterprise-Grade Security for the Model Context Protocol (MCP): Frameworks and Mitigation Strategies",
+      "key": "omg2015dds",
+      "title": "Data Distribution Service (DDS), Version 1.4",
       "authors": [
-        "Vineeth Sai Narajala",
-        "Idan Habler"
+        "Object Management Group"
       ],
-      "year": 2025,
-      "venue": "arXiv",
-      "type": "preprint",
-      "url": "https://arxiv.org/abs/2504.08623",
-      "arxiv": "2504.08623",
-      "group": "g4",
-      "also": []
-    },
-    {
-      "key": "guo2025mcpsecurity",
-      "title": "Systematic Analysis of MCP Security",
-      "authors": [
-        "Yongjian Guo",
-        "Puzhuo Liu",
-        "Wanlun Ma",
-        "Zehang Deng",
-        "Xiaogang Zhu",
-        "Peng Di",
-        "Xi Xiao",
-        "Sheng Wen"
-      ],
-      "year": 2025,
-      "venue": "arXiv",
-      "type": "preprint",
-      "url": "https://arxiv.org/abs/2508.12538",
-      "arxiv": "2508.12538",
-      "group": "g4",
+      "year": 2015,
+      "venue": "OMG Document formal/2015-04-10",
+      "type": "standard-or-report",
+      "url": "",
+      "group": "g5",
       "also": [
         "g10"
       ]
     },
     {
-      "key": "song2025beyondprotocol",
-      "title": "Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol (MCP) Ecosystem",
+      "key": "oasis2019mqtt5",
+      "title": "MQTT Version 5.0",
       "authors": [
-        "Hao Song",
-        "Yiming Shen",
-        "Wenxuan Luo",
-        "Leixin Guo",
-        "Ting Chen",
-        "Jiashui Wang",
-        "Beibei Li",
-        "Xiaosong Zhang",
-        "Jiachi Chen"
+        "OASIS"
       ],
-      "year": 2026,
-      "venue": "IEEE Transactions on Software Engineering",
-      "type": "journal",
-      "url": "https://doi.org/10.1109/TSE.2026.3694876",
-      "group": "g4",
+      "year": 2019,
+      "venue": "OASIS Standard, https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html",
+      "type": "standard-or-report",
+      "url": "https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html",
+      "group": "g5",
       "also": [
-        "g10"
+        "g10",
+        "g11"
       ]
     },
     {
-      "key": "luo2025mcpbench",
-      "title": "MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers",
+      "key": "iec2025opcua",
+      "title": "IEC 62541-1:2025: OPC Unified Architecture, Part 1: Overview and concepts",
       "authors": [
-        "Zhenting Wang",
-        "Qi Chang",
-        "Hemani Patel",
-        "Shashank Biju",
-        "Cheng-En Wu",
-        "Quan Liu",
-        "Aolin Ding",
-        "Alireza Rezazadeh",
-        "Ankit Shah",
-        "Yujia Bao",
-        "Eugene Siow"
+        "IEC"
       ],
       "year": 2025,
-      "venue": "arXiv",
-      "type": "preprint",
-      "url": "https://arxiv.org/abs/2508.20453",
-      "arxiv": "2508.20453",
-      "group": "g4",
+      "venue": "International Electrotechnical Commission",
+      "type": "standard-or-report",
+      "url": "",
+      "group": "g5",
       "also": [
-        "g16"
+        "g10",
+        "g13"
       ]
     },
     {
-      "key": "fei2025mcpuniverse",
-      "title": "MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers",
+      "key": "atkin2003evaluation",
+      "title": "Evaluation of an adaptive transport protocol",
       "authors": [
-        "Ziyang Luo",
-        "Zhiqi Shen",
-        "Wenzhuo Yang",
-        "Zirui Zhao",
-        "Prathyusha Jwalapuram",
-        "Amrita Saha",
-        "Doyen Sahoo",
-        "Silvio Savarese",
-        "Caiming Xiong",
-        "Junnan Li"
+        "Benjamin Atkin",
+        "Kenneth P. Birman"
       ],
-      "year": 2025,
-      "venue": "arXiv",
-      "type": "preprint",
-      "url": "https://arxiv.org/abs/2508.14704",
-      "arxiv": "2508.14704",
-      "group": "g4",
-      "also": [
-        "g16"
-      ]
-    },
-    {
-      "key": "yin2025livemcp101",
-      "title": "LiveMCP-101: Stress Testing and Diagnosing MCP-enabled Agents on Challenging Queries",
-      "authors": [
-        "Ming Yin",
-        "Dinghan Shen",
-        "Silei Xu",
-        "Sixun Dong",
-        "Mian Zhang",
-        "Yebowen Hu",
-        "Shujian Liu",
-        "Jianbing Han",
-        "Simin Ma",
-        "Song Wang",
-        "Sathish Reddy Indurthi",
-        "Xun Wang",
-        "Yiran Chen",
-        "Kaiqiang Song"
-      ],
-      "year": 2025,
-      "venue": "arXiv",
-      "type": "preprint",
-      "url": "https://arxiv.org/abs/2508.15760",
-      "arxiv": "2508.15760",
-      "group": "g4",
-      "also": [
-        "g16"
-      ]
-    },
-    {
-      "key": "chen2025mcpiox",
-      "title": "Model Context Protocol-based Internet of Experts For Wireless Environment-aware LLM Agents",
-      "authors": [
-        "Zongxi Liu",
-        "Hongyang Du"
-      ],
-      "year": 2025,
-      "venue": "GLOBECOM 2025 - 2025 IEEE Global Communications Conference",
+      "year": 2003,
+      "venue": "IEEE INFOCOM 2003. Twenty-second Annual Joint Conference of the IEEE Computer and Communications Societies (IEEE Cat. No. 03CH37428)",
       "type": "conference",
-      "url": "https://doi.org/10.1109/GLOBECOM59602.2025.11431757",
-      "group": "g4",
+      "url": "https://doi.org/10.1109/infcom.2003.1209252",
+      "group": "g5",
       "also": [
-        "g5",
         "g15"
       ]
+    },
+    {
+      "key": "rfc4594",
+      "title": "Configuration Guidelines for DiffServ Service Classes",
+      "authors": [
+        "Jozef Babiarz",
+        "Kwok Ho Chan",
+        "Fred Baker"
+      ],
+      "year": 2006,
+      "venue": "IETF",
+      "type": "standard-or-report",
+      "url": "https://doi.org/10.17487/RFC4594",
+      "group": "g5",
+      "also": []
     },
     {
       "key": "elbery2023toward",
@@ -1908,7 +1851,7 @@
     },
     {
       "key": "zhang2023pbq",
-      "title": "Pbq-enhanced quic: Quic with deep reinforcement learning congestion control mechanism",
+      "title": "PBQ-Enhanced QUIC: QUIC with Deep Reinforcement Learning Congestion Control Mechanism",
       "authors": [
         "Zhifei Zhang",
         "Shuo Li",
@@ -1940,7 +1883,7 @@
       "url": "https://doi.org/10.1109/mc.2004.175",
       "group": "g5",
       "also": [
-        "g8"
+        "g7"
       ]
     },
     {
@@ -1964,7 +1907,7 @@
       "url": "https://doi.org/10.1007/978-3-642-35813-5_4",
       "group": "g5",
       "also": [
-        "g8"
+        "g7"
       ]
     },
     {
@@ -1980,8 +1923,8 @@
       "url": "https://doi.org/10.24294/jipd.v8i5.3558",
       "group": "g5",
       "also": [
-        "g9",
-        "g17"
+        "g8",
+        "g16"
       ]
     },
     {
@@ -2001,7 +1944,7 @@
       "url": "",
       "group": "g5",
       "also": [
-        "g9"
+        "g8"
       ]
     },
     {
@@ -2021,7 +1964,7 @@
       "url": "https://doi.org/10.1109/jproc.2019.2918951",
       "group": "g5",
       "also": [
-        "g15"
+        "g14"
       ]
     },
     {
@@ -2041,8 +1984,40 @@
       "url": "https://doi.org/10.1109/JPROC.2016.2521931",
       "group": "g5",
       "also": [
-        "g14",
-        "g16"
+        "g13",
+        "g15"
+      ]
+    },
+    {
+      "key": "krishnan2025advancing",
+      "title": "Advancing multi-agent systems through model context protocol: Architecture, implementation, and applications",
+      "authors": [
+        "Naveen Krishnan"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "type": "preprint",
+      "url": "https://arxiv.org/abs/2504.21030",
+      "arxiv": "2504.21030",
+      "group": "g5",
+      "also": [
+        "g9"
+      ]
+    },
+    {
+      "key": "chen2025mcpiox",
+      "title": "Model Context Protocol-based Internet of Experts For Wireless Environment-aware LLM Agents",
+      "authors": [
+        "Zongxi Liu",
+        "Hongyang Du"
+      ],
+      "year": 2025,
+      "venue": "GLOBECOM 2025 - 2025 IEEE Global Communications Conference",
+      "type": "conference",
+      "url": "https://doi.org/10.1109/GLOBECOM59602.2025.11431757",
+      "group": "g5",
+      "also": [
+        "g14"
       ]
     },
     {
@@ -2057,7 +2032,7 @@
       "url": "https://github.com/robotmcp/ros-mcp-server",
       "group": "g5",
       "also": [
-        "g13"
+        "g12"
       ]
     },
     {
@@ -2068,7 +2043,7 @@
         "Sarah Sharif",
         "Yaser M. Banad"
       ],
-      "year": 2026,
+      "year": 2025,
       "venue": "arXiv",
       "type": "preprint",
       "url": "https://arxiv.org/abs/2504.08999",
@@ -2077,80 +2052,17 @@
       "also": []
     },
     {
-      "key": "omg2015dds",
-      "title": "Data Distribution Service (DDS), Version 1.4",
+      "key": "hong2009context",
+      "title": "Context-aware systems: A literature review and classification",
       "authors": [
-        "Object Management Group"
+        "Jong-yi Hong",
+        "Eui-ho Suh",
+        "Sung-Jin Kim"
       ],
-      "year": 2015,
-      "venue": "OMG Document formal/2015-04-10",
-      "type": "standard-or-report",
-      "url": "",
-      "group": "g6",
-      "also": [
-        "g11"
-      ]
-    },
-    {
-      "key": "oasis2019mqtt5",
-      "title": "MQTT Version 5.0",
-      "authors": [
-        "OASIS"
-      ],
-      "year": 2019,
-      "venue": "OASIS Standard, https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html",
-      "type": "standard-or-report",
-      "url": "https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html",
-      "group": "g6",
-      "also": [
-        "g11",
-        "g12"
-      ]
-    },
-    {
-      "key": "iec2020opcua",
-      "title": "IEC TR 62541-1:2020: OPC Unified Architecture, Part 1: Overview and concepts",
-      "authors": [
-        "IEC"
-      ],
-      "year": 2020,
-      "venue": "International Electrotechnical Commission",
-      "type": "standard-or-report",
-      "url": "https://webstore.iec.ch/en/publication/61109",
-      "group": "g6",
-      "also": [
-        "g11",
-        "g14"
-      ]
-    },
-    {
-      "key": "atkin2003evaluation",
-      "title": "Evaluation of an adaptive transport protocol",
-      "authors": [
-        "Benjamin Atkin",
-        "Kenneth P Birman"
-      ],
-      "year": 2003,
-      "venue": "IEEE INFOCOM 2003. Twenty-second Annual Joint Conference of the IEEE Computer and Communications Societies (IEEE Cat. No. 03CH37428)",
-      "type": "conference",
-      "url": "https://doi.org/10.1109/infcom.2003.1209252",
-      "group": "g6",
-      "also": [
-        "g16"
-      ]
-    },
-    {
-      "key": "rfc4594",
-      "title": "Configuration Guidelines for DiffServ Service Classes",
-      "authors": [
-        "Jozef Babiarz",
-        "Kwok Ho Chan",
-        "Fred Baker"
-      ],
-      "year": 2006,
-      "venue": "IETF",
-      "type": "standard-or-report",
-      "url": "https://doi.org/10.17487/RFC4594",
+      "year": 2009,
+      "venue": "Expert Systems with Applications",
+      "type": "journal",
+      "url": "https://doi.org/10.1016/j.eswa.2008.10.071",
       "group": "g6",
       "also": []
     },
@@ -2167,7 +2079,7 @@
       "venue": "ACM Computing Surveys",
       "type": "journal",
       "url": "https://doi.org/10.1145/857076.857078",
-      "group": "g7",
+      "group": "g6",
       "also": []
     },
     {
@@ -2182,22 +2094,7 @@
       "venue": "IEEE Internet of Things Journal",
       "type": "journal",
       "url": "https://doi.org/10.1109/jiot.2017.2773600",
-      "group": "g7",
-      "also": []
-    },
-    {
-      "key": "iren1999transport",
-      "title": "The transport layer: tutorial and survey",
-      "authors": [
-        "Sami Iren",
-        "Paul D Amer",
-        "Phillip T Conrad"
-      ],
-      "year": 1999,
-      "venue": "ACM Computing Surveys (CSUR)",
-      "type": "journal",
-      "url": "https://doi.org/10.1145/344588.344609",
-      "group": "g8",
+      "group": "g6",
       "also": []
     },
     {
@@ -2211,7 +2108,7 @@
       "venue": "ACM Transactions on Autonomous and Adaptive Systems",
       "type": "journal",
       "url": "https://doi.org/10.1145/2555612",
-      "group": "g8",
+      "group": "g7",
       "also": []
     },
     {
@@ -2226,7 +2123,7 @@
       "venue": "IEEE Industrial Electronics Magazine",
       "type": "journal",
       "url": "https://doi.org/10.1109/mie.2017.2649104",
-      "group": "g8",
+      "group": "g7",
       "also": []
     },
     {
@@ -2246,9 +2143,9 @@
       "type": "preprint",
       "url": "https://arxiv.org/abs/2508.00007",
       "arxiv": "2508.00007",
-      "group": "g8",
+      "group": "g7",
       "also": [
-        "g11"
+        "g10"
       ]
     },
     {
@@ -2302,7 +2199,7 @@
       "venue": "Software Engineering for Self-Adaptive Systems II",
       "type": "book",
       "url": "https://doi.org/10.1007/978-3-642-35813-5_1",
-      "group": "g8",
+      "group": "g7",
       "also": []
     },
     {
@@ -2324,7 +2221,7 @@
       "venue": "ACM Transactions on Autonomous and Adaptive Systems",
       "type": "journal",
       "url": "https://doi.org/10.1145/1186778.1186782",
-      "group": "g9",
+      "group": "g8",
       "also": []
     },
     {
@@ -2341,7 +2238,7 @@
       "venue": "IEEE Transactions on Industrial Informatics",
       "type": "journal",
       "url": "https://doi.org/10.1109/tii.2018.2852491",
-      "group": "g9",
+      "group": "g8",
       "also": []
     },
     {
@@ -2356,7 +2253,7 @@
       "venue": "IETF",
       "type": "standard-or-report",
       "url": "https://doi.org/10.17487/RFC7228",
-      "group": "g9",
+      "group": "g8",
       "also": []
     },
     {
@@ -2373,7 +2270,7 @@
       "venue": "IEEE Internet of Things Journal",
       "type": "journal",
       "url": "https://doi.org/10.1109/jiot.2016.2579198",
-      "group": "g9",
+      "group": "g8",
       "also": []
     },
     {
@@ -2386,7 +2283,7 @@
       "venue": "Computer",
       "type": "journal",
       "url": "https://doi.org/10.1109/mc.2017.9",
-      "group": "g9",
+      "group": "g8",
       "also": []
     },
     {
@@ -2399,9 +2296,9 @@
       "venue": "Federal Ministry for Economic Affairs and Energy (BMWi), Germany",
       "type": "standard-or-report",
       "url": "",
-      "group": "g9",
+      "group": "g8",
       "also": [
-        "g14"
+        "g13"
       ]
     },
     {
@@ -2418,10 +2315,10 @@
       "venue": "Science Robotics",
       "type": "journal",
       "url": "https://doi.org/10.1126/scirobotics.abm6074",
-      "group": "g9",
+      "group": "g8",
       "also": [
-        "g11",
-        "g13"
+        "g10",
+        "g12"
       ]
     },
     {
@@ -2434,7 +2331,7 @@
       "venue": "Press release",
       "type": "standard-or-report",
       "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2449,7 +2346,7 @@
       "venue": "IETF",
       "type": "standard-or-report",
       "url": "https://doi.org/10.17487/RFC8707",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2464,7 +2361,7 @@
       "venue": "Human–Computer Interaction",
       "type": "journal",
       "url": "https://doi.org/10.1207/s15327051hci16234_02",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2481,7 +2378,7 @@
       "venue": "IEEE 5th International Symposium on Wireless Pervasive Computing 2010",
       "type": "conference",
       "url": "https://doi.org/10.1109/ISWPC.2010.5483753",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2496,7 +2393,7 @@
       "venue": "Pervasive Computing",
       "type": "book",
       "url": "https://doi.org/10.1007/3-540-45866-2_14",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2515,7 +2412,7 @@
       "venue": "Pervasive and Mobile Computing",
       "type": "journal",
       "url": "https://doi.org/10.1016/j.pmcj.2009.06.002",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2528,7 +2425,7 @@
       "venue": "",
       "type": "standard-or-report",
       "url": "https://www.jsonrpc.org/specification",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2543,9 +2440,9 @@
       "type": "preprint",
       "url": "https://arxiv.org/abs/2505.03275",
       "arxiv": "2505.03275",
-      "group": "g10",
+      "group": "g9",
       "also": [
-        "g17"
+        "g16"
       ]
     },
     {
@@ -2558,12 +2455,11 @@
         "Pradeep Honaganahalli Basavaraju",
         "James A. Burke"
       ],
-      "year": 2025,
-      "venue": "arXiv",
-      "type": "preprint",
-      "url": "https://arxiv.org/abs/2505.06416",
-      "arxiv": "2505.06416",
-      "group": "g10",
+      "year": 2026,
+      "venue": "Computational Intelligence: 17th International Joint Conference, IJCCI 2025, Marbella, Spain, October 22-24, 2025, Proceedings, Part I",
+      "type": "conference",
+      "url": "https://doi.org/10.1007/978-3-032-15632-7_2",
+      "group": "g9",
       "also": []
     },
     {
@@ -2579,7 +2475,22 @@
       "type": "preprint",
       "url": "https://arxiv.org/abs/2506.01056",
       "arxiv": "2506.01056",
-      "group": "g10",
+      "group": "g9",
+      "also": []
+    },
+    {
+      "key": "camcp2026",
+      "title": "Enhancing Model Context Protocol (MCP) with Context-Aware Server Collaboration",
+      "authors": [
+        "Meenakshi Amulya Jayanti",
+        "X. Y. Han"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "type": "preprint",
+      "url": "https://arxiv.org/abs/2601.11595",
+      "arxiv": "2601.11595",
+      "group": "g9",
       "also": []
     },
     {
@@ -2596,10 +2507,10 @@
         "Abd Ullah Khan"
       ],
       "year": 2023,
-      "venue": "Internet of things",
+      "venue": "Internet of Things",
       "type": "journal",
       "url": "https://doi.org/10.1016/j.iot.2023.100837",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2613,7 +2524,22 @@
       "venue": "Proceedings of the 6th annual international conference on Mobile computing and networking",
       "type": "conference",
       "url": "https://doi.org/10.1145/345910.345938",
-      "group": "g10",
+      "group": "g9",
+      "also": []
+    },
+    {
+      "key": "oauth21draft",
+      "title": "The OAuth 2.1 Authorization Framework",
+      "authors": [
+        "Dick Hardt",
+        "Aaron Parecki",
+        "Torsten Lodderstedt"
+      ],
+      "year": 2025,
+      "venue": "IETF",
+      "type": "standard-or-report",
+      "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-13.txt",
+      "group": "g9",
       "also": []
     },
     {
@@ -2626,22 +2552,7 @@
       "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 6: Industry Track)",
       "type": "conference",
       "url": "https://doi.org/10.18653/v1/2026.acl-industry.58",
-      "group": "g10",
-      "also": []
-    },
-    {
-      "key": "oauth21draft",
-      "title": "The OAuth 2.1 Authorization Framework",
-      "authors": [
-        "Torsten Lodderstedt",
-        "Dick Hardt",
-        "Aaron Parecki"
-      ],
-      "year": 2020,
-      "venue": "IETF",
-      "type": "standard-or-report",
-      "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-13.txt",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2657,7 +2568,25 @@
       "venue": "Information Sciences",
       "type": "journal",
       "url": "https://doi.org/10.1016/j.ins.2026.123231",
-      "group": "g10",
+      "group": "g9",
+      "also": []
+    },
+    {
+      "key": "hasan2025mcpfirstglance",
+      "title": "Model Context Protocol (MCP) at First Glance: Studying the Security and Maintainability of MCP Servers",
+      "authors": [
+        "Mohammed Mehedi Hasan",
+        "Hao Li",
+        "Emad Fallahzadeh",
+        "Gopi Krishnan Rajbahadur",
+        "Bram Adams",
+        "Ahmed E. Hassan"
+      ],
+      "year": 2026,
+      "venue": "ACM Transactions on Software Engineering and Methodology",
+      "type": "journal",
+      "url": "https://doi.org/10.1145/3814959",
+      "group": "g9",
       "also": []
     },
     {
@@ -2675,7 +2604,48 @@
       "venue": "2025 IEEE 22nd International Conference on Mobile Ad-Hoc and Smart Systems (MASS)",
       "type": "conference",
       "url": "https://doi.org/10.1109/MASS66014.2025.00090",
-      "group": "g10",
+      "group": "g9",
+      "also": []
+    },
+    {
+      "key": "song2025beyondprotocol",
+      "title": "Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol (MCP) Ecosystem",
+      "authors": [
+        "Hao Song",
+        "Yiming Shen",
+        "Wenxuan Luo",
+        "Leixin Guo",
+        "Ting Chen",
+        "Jiashui Wang",
+        "Beibei Li",
+        "Xiaosong Zhang",
+        "Jiachi Chen"
+      ],
+      "year": 2026,
+      "venue": "IEEE Transactions on Software Engineering",
+      "type": "journal",
+      "url": "https://doi.org/10.1109/TSE.2026.3694876",
+      "group": "g9",
+      "also": []
+    },
+    {
+      "key": "guo2025mcpsecurity",
+      "title": "MCPXkit: The Unified Toolkit for Analyzing Model Context Protocol Security",
+      "authors": [
+        "Yongjian Guo",
+        "Puzhuo Liu",
+        "Wanlun Ma",
+        "Zehang Deng",
+        "Xiaogang Zhu",
+        "Peng Di",
+        "Xi Xiao",
+        "Sheng Wen"
+      ],
+      "year": 2026,
+      "venue": "IEEE Transactions on Dependable and Secure Computing",
+      "type": "journal",
+      "url": "https://doi.org/10.1109/TDSC.2026.3695553",
+      "group": "g9",
       "also": []
     },
     {
@@ -2690,7 +2660,7 @@
       "venue": "Assurance and Security for AI-enabled Systems 2026",
       "type": "conference",
       "url": "https://doi.org/10.1117/12.3097390",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2711,9 +2681,9 @@
       "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
       "type": "conference",
       "url": "https://doi.org/10.1609/aaai.v40i42.40895",
-      "group": "g10",
+      "group": "g9",
       "also": [
-        "g16"
+        "g15"
       ]
     },
     {
@@ -2732,10 +2702,10 @@
       "type": "preprint",
       "url": "https://arxiv.org/abs/2508.13220",
       "arxiv": "2508.13220",
-      "group": "g10",
+      "group": "g9",
       "also": [
-        "g16",
-        "g18"
+        "g15",
+        "g17"
       ]
     },
     {
@@ -2753,7 +2723,7 @@
       "venue": "Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security (AISec)",
       "type": "conference",
       "url": "https://doi.org/10.1145/3605764.3623985",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2769,7 +2739,7 @@
       "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
       "type": "conference",
       "url": "https://doi.org/10.18653/v1/2024.findings-acl.624",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2787,7 +2757,7 @@
       "venue": "Advances in Neural Information Processing Systems",
       "type": "conference",
       "url": "https://doi.org/10.52202/079017-2636",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2805,7 +2775,7 @@
       "venue": "Proceedings 2026 Network and Distributed System Security Symposium (NDSS)",
       "type": "conference",
       "url": "https://doi.org/10.14722/ndss.2026.230675",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2819,7 +2789,7 @@
       "venue": "2026 IEEE 5th International Conference on AI in Cybersecurity (ICAIC)",
       "type": "conference",
       "url": "https://doi.org/10.1109/icaic67076.2026.11395723",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2839,7 +2809,7 @@
       "venue": "Advanced Natural Language Processing 2025",
       "type": "conference",
       "url": "https://doi.org/10.5121/csit.2025.150908",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2853,7 +2823,7 @@
       "type": "preprint",
       "url": "https://arxiv.org/abs/2505.23634",
       "arxiv": "2505.23634",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2868,7 +2838,7 @@
       "venue": "ACM Transactions on Computer Systems",
       "type": "journal",
       "url": "https://doi.org/10.1145/380749.380767",
-      "group": "g10",
+      "group": "g9",
       "also": []
     },
     {
@@ -2881,7 +2851,7 @@
       "venue": "OASIS Standard",
       "type": "standard-or-report",
       "url": "",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -2903,9 +2873,9 @@
       "venue": "26th Euromicro Conference on Digital System Design (DSD)",
       "type": "conference",
       "url": "https://doi.org/10.1109/dsd60849.2023.00065",
-      "group": "g11",
+      "group": "g10",
       "also": [
-        "g13"
+        "g12"
       ]
     },
     {
@@ -2918,12 +2888,12 @@
       "venue": "",
       "type": "standard-or-report",
       "url": "https://grpc.io/docs/",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
       "key": "google2024protobuf",
-      "title": "Protocol Buffers Language Guide (proto3)",
+      "title": "Language Guide (proto 3)",
       "authors": [
         "Google LLC"
       ],
@@ -2931,7 +2901,7 @@
       "venue": "",
       "type": "standard-or-report",
       "url": "https://protobuf.dev/programming-guides/proto3/",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -2944,7 +2914,7 @@
       "venue": "",
       "type": "book",
       "url": "",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -2960,35 +2930,46 @@
       "venue": "Google for Developers Blog, https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
       "type": "standard-or-report",
       "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
       "key": "ibm2025acp",
       "title": "Agent Communication Protocol (ACP)",
       "authors": [
-        "IBM Research"
+        "BeeAI Project (Linux Foundation AI & Data)"
       ],
       "year": 2025,
       "venue": "",
       "type": "standard-or-report",
       "url": "https://agentcommunicationprotocol.dev/",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
-      "key": "diluoffo2018ros2",
-      "title": "Robot Operating System 2: The need for a holistic security approach to robotic architectures",
+      "key": "omg2018ddssecurity",
+      "title": "DDS Security, Version 1.1",
       "authors": [
-        "Vincenzo DiLuoffo",
-        "William R Michalson",
-        "Berk Sunar"
+        "Object Management Group"
       ],
       "year": 2018,
-      "venue": "International Journal of Advanced Robotic Systems",
-      "type": "journal",
-      "url": "https://doi.org/10.1177/1729881418770011",
-      "group": "g11",
+      "venue": "OMG Document formal/18-04-01",
+      "type": "standard-or-report",
+      "url": "https://www.omg.org/spec/DDS-SECURITY/1.1/",
+      "group": "g10",
+      "also": []
+    },
+    {
+      "key": "opcf10000p4",
+      "title": "OPC 10000-4: OPC Unified Architecture, Part 4: Services",
+      "authors": [
+        "OPC Foundation"
+      ],
+      "year": 2026,
+      "venue": "OPC Foundation",
+      "type": "standard-or-report",
+      "url": "https://reference.opcfoundation.org/specs/OPC-10000-4/v1.05.07",
+      "group": "g10",
       "also": []
     },
     {
@@ -3001,7 +2982,35 @@
       "venue": "IETF",
       "type": "standard-or-report",
       "url": "https://doi.org/10.17487/RFC6749",
-      "group": "g11",
+      "group": "g10",
+      "also": []
+    },
+    {
+      "key": "diluoffo2018ros2",
+      "title": "Robot Operating System 2: The need for a holistic security approach to robotic architectures",
+      "authors": [
+        "Vincenzo DiLuoffo",
+        "William R. Michalson",
+        "Berk Sunar"
+      ],
+      "year": 2018,
+      "venue": "International Journal of Advanced Robotic Systems",
+      "type": "journal",
+      "url": "https://doi.org/10.1177/1729881418770011",
+      "group": "g10",
+      "also": []
+    },
+    {
+      "key": "opcf10000p5",
+      "title": "OPC 10000-5: OPC Unified Architecture, Part 5: Information Model",
+      "authors": [
+        "OPC Foundation"
+      ],
+      "year": 2025,
+      "venue": "OPC Foundation",
+      "type": "standard-or-report",
+      "url": "https://reference.opcfoundation.org/specs/OPC-10000-5/v1.05.06",
+      "group": "g10",
       "also": []
     },
     {
@@ -3020,7 +3029,7 @@
       "venue": "Proceedings of the IEEE",
       "type": "journal",
       "url": "https://doi.org/10.1109/jproc.2018.2888703",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3035,7 +3044,7 @@
       "venue": "3rd International Conference on Human System Interaction",
       "type": "conference",
       "url": "https://doi.org/10.1109/hsi.2010.5514495",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3048,7 +3057,7 @@
       "venue": "ZettaScale Technology news, 3 June 2024",
       "type": "standard-or-report",
       "url": "https://zettascale.tech/news/top-most-requested-eclipse-zenoh-features-since-its-beginning/",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3065,7 +3074,7 @@
       "venue": "2021 IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems (MFI)",
       "type": "preprint",
       "url": "https://doi.org/10.1109/MFI52462.2021.9591166",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3082,9 +3091,9 @@
       "venue": "IEEE International Conference on Industrial Technology (ICIT)",
       "type": "conference",
       "url": "https://doi.org/10.1109/icit.2019.8755050",
-      "group": "g11",
+      "group": "g10",
       "also": [
-        "g16"
+        "g15"
       ]
     },
     {
@@ -3097,7 +3106,7 @@
       "venue": "Springer",
       "type": "book",
       "url": "https://doi.org/10.1007/978-1-4614-0676-1",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3111,7 +3120,7 @@
       "venue": "Journal of the ACM",
       "type": "journal",
       "url": "https://doi.org/10.1145/321738.321743",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3130,7 +3139,7 @@
       "venue": "2020 IEEE Real-Time Systems Symposium (RTSS)",
       "type": "conference",
       "url": "https://doi.org/10.1109/rtss49844.2020.00030",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3143,7 +3152,7 @@
       "venue": "ETSI EN 302 637-2, V1.4.1",
       "type": "standard-or-report",
       "url": "",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3156,7 +3165,7 @@
       "venue": "SAE Standard",
       "type": "standard-or-report",
       "url": "https://doi.org/10.4271/J2735_202409",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3169,7 +3178,7 @@
       "venue": "IETF",
       "type": "standard-or-report",
       "url": "https://doi.org/10.17487/RFC8259",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3182,7 +3191,7 @@
       "venue": "",
       "type": "standard-or-report",
       "url": "https://github.com/msgpack/msgpack/blob/master/spec.md",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3196,7 +3205,7 @@
       "venue": "IETF",
       "type": "standard-or-report",
       "url": "https://doi.org/10.17487/RFC8949",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3210,23 +3219,7 @@
       "venue": "Proceedings of the 6th International Conference on Ubiquitous Information Management and Communication (ICUIMC)",
       "type": "conference",
       "url": "https://doi.org/10.1145/2184751.2184810",
-      "group": "g11",
-      "also": []
-    },
-    {
-      "key": "popic2016protobuf",
-      "title": "Performance evaluation of using Protocol Buffers in the Internet of Things communication",
-      "authors": [
-        "Sran Popić",
-        "Dra zen Pezer",
-        "Bojan Mrazovac",
-        "Nikola Teslić"
-      ],
-      "year": 2016,
-      "venue": "International Conference on Smart Systems and Technologies (SST)",
-      "type": "conference",
-      "url": "https://doi.org/10.1109/SST.2016.7765670",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3239,7 +3232,7 @@
       "venue": "Second International Conference on Digital Information and Communication Technology and its Applications (DICTAP)",
       "type": "conference",
       "url": "https://doi.org/10.1109/dictap.2012.6215346",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3255,7 +3248,7 @@
       "venue": "International Journal of Electronics and Telecommunications",
       "type": "journal",
       "url": "https://doi.org/10.24425/ijet.2024.149562",
-      "group": "g11",
+      "group": "g10",
       "also": []
     },
     {
@@ -3270,32 +3263,17 @@
       "venue": "Proceedings of the 13th International Conference on Embedded Software (EMSOFT)",
       "type": "conference",
       "url": "https://doi.org/10.1145/2968478.2968502",
-      "group": "g11",
+      "group": "g10",
       "also": [
-        "g16"
+        "g15"
       ]
-    },
-    {
-      "key": "hong2009context",
-      "title": "Context-aware systems: A literature review and classification",
-      "authors": [
-        "Jong-yi Hong",
-        "Eui-ho Suh",
-        "Sung-Jin Kim"
-      ],
-      "year": 2009,
-      "venue": "Expert Systems with applications",
-      "type": "journal",
-      "url": "https://doi.org/10.1016/j.eswa.2008.10.071",
-      "group": "g12",
-      "also": []
     },
     {
       "key": "fayyad2020deep",
       "title": "Deep learning sensor fusion for autonomous vehicle perception and localization: A review",
       "authors": [
         "Jamil Fayyad",
-        "Mohammad A Jaradat",
+        "Mohammad A. Jaradat",
         "Dominique Gruyer",
         "Homayoun Najjaran"
       ],
@@ -3303,7 +3281,7 @@
       "venue": "Sensors",
       "type": "journal",
       "url": "https://doi.org/10.3390/s20154220",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3319,7 +3297,7 @@
       "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
       "type": "journal",
       "url": "https://doi.org/10.1016/j.isprsjprs.2022.12.021",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3337,7 +3315,7 @@
       "venue": "2022 International Conference on Robotics and Automation (ICRA)",
       "type": "conference",
       "url": "https://doi.org/10.1109/icra46639.2022.9812038",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3360,7 +3338,20 @@
       "venue": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "type": "conference",
       "url": "https://doi.org/10.1109/cvpr52688.2022.02067",
-      "group": "g12",
+      "group": "g11",
+      "also": []
+    },
+    {
+      "key": "etsi2023cpm",
+      "title": "Intelligent Transport System (ITS); Vehicular Communications; Basic Set of Applications; Collective Perception Service; Release 2",
+      "authors": [
+        "ETSI"
+      ],
+      "year": 2023,
+      "venue": "ETSI TS 103 324, V2.1.1",
+      "type": "standard-or-report",
+      "url": "",
+      "group": "g11",
       "also": []
     },
     {
@@ -3369,7 +3360,7 @@
       "authors": [
         "Zhengwei Bai",
         "Guoyuan Wu",
-        "Matthew J Barth",
+        "Matthew J. Barth",
         "Yongkang Liu",
         "Emrah Akin Sisbot",
         "Kentaro Oguchi",
@@ -3379,22 +3370,7 @@
       "venue": "IEEE Transactions on Intelligent Transportation Systems",
       "type": "journal",
       "url": "https://doi.org/10.1109/tits.2024.3436012",
-      "group": "g12",
-      "also": []
-    },
-    {
-      "key": "brehon2022mobile",
-      "title": "Mobile edge computing for V2X architectures and applications: A survey",
-      "authors": [
-        "Lucas Bréhon-Grataloup",
-        "Rahim Kacimi",
-        "André-Luc Beylot"
-      ],
-      "year": 2022,
-      "venue": "Computer Networks",
-      "type": "journal",
-      "url": "https://doi.org/10.1016/j.comnet.2022.108797",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3411,25 +3387,25 @@
         "Zhu Han"
       ],
       "year": 2022,
-      "venue": "Journal of King Saud University-Computer and Information Sciences",
+      "venue": "Journal of King Saud University - Computer and Information Sciences",
       "type": "journal",
       "url": "https://doi.org/10.1016/j.jksuci.2022.05.016",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
-      "key": "yusuf2024vehicle",
-      "title": "Vehicle-to-everything (V2X) in the autonomous vehicles domain-A technical review of communication, sensor, and AI technologies for road user safety",
+      "key": "brehon2022mobile",
+      "title": "Mobile edge computing for V2X architectures and applications: A survey",
       "authors": [
-        "Syed Adnan Yusuf",
-        "Arshad Khan",
-        "Riad Souissi"
+        "Lucas Bréhon-Grataloup",
+        "Rahim Kacimi",
+        "André-Luc Beylot"
       ],
-      "year": 2024,
-      "venue": "Transportation Research Interdisciplinary Perspectives",
+      "year": 2022,
+      "venue": "Computer Networks",
       "type": "journal",
-      "url": "https://doi.org/10.1016/j.trip.2023.100980",
-      "group": "g12",
+      "url": "https://doi.org/10.1016/j.comnet.2022.108797",
+      "group": "g11",
       "also": []
     },
     {
@@ -3444,7 +3420,7 @@
       "venue": "Journal of Computer Science and Technology",
       "type": "journal",
       "url": "https://doi.org/10.1007/s11390-019-1947-3",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3459,21 +3435,7 @@
       "venue": "IEEE Access",
       "type": "journal",
       "url": "https://doi.org/10.1109/access.2020.3007115",
-      "group": "g12",
-      "also": []
-    },
-    {
-      "key": "tang2024feature",
-      "title": "Feature pyramid biLSTM: Using smartphone sensors for transportation mode detection",
-      "authors": [
-        "Qinrui Tang",
-        "Hao Cheng"
-      ],
-      "year": 2024,
-      "venue": "Transportation Research Interdisciplinary Perspectives",
-      "type": "journal",
-      "url": "https://doi.org/10.1016/j.trip.2024.101181",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3488,7 +3450,21 @@
       "venue": "Applied Intelligence",
       "type": "journal",
       "url": "https://doi.org/10.1007/s10489-022-03214-y",
-      "group": "g12",
+      "group": "g11",
+      "also": []
+    },
+    {
+      "key": "tang2024feature",
+      "title": "Feature pyramid biLSTM: Using smartphone sensors for transportation mode detection",
+      "authors": [
+        "Qinrui Tang",
+        "Hao Cheng"
+      ],
+      "year": 2024,
+      "venue": "Transportation Research Interdisciplinary Perspectives",
+      "type": "journal",
+      "url": "https://doi.org/10.1016/j.trip.2024.101181",
+      "group": "g11",
       "also": []
     },
     {
@@ -3503,7 +3479,7 @@
       "venue": "Journal of Traffic and Transportation Engineering (English Edition)",
       "type": "journal",
       "url": "https://doi.org/10.1016/j.jtte.2021.04.004",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3520,7 +3496,7 @@
       "venue": "Journal of Systems Architecture",
       "type": "journal",
       "url": "https://doi.org/10.1016/j.sysarc.2021.102319",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3537,7 +3513,7 @@
       "venue": "IET Intelligent Transport Systems",
       "type": "journal",
       "url": "https://doi.org/10.1049/itr2.12453",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3552,7 +3528,7 @@
       "venue": "Neurocomputing",
       "type": "journal",
       "url": "https://doi.org/10.1016/j.neucom.2022.07.085",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3560,15 +3536,15 @@
       "title": "Transport behavior-mining from smartphones: a review",
       "authors": [
         "Valentino Servizi",
-        "Francisco C Pereira",
-        "Marie K Anderson",
-        "Otto A Nielsen"
+        "Francisco C. Pereira",
+        "Marie K. Anderson",
+        "Otto A. Nielsen"
       ],
       "year": 2021,
-      "venue": "European transport research review",
+      "venue": "European Transport Research Review",
       "type": "journal",
       "url": "https://doi.org/10.1186/s12544-021-00516-z",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3584,7 +3560,7 @@
       "venue": "Transactions on Emerging Telecommunications Technologies",
       "type": "journal",
       "url": "https://doi.org/10.1002/ett.4265",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3598,7 +3574,7 @@
       "venue": "Vehicular Communications",
       "type": "journal",
       "url": "https://doi.org/10.1016/j.vehcom.2023.100663",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3618,7 +3594,7 @@
       "venue": "Computer Networks",
       "type": "journal",
       "url": "https://doi.org/10.1016/j.comnet.2020.107763",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3629,10 +3605,10 @@
         "Jiayun Luo"
       ],
       "year": 2022,
-      "venue": "Expert systems with applications",
+      "venue": "Expert Systems with Applications",
       "type": "journal",
       "url": "https://doi.org/10.1016/j.eswa.2022.117921",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3645,13 +3621,13 @@
         "Javeria Fazal",
         "Mahfara Hoque",
         "Gang Liu",
-        "Amir H Gandomi"
+        "Amir H. Gandomi"
       ],
       "year": 2024,
       "venue": "Information Fusion",
       "type": "journal",
       "url": "https://doi.org/10.1016/j.inffus.2024.102466",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3666,7 +3642,7 @@
       "venue": "IETF",
       "type": "standard-or-report",
       "url": "https://doi.org/10.17487/RFC7252",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3683,7 +3659,29 @@
       "venue": "2014 IEEE Ninth International Conference on Intelligent Sensors, Sensor Networks and Information Processing (ISSNIP)",
       "type": "conference",
       "url": "https://doi.org/10.1109/issnip.2014.6827678",
-      "group": "g12",
+      "group": "g11",
+      "also": []
+    },
+    {
+      "key": "iotmcp2025",
+      "title": "IoT-MCP: Bridging LLMs and IoT Systems Through Model Context Protocol",
+      "authors": [
+        "Ningyuan Yang",
+        "Guanliang Lyu",
+        "Mingchen Ma",
+        "Yiyi Lu",
+        "Yiming Li",
+        "Zhihui Gao",
+        "Hancheng Ye",
+        "Jianyi Zhang",
+        "Tingjun Chen",
+        "Yiran Chen"
+      ],
+      "year": 2025,
+      "venue": "Proceedings of the ACM Workshop on Wireless Network Testbeds, Experimental evaluation & Characterization (WiNTECH '25)",
+      "type": "conference",
+      "url": "https://doi.org/10.1145/3737895.3768303",
+      "group": "g11",
       "also": []
     },
     {
@@ -3696,7 +3694,7 @@
       "venue": "2017 IEEE International Systems Engineering Symposium (ISSE)",
       "type": "conference",
       "url": "https://doi.org/10.1109/syseng.2017.8088251",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3712,7 +3710,7 @@
       "venue": "ACM Computing Surveys",
       "type": "journal",
       "url": "https://doi.org/10.1145/3292674",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3726,7 +3724,7 @@
       "venue": "IEEE Transactions on Emerging Topics in Computing",
       "type": "journal",
       "url": "https://doi.org/10.1109/tetc.2016.2606384",
-      "group": "g12",
+      "group": "g11",
       "also": []
     },
     {
@@ -3742,7 +3740,7 @@
       "venue": "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
       "type": "conference",
       "url": "https://doi.org/10.1109/iros47612.2022.9982129",
-      "group": "g13",
+      "group": "g12",
       "also": []
     },
     {
@@ -3756,9 +3754,9 @@
       "venue": "The International Journal of Robotics Research",
       "type": "journal",
       "url": "https://doi.org/10.1177/0278364904045564",
-      "group": "g13",
+      "group": "g12",
       "also": [
-        "g16"
+        "g15"
       ]
     },
     {
@@ -3773,7 +3771,7 @@
       "venue": "International Journal of Advanced Robotic Systems",
       "type": "journal",
       "url": "https://doi.org/10.5772/57313",
-      "group": "g13",
+      "group": "g12",
       "also": []
     },
     {
@@ -3784,69 +3782,68 @@
         "Mariette Awad",
         "Edward W. Tunstel"
       ],
-      "year": 2019,
+      "year": 2020,
       "venue": "ACM Computing Surveys",
       "type": "journal",
       "url": "https://doi.org/10.1145/3303848",
-      "group": "g13",
+      "group": "g12",
       "also": []
     },
     {
       "key": "ahn2022saycan",
       "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
       "authors": [
-        "Michael Ahn",
-        "Anthony Brohan",
-        "Noah Brown",
-        "Yevgen Chebotar",
-        "Omar Cortes",
-        "Byron David",
-        "Chelsea Finn",
-        "Chuyuan Fu",
-        "Keerthana Gopalakrishnan",
-        "Karol Hausman",
-        "Alex Herzog",
-        "Daniel Ho",
-        "Jasmine Hsu",
-        "Julian Ibarz",
         "Brian Ichter",
+        "Anthony Brohan",
+        "Yevgen Chebotar",
+        "Chelsea Finn",
+        "Karol Hausman",
+        "Alexander Herzog",
+        "Daniel Ho",
+        "Julian Ibarz",
         "Alex Irpan",
         "Eric Jang",
-        "Rosario Jauregui Ruano",
-        "Kyle Jeffrey",
-        "Sally Jesmonth",
-        "Nikhil J Joshi",
         "Ryan Julian",
         "Dmitry Kalashnikov",
-        "Yuheng Kuang",
-        "Kuang-Huei Lee",
         "Sergey Levine",
         "Yao Lu",
-        "Linda Luu",
         "Carolina Parada",
-        "Peter Pastor",
-        "Jornell Quiambao",
         "Kanishka Rao",
-        "Jarek Rettinghouse",
-        "Diego Reyes",
         "Pierre Sermanet",
-        "Nicolas Sievers",
-        "Clayton Tan",
-        "Alexander Toshev",
+        "Alexander T. Toshev",
         "Vincent Vanhoucke",
         "Fei Xia",
         "Ted Xiao",
         "Peng Xu",
-        "Sichun Xu",
         "Mengyuan Yan",
-        "Andy Zeng"
+        "Noah Brown",
+        "Michael Ahn",
+        "Omar Cortes",
+        "Nicolas Sievers",
+        "Clayton Tan",
+        "Sichun Xu",
+        "Diego Reyes",
+        "Jarek Rettinghouse",
+        "Jornell Quiambao",
+        "Peter Pastor",
+        "Linda Luu",
+        "Kuang-Huei Lee",
+        "Yuheng Kuang",
+        "Sally Jesmonth",
+        "Nikhil J. Joshi",
+        "Kyle Jeffrey",
+        "Rosario Jauregui Ruano",
+        "Jasmine Hsu",
+        "Keerthana Gopalakrishnan",
+        "Byron David",
+        "Andy Zeng",
+        "Chuyuan Kelly Fu"
       ],
-      "year": 2022,
-      "venue": "arXiv",
-      "type": "preprint",
-      "url": "https://arxiv.org/abs/2204.01691",
-      "arxiv": "2204.01691",
-      "group": "g13",
+      "year": 2023,
+      "venue": "Proceedings of The 6th Conference on Robot Learning (CoRL 2022)",
+      "type": "conference",
+      "url": "https://proceedings.mlr.press/v205/ichter23a.html",
+      "group": "g12",
       "also": []
     },
     {
@@ -3866,7 +3863,7 @@
       "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
       "type": "conference",
       "url": "https://doi.org/10.1109/icra48891.2023.10160591",
-      "group": "g13",
+      "group": "g12",
       "also": []
     },
     {
@@ -3882,7 +3879,7 @@
       "venue": "IEEE Access",
       "type": "journal",
       "url": "https://doi.org/10.1109/access.2024.3387941",
-      "group": "g13",
+      "group": "g12",
       "also": []
     },
     {
@@ -3903,7 +3900,7 @@
       "type": "preprint",
       "url": "https://arxiv.org/abs/2311.07226",
       "arxiv": "2311.07226",
-      "group": "g13",
+      "group": "g12",
       "also": []
     },
     {
@@ -3938,7 +3935,7 @@
       "venue": "Nature Machine Intelligence",
       "type": "journal",
       "url": "https://doi.org/10.1038/s42256-026-01186-z",
-      "group": "g13",
+      "group": "g12",
       "also": []
     },
     {
@@ -3960,7 +3957,7 @@
       "venue": "CIRP Annals",
       "type": "journal",
       "url": "https://doi.org/10.1016/j.cirp.2016.06.005",
-      "group": "g14",
+      "group": "g13",
       "also": []
     },
     {
@@ -3969,11 +3966,11 @@
       "authors": [
         "Andrew Kusiak"
       ],
-      "year": 2017,
+      "year": 2018,
       "venue": "International Journal of Production Research",
       "type": "journal",
       "url": "https://doi.org/10.1080/00207543.2017.1351644",
-      "group": "g14",
+      "group": "g13",
       "also": []
     },
     {
@@ -3987,7 +3984,7 @@
       "venue": "Procedia CIRP",
       "type": "journal",
       "url": "https://doi.org/10.1016/j.procir.2017.01.048",
-      "group": "g14",
+      "group": "g13",
       "also": []
     },
     {
@@ -4003,7 +4000,7 @@
       "venue": "IEEE Transactions on Industrial Informatics",
       "type": "journal",
       "url": "https://doi.org/10.1109/tii.2018.2873186",
-      "group": "g14",
+      "group": "g13",
       "also": []
     },
     {
@@ -4019,7 +4016,7 @@
       "venue": "IEEE 28th International Conference on Emerging Technologies and Factory Automation (ETFA)",
       "type": "conference",
       "url": "https://doi.org/10.1109/etfa54631.2023.10275362",
-      "group": "g14",
+      "group": "g13",
       "also": []
     },
     {
@@ -4036,7 +4033,7 @@
       "venue": "2025 IEEE 30th International Conference on Emerging Technologies and Factory Automation (ETFA)",
       "type": "conference",
       "url": "https://doi.org/10.1109/ETFA65518.2025.11205539",
-      "group": "g14",
+      "group": "g13",
       "also": []
     },
     {
@@ -4054,7 +4051,7 @@
       "venue": "IEEE Internet of Things Journal",
       "type": "journal",
       "url": "https://doi.org/10.1109/jiot.2020.2984887",
-      "group": "g15",
+      "group": "g14",
       "also": []
     },
     {
@@ -4070,9 +4067,9 @@
       "venue": "IEEE Signal Processing Magazine",
       "type": "journal",
       "url": "https://doi.org/10.1109/msp.2020.2975749",
-      "group": "g15",
+      "group": "g14",
       "also": [
-        "g16"
+        "g15"
       ]
     },
     {
@@ -4080,15 +4077,72 @@
       "title": "Advances and Open Problems in Federated Learning",
       "authors": [
         "Peter Kairouz",
-        "H. Brendan McMahan"
+        "H. Brendan McMahan",
+        "Brendan Avent",
+        "Aurélien Bellet",
+        "Mehdi Bennis",
+        "Arjun Nitin Bhagoji",
+        "Kallista Bonawitz",
+        "Zachary Charles",
+        "Graham Cormode",
+        "Rachel Cummings",
+        "Rafael G. L. D'Oliveira",
+        "Hubert Eichner",
+        "Salim El Rouayheb",
+        "David Evans",
+        "Josh Gardner",
+        "Zachary Garrett",
+        "Adrià Gascón",
+        "Badih Ghazi",
+        "Phillip B. Gibbons",
+        "Marco Gruteser",
+        "Zaid Harchaoui",
+        "Chaoyang He",
+        "Lie He",
+        "Zhouyuan Huo",
+        "Ben Hutchinson",
+        "Justin Hsu",
+        "Martin Jaggi",
+        "Tara Javidi",
+        "Gauri Joshi",
+        "Mikhail Khodak",
+        "Jakub Konečný",
+        "Aleksandra Korolova",
+        "Farinaz Koushanfar",
+        "Sanmi Koyejo",
+        "Tancrède Lepoint",
+        "Yang Liu",
+        "Prateek Mittal",
+        "Mehryar Mohri",
+        "Richard Nock",
+        "Ayfer Özgür",
+        "Rasmus Pagh",
+        "Hang Qi",
+        "Daniel Ramage",
+        "Ramesh Raskar",
+        "Mariana Raykova",
+        "Dawn Song",
+        "Weikang Song",
+        "Sebastian U. Stich",
+        "Ziteng Sun",
+        "Ananda Theertha Suresh",
+        "Florian Tramèr",
+        "Praneeth Vepakomma",
+        "Jianyu Wang",
+        "Li Xiong",
+        "Zheng Xu",
+        "Qiang Yang",
+        "Felix X. Yu",
+        "Han Yu",
+        "Sen Zhao"
       ],
       "year": 2021,
       "venue": "Foundations and Trends in Machine Learning",
       "type": "journal",
       "url": "https://doi.org/10.1561/2200000083",
-      "group": "g15",
+      "group": "g14",
       "also": [
-        "g16"
+        "g15"
       ]
     },
     {
@@ -4108,7 +4162,7 @@
       "venue": "IEEE Communications Surveys & Tutorials",
       "type": "journal",
       "url": "https://doi.org/10.1109/comst.2020.2986024",
-      "group": "g15",
+      "group": "g14",
       "also": []
     },
     {
@@ -4122,17 +4176,17 @@
         "Abdelhamid Bouchachia"
       ],
       "year": 2014,
-      "venue": "ACM computing surveys (CSUR)",
+      "venue": "ACM Computing Surveys",
       "type": "journal",
       "url": "https://doi.org/10.1145/2523813",
-      "group": "g16",
+      "group": "g15",
       "also": []
     },
     {
       "key": "zou2006adaptive",
       "title": "Adaptive defense against various network attacks",
       "authors": [
-        "Cliff C Zou",
+        "Cliff C. Zou",
         "Nick Duffield",
         "Don Towsley",
         "Weibo Gong"
@@ -4141,7 +4195,7 @@
       "venue": "IEEE Journal on Selected Areas in Communications",
       "type": "journal",
       "url": "https://doi.org/10.1109/jsac.2006.877137",
-      "group": "g16",
+      "group": "g15",
       "also": []
     },
     {
@@ -4149,21 +4203,36 @@
       "title": "Microscopic Traffic Simulation using SUMO",
       "authors": [
         "Pablo Alvarez Lopez",
-        "Evamarie Wiessner",
         "Michael Behrisch",
         "Laura Bieker-Walz",
         "Jakob Erdmann",
-        "Yun-Pang Flotterod",
+        "Yun-Pang Flötteröd",
         "Robert Hilbrich",
-        "Leonhard Lucken",
+        "Leonhard Lücken",
         "Johannes Rummel",
-        "Peter Wagner"
+        "Peter Wagner",
+        "Evamarie Wießner"
       ],
       "year": 2018,
       "venue": "21st IEEE International Conference on Intelligent Transportation Systems (ITSC)",
       "type": "conference",
       "url": "https://doi.org/10.1109/itsc.2018.8569938",
-      "group": "g16",
+      "group": "g15",
+      "also": []
+    },
+    {
+      "key": "hossain2024vissim",
+      "title": "Vissim study: Comparing adaptive and traditional traffic systems’ efficiency and environmental impact",
+      "authors": [
+        "Md Akhtar Hossain",
+        "Nabil Hasan",
+        "Kumar Sowrave Pujan"
+      ],
+      "year": 2024,
+      "venue": "SSRN preprint",
+      "type": "preprint",
+      "url": "https://doi.org/10.2139/ssrn.4836046",
+      "group": "g15",
       "also": []
     },
     {
@@ -4180,51 +4249,83 @@
       "venue": "Proceedings of the 1st Annual Conference on Robot Learning",
       "type": "conference",
       "url": "https://proceedings.mlr.press/v78/dosovitskiy17a.html",
-      "group": "g16",
+      "group": "g15",
       "also": []
     },
     {
       "key": "koenig2004gazebo",
       "title": "Design and use paradigms for gazebo, an open-source multi-robot simulator",
       "authors": [
-        "N. Koenig",
-        "A. Howard"
+        "Nathan Koenig",
+        "Andrew Howard"
       ],
       "year": 2004,
       "venue": "2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566)",
       "type": "conference",
       "url": "https://doi.org/10.1109/iros.2004.1389727",
-      "group": "g16",
+      "group": "g15",
       "also": []
     },
     {
-      "key": "hossain2024vissim",
-      "title": "Vissim study: Comparing adaptive and traditional traffic systems’ efficiency and environmental impact",
+      "key": "luo2025mcpbench",
+      "title": "MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers",
       "authors": [
-        "Md Akhtar Hossain",
-        "Nabil Hasan",
-        "Kumar Sowrave Pujan"
+        "Zhenting Wang",
+        "Qi Chang",
+        "Hemani Patel",
+        "Shashank Biju",
+        "Cheng-En Wu",
+        "Quan Liu",
+        "Aolin Ding",
+        "Alireza Rezazadeh",
+        "Ankit Shah",
+        "Yujia Bao",
+        "Eugene Siow"
       ],
-      "year": 2024,
-      "venue": "SSRN preprint",
+      "year": 2026,
+      "venue": "arXiv",
       "type": "preprint",
-      "url": "https://doi.org/10.2139/ssrn.4836046",
-      "group": "g16",
+      "url": "https://arxiv.org/abs/2508.20453",
+      "arxiv": "2508.20453",
+      "group": "g15",
+      "also": []
+    },
+    {
+      "key": "fei2025mcpuniverse",
+      "title": "MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers",
+      "authors": [
+        "Ziyang Luo",
+        "Zhiqi Shen",
+        "Wenzhuo Yang",
+        "Zirui Zhao",
+        "Prathyusha Jwalapuram",
+        "Amrita Saha",
+        "Doyen Sahoo",
+        "Silvio Savarese",
+        "Caiming Xiong",
+        "Junnan Li"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "type": "preprint",
+      "url": "https://arxiv.org/abs/2508.14704",
+      "arxiv": "2508.14704",
+      "group": "g15",
       "also": []
     },
     {
       "key": "sommer2011veins",
       "title": "Bidirectionally Coupled Network and Road Traffic Simulation for Improved IVC Analysis",
       "authors": [
-        "C Sommer",
-        "R German",
-        "F Dressler"
+        "Christoph Sommer",
+        "Reinhard German",
+        "Falko Dressler"
       ],
       "year": 2011,
       "venue": "IEEE Transactions on Mobile Computing",
       "type": "journal",
       "url": "https://doi.org/10.1109/tmc.2010.133",
-      "group": "g16",
+      "group": "g15",
       "also": []
     },
     {
@@ -4239,7 +4340,7 @@
       "venue": "Proceedings of the 5th annual ACM/IEEE international conference on Mobile computing and networking",
       "type": "conference",
       "url": "https://doi.org/10.1145/313451.313529",
-      "group": "g16",
+      "group": "g15",
       "also": []
     },
     {
@@ -4256,7 +4357,7 @@
       "venue": "Proceedings of the 6th International Symposium on Software Engineering for Adaptive and Self-Managing Systems",
       "type": "conference",
       "url": "https://doi.org/10.1145/1988008.1988020",
-      "group": "g16",
+      "group": "g15",
       "also": []
     },
     {
@@ -4270,7 +4371,7 @@
       "venue": "Scientific Reports",
       "type": "journal",
       "url": "https://doi.org/10.1038/s41598-024-64885-w",
-      "group": "g16",
+      "group": "g15",
       "also": []
     },
     {
@@ -4280,16 +4381,43 @@
         "Shiqiang Wang",
         "Tiffany Tuor",
         "Theodoros Salonidis",
-        "Kin K Leung",
+        "Kin K. Leung",
         "Christian Makaya",
         "Ting He",
         "Kevin Chan"
       ],
       "year": 2019,
-      "venue": "IEEE journal on selected areas in communications",
+      "venue": "IEEE Journal on Selected Areas in Communications",
       "type": "journal",
       "url": "https://doi.org/10.1109/JSAC.2019.2904348",
-      "group": "g16",
+      "group": "g15",
+      "also": []
+    },
+    {
+      "key": "yin2025livemcp101",
+      "title": "LiveMCP-101: Stress Testing and Diagnosing MCP-enabled Agents on Challenging Queries",
+      "authors": [
+        "Ming Yin",
+        "Dinghan Shen",
+        "Silei Xu",
+        "Sixun Dong",
+        "Mian Zhang",
+        "Yebowen Hu",
+        "Shujian Liu",
+        "Jianbing Han",
+        "Simin Ma",
+        "Song Wang",
+        "Sathish Reddy Indurthi",
+        "Xun Wang",
+        "Yiran Chen",
+        "Kaiqiang Song"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "type": "preprint",
+      "url": "https://arxiv.org/abs/2508.15760",
+      "arxiv": "2508.15760",
+      "group": "g15",
       "also": []
     },
     {
@@ -4306,7 +4434,7 @@
       "venue": "IEEE Access",
       "type": "journal",
       "url": "https://doi.org/10.1109/access.2022.3198656",
-      "group": "g17",
+      "group": "g16",
       "also": []
     },
     {
@@ -4319,7 +4447,7 @@
       "venue": "",
       "type": "standard-or-report",
       "url": "https://www.itsdigest.com/gao-report-2023-intelligent-transportation-system-its-challenges",
-      "group": "g17",
+      "group": "g16",
       "also": []
     },
     {
@@ -4332,7 +4460,7 @@
       "venue": "",
       "type": "standard-or-report",
       "url": "https://www.geldner.co.at/en/gateway-dtls-attack/",
-      "group": "g17",
+      "group": "g16",
       "also": []
     },
     {
@@ -4347,7 +4475,7 @@
       "venue": "Complex Systems Informatics and Modeling Quarterly",
       "type": "journal",
       "url": "https://doi.org/10.7250/csimq.2024-38.04",
-      "group": "g17",
+      "group": "g16",
       "also": []
     },
     {
@@ -4355,29 +4483,29 @@
       "title": "Mobility data—standards and specifications for interoperability",
       "authors": [
         "Sisinnio Concas",
-        "Vishal C Kummetha",
+        "Vishal C. Kummetha",
         "Lisa Staes"
       ],
       "year": 2024,
       "venue": "Federal Transit Administration",
       "type": "standard-or-report",
       "url": "https://www.transit.dot.gov/sites/fta.dot.gov/files/2024-08/FTA-Report-No-267.pdf",
-      "group": "g17",
+      "group": "g16",
       "also": []
     },
     {
       "key": "kumar2003dynamic",
       "title": "Dynamic adaptation of networked reconfigurable systems",
       "authors": [
-        "R. Rengaswamy",
-        "M. Srivastava",
-        "M. Sarrafzadeh"
+        "Ram Kumar Rengaswamy",
+        "Mani B. Srivastava",
+        "Majid Sarrafzadeh"
       ],
       "year": 2003,
       "venue": "Workshop on Software Support for Reconfigurable Systems (SSRS)",
       "type": "conference",
       "url": "https://escholarship.org/uc/item/52w7p8k4",
-      "group": "g18",
+      "group": "g17",
       "also": []
     },
     {
@@ -4392,7 +4520,7 @@
       "venue": "2020 USENIX Annual Technical Conference (USENIX ATC 20)",
       "type": "conference",
       "url": "",
-      "group": "g18",
+      "group": "g17",
       "also": []
     },
     {
@@ -4410,7 +4538,7 @@
       "venue": "IEEE Internet of Things Journal",
       "type": "journal",
       "url": "https://doi.org/10.1109/jiot.2021.3075901",
-      "group": "g18",
+      "group": "g17",
       "also": []
     },
     {
@@ -4429,7 +4557,7 @@
       "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
       "type": "conference",
       "url": "https://doi.org/10.18653/v1/2025.findings-acl.1258",
-      "group": "g18",
+      "group": "g17",
       "also": []
     }
   ]
