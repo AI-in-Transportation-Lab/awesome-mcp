@@ -25,7 +25,7 @@ The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) is an open p
 
 Everything below is searchable on the **[website](https://ai-in-transportation-lab.github.io/awesome-mcp/)**, and papers are refreshed from arXiv every day.
 
-**686** preprints · **526** published papers · **251** survey references · **22** servers · **10** clients · **15** SDKs and frameworks
+**686** preprints · **526** published papers · **251** survey references · **23** servers · **10** clients · **15** SDKs and frameworks
 
 <details>
 <summary><b>Contents</b></summary>
@@ -147,6 +147,7 @@ MCP servers that expose tools, resources and prompts for real systems
 | [Screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp) | Search locally captured screen text and audio history from an MCP client; needs a running Screenpipe instance and is source-available | `recall` `local` |
 | [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | Lets a coding agent edit footage, add narration and captions, and render a checked MP4, as a CLI and MCP server | `video` |
 | [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) | Local-first payment runtime for agents with a stdio MCP server, owner-set limits and approval, and x402 payments; macOS on Apple Silicon only | `payments` |
+| [Lantern Works GPU Prices](https://github.com/connormatthewdouglas/agent-work-stack-deals) | GPU cloud rental prices, price changes and deals across tracked providers, refreshed regularly with each price's age shown; the hosted endpoint needs no key and adds optional price watches, the local uvx package is read-only | `finance` `data` `cloud` |
 
 ## Clients
 

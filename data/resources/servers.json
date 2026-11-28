@@ -196,6 +196,16 @@
       "tags": [
         "payments"
       ]
+    },
+    {
+      "name": "Lantern Works GPU Prices",
+      "url": "https://github.com/connormatthewdouglas/agent-work-stack-deals",
+      "description": "GPU cloud rental prices, price changes and deals across tracked providers, refreshed regularly with each price's age shown; the hosted endpoint needs no key and adds optional price watches, the local uvx package is read-only",
+      "tags": [
+        "finance",
+        "data",
+        "cloud"
+      ]
     }
   ]
 }
